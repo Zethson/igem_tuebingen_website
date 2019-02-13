@@ -1,0 +1,93 @@
+/* Scatter */
+
+.axisLabel_SL {
+  font-size: 14px;
+  font-family: sans-serif;
+  text-anchor: middle;
+  fill: white;
+}
+
+.dot_SL{
+  fill: white;
+}
+
+.zoomRect_SL{
+  fill: transparent;
+}
+
+.tooltip_SL{
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+  background: grey;
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+}
+
+.axisScatter_SL line{
+  stroke: white;
+}
+
+.axisScatter_SL path{
+  stroke: white;
+}
+
+.axisScatter_SL text{
+  fill: white;
+}
+
+
+
+/* Butterfly */
+
+.Xaxis-label_SL{
+  font-size: 14px;
+  font-family: sans-serif;
+  text-anchor: middle;
+  fill: white;
+}
+
+.Yaxis-label_SL{
+  font-size: 14px;
+  font-family: sans-serif;
+  text-anchor: middle;
+  fill: white;
+}
+
+.descriptionHeader_SL{
+  font-size: 14px;
+  font-family: sans-serif;
+  text-anchor: middle;
+  font-weight: bold;
+}
+
+.darkH_SL{
+  fill: grey;
+}
+
+.brightH_SL{
+  fill: white;
+}
+
+.axisButterfly_SL line{
+  stroke: white;
+}
+
+.axisButterfly_SL path{
+  stroke: white;
+}
+
+.axisButterfly_SL text{
+  fill: white;
+}
+
+.darkBar_SL{
+  fill: grey;
+  fill-opacity: 0.9;
+}
+
+.brightBar_SL{
+  fill: white;
+  fill-opacity: 0.9;
+}

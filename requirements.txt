@@ -1,0 +1,6 @@
+pytest
+gevent
+click
+Flask-Mail
+Flask
+configparser

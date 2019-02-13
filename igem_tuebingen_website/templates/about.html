@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+    <title>About the Dark Proteome</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}"/>
+    <noscript>
+        <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/noscript.css') }}"/>
+    </noscript>
+    <script src="{{ url_for('static', filename='assets/js/d3.min.js') }}"></script>
+</head>
+<body class="is-preload">
+
+<!-- Header -->
+<header id="header">
+    <a href="{{ url_for('index') }}" class="title">About the Dark Proteome</a> 
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('index') }}">Home</a></li>
+            <li><a href="{{ url_for('about') }}" class="active">About</a></li>
+            <li><a href="{{ url_for('explore') }}">Explore</a></li>
+            <li><a href="{{ url_for('analyze') }}">Analyze</a></li>
+            <li><a href="{{ url_for('features') }}">Features</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Main -->
+    <section id="main" class="wrapper">
+        <div class="inner">
+            <h1 class="major">About the Dark Proteome</h1>
+            <span class="image fit"><img src="{{ url_for('static', filename='images/cell.png') }}"
+                                         alt=""/></span>
+            <p>The dark proteome describes the set of proteins that cannot be observed by experimental structure
+            determination or is inaccessable to homology modeling. A recent study finds that about half of the proteins in
+            eukaryotes and viruses are dark, while about an eigth of all archaea and bacteria proteins are. Since dark
+            proteins are suspected to be related to hard-to-cure diseases such as Parkinson, cancer or Alzheimer,
+            gaining insights into the structure of dark proteins can improve the research speed and quality.</p>
+            <p>Due to the massive amount of data that quickly accumulates when working in Bioinformatics, it is
+            important to make the data accessable. One way to do that is by smart visualizations, from which
+            domain experts can extract important knowledge to develop new research.</p>
+            <p>For this website, we use the data from the <a
+                                         href="https://web.expasy.org/docs/swiss-prot_guideline.html">SwissProt</a>,
+                                       which provides information about sequenced proteins in two tables:
+            the dark_proteins_all.csv, which contains 546000 samples and information about the primary accession, domain, kingdom, organism id,
+            darkness, length, disorder, compositional bias and membrane as well as the
+            dark_proteome.csv, which contains 20209 samples and information about primary accession, uncertainty,
+            length, disorder, compositional bias and membrane.</p>
+            <p>For more information about the dark proteome in general, we refer to the  <a
+              href="https://darkproteome.wordpress.com/about/what-is-the-dark-proteome/">human dark proteome
+              initiative</a>, that promotes research on dark proteins. </p>
+
+
+            <div id="container">
+                <div id="content"></div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+</div>
+
+<!-- Footer -->
+<footer id="footer" class="wrapper style1-alt">
+    <div class="inner">
+        <ul class="menu">
+            <li>&copy; Dark Proteome Visualization. All rights reserved.</li>
+        </ul>
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script src="{{ url_for('static', filename='assets/js/jquery.min.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/js/jquery.scrollex.min.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/js/jquery.scrolly.min.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/js/browser.min.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/js/breakpoints.min.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/js/util.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/js/main.js') }}"></script>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+server {
+    listen 80;
+    server_name igem-tuebingen.de www.igem-tuebingen.de.de;
+
+    location / {
+        include proxy_params;
+        proxy_pass http://unix:/home/zeth/igem_tuebingen_website/igem_tuebingen_website.sock;
+    }
+}

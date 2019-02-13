@@ -1,0 +1,27 @@
+sudo: required
+language: python
+matrix:
+  include:
+    - python: 3.5
+    - python: 3.6
+    - python: 3.7
+      dist: xenial
+      sudo: true
+
+install:
+  - cd ${TRAVIS_BUILD_DIR}
+  - pip install .
+  - pip install codecov pytest pytest-cov
+
+script: python -m pytest --cov=igem_tuebingen_website .
+
+
+after_success:
+  - codecov
+
+notifications:
+  email:
+    recipients:
+      - lukas.heumos@posteo.net
+    on_success: never
+    on_failure: always
