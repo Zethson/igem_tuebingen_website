@@ -1,5 +1,5 @@
 # iGEM Tuebingen Website
-[![Build Status](https://travis-ci.org/Zethson/igem_tuebingen_website.svg?branch=development)](https://travis-ci.org/Zethson/dark-proteome-visualization)
+[![Build Status](https://travis-ci.org/Zethson/igem_tuebingen_website.svg?branch=development)](https://travis-ci.org/Zethson/igem_tuebingen_website)
 
 The website is accessible here:     
 [iGEM Tuebingen](http://igem-tuebingen.de)
