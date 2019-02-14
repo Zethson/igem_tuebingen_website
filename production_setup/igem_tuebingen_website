@@ -1,6 +1,6 @@
 server {
     listen 80;
-    server_name igem-tuebingen.de www.igem-tuebingen.de.de;
+    server_name igem-tuebingen.com www.igem-tuebingen.com.com;
 
     location / {
         include proxy_params;
