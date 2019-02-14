@@ -16,7 +16,7 @@ def contact_request():
                   sender=request.form['email'],
                   recipients=['lukas.heumos@gmail.com'])
     sent_by = "The request was sent by: " + request.form['name'] + " with the contact e-mail: " + request.form['email'] + "\n\n"
-    message = "His/her message is: " + request.form['message']
+    message = "His/her message is: \n\n" + request.form['message']
     msg.body = sent_by + message
     mail.send(msg)
     return render_template("contact_successful.html")
