@@ -7,7 +7,7 @@ User=zeth
 Group=www-data
 WorkingDirectory=/home/zeth/igem_tuebingen_website
 Environment="PATH=/home/zeth/igem_tuebingen_website/dpenv/bin"
-ExecStart=/home/zeth/dark-proteome-visualization/dpenv/bin/gunicorn --workers 3 --bind unix:igem_tuebingen_website.sock -m 007 igem_tuebingen_website.app:app
+ExecStart=/home/zeth/igem_tuebingen_website/dpenv/bin/gunicorn --workers 3 --bind unix:igem_tuebingen_website.sock -m 007 igem_tuebingen_website.app:app
 
 [Install]
 WantedBy=multi-user.target
