@@ -1,53 +1,126 @@
 <!DOCTYPE HTML>
 <!--
-	Hyperspace by HTML5 UP
+	Solid State by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Problem sending message!</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href= "{{ url_for('static', filename='assets/css/main.css') }}"/>
-		<noscript><link rel="stylesheet" href= "{{ url_for('static', filename='assets/css/noscript.css') }}"/></noscript>
-        <script src="{{ url_for('static', filename='assets/js/d3.min.js') }}"></script>
-	</head>
-	<body class="is-preload">
+<head>
+    <title>Generic - Solid State by HTML5 UP</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}"/>
+    <noscript>
+        <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/noscript.css') }}"/>
+    </noscript>
+</head>
+<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<!-- Page Wrapper -->
+<div id="page-wrapper">
 
-				<!-- Main -->
-					<section id="main" class="wrapper">
-						<div class="inner">
-							<h1 class="major">There was an error when trying to send your message!</h1>
-							<span class="image fit"><img src="{{ url_for('static', filename='images/error.jpg') }}" alt="" /></span>
-							<p>Please ensure that you've entered a valid email address!</p>
-                            <ul class="actions">
-                                <li><a href="{{ url_for('index') }}" class="button">Return to main page</a></li>
-                            </ul>
-						</div>
-					</section>
-			</div>
+    <!-- Header -->
+    <header id="header">
+        <h1><a href="{{ url_for('index') }}">iGEM Tuebingen</a></h1>
+        <nav>
+            <a href="#menu">Menu</a>
+        </nav>
+    </header>
 
-		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; Dark Proteome Visualization. All rights reserved.</li></li>
-					</ul>
-				</div>
-			</footer>
+    <!-- Menu -->
+    <nav id="menu">
+        <div class="inner">
+            <h2>Menu</h2>
+            <ul class="links">
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('generic') }}">Generic</a></li>
+                <li><a href="{{ url_for('elements') }}">Elements</a></li>
+                <li><a href="#">Log In</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+            <a href="#" class="close">Close</a>
+        </div>
+    </nav>
 
-		<!-- Scripts -->
-			<script src="{{ url_for('static', filename='assets/js/jquery.min.js') }}"></script>
-			<script src="{{ url_for('static', filename='assets/js/jquery.scrollex.min.js') }}"></script>
-			<script src="{{ url_for('static', filename='assets/js/jquery.scrolly.min.js') }}"></script>
-			<script src="{{ url_for('static', filename='assets/js/browser.min.js') }}"></script>
-			<script src="{{ url_for('static', filename='assets/js/breakpoints.min.js') }}"></script>
-			<script src="{{ url_for('static', filename='assets/js/util.js') }}"></script>
-			<script src="{{ url_for('static', filename='assets/js/main.js') }}"></script>
+    <!-- Wrapper -->
+    <section id="wrapper">
+        <header>
+            <div class="inner">
+                <h2>Generic</h2>
+                <p>Phasellus non pulvinar erat. Fusce tincidunt nisl eget ipsum.</p>
+            </div>
+        </header>
 
-	</body>
+        <!-- Content -->
+        <div class="wrapper">
+            <div class="inner">
+
+                <h1 class="major">There was an error when trying to send your message!</h1>
+                <span class="image fit"><img src="{{ url_for('static', filename='images/error.jpg') }}" alt=""/></span>
+                <p>Please ensure that you've entered a valid email address!</p>
+                <ul class="actions">
+                    <li><a href="{{ url_for('index') }}" class="button">Return to main page</a></li>
+                </ul>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+        <div class="inner">
+            <h2 class="major">Get in touch</h2>
+            <p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce
+                tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in
+                tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+            <form method="post" action="{{ url_for('contact_request') }}">
+                <div class="fields">
+                    <div class="field">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name"/>
+                    </div>
+                    <div class="field">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email"/>
+                    </div>
+                    <div class="field">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="4"></textarea>
+                    </div>
+                </div>
+                <ul class="actions">
+                    <li><input type="submit" value="Send Message"/></li>
+                </ul>
+            </form>
+            <ul class="contact">
+                <li class="fa-home">
+                    iGEM Tuebingen<br/>
+                    Hoppe-Seyler-Straße 4<br/>
+                    72076 Tuebingen
+                </li>
+                <li class="fa-phone">(000) 000-0000</li>
+                <li class="fa-envelope"><a href="#">igem@ifib.uni-tuebingen.de</a></li>
+                <li class="fa-twitter"><a href="#">twitter.com/igemtuebingen</a></li>
+                <li class="fa-facebook"><a href="#">facebook.com/igemtuebingen/</a></li>
+                <li class="fa-instagram"><a href="#">instagram.com/igem_tuebingen</a></li>
+            </ul>
+            <ul class="copyright">
+                <li>&copy; iGEM Tuebingen All rights reserved.</li>
+                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            </ul>
+        </div>
+    </section>
+
+</div>
+
+<!-- Scripts -->
+<script src="{{ url_for('static', filename='assets/js/jquery.min.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/js/jquery.scrollex.min.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/js/browser.min.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/js/breakpoints.min.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/js/util.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/js/main.js') }}"></script>
+
+</body>
 </html>
