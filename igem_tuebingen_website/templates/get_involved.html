@@ -21,7 +21,7 @@
 
     <!-- Header -->
     <header id="header">
-        <h1><a href="{{ url_for('index') }}">iGEM Tuebingen</a></h1>
+        <h1><a href="{{ url_for('index') }}">iGEM Tübingen</a></h1>
         <nav>
             <a href="#menu">Menu</a>
         </nav>
@@ -33,11 +33,11 @@
             <h2>Menu</h2>
             <ul class="links">
                 <li><a href="{{ url_for('index') }}">Home</a></li>
-                <li><a href="{{ url_for('about_igem_teamtuebingen') }}">About iGEM and Team Tuebingen</a></li>
-                <li><a href="{{ url_for('team_tuebingen_2019') }}">Team Tuebingen 2019</a></li>
+                <li><a href="{{ url_for('about_igem_teamtuebingen') }}">About iGEM and Team Tübingen</a></li>
+                <li><a href="{{ url_for('team_tuebingen_2019') }}">Team Tübingen 2019</a></li>
                 <li><a href="{{ url_for('get_involved') }}">Get involved</a></li>
-                <li><a href="{{ url_for('history') }}">History of iGEM Tuebingen</a></li>
-                <li><a href="{{ url_for('software') }}">Software by iGEM Tuebingen</a></li>
+                <li><a href="{{ url_for('history') }}">History of iGEM Tübingen</a></li>
+                <li><a href="{{ url_for('software') }}">Software by iGEM Tübingen</a></li>
                 <li><a href="{{ url_for('gallery') }}">Gallery</a></li>
                 <li><a href="{{ url_for('sponsors') }}">Sponsors</a></li>
             </ul>
@@ -58,25 +58,38 @@
         <div class="wrapper">
             <div class="inner">
 
-                <h3 class="major">Lorem ipsum dolor</h3>
-                <p>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt
-                    lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis
-                    lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac
-                    sagittis semper. Curabitur purus leo donec vel dolor at arcu tincidunt bibendum. Interdum et
-                    malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum.
-                    Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non
-                    velit accumsan cursus. Etiam ut gravida sapien.</p>
+                <h3 class="major">How to support us</h3>
+                <p>The iGEM team Tübingen is an independent research group of motivated students and is therefore
+                    responsible for the organisation and financing of the project. In order to realize a successful iGEM
+                    project and achieve our goals in this competition, we need the support of companies, institutions,
+                    associations and private individuals. Not only financial support, but also the provision of
+                    materials and resources help us.</p>
 
-                <p>Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet. Sed eu lectus sem. Phasellus
-                    in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, eu faucibus lectus.
-                    Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. Proin nec commodo, vel scelerisque
-                    nisi scelerisque. Suspendisse id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor
-                    consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec felis elementum varius.</p>
+                <h3 class="major">Participation</h3>
+                <p> iGEM offers each of us a unique and valuable training opportunity that is hard to find anywhere
+                    else. Not only are the practical skills deepened, expanded and improved within the framework of a
+                    large project, but it also gives the opportunity to expand one's knowledge and skills in other
+                    areas. This enables the participants to learn valuable skills in the areas of project organization,
+                    implementation, presentation, financing and public relations. These are also valuable skills for
+                    your later career, which make iGEM participants stand out from the crowd. Since iGEM is an
+                    international competition, new national and international contacts are established through cultural
+                    exchange.
+                </p>
 
-                <h3 class="major">Vitae phasellus</h3>
-                <p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce
-                    tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in
-                    tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+                <h3 class="major">Sponsoring</h3>
+                <p> iGEM's intensive experience gives students the opportunity to continue their education outside of
+                    their academic career and, by networking with professors, companies, researchers and former
+                    participants, it draws on a large pool of knowledge and experience.
+                    The iGEM team Tübingen has always been able to successfully realize its goals and projects thanks to
+                    the support it has received in recent years. Through the iGEM team Tübingen, sponsors come into
+                    contact with capable and motivated young scientists and are associated with an innovative scientific
+                    project. In return for a sponsorship of our project, our sponsors have the opportunity to advertise
+                    and represent themselves in public, at presentations, on our website and in many social networks.
+
+                    If you are interested in sponsoring us, please do not hesitate to contact us using the form at the
+                    bottom of the page!
+                </p>
+
 
                 <section class="features">
                     <article>
@@ -106,7 +119,8 @@
     <section id="footer">
         <div class="inner">
             <h2 class="major">Get in touch</h2>
-            <p>If you are interested in one of our projects and would like to get involved we would be happy to hear from you!
+            <p>If you are interested in one of our projects and would like to get involved we would be happy to hear
+                from you!
                 Simply drop us a message and we'll get back to you in no time!</p>
             <form method="post" action="{{ url_for('contact_request') }}">
                 <div class="fields">
@@ -129,9 +143,9 @@
             </form>
             <ul class="contact">
                 <li class="fa-home">
-                    iGEM Tuebingen<br/>
+                    iGEM Tübingen<br/>
                     Hoppe-Seyler-Straße 4<br/>
-                    72076 Tuebingen
+                    72076 Tübingen
                 </li>
                 <li class="fa-phone">(000) 000-0000</li>
                 <li class="fa-envelope"><a href="mailto:igem@ifib.uni-tuebingen.de?Subject=iGEM%20Tuebingen">Send us a
@@ -141,7 +155,7 @@
                 <li class="fa-instagram"><a href="https://instagram.com/igem_tuebingen">Follow us on Instagram!</a></li>
             </ul>
             <ul class="copyright">
-                <li>&copy; iGEM Tuebingen All rights reserved.</li>
+                <li>&copy; iGEM Tübingen All rights reserved.</li>
                 <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
             </ul>
         </div>

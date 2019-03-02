@@ -6,7 +6,7 @@
 -->
 <html>
 <head>
-    <title>History of iGEM Tuebingen</title>
+    <title>History of iGEM Tübingen</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}"/>
@@ -21,7 +21,7 @@
 
     <!-- Header -->
     <header id="header">
-        <h1><a href="{{ url_for('index') }}">iGEM Tuebingen</a></h1>
+        <h1><a href="{{ url_for('index') }}">iGEM Tübingen</a></h1>
         <nav>
             <a href="#menu">Menu</a>
         </nav>
@@ -33,11 +33,11 @@
             <h2>Menu</h2>
             <ul class="links">
                 <li><a href="{{ url_for('index') }}">Home</a></li>
-                <li><a href="{{ url_for('about_igem_teamtuebingen') }}">About iGEM and Team Tuebingen</a></li>
-                <li><a href="{{ url_for('team_tuebingen_2019') }}">Team Tuebingen 2019</a></li>
+                <li><a href="{{ url_for('about_igem_teamtuebingen') }}">About iGEM and Team Tübingen</a></li>
+                <li><a href="{{ url_for('team_tuebingen_2019') }}">Team Tübingen 2019</a></li>
                 <li><a href="{{ url_for('get_involved') }}">Get involved</a></li>
-                <li><a href="{{ url_for('history') }}">History of iGEM Tuebingen</a></li>
-                <li><a href="{{ url_for('software') }}">Software by iGEM Tuebingen</a></li>
+                <li><a href="{{ url_for('history') }}">History of iGEM Tübingen</a></li>
+                <li><a href="{{ url_for('software') }}">Software by iGEM Tübingen</a></li>
                 <li><a href="{{ url_for('gallery') }}">Gallery</a></li>
                 <li><a href="{{ url_for('sponsors') }}">Sponsors</a></li>
             </ul>
@@ -49,7 +49,7 @@
     <section id="wrapper">
         <header>
             <div class="inner">
-                <h2>History of iGEM Tuebingen</h2>
+                <h2>History of iGEM Tübingen</h2>
                 <p>This website is currently under construction.</p>
             </div>
         </header>
@@ -59,43 +59,144 @@
             <div class="inner">
 
                 <h3 class="major">Lorem ipsum dolor</h3>
-                <p>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt
-                    lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis
-                    lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac
-                    sagittis semper. Curabitur purus leo donec vel dolor at arcu tincidunt bibendum. Interdum et
-                    malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum.
-                    Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non
-                    velit accumsan cursus. Etiam ut gravida sapien.</p>
+                <p>Team Tübingen has been participating in iGEM since 2012. Every year students from different
+                    backgrounds and experience levels gather to tackle a challenging and useful project. This site
+                    serves as a summary for the various projects and achieved medals.</p>
 
-                <p>Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet. Sed eu lectus sem. Phasellus
-                    in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, eu faucibus lectus.
-                    Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. Proin nec commodo, vel scelerisque
-                    nisi scelerisque. Suspendisse id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor
-                    consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec felis elementum varius.</p>
+                <section>
+                    <h3 class="major">History of Team Tübingen's projects</h3>
+                    <h4>Default</h4>
+                    <div class="table-wrapper">
+                        <table>
+                            <thead>
+                            <tr>
+                                <th>Year</th>
+                                <th>Project</th>
+                                <th>Medal</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>2012/2013</td>
+                                <td>In 2012/2013 our team developed a yeast-based sensor for progestin (a contaminator
+                                    of wastewater, which has harmful effects on the hormomonal physiology of fishs),
+                                    which activates a promoter for the luciferase gene by binding to a G-protein coupled
+                                    cascade and therefore leads to the expression of luciferin. A probe can be tested
+                                    hereby and the results can be analysed qualitative (by detect light activation) or
+                                    qualitative (by spectrometry). We received a silver medal in the discipline
+                                    Environment for this project.
+                                </td>
+                                <td>Bronze/Silver</td>
+                            </tr>
+                            <tr>
+                                <td>2014</td>
+                                <td>In 2014 we faced the problem of donating blood: The most valuable and likewise
+                                    rarest blood type for donating is blood type zero, which is not always available.
+                                    Therefore we developed the T-ECO system (Tübingen erythrocyte converter to 0),
+                                    which modifies the glycolised protein chains of antigenes on erythrocytes of blood
+                                    type A, B and AB in a way that they adopt the behavior of blood type zero cells. As
+                                    proof for successful transformation serves a simple agglutination test. For this
+                                    project we received the bronze medal in the discipline Health & Medicine.
+                                </td>
+                                <td>Bronze</td>
+                            </tr>
+                            <tr>
+                                <td>2015</td>
+                                <td>Analysis and imaging methods are an indispensable element of every scientific study
+                                    - in a wider sense the results are only as good as their measurement methods are.
+                                    Photostimulation is one of the most important non-invasive analysis methods existing
+                                    which allows researches to examine the relationship between metabolic processes,
+                                    e.g. through activating a molecule via light treatment. What we wanted to do is to
+                                    create a module in which we can do a snapshot of the activity of a sensor at any
+                                    time.
+                                    For caging we use Dronpa, a fluorescent protein. Dronpa is able to dimerise at 400nm
+                                    and monomerises again at 500nm. Therefore it can be used reversibly for caging an
+                                    enzyme. If an amino- and carboxy-terminus bound Dronpa dimerises, it will cover the
+                                    active site of the enzyme and inactivates it this way.
+                                    To proof a successful activation of the enzyme a reporter is necessary. The
+                                    Cre-recombinase suits well for this. Cre can be inserted into the DNA permanently as
+                                    a sensor and is able to be controlled by light if bound to Dronpa. When activated,
+                                    it can lead to the expression of an GFP gene construct, which is easily proofable
+                                    due to its fluorescence.
+                                    This module could be used with a variety of associated enzymes and proteins to
+                                    light-dependently controll these.
+                                </td>
+                                <td>Gold</td>
+                            </tr>
+                            <tr>
+                                <td>Item Four</td>
+                                <td>In 2016 we got three projects, as our team is growing constantly. The first project
+                                    is about the development of a method to help people suffering fructose intolerance,
+                                    by
+                                    designing the lactobacilli which live in your digestive tract to process the
+                                    fructose.
+                                    The second project is an investigation in the hardware-track of iGEM: A pipetting
+                                    robot, which is able to do the cloning experiments required in our main project.
+                                    Last but not least, we faced the problem of plasmid extraction in a robot, so we
+                                    developed a simple way to easily select and purify
+                                    transformed plasmid DNA.
+                                </td>
+                                <td>Silver</td>
+                            </tr>
+                            <tr>
+                                <td>2017</td>
+                                <td>
+                                    The rising amount of microbial resistances urge for innovation and new therapeutics.
+                                    Many substances already available in the lab are potent as antibiotics but cannot be
+                                    used in humans due to toxicity or problems in delivery. Therefore, we used
+                                    aminocoumarins and created a new derivative via a semi-biosynthetic synthesis
+                                    approach. The introduction of specific modifications changes the pattern of
+                                    interaction with proteins while also improving the chemical properties of
+                                    aminocoumarins. Our modification specifically targets ß-lactam resistant pathogens.
+                                    For proof of principle, we developed a suitable test system consisting of an
+                                    E.coli-based pathogen model and a toxicity assay. Additionally, we performed an in
+                                    silico prediction of changes in binding affinity to target proteins. In conclusion,
+                                    we created an antibiotic that is only activated by ß-lactam resistant pathogens
+                                    itself via enzymatic cleavage while not affecting other cells in the human body -
+                                    the advanced Trojan horse is set free.
+                                </td>
+                                <td>Bronze</td>
+                            </tr>
+                            <tr>
+                                <td>2018</td>
+                                <td>BoNT C - Licence to enter
+                                    In modern medicine treatment options involve many substances modified from natural
+                                    sources, occasionally even toxins. We modify botulinum toxin in a way that leads to
+                                    its detoxification. Thus, it can be coupled with a variety of other substances while
+                                    not losing its specific shuttle mechanism for neuronal cells. In detail, we develop
+                                    a library of different detoxified botulinum toxin derivatives which can accommodate
+                                    other proteins, small molecules, and fluorochromes by specific linkers. To
+                                    investigate the influence of the point mutations leading to detoxification in the
+                                    active site, we conduct MD simulations. Since our shuttle mechanism could
+                                    potentially be used in patients, we remove the most prevalent immune epitopes by a
+                                    theoretical bioinformatics approach. Ultimately, our system is supposed to be
+                                    utilized for therapeutic strategies and specific neuronal targeting in basic
+                                    research.
+                                </td>
+                                <td>Silver</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
 
-                <h3 class="major">Vitae phasellus</h3>
-                <p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce
-                    tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in
-                    tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
-
-                <section class="features">
-                    <article>
-                        <a href="#" class="image"><img src="{{ url_for('static', filename='images/pic04.jpg') }}"
-                                                       alt=""/></a>
-                        <h3 class="major">Sed feugiat lorem</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus
-                            ultrices.</p>
-                        <a href="#" class="special">Learn more</a>
-                    </article>
-                    <article>
-                        <a href="#" class="image"><img src="{{ url_for('static', filename='images/pic05.jpg') }}"
-                                                       alt=""/></a>
-                        <h3 class="major">Nisl placerat</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus
-                            ultrices.</p>
-                        <a href="#" class="special">Learn more</a>
-                    </article>
-                </section>
+                    <section class="features">
+                        <article>
+                            <a href="#" class="image"><img src="{{ url_for('static', filename='images/pic04.jpg') }}"
+                                                           alt=""/></a>
+                            <h3 class="major">Sed feugiat lorem</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus
+                                ultrices.</p>
+                            <a href="#" class="special">Learn more</a>
+                        </article>
+                        <article>
+                            <a href="#" class="image"><img src="{{ url_for('static', filename='images/pic05.jpg') }}"
+                                                           alt=""/></a>
+                            <h3 class="major">Nisl placerat</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus
+                                ultrices.</p>
+                            <a href="#" class="special">Learn more</a>
+                        </article>
+                    </section>
 
             </div>
         </div>
@@ -106,7 +207,8 @@
     <section id="footer">
         <div class="inner">
             <h2 class="major">Get in touch</h2>
-            <p>If you are interested in one of our projects and would like to get involved we would be happy to hear from you!
+            <p>If you are interested in one of our projects and would like to get involved we would be happy to hear
+                from you!
                 Simply drop us a message and we'll get back to you in no time!</p>
             <form method="post" action="{{ url_for('contact_request') }}">
                 <div class="fields">
@@ -129,9 +231,9 @@
             </form>
             <ul class="contact">
                 <li class="fa-home">
-                    iGEM Tuebingen<br/>
+                    iGEM Tübingen<br/>
                     Hoppe-Seyler-Straße 4<br/>
-                    72076 Tuebingen
+                    72076 Tübingen
                 </li>
                 <li class="fa-phone">(000) 000-0000</li>
                 <li class="fa-envelope"><a href="mailto:igem@ifib.uni-tuebingen.de?Subject=iGEM%20Tuebingen">Send us a
@@ -141,7 +243,7 @@
                 <li class="fa-instagram"><a href="https://instagram.com/igem_tuebingen">Follow us on Instagram!</a></li>
             </ul>
             <ul class="copyright">
-                <li>&copy; iGEM Tuebingen All rights reserved.</li>
+                <li>&copy; iGEM Tübingen All rights reserved.</li>
                 <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
             </ul>
         </div>
