@@ -14,14 +14,14 @@
   transition: .4s;
   padding: 0 10px;
   box-sizing: border-box;
-  font-family: "Pathway Gothic One",sans-serif;
-  color: rgba(0,0,0,0.5);
+  font-family: "Pathway Gothic One", sans-serif;
+  color: #000;
 }
 .timeline__content-desc {
   margin: 0;
   font-size: 15px;
   box-sizing: border-box;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.7);
   font-family: Cardo;
   font-weight: normal;
   line-height: 25px;
