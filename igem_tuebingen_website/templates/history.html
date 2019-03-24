@@ -10,6 +10,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/_timeline.css') }}"/>
     <noscript>
         <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/noscript.css') }}"/>
     </noscript>
@@ -64,45 +65,44 @@
                     serves as a summary for the various projects and achieved medals.</p>
 
                 <section>
-                    <h3 class="major">History of Team Tübingen's projects</h3>
-                    <h4>Default</h4>
-                    <div class="table-wrapper">
-                        <table>
-                            <thead>
-                            <tr>
-                                <th>Year</th>
-                                <th>Project</th>
-                                <th>Medal</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td>2012/2013</td>
-                                <td>In 2012/2013 our team developed a yeast-based sensor for progestin (a contaminator
+
+                    <div class="timeline-container" id="timeline-1">
+                        <div class="timeline-header">
+                            <h2 class="timeline-header__title">IGEM Tübingen</h2>
+                            <h3 class="timeline-header__subtitle">HISTORY</h3>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-item" data-text="Bronze/Silver">
+                                <div class="timeline__content"><img class="timeline__img"
+                                                                    src="https://upload.wikimedia.org/wikipedia/de/d/d6/IGEM_official_logo.png"/>
+                                    <h2 class="timeline__content-title">2012/2013</h2>
+                                    <p class="timeline__content-desc">In 2012/2013 our team developed a yeast-based sensor for progestin (a contaminator
                                     of wastewater, which has harmful effects on the hormomonal physiology of fishs),
                                     which activates a promoter for the luciferase gene by binding to a G-protein coupled
                                     cascade and therefore leads to the expression of luciferin. A probe can be tested
                                     hereby and the results can be analysed qualitative (by detect light activation) or
                                     qualitative (by spectrometry). We received a silver medal in the discipline
-                                    Environment for this project.
-                                </td>
-                                <td>Bronze/Silver</td>
-                            </tr>
-                            <tr>
-                                <td>2014</td>
-                                <td>In 2014 we faced the problem of donating blood: The most valuable and likewise
+                                    Environment for this project.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item" data-text="Bronze">
+                                <div class="timeline__content"><img class="timeline__img"
+                                                                    src="https://upload.wikimedia.org/wikipedia/de/d/d6/IGEM_official_logo.png"/>
+                                    <h2 class="timeline__content-title">2014</h2>
+                                    <p class="timeline__content-desc">In 2014 we faced the problem of donating blood: The most valuable and likewise
                                     rarest blood type for donating is blood type zero, which is not always available.
                                     Therefore we developed the T-ECO system (Tübingen erythrocyte converter to 0),
                                     which modifies the glycolised protein chains of antigenes on erythrocytes of blood
                                     type A, B and AB in a way that they adopt the behavior of blood type zero cells. As
                                     proof for successful transformation serves a simple agglutination test. For this
-                                    project we received the bronze medal in the discipline Health & Medicine.
-                                </td>
-                                <td>Bronze</td>
-                            </tr>
-                            <tr>
-                                <td>2015</td>
-                                <td>Analysis and imaging methods are an indispensable element of every scientific study
+                                    project we received the bronze medal in the discipline Health & Medicine.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item" data-text="Gold">
+                                <div class="timeline__content"><img class="timeline__img"
+                                                                    src="https://upload.wikimedia.org/wikipedia/de/d/d6/IGEM_official_logo.png"/>
+                                    <h2 class="timeline__content-title">2015</h2>
+                                    <p class="timeline__content-desc">Analysis and imaging methods are an indispensable element of every scientific study
                                     - in a wider sense the results are only as good as their measurement methods are.
                                     Photostimulation is one of the most important non-invasive analysis methods existing
                                     which allows researches to examine the relationship between metabolic processes,
@@ -119,13 +119,14 @@
                                     it can lead to the expression of an GFP gene construct, which is easily proofable
                                     due to its fluorescence.
                                     This module could be used with a variety of associated enzymes and proteins to
-                                    light-dependently controll these.
-                                </td>
-                                <td>Gold</td>
-                            </tr>
-                            <tr>
-                                <td>Item Four</td>
-                                <td>In 2016 we got three projects, as our team is growing constantly. The first project
+                                    light-dependently controll these.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item" data-text="Silver">
+                                <div class="timeline__content"><img class="timeline__img"
+                                                                    src="https://upload.wikimedia.org/wikipedia/de/d/d6/IGEM_official_logo.png"/>
+                                    <h2 class="timeline__content-title">2016</h2>
+                                    <p class="timeline__content-desc">In 2016 we got three projects, as our team is growing constantly. The first project
                                     is about the development of a method to help people suffering fructose intolerance,
                                     by
                                     designing the lactobacilli which live in your digestive tract to process the
@@ -134,14 +135,14 @@
                                     robot, which is able to do the cloning experiments required in our main project.
                                     Last but not least, we faced the problem of plasmid extraction in a robot, so we
                                     developed a simple way to easily select and purify
-                                    transformed plasmid DNA.
-                                </td>
-                                <td>Silver</td>
-                            </tr>
-                            <tr>
-                                <td>2017</td>
-                                <td>
-                                    The rising amount of microbial resistances urge for innovation and new therapeutics.
+                                    transformed plasmid DNA.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item" data-text="Bronze">
+                                <div class="timeline__content"><img class="timeline__img"
+                                                                    src="https://upload.wikimedia.org/wikipedia/de/d/d6/IGEM_official_logo.png"/>
+                                    <h2 class="timeline__content-title">2017</h2>
+                                    <p class="timeline__content-desc">The rising amount of microbial resistances urge for innovation and new therapeutics.
                                     Many substances already available in the lab are potent as antibiotics but cannot be
                                     used in humans due to toxicity or problems in delivery. Therefore, we used
                                     aminocoumarins and created a new derivative via a semi-biosynthetic synthesis
@@ -153,13 +154,14 @@
                                     silico prediction of changes in binding affinity to target proteins. In conclusion,
                                     we created an antibiotic that is only activated by ß-lactam resistant pathogens
                                     itself via enzymatic cleavage while not affecting other cells in the human body -
-                                    the advanced Trojan horse is set free.
-                                </td>
-                                <td>Bronze</td>
-                            </tr>
-                            <tr>
-                                <td>2018</td>
-                                <td>BoNT C - Licence to enter
+                                    the advanced Trojan horse is set free.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item" data-text="Silver">
+                                <div class="timeline__content"><img class="timeline__img"
+                                                                    src="https://upload.wikimedia.org/wikipedia/de/d/d6/IGEM_official_logo.png"/>
+                                    <h2 class="timeline__content-title">2018</h2>
+                                    <p class="timeline__content-desc">BoNT C - Licence to enter
                                     In modern medicine treatment options involve many substances modified from natural
                                     sources, occasionally even toxins. We modify botulinum toxin in a way that leads to
                                     its detoxification. Thus, it can be coupled with a variety of other substances while
@@ -171,13 +173,15 @@
                                     potentially be used in patients, we remove the most prevalent immune epitopes by a
                                     theoretical bioinformatics approach. Ultimately, our system is supposed to be
                                     utilized for therapeutic strategies and specific neuronal targeting in basic
-                                    research.
-                                </td>
-                                <td>Silver</td>
-                            </tr>
-                            </tbody>
-                        </table>
+                                    research.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <!--<div class="demo-footer"><a href="http://www.turkishnews.com/Ataturk/life.htm" target="_blank">Source/Kaynak</a>-->
+                </section>
+            </div>
+
 
                     <section class="features">
                         <article>
@@ -258,6 +262,7 @@
 <script src="{{ url_for('static', filename='assets/js/breakpoints.min.js') }}"></script>
 <script src="{{ url_for('static', filename='assets/js/util.js') }}"></script>
 <script src="{{ url_for('static', filename='assets/js/main.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/js/timeline.js') }}"></script>
 
 </body>
 </html>
