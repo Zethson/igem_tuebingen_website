@@ -9,8 +9,8 @@
     <title>Gallery</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/gallery.css') }}"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}"/>
-    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/images.css') }}"/>
     <noscript>
         <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/noscript.css') }}"/>
     </noscript>
@@ -46,75 +46,161 @@
         </div>
     </nav>
 
-    <!-- Wrapper -->
-    <section id="wrapper">
-        <header>
-            <div class="inner">
-                <h2>Gallery</h2>
-                <p>This website is currently under construction.</p>
-            </div>
-        </header>
+    <div id="wrapper">
+        <section class="slideshow" id="js-header">
 
-        <!-- Content -->
-        <div class="wrapper">
-            <div class="inner">
-
-                <h3 class="major">The Team</h3>
-                    <h4></h4>
-                    <div class="box alt">
-                        <div class="row gtr-uniform">
-                            <div class="col-12"><span class="image fit"><img
-                                    src="{{ url_for('static', filename='images/team_all.jpg') }}" alt=""/></span></div>
-                            <div class="col-4"><span class="image fit zoom"><img
-                                    src="{{ url_for('static', filename='images/GKT_1.jpg') }}" alt=""/></span></div>
-                            <div class="col-4"><span class="image fit zoom"><img
-                                    src="{{ url_for('static', filename='images/GKT_2.jpg') }}" alt=""/></span></div>
-                            <div class="col-4"><span class="image fit zoom"><img
-                                    src="{{ url_for('static', filename='images/GKT_3.jpg') }}" alt=""/></span></div>
-                            <div class="col-4"><span class="image fit zoom"><img
-                                    src="{{ url_for('static', filename='images/tuebingen_town.jpg') }}" alt=""/></span></div>
-                            <div class="col-4"><span class="image fit zoom"><img
-                                    src="{{ url_for('static', filename='images/pic05.jpg') }}" alt=""/></span></div>
-                            <div class="col-4"><span class="image fit zoom"><img
-                                    src="{{ url_for('static', filename='images/pic06.jpg') }}" alt=""/></span></div>
-                            <div class="col-4"><span class="image fit zoom"><img
-                                    src="{{ url_for('static', filename='images/pic06.jpg') }}" alt=""/></span></div>
-                            <div class="col-4"><span class="image fit zoom"><img
-                                    src="{{ url_for('static', filename='images/pic07.jpg') }}" alt=""/></span></div>
-                            <div class="col-4"><span class="image fit zoom"><img
-                                    src="{{ url_for('static', filename='images/pic05.jpg') }}" alt=""/></span></div>
+            <div class="slideshow__slide js-slider-home-slide is-current" data-slide="1">
+                <div class="slideshow__slide-background-parallax background-absolute js-parallax" data-speed="-1"
+                     data-position="top" data-target="#js-header">
+                    <div class="slideshow__slide-background-load-wrap background-absolute">
+                        <div class="slideshow__slide-background-load background-absolute">
+                            <div class="slideshow__slide-background-wrap background-absolute">
+                                <div class="slideshow__slide-background background-absolute">
+                                    <div class="slideshow__slide-image-wrap background-absolute">
+                                        <div class="slideshow__slide-image background-absolute"
+                                             style="background-image: url({{ url_for('static', filename='images/team_all.jpg') }});"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-
-                <section class="features">
-                    <article>
-                        <a href="#" class="image"><img src="{{ url_for('static', filename='images/pic04.jpg') }}"
-                                                       alt=""/></a>
-                        <h3 class="major">Sed feugiat lorem</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus
-                            ultrices.</p>
-                        <a href="#" class="special">Learn more</a>
-                    </article>
-                    <article>
-                        <a href="#" class="image"><img src="{{ url_for('static', filename='images/pic05.jpg') }}"
-                                                       alt=""/></a>
-                        <h3 class="major">Nisl placerat</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus
-                            ultrices.</p>
-                        <a href="#" class="special">Learn more</a>
-                    </article>
-                </section>
-
+                </div>
+                <div class="slideshow__slide-caption">
+                    <div class="slideshow__slide-caption-text">
+                        <div class="container js-parallax" data-speed="2" data-position="top" data-target="#js-header">
+                            <h1 class="slideshow__slide-caption-title">Insert creative statement</h1>
+                            <a class="slideshow__slide-caption-subtitle -load o-hsub -link" href="#">
+                                <span class="slideshow__slide-caption-subtitle-label">Link to Members!</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
 
-    </section>
+            <div class="slideshow__slide js-slider-home-slide is-next" data-slide="2">
+                <div class="slideshow__slide-background-parallax background-absolute js-parallax" data-speed="-1"
+                     data-position="top" data-target="#js-header">
+                    <div class="slideshow__slide-background-load-wrap background-absolute">
+                        <div class="slideshow__slide-background-load background-absolute">
+                            <div class="slideshow__slide-background-wrap background-absolute">
+                                <div class="slideshow__slide-background background-absolute">
+                                    <div class="slideshow__slide-image-wrap background-absolute">
+                                        <div class="slideshow__slide-image background-absolute"
+                                             style="background-image: url({{ url_for('static', filename='images/GKT_1.jpg') }});"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slideshow__slide-caption">
+                    <div class="slideshow__slide-caption-text">
+                        <div class="container js-parallax" data-speed="2" data-position="top" data-target="#js-header">
+                            <h1 class="slideshow__slide-caption-title">Insert another creative statement</h1>
+                            <a class="slideshow__slide-caption-subtitle -load o-hsub -link" href="#">
+                                <span class="slideshow__slide-caption-subtitle-label">Another Link!</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slideshow__slide js-slider-home-slide is-prev" data-slide="3">
+                <div class="slideshow__slide-background-parallax background-absolute js-parallax" data-speed="-1"
+                     data-position="top" data-target="#js-header">
+                    <div class="slideshow__slide-background-load-wrap background-absolute">
+                        <div class="slideshow__slide-background-load background-absolute">
+                            <div class="slideshow__slide-background-wrap background-absolute">
+                                <div class="slideshow__slide-background background-absolute">
+                                    <div class="slideshow__slide-image-wrap background-absolute">
+                                        <div class="slideshow__slide-image background-absolute"
+                                             style="background-image: url({{ url_for('static', filename='images/GKT_2.jpg') }});"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slideshow__slide-caption">
+                    <div class="slideshow__slide-caption-text">
+                        <div class="container js-parallax" data-speed="2" data-position="top" data-target="#js-header">
+                            <h1 class="slideshow__slide-caption-title">And another one</h1>
+                            <a class="slideshow__slide-caption-subtitle -load o-hsub -link" href="#">
+                                <span class="slideshow__slide-caption-subtitle-label">It´s me a link!</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="c-header-home_footer">
+                <div class="o-container">
+                    <div class="c-header-home_controls -nomobile o-button-group">
+                        <div class="js-parallax is-inview" data-speed="1" data-position="top" data-target="#js-header">
+                            <button class="o-button -white -square -left js-slider-home-button js-slider-home-prev"
+                                    type="button">
+						<span class="o-button_label">
+							<svg class="o-button_icon" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                                       xlink:href="#arrow-prev"></use></svg>
+						</span>
+                            </button>
+                            <button class="o-button -white -square js-slider-home-button js-slider-home-next"
+                                    type="button">
+						<span class="o-button_label">
+							<svg class="o-button_icon" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                                       xlink:href="#arrow-next"></use></svg>
+						</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <div>
+
+            <svg xmlns="http://www.w3.org/2000/svg">
+                <symbol viewBox="0 0 18 18" id="arrow-next">
+                    <path id="arrow-next-arrow.svg"
+                          d="M12.6,9L4,17.3L4.7,18l8.5-8.3l0,0L14,9l0,0l-0.7-0.7l0,0L4.7,0L4,0.7L12.6,9z"/>
+                </symbol>
+                <symbol viewBox="0 0 18 18" id="arrow-prev">
+                    <path id="arrow-prev-arrow.svg"
+                          d="M14,0.7L13.3,0L4.7,8.3l0,0L4,9l0,0l0.7,0.7l0,0l8.5,8.3l0.7-0.7L5.4,9L14,0.7z"/>
+                </symbol>
+            </svg>
+
+
+            <section class="features">
+                <article>
+                    <a href="#" class="image"><img src="{{ url_for('static', filename='images/pic04.jpg') }}"
+                                                   alt=""/></a>
+                    <h3 class="major">Sed feugiat lorem</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus
+                        ultrices.</p>
+                    <a href="#" class="special">Learn more</a>
+                </article>
+                <article>
+                    <a href="#" class="image"><img src="{{ url_for('static', filename='images/pic05.jpg') }}"
+                                                   alt=""/></a>
+                    <h3 class="major">Nisl placerat</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus
+                        ultrices.</p>
+                    <a href="#" class="special">Learn more</a>
+                </article>
+            </section>
+            </section>
+        </div>
+    </div>
 
     <!-- Footer -->
     <section id="footer">
         <div class="inner">
             <h2 class="major">Get in touch</h2>
-            <p>If you are interested in one of our projects and would like to get involved we would be happy to hear from you!
+            <p>If you are interested in one of our projects and would like to get involved we would be happy to hear
+                from
+                you!
                 Simply drop us a message and we'll get back to you in no time!</p>
             <form method="post" action="{{ url_for('contact_request') }}">
                 <div class="fields">
@@ -164,6 +250,7 @@
 <script src="{{ url_for('static', filename='assets/js/breakpoints.min.js') }}"></script>
 <script src="{{ url_for('static', filename='assets/js/util.js') }}"></script>
 <script src="{{ url_for('static', filename='assets/js/main.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/js/gallery.js') }}"></script>
 
 </body>
 </html>
