@@ -9,3 +9,4 @@ from . import history
 from . import sponsors
 from . import software
 from . import gallery
+from . import errors
