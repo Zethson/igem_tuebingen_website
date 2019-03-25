@@ -60,7 +60,7 @@
                 <h1 class="major">Please ensure that you´ve entered a valid URL!</h1>
                 <span class="image fit"><img src="{{ url_for('static', filename='images/error.jpg') }}" alt=""/></span>
                 <ul class="actions">
-                    <li><a href="{{ url_for('index') }}" class="button">Return to main page</a></li>
+                    <input type="button" value="Return to last visited page" onclick="history.back()" />
                 </ul>
 
             </div>
