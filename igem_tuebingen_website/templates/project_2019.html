@@ -34,7 +34,7 @@
             <ul class="links">
                 <li><a href="{{ url_for('index') }}">Home</a></li>
                 <li><a href="{{ url_for('about_igem_teamtuebingen') }}">About iGEM and Team Tübingen</a></li>
-                <li><a href="{{ url_for('team_tuebingen_2019') }}">Team Tübingen 2019</a></li>
+                <li><a href="{{ url_for('project_2019') }}">Team Tübingen 2019</a></li>
                 <li><a href="{{ url_for('get_involved') }}">Get involved</a></li>
                 <li><a href="{{ url_for('history') }}">History of iGEM Tübingen</a></li>
                 <li><a href="{{ url_for('software') }}">Software by iGEM Tübingen</a></li>
@@ -58,31 +58,74 @@
         <div class="wrapper">
             <div class="inner">
 
-                <h3 class="major">Team Tübingen 2019</h3>
-                <p>This year’s iGEM team of Tübingen consists of 15 highly motivated students from various study areas.
-                    It includes students of biochemistry, bioinformatics, nanoscience and molecular medicine who share
-                    the common interest to launch and manage an individual, self-organised scientific project.</p>
-
                 <h3 class="major">Our project</h3>
-                <p>The aim of the project 2019 is to generate a microbial biosensor and recycler of phosphate based on a
-                    plasmid chassis incorporating a self-kill mechanism to prevent the spread of GMOs in the
-                    environment. This also addresses the high concerns associated with GMOs and fulfills the necessary
-                    biosafety standards. The bacterium is supposed to sense and store phosphate in order to make it
-                    accessible and reusable for humanity. Since phosphate is a limited and highly sought after resource
-                    this project has environmental as well as economical relevance. Next to the development of such a
-                    GMO we also plan to model the efficiency, stability and kinetic of the self-kill mechanism.</p>
+                <p>The aim of the project 2019 is to generate a probiotic for the therapy of Type II Diabetes Mellitus
+                    based on a plasmid chassis incorporating a Cas3 self-kill mechanism to prevent the spread of GMOs in
+                    the environment. This also addresses the high concerns associated with GMOs and fulfills the
+                    necessary biosafety standards. The plasmid chassis allows for a controlled use of the probiotic and
+                    limits its habitat to that of the human gut due to the incorporation of three different regulators
+                    inhibiting the Cas3 self-kill system when the bacterium is located in its designated environment. In
+                    the gut our probiotic is supposed to form and secrete incretin mimetics in response to glucose. The
+                    incretins will be taken up by the enterocytes and are transported to the pancreas via the blood
+                    where they enhance the insulin secretion. Since Diabetes is one of the most frequent diseases
+                    nowadays we address an important and relevant problem not only for the clinics but also for the
+                    economy and world wide health situation. Next to the development of such a GMO we also plan to model
+                    the efficiency, stability and kinetic of the self-kill mechanism. With the use of GUIDE-Seq and
+                    Nextflow we will also determine the off-target cleavage of our Cas systems and plan to build a
+                    pipeline.
+                    Our Cas3 biosafety probiotic chassis can also be used for different applications by exchanging the
+                    gene of interest within the plasmid. Therefore, our chassis can be used by others who search for a
+                    functional chassis which fulfills biosafety standards.
+                </p>
+
+                <h3 class="major">Type II Diabetes Mellitus and incretin mimetics</h3>
+                <p>
+                Type 2 Diabetes Mellitus is a metabolic disease that affects about 10% of the population. One of its
+                major symptoms is the relative lack of insulin, which causes decreased uptake of glucose into cells,
+                causing an energy crisis within the cells. In Type II Diabetes Mellitus, the body compensates this
+                relative lack of insulin by secreting more insulin, which causes stress for insulin producing beta cells
+                of the pancreas. This increased stress will, in the end, lead to the destruction of the beta cells,
+                leaving the body with an absolute lack of insulin, making insulin substitution necessary.
+                In Type II Diabetes Mellitus the relative lack of insulin can have multiple reasons. It can be induced
+                by overconsumption of sugar-containing food, decreasing the sensitivity of the Insulin Receptors, as
+                they are downregulated. But it can also have genetic reasons, such as a mutation in an essential gene
+                etc.
+                A form of treatment for Type II Diabetes Mellitus are incretin mimetics. Incretin mimetics copy the
+                incretin effect of incretins such as Glucagon Like Peptide 1. This effect describes the fact that the
+                oral uptake causes a bigger release of insulin, than the parenteral uptake.
+                Glucagon like peptide 1, produced in the L-cells of the intestine, is secreted upon nutrient
+                availability, and reaches the pancreas through the bloodstream. There it will bind its receptor (a
+                G-protein coupled receptor), which will activate Adenylate Cyclase (if ATP is available within the
+                cell), initiating the production of cAMP. Overall, this will lead to increased Calcium Ion influx,
+                allowing for more Insulin to be secreted from the beta cells. This increased secretion will help
+                overcome a relative lack of insulin in Type II Diabetes Mellitus, if the amount of incretins is
+                sufficient.
+                </p>
+
+                <h3 class="major">Genetically modified organisms (GMOs)</h3>
+                <p>
+                Genetically modified organisms (GMOs) are organisms whose genetic information has been altered
+                intentionally with the use of genetic engineering. The technique used and the way of alteration varies
+                between different GMOs and comprises gene knockouts and knockins as well as enhancement or repression of
+                gene expression. GMOs open many possibilities for basic research, food production, industry and
+                treatment or diagnosis of diseases. Concerns about GMOs have been raised by many people and especially
+                address their safety when intentionally or unintentionally released into the environment. Therefore
+                efforts have been made and are still made towards ensuring the biosafety of GMOs.
+                </p>
 
                 <section class="features">
                     <article>
-                        <a href="{{ url_for('software') }}" class="image"><img src="{{ url_for('static', filename='images/software_cut.jpg') }}"
-                                                       alt=""/></a>
+                        <a href="{{ url_for('software') }}" class="image"><img
+                                src="{{ url_for('static', filename='images/software_cut.jpg') }}"
+                                alt=""/></a>
                         <h3 class="major">Software</h3>
                         <p>Throughout our participations in iGEM several software tools have been developed.</p>
                         <a href="{{ url_for('software') }}" class="special">Learn more</a>
                     </article>
                     <article>
-                        <a href="{{ url_for('gallery') }}" class="image"><img src="{{ url_for('static', filename='images/pic05.jpg') }}"
-                                                       alt=""/></a>
+                        <a href="{{ url_for('gallery') }}" class="image"><img
+                                src="{{ url_for('static', filename='images/gallery_cut.jpg') }}"
+                                alt=""/></a>
                         <h3 class="major">Gallery</h3>
                         <p>Gallery of our various iGEM teams, presentations and awesome projects.</p>
                         <a href="{{ url_for('gallery') }}" class="special">Learn more</a>

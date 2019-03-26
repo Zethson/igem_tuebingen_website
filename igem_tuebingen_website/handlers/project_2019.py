@@ -7,6 +7,3 @@ def project_2019():
     return render_template("project_2019.html")
 
 
-@app.route("/team_tuebingen_2019")
-def team_tuebingen_2019():
-    return render_template("project_2019.html")
