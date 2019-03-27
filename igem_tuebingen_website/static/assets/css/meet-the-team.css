@@ -228,7 +228,7 @@ section{
     }
 
     .card:nth-child(9){
-            animation: fadeIn .3s .2.7s backwards;
+            animation: fadeIn .3s 2.7s backwards;
     }
 
     .card:nth-child(10){
