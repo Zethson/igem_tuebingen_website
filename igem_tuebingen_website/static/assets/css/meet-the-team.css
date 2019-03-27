@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+section{
+    padding: 10rem 0;
+}
+
+.heading{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    margin-right: -3px;
+    margin-bottom: 5rem;
+    text-align: center;
+    color: #333;
+    position: relative;
+}
+
+.heading::after{
+    content: "";
+    width: 10rem;
+    height: .8rem;
+    background-color: #45e19f;
+    position: absolute;
+    bottom: -2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2rem;
+}
+
+.card-wrapper{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.card{
+    width: 32rem;
+    background-color: #ebeef8;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+    box-shadow: .5rem .5rem 3rem rgba(0,0,0,0.2);
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+
+    transition: filter 600ms ease;
+    -webkit-transition: filter 600ms ease;
+}
+
+.card:hover{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+.card .card-img{
+    width: 100%;
+    height: 26rem;
+    border-radius: 25px;
+    object-fit: cover;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+}
+
+.profile-img{
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -11rem;
+    z-index: 999;
+    border: 1rem solid #ebeef8;
+}
+
+.card h1{
+    font-size: 2.5rem;
+    color: #333;
+    margin: 1.5rem 0;
+}
+
+.job-title{
+    color: #777;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.about{
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    text-align: center;
+    color: #333;
+}
+
+.card .btn{
+    padding: 1rem 2.5rem;
+    background-color: #445ae3;
+    border-radius: 2rem;
+    margin: 1rem;
+    text-transform: uppercase;
+    color: #eee;
+    font-size: 1.4rem;
+    transition: all .5s;
+}
+
+.card .btn:hover{
+    transform: translateY(-2px);
+    box-shadow: .5rem .5rem 2rem rgba(0,0,0,.2);
+}
+
+.card .btn:active{
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+.social-media{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+    margin-top: 1.5rem;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.social-media i{
+    font-size: 3rem;
+    transition: color .5s;
+}
+
+.fa-facebook-square{
+    color: #3b5999;
+}
+
+.fa-twitter-square{
+    color: #55acee;
+}
+
+.fa-instagram{
+    color: #e6683c;
+}
+
+.fa-google-plus-square{
+    color: #dd4b39;
+}
+
+.fa-facebook-square:hover,
+.fa-twitter-square:hover,
+.fa-instagram:hover,
+.fa-google-plus-square:hover{
+    color: #45e19f;
+}
+
+@media screen and (min-width: 700px){
+    .card-wrapper{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card{
+        margin: 2rem;
+        transition: transform .5s;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    /* Just add an animation for each image (if necessary);
+    pictures are numbered by their order appearing in the about_igem_teamtuebingen.html file */
+    .card:nth-child(1){
+            animation: fadeIn .5s .5s backwards;
+    }
+
+    .card:nth-child(2){
+            animation: fadeIn .5s 1s backwards;
+    }
+
+    .card:nth-child(3){
+            animation: fadeIn .5s 1.5s backwards;
+    }
+
+    .card:nth-child(4){
+            animation: fadeIn .5s 2s backwards;
+    }
+
+    .card:hover{
+        transform: scale(1.05);
+    }
+}
+

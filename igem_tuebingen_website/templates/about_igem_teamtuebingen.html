@@ -10,6 +10,8 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/meet-the-team.css') }}"/>
     <noscript>
         <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/noscript.css') }}"/>
     </noscript>
@@ -55,34 +57,170 @@
         </header>
 
         <!-- Content -->
-        <div class="wrapper">
-            <div class="inner">
+       <section>
+           <div class="container">
+               <h1 class="heading">Meet the team</h1>
+               <div class="card-wrapper">
+                   <div class="card">
+                       <img src="{{ url_for('static', filename='images/team_all_cut.jpg') }}" alt="card background" class="card-img">
+                       <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image" class="profile-img">
+                       <h1>Carlos Matos</h1>
+                       <p class="job-title">Scammer</p>
+                       <p class="about">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                           sed diam nonumy eirmod tempor invidunt ut
+                           labore et dolore magna aliquyam erat, sed diam voluptua.
+                           At vero eos et accusam et justo duo dolores et ea rebum.
+                           Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                           tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                           At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+                           no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                       <a href="#" class="btn">Contact</a>
+                       <ul class="social-media">
+                           <li><a href="#"><i class="fab fa-facebook-square"></i></a> </li>
+                           <li><a href="#"><i class="fab fa-twitter-square"></i></a> </li>
+                           <li><a href="#"><i class="fab fa-instagram"></i></a> </li>
+                           <li><a href="#"><i class="fab fa-google-plus-square"></i></a> </li>
+                       </ul>
+                   </div>
 
-                <h3 class="major">About iGEM</h3>
-                <p>iGEM (International Genetically Engineered Machine) is an international competition in the field of
-                    synthetic biology, which was initiated by the Massachusetts Institute of Technology (MIT) in Boston.
-                    The competition aims to inspire the development of innovative and intelligent solutions for relevant
-                    and recent problems through genetic modifications. By participating in the iGEM competition, our
-                    team will be able to utilize the theoretical background attained during our studies in an
-                    interdisciplinary and self-reliant manner. Often, the projects initiated through iGEM are published
-                    or lead to the foundation of Start-ups.
-                </p>
+                   <div class="card">
+                       <img src="{{ url_for('static', filename='images/team_all_cut.jpg') }}" alt="card background" class="card-img">
+                       <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image" class="profile-img">
+                       <h1>Lulas Heu</h1>
+                       <p class="job-title">Satanist</p>
+                       <p class="about">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                           sed diam nonumy eirmod tempor invidunt ut
+                           labore et dolore magna aliquyam erat, sed diam voluptua.
+                           At vero eos et accusam et justo duo dolores et ea rebum.
+                           Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                           tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                           At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+                           no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                       <a href="#" class="btn">Contact</a>
+                       <ul class="social-media">
+                           <li><a href="#"><i class="fab fa-facebook-square"></i></a> </li>
+                           <li><a href="#"><i class="fab fa-twitter-square"></i></a> </li>
+                           <li><a href="#"><i class="fab fa-instagram"></i></a> </li>
+                           <li><a href="#"><i class="fab fa-google-plus-square"></i></a> </li>
+                       </ul>
+                   </div>
 
-                <h3 class="major">About Team Tübingen</h3>
-                <p>For the duration of the competition, the iGEM team Tübingen
-                    will represent the Eberhard-Karls-University of Tübingen, as well as the faculty of mathematics and
-                    natural sciences on multiple occasions, such as conferences on an international level, within and
-                    outside of Europe. We will also be able to engage ourselves within the society through public events
-                    and discussion rounds. The iGEM competition will close with a congress, the Giant Jamboree, which
-                    annually brings thousands of contestants to Boston. The iGEM team Tübingen itself participates since
-                    2012, successfully representing the Eberhard-Karls-University of Tübingen, Baden-Württemberg and
-                    Germany. </p>
+                   <div class="card">
+                       <img src="{{ url_for('static', filename='images/team_all_cut.jpg') }}" alt="card background" class="card-img">
+                       <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image" class="profile-img">
+                       <h1>Simon Heu</h1>
+                       <p class="job-title">QBIC</p>
+                       <p class="about">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                           sed diam nonumy eirmod tempor invidunt ut
+                           labore et dolore magna aliquyam erat, sed diam voluptua.
+                           At vero eos et accusam et justo duo dolores et ea rebum.
+                           Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                           tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                           At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+                           no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                       <a href="#" class="btn">Contact</a>
+                       <ul class="social-media">
+                           <li><a href="#"><i class="fab fa-facebook-square"></i></a> </li>
+                           <li><a href="#"><i class="fab fa-twitter-square"></i></a> </li>
+                           <li><a href="#"><i class="fab fa-instagram"></i></a> </li>
+                           <li><a href="#"><i class="fab fa-google-plus-square"></i></a> </li>
+                       </ul>
+                   </div>
 
-                <h3 class="major">Team Tübingen 2019</h3>
-                <p> This year’s iGEM team of Tübingen consists of 16 highly motivated students from various study areas.
-                    It includes students of biochemistry, bioinformatics, nanoscience and molecular medicine who share
-                    the common interest to launch and manage an individual, self-organised scientific project.
-                </p>
+                   <div class="card">
+                       <img src="{{ url_for('static', filename='images/team_all_cut.jpg') }}" alt="card background" class="card-img">
+                       <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image" class="profile-img">
+                       <h1>Philipp</h1>
+                       <p class="job-title">Shitcoin Investor</p>
+                       <p class="about">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                           sed diam nonumy eirmod tempor invidunt ut
+                           labore et dolore magna aliquyam erat, sed diam voluptua.
+                           At vero eos et accusam et justo duo dolores et ea rebum.
+                           Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                           tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                           At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+                           no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                       <a href="#" class="btn">Contact</a>
+                       <ul class="social-media">
+                           <li><a href="#"><i class="fab fa-facebook-square"></i></a> </li>
+                           <li><a href="#"><i class="fab fa-twitter-square"></i></a> </li>
+                           <li><a href="#"><i class="fab fa-instagram"></i></a> </li>
+                           <li><a href="#"><i class="fab fa-google-plus-square"></i></a> </li>
+                       </ul>
+                   </div>
+                    <div class="card">
+                       <img src="{{ url_for('static', filename='images/team_all_cut.jpg') }}" alt="card background" class="card-img">
+                       <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image" class="profile-img">
+                       <h1>Philipp</h1>
+                       <p class="job-title">Shitcoin Investor</p>
+                       <p class="about">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                           sed diam nonumy eirmod tempor invidunt ut
+                           labore et dolore magna aliquyam erat, sed diam voluptua.
+                           At vero eos et accusam et justo duo dolores et ea rebum.
+                           Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                           tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                           At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+                           no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                       <a href="#" class="btn">Contact</a>
+                       <ul class="social-media">
+                           <li><a href="#"><i class="fab fa-facebook-square"></i></a> </li>
+                           <li><a href="#"><i class="fab fa-twitter-square"></i></a> </li>
+                           <li><a href="#"><i class="fab fa-instagram"></i></a> </li>
+                           <li><a href="#"><i class="fab fa-google-plus-square"></i></a> </li>
+                       </ul>
+                   </div>
+                    <div class="card">
+                       <img src="{{ url_for('static', filename='images/team_all_cut.jpg') }}" alt="card background" class="card-img">
+                       <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image" class="profile-img">
+                       <h1>Philipp</h1>
+                       <p class="job-title">Shitcoin Investor</p>
+                       <p class="about">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                           sed diam nonumy eirmod tempor invidunt ut
+                           labore et dolore magna aliquyam erat, sed diam voluptua.
+                           At vero eos et accusam et justo duo dolores et ea rebum.
+                           Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                           tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                           At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+                           no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                       <a href="#" class="btn">Contact</a>
+                       <ul class="social-media">
+                           <li><a href="#"><i class="fab fa-facebook-square"></i></a> </li>
+                           <li><a href="#"><i class="fab fa-twitter-square"></i></a> </li>
+                           <li><a href="#"><i class="fab fa-instagram"></i></a> </li>
+                           <li><a href="#"><i class="fab fa-google-plus-square"></i></a> </li>
+                       </ul>
+                   </div>
+                    <div class="card">
+                       <img src="{{ url_for('static', filename='images/team_all_cut.jpg') }}" alt="card background" class="card-img">
+                       <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image" class="profile-img">
+                       <h1>Philipp</h1>
+                       <p class="job-title">Shitcoin Investor</p>
+                       <p class="about">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                           sed diam nonumy eirmod tempor invidunt ut
+                           labore et dolore magna aliquyam erat, sed diam voluptua.
+                           At vero eos et accusam et justo duo dolores et ea rebum.
+                           Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                           tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                           At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+                           no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                       <a href="#" class="btn">Contact</a>
+                       <ul class="social-media">
+                           <li><a href="#"><i class="fab fa-facebook-square"></i></a> </li>
+                           <li><a href="#"><i class="fab fa-twitter-square"></i></a> </li>
+                           <li><a href="#"><i class="fab fa-instagram"></i></a> </li>
+                           <li><a href="#"><i class="fab fa-google-plus-square"></i></a> </li>
+                       </ul>
+                   </div>
+               </div>
+           </div>
+       </section>
 
 
                 <section class="features">
@@ -102,8 +240,7 @@
                         <p>Team Tübingen has been participating in iGEM since 2012.</p>
                         <a href="{{ url_for('history') }}" class="special">Learn more</a>
                     </article>
-                </section>
-
+                 </section>
             </div>
         </div>
 
