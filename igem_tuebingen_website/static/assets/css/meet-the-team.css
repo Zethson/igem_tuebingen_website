@@ -156,12 +156,8 @@ section{
     color: #55acee;
 }
 
-.fa-instagram{
+.fa-envelope{
     color: #e6683c;
-}
-
-.fa-google-plus-square{
-    color: #dd4b39;
 }
 
 .fa-linkedin {
@@ -170,8 +166,8 @@ section{
 
 .fa-facebook-square:hover,
 .fa-twitter-square:hover,
-.fa-instagram:hover,
-.fa-google-plus-square:hover{
+.fa-linkedin:hover,
+.fa-envelope:hover{
     color: #45e19f;
 }
 
