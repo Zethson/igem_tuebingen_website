@@ -83,8 +83,8 @@ section{
 }
 
 .profile-img{
-    width: 15rem;
-    height: 15rem;
+    width: 20rem;
+    height: 20rem;
     object-fit: cover;
     border-radius: 50%;
     margin-top: -11rem;
@@ -162,6 +162,10 @@ section{
 
 .fa-google-plus-square{
     color: #dd4b39;
+}
+
+.fa-linkedin {
+    color: #55acee;
 }
 
 .fa-facebook-square:hover,
