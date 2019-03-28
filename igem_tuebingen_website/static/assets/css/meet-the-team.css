@@ -52,7 +52,7 @@ section{
 }
 
 .card{
-    width: 32rem;
+    width: 40rem;
     background-color: #ebeef8;
     border-radius: 25px;
     display: flex;
@@ -93,20 +93,29 @@ section{
 }
 
 .card h1{
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     color: #333;
     margin: 1.5rem 0;
 }
 
 .job-title{
     color: #777;
-    font-size: 1.5rem;
+    font-size: 2.2rem;
     font-weight: 300;
 }
 
-.about{
-    font-size: 1.5rem;
+.subitem{
+    font-size: 2.0rem;
+    font-weight: bold;
     margin: 1.5rem 0;
+    font-style: italic;
+    text-align: center;
+    color: #333;
+}
+
+.about{
+    font-size: 1.8rem;
+    margin: 0;
     font-style: italic;
     text-align: center;
     color: #333;
