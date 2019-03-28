@@ -57,25 +57,51 @@
         <div class="wrapper">
             <div class="inner">
 
-                <h3 class="major">Lorem ipsum dolor</h3>
-                <p>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt
-                    lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis
-                    lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac
-                    sagittis semper. Curabitur purus leo donec vel dolor at arcu tincidunt bibendum. Interdum et
-                    malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum.
-                    Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non
-                    velit accumsan cursus. Etiam ut gravida sapien.</p>
+                <h3 class="major">2018</h3>
+                <p align="justify">The software project of the iGEM Team Tübingen 2018 adressed the problem of biopharmaceuticals being targeted by the human immune system. Upon contact
+                   with foreign proteins, the immune system can trigger the production of anti-drug antibodies (ADAs) by plasma cells, which neutralize the
+                   function and reduce the bioavailability of biopharmaceuticals in the system.<br>
+                   We constructed the powerful and modular deimmunization workflow “Boosted Epitope Reduction based on Trees” (BERT)
+                   automating protein deimmunization to solve this problem.<br>
+                BERT computes the immunity based on MHC class II epitope by the tool NetMHCIIpan and minimizes the immunity by epitope destroying amino
+                  acid substitution. To ensure the structural integrity of the protein, highly conserved amino acids were excluded from the substitution process.
+                   Furthermore BERT computes the Gibbs free energy change (ddG) for each amino acid substitution and chooses the final amino acids substitutions
+                   based on the minimum ddG and minimum immunity of the protein.<br>
+                Moreover, we created  a fast and highly accurate MHC class I prediction tool called MHCBoost, which achieves accuracy benchmarks in the range
+                   of state of the art MHC class I prediction tools. MHCBoost uses gradient boosted trees to predict short MHC binding peptides that have the
+                   potential to trigger an immune response.</p>
 
-                <p>Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet. Sed eu lectus sem. Phasellus
-                    in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, eu faucibus lectus.
-                    Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. Proin nec commodo, vel scelerisque
-                    nisi scelerisque. Suspendisse id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor
-                    consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec felis elementum varius.</p>
 
-                <h3 class="major">Vitae phasellus</h3>
-                <p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce
-                    tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in
-                    tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+                   <figure>
+                     <img src="{{ url_for('static', filename='images/software/BERT.png') }}" alt="Workflow BERT" width=50% align=center>
+                     <figcaption></figcaption>
+                   </figure>
+
+                <p>Links to GitHub repositories:<br>
+                <a href="https://github.com/igemsoftware2018/Team_Tuebingen_BERT">https://github.com/igemsoftware2018/Team_Tuebingen_BERT</a><br>
+                <a href="https://github.com/igemsoftware2018/Team_Tuebingen_MHCBoost">https://github.com/igemsoftware2018/Team_Tuebingen_MHCBoost</a><br>
+                </p>
+
+
+                <h3 class="major">2019</h3>
+                <palign="justify">The CRISPR/Cas system is a very powerful tool for genome editing in biological research and in treatment of diseases. Besides its high specificity,
+                   off-target activity often yields in unwanted side effects. Therefore the identification of off-target sites is a crucial point in many
+                    experimental set-ups.<br>
+                To facilitate the analysis of experimental off-target identification, the iGEM Team Tübingen 2019 creates a data analysis pipeline for data
+                  generated in GUIDE-Seq experiments, which is an unbiased and genome-wide method to identify off-target sites CRISPR/Cas experiments. Our goal
+                   is to generate a reproducible and parallelizable analysis software tool, based on the bioinformatics workflow management system Nextflow.<br>
+                Nextflow allows to develop portable and reproducible workflows which can be deployed on various platforms for execution. A key property of
+                   this workflow management system is its ability to decouple workflow components by isolating their dependencies with containers. This ensures
+                    that no future requirement conflicts occur between different components, which allows to maintain reproducibility of results.<br>
+                One of the most important points of us is to create a tool an easy-to-use software tool, since a considerable number of useful bioinformatics
+                   tools are quite intuitively to handle regarding installation and running and thereby potentially limit the number users. Therefore we are
+                   creating a clear and comprehensible web-based user interface. We also plan to improve the existing workflow layout, by replacing single components
+                    to improve the accuracy the result and to reduce the computational time needed.<br>
+                Another main goal is to validate the results of our workflow experimentally and to integrate the results of our software tool into our wet-lab
+                   experiments. We also want to motivate other iGEM teams and research groups, who are working with CRISPR/Cas systems and are concerned about
+                    potential off-target site, to use our tool.</p>
+
+
 
                 <section class="features">
                     <article>
