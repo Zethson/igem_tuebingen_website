@@ -60,9 +60,10 @@
                 <h3 class="major">How to support us</h3>
                 <p>The iGEM team Tübingen is an independent research group of motivated students and is therefore
                     responsible for the organisation and financing of the project. In order to realize a successful iGEM
-                    project and achieve our goals in this competition, we need the support of companies, institutions,
+                    project and achieve our goals in this competition, we need the support of researchers, companies,
+                    institutions,
                     associations and private individuals. Not only financial support, but also the provision of
-                    materials and resources help us.</p>
+                    materials and resources or expertise helps us tremendously.</p>
 
                 <h3 class="major">Participation</h3>
                 <p> iGEM offers each of us a unique and valuable training opportunity that is hard to find anywhere
@@ -72,7 +73,11 @@
                     implementation, presentation, financing and public relations. These are also valuable skills for
                     your later career, which make iGEM participants stand out from the crowd. Since iGEM is an
                     international competition, new national and international contacts are established through cultural
-                    exchange.
+                    exchange. We welcome and invite students from all backgrounds and take pride in our very
+                    interdisciplinary and diverse team.
+                    Experienced researchers play a vital role in the project development and planning stage.
+                    Furthermore, they teach us important techniques and give valuable feedback. We would hereby extend
+                    our invitation to experienced researchers who are willing to collaborate with us.
                 </p>
 
                 <h3 class="major">Sponsoring</h3>
@@ -85,6 +90,7 @@
                     project. In return for a sponsorship of our project, our sponsors have the opportunity to advertise
                     and represent themselves in public, at presentations, on our website and in many social networks.
 
+                    Our past and current sponsors can be found on our <a href="{{ url_for('sponsors') }}" class="special">Sponsors Page</a>
                     If you are interested in sponsoring us, please do not hesitate to contact us using the form at the
                     bottom of the page!
                 </p>
@@ -92,17 +98,20 @@
 
                 <section class="features">
                     <article>
-                        <a href="{{ url_for('about_igem_teamtuebingen') }}" class="image"><img src="{{ url_for('static', filename='images/team/team_all_cut.jpg') }}"
-                                                       alt=""/></a>
+                        <a href="{{ url_for('about_igem_teamtuebingen') }}" class="image"><img
+                                src="{{ url_for('static', filename='images/team/team_all_cut.jpg') }}"
+                                alt=""/></a>
                         <h3 class="major">About iGEM and Team Tübingen</h3>
                         <p>Read about the iGEM competition and get to know our team!</p>
                         <a href="{{ url_for('about_igem_teamtuebingen') }}" class="special">Learn more</a>
                     </article>
                     <article>
-                        <a href="{{ url_for('sponsors') }}" class="image"><img src="{{ url_for('static', filename='images/sponsors_cut.jpg') }}"
-                                                       alt=""/></a>
+                        <a href="{{ url_for('sponsors') }}" class="image"><img
+                                src="{{ url_for('static', filename='images/sponsors_2_cut.jpg') }}"
+                                alt=""/></a>
                         <h3 class="major">Our Sponsors</h3>
-                        <p>A project as ambitious as iGEM cannot be realized without the generous help of our sponsors.</p>
+                        <p>A project as ambitious as iGEM cannot be realized without the generous help of our
+                            sponsors.</p>
                         <a href="{{ url_for('sponsors') }}" class="special">Learn more</a>
                     </article>
                 </section>
