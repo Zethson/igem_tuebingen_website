@@ -10,7 +10,8 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}"/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/meet-the-team.css') }}"/>
     <noscript>
         <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/noscript.css') }}"/>
@@ -56,530 +57,584 @@
         </header>
 
         <!-- Content -->
-       <section>
-           <div class="container">
-               <h1 class="heading">Meet the team</h1>
-               <div class="card-wrapper">
-                   <div class="card">
-                       <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg" alt="card background" class="card-img">
-                       <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image" class="profile-img">
-                       <h1>Lukas Heumos</h1>
-                       <p class="job-title">Drylab, Orga, everywhere</p>
-                       <p class="subitem">Degree</p>
-                       <p class="about">MSc. Bioinformatics</p>
-                       <p class="subitem">Special Skills (in the lab or whatever)</p>
-                       <p class="about">Codes swift and on a high level.
-                           Keeps and enforces incoming deadlines. Always has the big picture in mind.</p>
-                       <p class="subitem">What is my favorite part of our project?</p>
-                       <p class="about">Interdisciplinary collaboration and interaction.
-                           I'm always eager to get to know other people who are into crazy science.</p>
-                       <p class="subitem">What does iGEM mean to me?</p>
-                       <p class="about">I take pride in participating in an exceptionally demanding and vying competition such as iGEM.
-                           Moreover, I associate iGEM with great people and unforgettable experiences.</p>
-                       <p class="subitem">if I was an amino acid, I would be ..., because: </p>
-                       <p class="about">Valine - I love branching</p>
-                       <a href="#" class="btn">Contact</a>
-                       <ul class="social-media">
-                           <li><a href="#"><i class="fab fa-facebook-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-twitter-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-linkedin"></i></a> </li>
-                           <li><a href="#"><i class="fa fa-envelope"></i></a> </li>
-                       </ul>
-                   </div>
-
-                   <div class="card">
-                       <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg" alt="card background" class="card-img">
-                       <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image" class="profile-img">
-                       <h1>Lulas Heu</h1>
-                       <p class="job-title">Drylab, Orga, everywhere</p>
-                       <p class="subitem">Degree</p>
-                       <p class="about">MSc. Bioinformatics</p>
-                       <p class="subitem">Special Skills (in the lab or whatever)</p>
-                       <p class="about">Codes swift and on a high level.
-                           Keeps and enforces incoming deadlines. Always has the big picture in mind.</p>
-                       <p class="subitem">What is my favorite part of our project?</p>
-                       <p class="about">Interdisciplinary collaboration and interaction.
-                           I'm always eager to get to know other people who are into crazy science.</p>
-                       <p class="subitem">What does iGEM mean to me?</p>
-                       <p class="about">I take pride in participating in an exceptionally demanding and vying competition such as iGEM.
-                           Moreover, I associate iGEM with great people and unforgettable experiences.</p>
-                       <p class="subitem">if I was an amino acid, I would be ..., because: </p>
-                       <p class="about">Valine - I love branching</p>
-                       <a href="#" class="btn">Contact</a>
-                       <ul class="social-media">
-                           <li><a href="#"><i class="fab fa-facebook-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-twitter-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-linkedin"></i></a> </li>
-                           <li><a href="#"><i class="fa fa-envelope"></i></a> </li>
-                       </ul>
-                   </div>
-
-                   <div class="card">
-                       <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg" alt="card background" class="card-img">
-                       <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image" class="profile-img">
-                       <h1>Simon Heu</h1>
-                       <p class="job-title">Drylab, Orga, everywhere</p>
-                       <p class="subitem">Degree</p>
-                       <p class="about">MSc. Bioinformatics</p>
-                       <p class="subitem">Special Skills (in the lab or whatever)</p>
-                       <p class="about">Codes swift and on a high level.
-                           Keeps and enforces incoming deadlines. Always has the big picture in mind.</p>
-                       <p class="subitem">What is my favorite part of our project?</p>
-                       <p class="about">Interdisciplinary collaboration and interaction.
-                           I'm always eager to get to know other people who are into crazy science.</p>
-                       <p class="subitem">What does iGEM mean to me?</p>
-                       <p class="about">I take pride in participating in an exceptionally demanding and vying competition such as iGEM.
-                           Moreover, I associate iGEM with great people and unforgettable experiences.</p>
-                       <p class="subitem">if I was an amino acid, I would be ..., because: </p>
-                       <p class="about">Valine - I love branching</p>
-                       <a href="#" class="btn">Contact</a>
-                       <ul class="social-media">
-                           <li><a href="#"><i class="fab fa-facebook-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-twitter-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-linkedin"></i></a> </li>
-                           <li><a href="#"><i class="fa fa-envelope"></i></a> </li>
-                       </ul>
-                   </div>
-
-                   <div class="card">
-                       <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg" alt="card background" class="card-img">
-                       <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image" class="profile-img">
-                       <h1>Philipp</h1>
-                       <p class="job-title">Drylab, Orga, everywhere</p>
-                       <p class="subitem">Degree</p>
-                       <p class="about">MSc. Bioinformatics</p>
-                       <p class="subitem">Special Skills (in the lab or whatever)</p>
-                       <p class="about">Codes swift and on a high level.
-                           Keeps and enforces incoming deadlines. Always has the big picture in mind.</p>
-                       <p class="subitem">What is my favorite part of our project?</p>
-                       <p class="about">Interdisciplinary collaboration and interaction.
-                           I'm always eager to get to know other people who are into crazy science.</p>
-                       <p class="subitem">What does iGEM mean to me?</p>
-                       <p class="about">I take pride in participating in an exceptionally demanding and vying competition such as iGEM.
-                           Moreover, I associate iGEM with great people and unforgettable experiences.</p>
-                       <p class="subitem">if I was an amino acid, I would be ..., because: </p>
-                       <p class="about">Valine - I love branching</p>
-                       <a href="#" class="btn">Contact</a>
-                       <ul class="social-media">
-                           <li><a href="#"><i class="fab fa-facebook-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-twitter-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-linkedin"></i></a> </li>
-                           <li><a href="#"><i class="fa fa-envelope"></i></a> </li>
-                       </ul>
-                   </div>
+        <section>
+            <div class="container">
+                <h1 class="heading">Meet the team</h1>
+                <div class="card-wrapper">
                     <div class="card">
-                       <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg" alt="card background" class="card-img">
-                       <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image" class="profile-img">
-                       <h1>Philipp</h1>
-                       <p class="job-title">Drylab, Orga, everywhere</p>
-                       <p class="subitem">Degree</p>
-                       <p class="about">MSc. Bioinformatics</p>
-                       <p class="subitem">Special Skills (in the lab or whatever)</p>
-                       <p class="about">Codes swift and on a high level.
-                           Keeps and enforces incoming deadlines. Always has the big picture in mind.</p>
-                       <p class="subitem">What is my favorite part of our project?</p>
-                       <p class="about">Interdisciplinary collaboration and interaction.
-                           I'm always eager to get to know other people who are into crazy science.</p>
-                       <p class="subitem">What does iGEM mean to me?</p>
-                       <p class="about">I take pride in participating in an exceptionally demanding and vying competition such as iGEM.
-                           Moreover, I associate iGEM with great people and unforgettable experiences.</p>
-                       <p class="subitem">if I was an amino acid, I would be ..., because: </p>
-                       <p class="about">Valine - I love branching</p>
-                       <a href="#" class="btn">Contact</a>
-                       <ul class="social-media">
-                           <li><a href="#"><i class="fab fa-facebook-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-twitter-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-linkedin"></i></a> </li>
-                           <li><a href="#"><i class="fa fa-envelope"></i></a> </li>
-                       </ul>
-                   </div>
-                    <div class="card">
-                       <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg" alt="card background" class="card-img">
-                       <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image" class="profile-img">
-                       <h1>Philipp</h1>
-                       <p class="job-title">Drylab, Orga, everywhere</p>
-                       <p class="subitem">Degree</p>
-                       <p class="about">MSc. Bioinformatics</p>
-                       <p class="subitem">Special Skills (in the lab or whatever)</p>
-                       <p class="about">Codes swift and on a high level.
-                           Keeps and enforces incoming deadlines. Always has the big picture in mind.</p>
-                       <p class="subitem">What is my favorite part of our project?</p>
-                       <p class="about">Interdisciplinary collaboration and interaction.
-                           I'm always eager to get to know other people who are into crazy science.</p>
-                       <p class="subitem">What does iGEM mean to me?</p>
-                       <p class="about">I take pride in participating in an exceptionally demanding and vying competition such as iGEM.
-                           Moreover, I associate iGEM with great people and unforgettable experiences.</p>
-                       <p class="subitem">if I was an amino acid, I would be ..., because: </p>
-                       <p class="about">Valine - I love branching</p>
-                       <a href="#" class="btn">Contact</a>
-                       <ul class="social-media">
-                           <li><a href="#"><i class="fab fa-facebook-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-twitter-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-linkedin"></i></a> </li>
-                           <li><a href="#"><i class="fa fa-envelope"></i></a> </li>
-                       </ul>
-                   </div>
-                    <div class="card">
-                       <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg" alt="card background" class="card-img">
-                       <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image" class="profile-img">
-                       <h1>Philipp</h1>
-                       <p class="job-title">Drylab, Orga, everywhere</p>
-                       <p class="subitem">Degree</p>
-                       <p class="about">MSc. Bioinformatics</p>
-                       <p class="subitem">Special Skills (in the lab or whatever)</p>
-                       <p class="about">Codes swift and on a high level.
-                           Keeps and enforces incoming deadlines. Always has the big picture in mind.</p>
-                       <p class="subitem">What is my favorite part of our project?</p>
-                       <p class="about">Interdisciplinary collaboration and interaction.
-                           I'm always eager to get to know other people who are into crazy science.</p>
-                       <p class="subitem">What does iGEM mean to me?</p>
-                       <p class="about">I take pride in participating in an exceptionally demanding and vying competition such as iGEM.
-                           Moreover, I associate iGEM with great people and unforgettable experiences.</p>
-                       <p class="subitem">if I was an amino acid, I would be ..., because: </p>
-                       <p class="about">Valine - I love branching</p>
-                       <a href="#" class="btn">Contact</a>
-                       <ul class="social-media">
-                           <li><a href="#"><i class="fab fa-facebook-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-twitter-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-linkedin"></i></a> </li>
-                           <li><a href="#"><i class="fa fa-envelope"></i></a> </li>
-                       </ul>
-                   </div>
-                   <div class="card">
-                       <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg" alt="card background" class="card-img">
-                       <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image" class="profile-img">
-                       <h1>Philipp</h1>
-                       <p class="job-title">Drylab, Orga, everywhere</p>
-                       <p class="subitem">Degree</p>
-                       <p class="about">MSc. Bioinformatics</p>
-                       <p class="subitem">Special Skills (in the lab or whatever)</p>
-                       <p class="about">Codes swift and on a high level.
-                           Keeps and enforces incoming deadlines. Always has the big picture in mind.</p>
-                       <p class="subitem">What is my favorite part of our project?</p>
-                       <p class="about">Interdisciplinary collaboration and interaction.
-                           I'm always eager to get to know other people who are into crazy science.</p>
-                       <p class="subitem">What does iGEM mean to me?</p>
-                       <p class="about">I take pride in participating in an exceptionally demanding and vying competition such as iGEM.
-                           Moreover, I associate iGEM with great people and unforgettable experiences.</p>
-                       <p class="subitem">if I was an amino acid, I would be ..., because: </p>
-                       <p class="about">Valine - I love branching</p>
-                       <a href="#" class="btn">Contact</a>
-                       <ul class="social-media">
-                           <li><a href="#"><i class="fab fa-facebook-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-twitter-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-linkedin"></i></a> </li>
-                           <li><a href="#"><i class="fa fa-envelope"></i></a> </li>
-                       </ul>
-                   </div>
-                   <div class="card">
-                       <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg" alt="card background" class="card-img">
-                       <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image" class="profile-img">
-                       <h1>Philipp</h1>
-                       <p class="job-title">Drylab, Orga, everywhere</p>
-                       <p class="subitem">Degree</p>
-                       <p class="about">MSc. Bioinformatics</p>
-                       <p class="subitem">Special Skills (in the lab or whatever)</p>
-                       <p class="about">Codes swift and on a high level.
-                           Keeps and enforces incoming deadlines. Always has the big picture in mind.</p>
-                       <p class="subitem">What is my favorite part of our project?</p>
-                       <p class="about">Interdisciplinary collaboration and interaction.
-                           I'm always eager to get to know other people who are into crazy science.</p>
-                       <p class="subitem">What does iGEM mean to me?</p>
-                       <p class="about">I take pride in participating in an exceptionally demanding and vying competition such as iGEM.
-                           Moreover, I associate iGEM with great people and unforgettable experiences.</p>
-                       <p class="subitem">if I was an amino acid, I would be ..., because: </p>
-                       <p class="about">Valine - I love branching</p>
-                       <a href="#" class="btn">Contact</a>
-                       <ul class="social-media">
-                           <li><a href="#"><i class="fab fa-facebook-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-twitter-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-linkedin"></i></a> </li>
-                           <li><a href="#"><i class="fa fa-envelope"></i></a> </li>
-                       </ul>
-                   </div>
-                   <div class="card">
-                       <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg" alt="card background" class="card-img">
-                       <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image" class="profile-img">
-                       <h1>Philipp</h1>
-                       <p class="job-title">Drylab, Orga, everywhere</p>
-                       <p class="subitem">Degree</p>
-                       <p class="about">MSc. Bioinformatics</p>
-                       <p class="subitem">Special Skills (in the lab or whatever)</p>
-                       <p class="about">Codes swift and on a high level.
-                           Keeps and enforces incoming deadlines. Always has the big picture in mind.</p>
-                       <p class="subitem">What is my favorite part of our project?</p>
-                       <p class="about">Interdisciplinary collaboration and interaction.
-                           I'm always eager to get to know other people who are into crazy science.</p>
-                       <p class="subitem">What does iGEM mean to me?</p>
-                       <p class="about">I take pride in participating in an exceptionally demanding and vying competition such as iGEM.
-                           Moreover, I associate iGEM with great people and unforgettable experiences.</p>
-                       <p class="subitem">if I was an amino acid, I would be ..., because: </p>
-                       <p class="about">Valine - I love branching</p>
-                       <a href="#" class="btn">Contact</a>
-                       <ul class="social-media">
-                           <li><a href="#"><i class="fab fa-facebook-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-twitter-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-linkedin"></i></a> </li>
-                           <li><a href="#"><i class="fa fa-envelope"></i></a> </li>
-                       </ul>
-                   </div>
-                   <div class="card">
-                       <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg" alt="card background" class="card-img">
-                       <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image" class="profile-img">
-                       <h1>Philipp</h1>
-                       <p class="job-title">Drylab, Orga, everywhere</p>
-                       <p class="subitem">Degree</p>
-                       <p class="about">MSc. Bioinformatics</p>
-                       <p class="subitem">Special Skills (in the lab or whatever)</p>
-                       <p class="about">Codes swift and on a high level.
-                           Keeps and enforces incoming deadlines. Always has the big picture in mind.</p>
-                       <p class="subitem">What is my favorite part of our project?</p>
-                       <p class="about">Interdisciplinary collaboration and interaction.
-                           I'm always eager to get to know other people who are into crazy science.</p>
-                       <p class="subitem">What does iGEM mean to me?</p>
-                       <p class="about">I take pride in participating in an exceptionally demanding and vying competition such as iGEM.
-                           Moreover, I associate iGEM with great people and unforgettable experiences.</p>
-                       <p class="subitem">if I was an amino acid, I would be ..., because: </p>
-                       <p class="about">Valine - I love branching</p>
-                       <a href="#" class="btn">Contact</a>
-                       <ul class="social-media">
-                           <li><a href="#"><i class="fab fa-facebook-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-twitter-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-linkedin"></i></a> </li>
-                           <li><a href="#"><i class="fa fa-envelope"></i></a> </li>
-                       </ul>
-                   </div>
-                   <div class="card">
-                       <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg" alt="card background" class="card-img">
-                       <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image" class="profile-img">
-                       <h1>Philipp</h1>
-                      <p class="job-title">Drylab, Orga, everywhere</p>
-                       <p class="subitem">Degree</p>
-                       <p class="about">MSc. Bioinformatics</p>
-                       <p class="subitem">Special Skills (in the lab or whatever)</p>
-                       <p class="about">Codes swift and on a high level.
-                           Keeps and enforces incoming deadlines. Always has the big picture in mind.</p>
-                       <p class="subitem">What is my favorite part of our project?</p>
-                       <p class="about">Interdisciplinary collaboration and interaction.
-                           I'm always eager to get to know other people who are into crazy science.</p>
-                       <p class="subitem">What does iGEM mean to me?</p>
-                       <p class="about">I take pride in participating in an exceptionally demanding and vying competition such as iGEM.
-                           Moreover, I associate iGEM with great people and unforgettable experiences.</p>
-                       <p class="subitem">if I was an amino acid, I would be ..., because: </p>
-                       <p class="about">Valine - I love branching</p>
-                       <a href="#" class="btn">Contact</a>
-                       <ul class="social-media">
-                           <li><a href="#"><i class="fab fa-facebook-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-twitter-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-linkedin"></i></a> </li>
-                           <li><a href="#"><i class="fa fa-envelope"></i></a> </li>
-                       </ul>
-                   </div>
-                   <div class="card">
-                       <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg" alt="card background" class="card-img">
-                       <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image" class="profile-img">
-                       <h1>Philipp</h1>
-                      <p class="job-title">Drylab, Orga, everywhere</p>
-                       <p class="subitem">Degree</p>
-                       <p class="about">MSc. Bioinformatics</p>
-                       <p class="subitem">Special Skills (in the lab or whatever)</p>
-                       <p class="about">Codes swift and on a high level.
-                           Keeps and enforces incoming deadlines. Always has the big picture in mind.</p>
-                       <p class="subitem">What is my favorite part of our project?</p>
-                       <p class="about">Interdisciplinary collaboration and interaction.
-                           I'm always eager to get to know other people who are into crazy science.</p>
-                       <p class="subitem">What does iGEM mean to me?</p>
-                       <p class="about">I take pride in participating in an exceptionally demanding and vying competition such as iGEM.
-                           Moreover, I associate iGEM with great people and unforgettable experiences.</p>
-                       <p class="subitem">if I was an amino acid, I would be ..., because: </p>
-                       <p class="about">Valine - I love branching</p>
-                       <a href="#" class="btn">Contact</a>
-                       <ul class="social-media">
-                           <li><a href="#"><i class="fab fa-facebook-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-twitter-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-linkedin"></i></a> </li>
-                           <li><a href="#"><i class="fa fa-envelope"></i></a> </li>
-                       </ul>
-                   </div>
-                   <div class="card">
-                       <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg" alt="card background" class="card-img">
-                       <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image" class="profile-img">
-                       <h1>Philipp</h1>
-                       <p class="job-title">Drylab, Orga, everywhere</p>
-                       <p class="subitem">Degree</p>
-                       <p class="about">MSc. Bioinformatics</p>
-                       <p class="subitem">Special Skills (in the lab or whatever)</p>
-                       <p class="about">Codes swift and on a high level.
-                           Keeps and enforces incoming deadlines. Always has the big picture in mind.</p>
-                       <p class="subitem">What is my favorite part of our project?</p>
-                       <p class="about">Interdisciplinary collaboration and interaction.
-                           I'm always eager to get to know other people who are into crazy science.</p>
-                       <p class="subitem">What does iGEM mean to me?</p>
-                       <p class="about">I take pride in participating in an exceptionally demanding and vying competition such as iGEM.
-                           Moreover, I associate iGEM with great people and unforgettable experiences.</p>
-                       <p class="subitem">if I was an amino acid, I would be ..., because: </p>
-                       <p class="about">Valine - I love branching</p>
-                       <a href="#" class="btn">Contact</a>
-                       <ul class="social-media">
-                           <li><a href="#"><i class="fab fa-facebook-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-twitter-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-linkedin"></i></a> </li>
-                           <li><a href="#"><i class="fa fa-envelope"></i></a> </li>
-                       </ul>
-                   </div>
-                   <div class="card">
-                       <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg" alt="card background" class="card-img">
-                       <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image" class="profile-img">
-                       <h1>Philipp</h1>
-                       <p class="job-title">Drylab, Orga, everywhere</p>
-                       <p class="subitem">Degree</p>
-                       <p class="about">MSc. Bioinformatics</p>
-                       <p class="subitem">Special Skills (in the lab or whatever)</p>
-                       <p class="about">Codes swift and on a high level.
-                           Keeps and enforces incoming deadlines. Always has the big picture in mind.</p>
-                       <p class="subitem">What is my favorite part of our project?</p>
-                       <p class="about">Interdisciplinary collaboration and interaction.
-                           I'm always eager to get to know other people who are into crazy science.</p>
-                       <p class="subitem">What does iGEM mean to me?</p>
-                       <p class="about">I take pride in participating in an exceptionally demanding and vying competition such as iGEM.
-                           Moreover, I associate iGEM with great people and unforgettable experiences.</p>
-                       <p class="subitem">if I was an amino acid, I would be ..., because: </p>
-                       <p class="about">Valine - I love branching</p>
-                       <a href="#" class="btn">Contact</a>
-                       <ul class="social-media">
-                           <li><a href="#"><i class="fab fa-facebook-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-twitter-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-linkedin"></i></a> </li>
-                           <li><a href="#"><i class="fa fa-envelope"></i></a> </li>
-                       </ul>
-                   </div>
-                   <div class="card">
-                       <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg" alt="card background" class="card-img">
-                       <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image" class="profile-img">
-                       <h1>Philipp</h1>
-                       <p class="job-title">Drylab, Orga, everywhere</p>
-                       <p class="subitem">Degree</p>
-                       <p class="about">MSc. Bioinformatics</p>
-                       <p class="subitem">Special Skills (in the lab or whatever)</p>
-                       <p class="about">Codes swift and on a high level.
-                           Keeps and enforces incoming deadlines. Always has the big picture in mind.</p>
-                       <p class="subitem">What is my favorite part of our project?</p>
-                       <p class="about">Interdisciplinary collaboration and interaction.
-                           I'm always eager to get to know other people who are into crazy science.</p>
-                       <p class="subitem">What does iGEM mean to me?</p>
-                       <p class="about">I take pride in participating in an exceptionally demanding and vying competition such as iGEM.
-                           Moreover, I associate iGEM with great people and unforgettable experiences.</p>
-                       <p class="subitem">if I was an amino acid, I would be ..., because: </p>
-                       <p class="about">Valine - I love branching</p>
-                       <a href="#" class="btn">Contact</a>
-                       <ul class="social-media">
-                           <li><a href="#"><i class="fab fa-facebook-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-twitter-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-linkedin"></i></a> </li>
-                           <li><a href="#"><i class="fa fa-envelope"></i></a> </li>
-                       </ul>
-                   </div>
-                   <div class="card">
-                       <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg" alt="card background" class="card-img">
-                       <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image" class="profile-img">
-                       <h1>Philipp</h1>
-                       <p class="job-title">Drylab, Orga, everywhere</p>
-                       <p class="subitem">Degree</p>
-                       <p class="about">MSc. Bioinformatics</p>
-                       <p class="subitem">Special Skills (in the lab or whatever)</p>
-                       <p class="about">Codes swift and on a high level.
-                           Keeps and enforces incoming deadlines. Always has the big picture in mind.</p>
-                       <p class="subitem">What is my favorite part of our project?</p>
-                       <p class="about">Interdisciplinary collaboration and interaction.
-                           I'm always eager to get to know other people who are into crazy science.</p>
-                       <p class="subitem">What does iGEM mean to me?</p>
-                       <p class="about">I take pride in participating in an exceptionally demanding and vying competition such as iGEM.
-                           Moreover, I associate iGEM with great people and unforgettable experiences.</p>
-                       <p class="subitem">if I was an amino acid, I would be ..., because: </p>
-                       <p class="about">Valine - I love branching</p>
-                       <a href="#" class="btn">Contact</a>
-                       <ul class="social-media">
-                           <li><a href="#"><i class="fab fa-facebook-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-twitter-square"></i></a> </li>
-                           <li><a href="#"><i class="fab fa-linkedin"></i></a> </li>
-                           <li><a href="#"><i class="fa fa-envelope"></i></a> </li>
-                       </ul>
-                   </div>
-               </div>
-           </div>
-       </section>
-
-
-            <section class="features">
-                    <article>
-                        <a href="{{ url_for('project_2019') }}" class="image"><img
-                                src="{{ url_for('static', filename='images/team/team_all_cut.jpg') }}"
-                                alt=""/></a>
-                        <h3 class="major">Project 2019</h3>
-                        <p>The aim of the project 2019 is to generate a probiotic for the therapy of Type II Diabetes
-                        Mellitus, based on a plasmid chassis incorporating a Cas3 self-kill mechanism to prevent the
-                        spread of GMOs in the environment.</p>
-                        <a href="{{ url_for('project_2019') }}" class="special">Learn more</a>
-                    </article>
-                    <article>
-                        <a href="{{ url_for('history') }}" class="image"><img
-                                src="{{ url_for('static', filename='images/library_cut.jpg') }}"
-                                alt=""/></a>
-                        <h3 class="major">History of iGEM Tübingen</h3>
-                        <p>Team Tübingen has been participating in iGEM since 2012. Take a look at our past projects and accomplishments.</p>
-                        <a href="{{ url_for('history') }}" class="special">Learn more</a>
-                    </article>
-                 </section>
-            </div>
-        </div>
-
-    </section>
-
-    <!-- Footer -->
-    <section id="footer">
-        <div class="inner">
-            <h2 class="major">Get in touch</h2>
-            <p>If you are interested in one of our projects and would like to get involved we would be happy to hear
-                from you!
-                Simply drop us a message and we'll get back to you in no time!</p>
-            <form method="post" action="{{ url_for('contact_request') }}">
-                <div class="fields">
-                    <div class="field">
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name"/>
+                        <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg"
+                             alt="card background" class="card-img">
+                        <img src="{{ url_for('static', filename='images/team/lukas.jpg') }}" alt="profile image"
+                             class="profile-img">
+                        <h1>Lukas Heumos</h1>
+                        <p class="job-title">Drylab, Orga, everywhere</p>
+                        <p class="subitem">Degree</p>
+                        <p class="about">Bioinformatics MSc.</p>
+                        <p class="subitem">Special Skills (in the lab or whatever)</p>
+                        <p class="about">Codes swift and on a high level.
+                            Keeps and enforces incoming deadlines. Always has the big picture in mind.</p>
+                        <p class="subitem">What is my favorite part of our project?</p>
+                        <p class="about">Interdisciplinary collaboration and interaction.
+                            I'm always eager to get to know other people who are into crazy science.</p>
+                        <p class="subitem">What does iGEM mean to me?</p>
+                        <p class="about">I take pride in participating in an exceptionally demanding and vying
+                            competition such as iGEM.
+                            Moreover, I associate iGEM with great people and unforgettable experiences.</p>
+                        <p class="subitem">if I was an amino acid, I would be ..., because: </p>
+                        <p class="about">Valine - I love branching</p>
+                        <a href="#" class="btn">Contact</a>
+                        <ul class="social-media">
+                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
                     </div>
-                    <div class="field">
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email"/>
+
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg"
+                             alt="card background" class="card-img">
+                        <img src="{{ url_for('static', filename='images/team/lina.jpg') }}" alt="profile image"
+                             class="profile-img">
+                        <h1>Lina Widerspick</h1>
+                        <p class="job-title">Wet Lab, Human Practice, Social Media</p>
+                        <p class="subitem">Degree</p>
+                        <p class="about">Molecular Medicine BSc.</p>
+                        <p class="subitem">Special Skills (in the lab or whatever)</p>
+                        <p class="about">Science Memes and PCRs</p>
+                        <p class="subitem">What is my favorite part of our project?</p>
+                        <p class="about">Being able to design a project from scratch and
+                            taking the responsiblity to implement different
+                            strategies. Communicating our project and
+                            making our ideas available to the public. </p>
+                        <p class="subitem">What does iGEM mean to me?</p>
+                        <p class="about">An opportunity to collaborate with enthusiastic
+                            students from different degrees, discovering
+                            my own capabilites and learning a lot about
+                            scientific project planning. </p>
+                        <p class="subitem">if I was an amino acid, I would be ..., because: </p>
+                        <p class="about">Arrrrrrginine, because we'll steal that Gold. </p>
+                        <a href="#" class="btn">Contact</a>
+                        <ul class="social-media">
+                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
                     </div>
-                    <div class="field">
-                        <label for="message">Message</label>
-                        <textarea name="message" id="message" rows="4"></textarea>
+
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg"
+                             alt="card background" class="card-img">
+                        <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image"
+                             class="profile-img">
+                        <h1>Simon Heu</h1>
+                        <p class="job-title">Drylab, Orga, everywhere</p>
+                        <p class="subitem">Degree</p>
+                        <p class="about">MSc. Bioinformatics</p>
+                        <p class="subitem">Special Skills (in the lab or whatever)</p>
+                        <p class="about">Codes swift and on a high level.
+                            Keeps and enforces incoming deadlines. Always has the big picture in mind.</p>
+                        <p class="subitem">What is my favorite part of our project?</p>
+                        <p class="about">Interdisciplinary collaboration and interaction.
+                            I'm always eager to get to know other people who are into crazy science.</p>
+                        <p class="subitem">What does iGEM mean to me?</p>
+                        <p class="about">I take pride in participating in an exceptionally demanding and vying
+                            competition such as iGEM.
+                            Moreover, I associate iGEM with great people and unforgettable experiences.</p>
+                        <p class="subitem">if I was an amino acid, I would be ..., because: </p>
+                        <p class="about">Valine - I love branching</p>
+                        <a href="#" class="btn">Contact</a>
+                        <ul class="social-media">
+                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg"
+                             alt="card background" class="card-img">
+                        <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image"
+                             class="profile-img">
+                        <h1>Philipp</h1>
+                        <p class="job-title">Drylab, Orga, everywhere</p>
+                        <p class="subitem">Degree</p>
+                        <p class="about">MSc. Bioinformatics</p>
+                        <p class="subitem">Special Skills (in the lab or whatever)</p>
+                        <p class="about">Codes swift and on a high level.
+                            Keeps and enforces incoming deadlines. Always has the big picture in mind.</p>
+                        <p class="subitem">What is my favorite part of our project?</p>
+                        <p class="about">Interdisciplinary collaboration and interaction.
+                            I'm always eager to get to know other people who are into crazy science.</p>
+                        <p class="subitem">What does iGEM mean to me?</p>
+                        <p class="about">I take pride in participating in an exceptionally demanding and vying
+                            competition such as iGEM.
+                            Moreover, I associate iGEM with great people and unforgettable experiences.</p>
+                        <p class="subitem">if I was an amino acid, I would be ..., because: </p>
+                        <p class="about">Valine - I love branching</p>
+                        <a href="#" class="btn">Contact</a>
+                        <ul class="social-media">
+                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg"
+                             alt="card background" class="card-img">
+                        <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image"
+                             class="profile-img">
+                        <h1>Philipp</h1>
+                        <p class="job-title">Drylab, Orga, everywhere</p>
+                        <p class="subitem">Degree</p>
+                        <p class="about">MSc. Bioinformatics</p>
+                        <p class="subitem">Special Skills (in the lab or whatever)</p>
+                        <p class="about">Codes swift and on a high level.
+                            Keeps and enforces incoming deadlines. Always has the big picture in mind.</p>
+                        <p class="subitem">What is my favorite part of our project?</p>
+                        <p class="about">Interdisciplinary collaboration and interaction.
+                            I'm always eager to get to know other people who are into crazy science.</p>
+                        <p class="subitem">What does iGEM mean to me?</p>
+                        <p class="about">I take pride in participating in an exceptionally demanding and vying
+                            competition such as iGEM.
+                            Moreover, I associate iGEM with great people and unforgettable experiences.</p>
+                        <p class="subitem">if I was an amino acid, I would be ..., because: </p>
+                        <p class="about">Valine - I love branching</p>
+                        <a href="#" class="btn">Contact</a>
+                        <ul class="social-media">
+                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg"
+                             alt="card background" class="card-img">
+                        <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image"
+                             class="profile-img">
+                        <h1>Philipp</h1>
+                        <p class="job-title">Drylab, Orga, everywhere</p>
+                        <p class="subitem">Degree</p>
+                        <p class="about">MSc. Bioinformatics</p>
+                        <p class="subitem">Special Skills (in the lab or whatever)</p>
+                        <p class="about">Codes swift and on a high level.
+                            Keeps and enforces incoming deadlines. Always has the big picture in mind.</p>
+                        <p class="subitem">What is my favorite part of our project?</p>
+                        <p class="about">Interdisciplinary collaboration and interaction.
+                            I'm always eager to get to know other people who are into crazy science.</p>
+                        <p class="subitem">What does iGEM mean to me?</p>
+                        <p class="about">I take pride in participating in an exceptionally demanding and vying
+                            competition such as iGEM.
+                            Moreover, I associate iGEM with great people and unforgettable experiences.</p>
+                        <p class="subitem">if I was an amino acid, I would be ..., because: </p>
+                        <p class="about">Valine - I love branching</p>
+                        <a href="#" class="btn">Contact</a>
+                        <ul class="social-media">
+                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg"
+                             alt="card background" class="card-img">
+                        <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image"
+                             class="profile-img">
+                        <h1>Philipp</h1>
+                        <p class="job-title">Drylab, Orga, everywhere</p>
+                        <p class="subitem">Degree</p>
+                        <p class="about">MSc. Bioinformatics</p>
+                        <p class="subitem">Special Skills (in the lab or whatever)</p>
+                        <p class="about">Codes swift and on a high level.
+                            Keeps and enforces incoming deadlines. Always has the big picture in mind.</p>
+                        <p class="subitem">What is my favorite part of our project?</p>
+                        <p class="about">Interdisciplinary collaboration and interaction.
+                            I'm always eager to get to know other people who are into crazy science.</p>
+                        <p class="subitem">What does iGEM mean to me?</p>
+                        <p class="about">I take pride in participating in an exceptionally demanding and vying
+                            competition such as iGEM.
+                            Moreover, I associate iGEM with great people and unforgettable experiences.</p>
+                        <p class="subitem">if I was an amino acid, I would be ..., because: </p>
+                        <p class="about">Valine - I love branching</p>
+                        <a href="#" class="btn">Contact</a>
+                        <ul class="social-media">
+                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg"
+                             alt="card background" class="card-img">
+                        <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image"
+                             class="profile-img">
+                        <h1>Philipp</h1>
+                        <p class="job-title">Drylab, Orga, everywhere</p>
+                        <p class="subitem">Degree</p>
+                        <p class="about">MSc. Bioinformatics</p>
+                        <p class="subitem">Special Skills (in the lab or whatever)</p>
+                        <p class="about">Codes swift and on a high level.
+                            Keeps and enforces incoming deadlines. Always has the big picture in mind.</p>
+                        <p class="subitem">What is my favorite part of our project?</p>
+                        <p class="about">Interdisciplinary collaboration and interaction.
+                            I'm always eager to get to know other people who are into crazy science.</p>
+                        <p class="subitem">What does iGEM mean to me?</p>
+                        <p class="about">I take pride in participating in an exceptionally demanding and vying
+                            competition such as iGEM.
+                            Moreover, I associate iGEM with great people and unforgettable experiences.</p>
+                        <p class="subitem">if I was an amino acid, I would be ..., because: </p>
+                        <p class="about">Valine - I love branching</p>
+                        <a href="#" class="btn">Contact</a>
+                        <ul class="social-media">
+                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg"
+                             alt="card background" class="card-img">
+                        <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image"
+                             class="profile-img">
+                        <h1>Philipp</h1>
+                        <p class="job-title">Drylab, Orga, everywhere</p>
+                        <p class="subitem">Degree</p>
+                        <p class="about">MSc. Bioinformatics</p>
+                        <p class="subitem">Special Skills (in the lab or whatever)</p>
+                        <p class="about">Codes swift and on a high level.
+                            Keeps and enforces incoming deadlines. Always has the big picture in mind.</p>
+                        <p class="subitem">What is my favorite part of our project?</p>
+                        <p class="about">Interdisciplinary collaboration and interaction.
+                            I'm always eager to get to know other people who are into crazy science.</p>
+                        <p class="subitem">What does iGEM mean to me?</p>
+                        <p class="about">I take pride in participating in an exceptionally demanding and vying
+                            competition such as iGEM.
+                            Moreover, I associate iGEM with great people and unforgettable experiences.</p>
+                        <p class="subitem">if I was an amino acid, I would be ..., because: </p>
+                        <p class="about">Valine - I love branching</p>
+                        <a href="#" class="btn">Contact</a>
+                        <ul class="social-media">
+                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg"
+                             alt="card background" class="card-img">
+                        <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image"
+                             class="profile-img">
+                        <h1>Philipp</h1>
+                        <p class="job-title">Drylab, Orga, everywhere</p>
+                        <p class="subitem">Degree</p>
+                        <p class="about">MSc. Bioinformatics</p>
+                        <p class="subitem">Special Skills (in the lab or whatever)</p>
+                        <p class="about">Codes swift and on a high level.
+                            Keeps and enforces incoming deadlines. Always has the big picture in mind.</p>
+                        <p class="subitem">What is my favorite part of our project?</p>
+                        <p class="about">Interdisciplinary collaboration and interaction.
+                            I'm always eager to get to know other people who are into crazy science.</p>
+                        <p class="subitem">What does iGEM mean to me?</p>
+                        <p class="about">I take pride in participating in an exceptionally demanding and vying
+                            competition such as iGEM.
+                            Moreover, I associate iGEM with great people and unforgettable experiences.</p>
+                        <p class="subitem">if I was an amino acid, I would be ..., because: </p>
+                        <p class="about">Valine - I love branching</p>
+                        <a href="#" class="btn">Contact</a>
+                        <ul class="social-media">
+                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg"
+                             alt="card background" class="card-img">
+                        <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image"
+                             class="profile-img">
+                        <h1>Philipp</h1>
+                        <p class="job-title">Drylab, Orga, everywhere</p>
+                        <p class="subitem">Degree</p>
+                        <p class="about">MSc. Bioinformatics</p>
+                        <p class="subitem">Special Skills (in the lab or whatever)</p>
+                        <p class="about">Codes swift and on a high level.
+                            Keeps and enforces incoming deadlines. Always has the big picture in mind.</p>
+                        <p class="subitem">What is my favorite part of our project?</p>
+                        <p class="about">Interdisciplinary collaboration and interaction.
+                            I'm always eager to get to know other people who are into crazy science.</p>
+                        <p class="subitem">What does iGEM mean to me?</p>
+                        <p class="about">I take pride in participating in an exceptionally demanding and vying
+                            competition such as iGEM.
+                            Moreover, I associate iGEM with great people and unforgettable experiences.</p>
+                        <p class="subitem">if I was an amino acid, I would be ..., because: </p>
+                        <p class="about">Valine - I love branching</p>
+                        <a href="#" class="btn">Contact</a>
+                        <ul class="social-media">
+                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg"
+                             alt="card background" class="card-img">
+                        <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image"
+                             class="profile-img">
+                        <h1>Philipp</h1>
+                        <p class="job-title">Drylab, Orga, everywhere</p>
+                        <p class="subitem">Degree</p>
+                        <p class="about">MSc. Bioinformatics</p>
+                        <p class="subitem">Special Skills (in the lab or whatever)</p>
+                        <p class="about">Codes swift and on a high level.
+                            Keeps and enforces incoming deadlines. Always has the big picture in mind.</p>
+                        <p class="subitem">What is my favorite part of our project?</p>
+                        <p class="about">Interdisciplinary collaboration and interaction.
+                            I'm always eager to get to know other people who are into crazy science.</p>
+                        <p class="subitem">What does iGEM mean to me?</p>
+                        <p class="about">I take pride in participating in an exceptionally demanding and vying
+                            competition such as iGEM.
+                            Moreover, I associate iGEM with great people and unforgettable experiences.</p>
+                        <p class="subitem">if I was an amino acid, I would be ..., because: </p>
+                        <p class="about">Valine - I love branching</p>
+                        <a href="#" class="btn">Contact</a>
+                        <ul class="social-media">
+                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg"
+                             alt="card background" class="card-img">
+                        <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image"
+                             class="profile-img">
+                        <h1>Philipp</h1>
+                        <p class="job-title">Drylab, Orga, everywhere</p>
+                        <p class="subitem">Degree</p>
+                        <p class="about">MSc. Bioinformatics</p>
+                        <p class="subitem">Special Skills (in the lab or whatever)</p>
+                        <p class="about">Codes swift and on a high level.
+                            Keeps and enforces incoming deadlines. Always has the big picture in mind.</p>
+                        <p class="subitem">What is my favorite part of our project?</p>
+                        <p class="about">Interdisciplinary collaboration and interaction.
+                            I'm always eager to get to know other people who are into crazy science.</p>
+                        <p class="subitem">What does iGEM mean to me?</p>
+                        <p class="about">I take pride in participating in an exceptionally demanding and vying
+                            competition such as iGEM.
+                            Moreover, I associate iGEM with great people and unforgettable experiences.</p>
+                        <p class="subitem">if I was an amino acid, I would be ..., because: </p>
+                        <p class="about">Valine - I love branching</p>
+                        <a href="#" class="btn">Contact</a>
+                        <ul class="social-media">
+                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg"
+                             alt="card background" class="card-img">
+                        <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image"
+                             class="profile-img">
+                        <h1>Philipp</h1>
+                        <p class="job-title">Drylab, Orga, everywhere</p>
+                        <p class="subitem">Degree</p>
+                        <p class="about">MSc. Bioinformatics</p>
+                        <p class="subitem">Special Skills (in the lab or whatever)</p>
+                        <p class="about">Codes swift and on a high level.
+                            Keeps and enforces incoming deadlines. Always has the big picture in mind.</p>
+                        <p class="subitem">What is my favorite part of our project?</p>
+                        <p class="about">Interdisciplinary collaboration and interaction.
+                            I'm always eager to get to know other people who are into crazy science.</p>
+                        <p class="subitem">What does iGEM mean to me?</p>
+                        <p class="about">I take pride in participating in an exceptionally demanding and vying
+                            competition such as iGEM.
+                            Moreover, I associate iGEM with great people and unforgettable experiences.</p>
+                        <p class="subitem">if I was an amino acid, I would be ..., because: </p>
+                        <p class="about">Valine - I love branching</p>
+                        <a href="#" class="btn">Contact</a>
+                        <ul class="social-media">
+                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg"
+                             alt="card background" class="card-img">
+                        <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image"
+                             class="profile-img">
+                        <h1>Philipp</h1>
+                        <p class="job-title">Drylab, Orga, everywhere</p>
+                        <p class="subitem">Degree</p>
+                        <p class="about">MSc. Bioinformatics</p>
+                        <p class="subitem">Special Skills (in the lab or whatever)</p>
+                        <p class="about">Codes swift and on a high level.
+                            Keeps and enforces incoming deadlines. Always has the big picture in mind.</p>
+                        <p class="subitem">What is my favorite part of our project?</p>
+                        <p class="about">Interdisciplinary collaboration and interaction.
+                            I'm always eager to get to know other people who are into crazy science.</p>
+                        <p class="subitem">What does iGEM mean to me?</p>
+                        <p class="about">I take pride in participating in an exceptionally demanding and vying
+                            competition such as iGEM.
+                            Moreover, I associate iGEM with great people and unforgettable experiences.</p>
+                        <p class="subitem">if I was an amino acid, I would be ..., because: </p>
+                        <p class="about">Valine - I love branching</p>
+                        <a href="#" class="btn">Contact</a>
+                        <ul class="social-media">
+                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg"
+                             alt="card background" class="card-img">
+                        <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image"
+                             class="profile-img">
+                        <h1>Philipp</h1>
+                        <p class="job-title">Drylab, Orga, everywhere</p>
+                        <p class="subitem">Degree</p>
+                        <p class="about">MSc. Bioinformatics</p>
+                        <p class="subitem">Special Skills (in the lab or whatever)</p>
+                        <p class="about">Codes swift and on a high level.
+                            Keeps and enforces incoming deadlines. Always has the big picture in mind.</p>
+                        <p class="subitem">What is my favorite part of our project?</p>
+                        <p class="about">Interdisciplinary collaboration and interaction.
+                            I'm always eager to get to know other people who are into crazy science.</p>
+                        <p class="subitem">What does iGEM mean to me?</p>
+                        <p class="about">I take pride in participating in an exceptionally demanding and vying
+                            competition such as iGEM.
+                            Moreover, I associate iGEM with great people and unforgettable experiences.</p>
+                        <p class="subitem">if I was an amino acid, I would be ..., because: </p>
+                        <p class="about">Valine - I love branching</p>
+                        <a href="#" class="btn">Contact</a>
+                        <ul class="social-media">
+                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2016/12/13/11/20/dna-1903875_960_720.jpg"
+                             alt="card background" class="card-img">
+                        <img src="{{ url_for('static', filename='images/library_cut.jpg') }}" alt="profile image"
+                             class="profile-img">
+                        <h1>Philipp</h1>
+                        <p class="job-title">Drylab, Orga, everywhere</p>
+                        <p class="subitem">Degree</p>
+                        <p class="about">MSc. Bioinformatics</p>
+                        <p class="subitem">Special Skills (in the lab or whatever)</p>
+                        <p class="about">Codes swift and on a high level.
+                            Keeps and enforces incoming deadlines. Always has the big picture in mind.</p>
+                        <p class="subitem">What is my favorite part of our project?</p>
+                        <p class="about">Interdisciplinary collaboration and interaction.
+                            I'm always eager to get to know other people who are into crazy science.</p>
+                        <p class="subitem">What does iGEM mean to me?</p>
+                        <p class="about">I take pride in participating in an exceptionally demanding and vying
+                            competition such as iGEM.
+                            Moreover, I associate iGEM with great people and unforgettable experiences.</p>
+                        <p class="subitem">if I was an amino acid, I would be ..., because: </p>
+                        <p class="about">Valine - I love branching</p>
+                        <a href="#" class="btn">Contact</a>
+                        <ul class="social-media">
+                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
                     </div>
                 </div>
-                <ul class="actions">
-                    <li><input type="submit" value="Send Message"/></li>
-                </ul>
-            </form>
-            <ul class="contact">
-                <li class="fa-home">
-                    iGEM Tübingen<br/>
-                    Hoppe-Seyler-Straße 4<br/>
-                    72076 Tübingen
-                </li>
-                <li class="fa-phone">(000) 000-0000</li>
-                <li class="fa-envelope"><a href="mailto:igem@ifib.uni-tuebingen.de?Subject=iGEM%20Tuebingen">Send us a
-                    Mail!</a></li>
-                <li class="fa-twitter"><a href="https://twitter.com/igemtuebingen">Follow us on Twitter!</a></li>
-                <li class="fa-facebook"><a href="https://facebook.com/igemtuebingen">Like us on Facebook!</a></li>
-                <li class="fa-instagram"><a href="https://instagram.com/igem_tuebingen">Follow us on Instagram!</a></li>
+            </div>
+        </section>
+
+
+        <section class="features">
+            <article>
+                <a href="{{ url_for('project_2019') }}" class="image"><img
+                        src="{{ url_for('static', filename='images/team/team_all_cut.jpg') }}"
+                        alt=""/></a>
+                <h3 class="major">Project 2019</h3>
+                <p>The aim of the project 2019 is to generate a probiotic for the therapy of Type II Diabetes
+                    Mellitus, based on a plasmid chassis incorporating a Cas3 self-kill mechanism to prevent the
+                    spread of GMOs in the environment.</p>
+                <a href="{{ url_for('project_2019') }}" class="special">Learn more</a>
+            </article>
+            <article>
+                <a href="{{ url_for('history') }}" class="image"><img
+                        src="{{ url_for('static', filename='images/library_cut.jpg') }}"
+                        alt=""/></a>
+                <h3 class="major">History of iGEM Tübingen</h3>
+                <p>Team Tübingen has been participating in iGEM since 2012. Take a look at our past projects and
+                    accomplishments.</p>
+                <a href="{{ url_for('history') }}" class="special">Learn more</a>
+            </article>
+        </section>
+</div>
+</div>
+
+</section>
+
+<!-- Footer -->
+<section id="footer">
+    <div class="inner">
+        <h2 class="major">Get in touch</h2>
+        <p>If you are interested in one of our projects and would like to get involved we would be happy to hear
+            from you!
+            Simply drop us a message and we'll get back to you in no time!</p>
+        <form method="post" action="{{ url_for('contact_request') }}">
+            <div class="fields">
+                <div class="field">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name"/>
+                </div>
+                <div class="field">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email"/>
+                </div>
+                <div class="field">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="4"></textarea>
+                </div>
+            </div>
+            <ul class="actions">
+                <li><input type="submit" value="Send Message"/></li>
             </ul>
-            <ul class="copyright">
-                <li>&copy; iGEM Tübingen All rights reserved.</li>
-                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-            </ul>
-        </div>
-    </section>
+        </form>
+        <ul class="contact">
+            <li class="fa-home">
+                iGEM Tübingen<br/>
+                Hoppe-Seyler-Straße 4<br/>
+                72076 Tübingen
+            </li>
+            <li class="fa-phone">(000) 000-0000</li>
+            <li class="fa-envelope"><a href="mailto:igem@ifib.uni-tuebingen.de?Subject=iGEM%20Tuebingen">Send us a
+                Mail!</a></li>
+            <li class="fa-twitter"><a href="https://twitter.com/igemtuebingen">Follow us on Twitter!</a></li>
+            <li class="fa-facebook"><a href="https://facebook.com/igemtuebingen">Like us on Facebook!</a></li>
+            <li class="fa-instagram"><a href="https://instagram.com/igem_tuebingen">Follow us on Instagram!</a></li>
+        </ul>
+        <ul class="copyright">
+            <li>&copy; iGEM Tübingen All rights reserved.</li>
+            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+    </div>
+</section>
 
 </div>
 
