@@ -52,7 +52,6 @@
         <header>
             <div class="inner">
                 <h2>Gallery</h2>
-                <p>This website is currently under construction.</p>
             </div>
         </header>
         <!-- #region Jssor Slider Begin -->
@@ -74,36 +73,36 @@
             <div data-u="slides"
                  style="cursor:default;position:relative;top:0px;left:240px;width:720px;height:480px;overflow:hidden;">
                 <div>
-                    <img data-u="image" src="{{ url_for('static', filename='images/team_all.jpg') }}"/>
-                    <img data-u="thumb" src="{{ url_for('static', filename='images/team-s99x66.jpg') }}"/>
+                    <img data-u="image" src="{{ url_for('static', filename='images/gallery/team_all.jpg') }}"/>
+                    <img data-u="thumb" src="{{ url_for('static', filename='images/gallery/team-s99x66.jpg') }}"/>
                 </div>
                 <div>
-                    <img data-u="image" src="{{ url_for('static', filename='images/GKT_1.jpg') }}"/>
-                    <img data-u="thumb" src="{{ url_for('static', filename='images/GKT1-s99x66.jpg') }}"/>
+                    <img data-u="image" src="{{ url_for('static', filename='images/gallery/GKT_1.jpg') }}"/>
+                    <img data-u="thumb" src="{{ url_for('static', filename='images/gallery/GKT1-s99x66.jpg') }}"/>
                 </div>
                 <div>
-                    <img data-u="image" src="{{ url_for('static', filename='images/GKT_2.jpg') }}"/>
-                    <img data-u="thumb" src="{{ url_for('static', filename='images/GKT2-s99x66.jpg') }}"/>
+                    <img data-u="image" src="{{ url_for('static', filename='images/gallery/GKT_2.jpg') }}"/>
+                    <img data-u="thumb" src="{{ url_for('static', filename='images/gallery/GKT2-s99x66.jpg') }}"/>
                 </div>
                 <div>
-                    <img data-u="image" src="{{ url_for('static', filename='images/GKT_3.jpg') }}"/>
-                    <img data-u="thumb" src="{{ url_for('static', filename='images/GKT3-s99x66.jpg') }}"/>
+                    <img data-u="image" src="{{ url_for('static', filename='images/gallery/GKT_3.jpg') }}"/>
+                    <img data-u="thumb" src="{{ url_for('static', filename='images/gallery/GKT3-s99x66.jpg') }}"/>
                 </div>
                 <div>
-                    <img data-u="image" src="{{ url_for('static', filename='images/pic05.jpg') }}"/>
-                    <img data-u="thumb" src="{{ url_for('static', filename='images/pic05-s99x66.jpg') }}"/>
+                    <img data-u="image" src="{{ url_for('static', filename='images/gallery/waterfall_1.jpg') }}"/>
+                    <img data-u="thumb" src="{{ url_for('static', filename='images/gallery/waterfall_1-s99x66.jpg') }}"/>
                 </div>
                 <div>
-                    <img data-u="image" src="{{ url_for('static', filename='images/pic06.jpg') }}"/>
-                    <img data-u="thumb" src="{{ url_for('static', filename='images/pic05-s99x66.jpg') }}"/>
+                    <img data-u="image" src="{{ url_for('static', filename='images/gallery/urach_walking.jpg') }}"/>
+                    <img data-u="thumb" src="{{ url_for('static', filename='images/gallery/urach_walking-s99x66.jpg') }}"/>
                 </div>
                 <div>
-                    <img data-u="image" src="{{ url_for('static', filename='images/pic07.jpg') }}"/>
-                    <img data-u="thumb" src="{{ url_for('static', filename='images/pic05-s99x66.jpg') }}"/>
+                    <img data-u="image" src="{{ url_for('static', filename='images/gallery/urach_castle.jpg') }}"/>
+                    <img data-u="thumb" src="{{ url_for('static', filename='images/gallery/urach_castle-s99x66.jpg') }}"/>
                 </div>
                 <div>
-                    <img data-u="image" src="{{ url_for('static', filename='images/pic05.jpg') }}"/>
-                    <img data-u="thumb" src="{{ url_for('static', filename='images/pic05-s99x66.jpg') }}"/>
+                    <img data-u="image" src="{{ url_for('static', filename='images/gallery/urach_castle_2.jpg') }}"/>
+                    <img data-u="thumb" src="{{ url_for('static', filename='images/gallery/urach_castle_2-s99x66.jpg') }}"/>
                 </div>
             </div>
             <!-- Thumbnail Navigator -->
@@ -147,10 +146,10 @@
     <section class="features">
         <article>
             <a href="{{ url_for('about_igem_teamtuebingen') }}" class="image"><img
-                    src="{{ url_for('static', filename='images/team_all_cut.jpg') }}"
+                    src="{{ url_for('static', filename='images/team/team_all_cut.jpg') }}"
                     alt=""/></a>
             <h3 class="major">About iGEM and Team Tübingen</h3>
-            <p>About iGEM and Team Tübingen</p>
+            <p>Read about the iGEM competition and get to know our team!</p>
             <a href="{{ url_for('about_igem_teamtuebingen') }}" class="special">Learn more</a>
         </article>
         <article>
@@ -158,7 +157,7 @@
                     src="{{ url_for('static', filename='images/library_cut.jpg') }}"
                     alt=""/></a>
             <h3 class="major">History of iGEM Tübingen</h3>
-            <p>Team Tübingen has been participating in iGEM since 2012.</p>
+            <p>Team Tübingen has been participating in iGEM since 2012. Take a look at our past projects and accomplishments.</p>
             <a href="{{ url_for('history') }}" class="special">Learn more</a>
         </article>
     </section>
