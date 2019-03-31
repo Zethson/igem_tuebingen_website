@@ -4,4 +4,4 @@ from ..app import app
 
 @app.route('/favicon.ico')
 def hello():
-    return redirect(url_for('static', filename='protein_icon.png'), code=302)
+    return redirect(url_for('static', filename='images/icons/logo_1.5.jpg'), code=302)
