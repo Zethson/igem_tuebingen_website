@@ -204,73 +204,73 @@ section{
 
     /* Just add an animation for each image (if necessary);
     pictures are numbered by their order appearing in the about_igem_teamtuebingen.html file */
-    .card:nth-child(1){
-            animation: fadeIn .3s .3s backwards;
-    }
+    /*.card:nth-child(1){*/
+    /*        animation: fadeIn .3s .3s backwards;*/
+    /*}*/
 
-    .card:nth-child(2){
-           animation: fadeIn .3s .6s backwards;
-    }
+    /*.card:nth-child(2){*/
+    /*       animation: fadeIn .3s .6s backwards;*/
+    /*}*/
 
-    .card:nth-child(3){
-            animation: fadeIn .3s .9s backwards;
-    }
+    /*.card:nth-child(3){*/
+    /*        animation: fadeIn .3s .9s backwards;*/
+    /*}*/
 
-    .card:nth-child(4){
-            animation: fadeIn .3s 1.2s backwards;
-    }
+    /*.card:nth-child(4){*/
+    /*        animation: fadeIn .3s 1.2s backwards;*/
+    /*}*/
 
-    .card:nth-child(5){
-            animation: fadeIn .3s 1.5s backwards;
-    }
+    /*.card:nth-child(5){*/
+    /*        animation: fadeIn .3s 1.5s backwards;*/
+    /*}*/
 
-    .card:nth-child(6){
-            animation: fadeIn .3s 1.8s backwards;
-    }
+    /*.card:nth-child(6){*/
+    /*        animation: fadeIn .3s 1.8s backwards;*/
+    /*}*/
 
-    .card:nth-child(7){
-            animation: fadeIn .3s 2.1s backwards;
-    }
+    /*.card:nth-child(7){*/
+    /*        animation: fadeIn .3s 2.1s backwards;*/
+    /*}*/
 
-    .card:nth-child(8){
-            animation: fadeIn .3s 2.4s backwards;
-    }
+    /*.card:nth-child(8){*/
+    /*        animation: fadeIn .3s 2.4s backwards;*/
+    /*}*/
 
-    .card:nth-child(9){
-            animation: fadeIn .3s 2.7s backwards;
-    }
+    /*.card:nth-child(9){*/
+    /*        animation: fadeIn .3s 2.7s backwards;*/
+    /*}*/
 
-    .card:nth-child(10){
-            animation: fadeIn .3s 3.0s backwards;
-    }
+    /*.card:nth-child(10){*/
+    /*        animation: fadeIn .3s 3.0s backwards;*/
+    /*}*/
 
-    .card:nth-child(11){
-            animation: fadeIn .3s 3.3s backwards;
-    }
+    /*.card:nth-child(11){*/
+    /*        animation: fadeIn .3s 3.3s backwards;*/
+    /*}*/
 
-    .card:nth-child(12){
-            animation: fadeIn .3s 3.6s backwards;
-    }
+    /*.card:nth-child(12){*/
+    /*        animation: fadeIn .3s 3.6s backwards;*/
+    /*}*/
 
-    .card:nth-child(13){
-            animation: fadeIn .3s 3.9s backwards;
-    }
+    /*.card:nth-child(13){*/
+    /*        animation: fadeIn .3s 3.9s backwards;*/
+    /*}*/
 
-    .card:nth-child(14){
-            animation: fadeIn .3s 4.2s backwards;
-    }
+    /*.card:nth-child(14){*/
+    /*        animation: fadeIn .3s 4.2s backwards;*/
+    /*}*/
 
-    .card:nth-child(15){
-            animation: fadeIn .3s 4.5s backwards;
-    }
+    /*.card:nth-child(15){*/
+    /*        animation: fadeIn .3s 4.5s backwards;*/
+    /*}*/
 
-    .card:nth-child(16){
-            animation: fadeIn .3s 4.8s backwards;
-    }
+    /*.card:nth-child(16){*/
+    /*        animation: fadeIn .3s 4.8s backwards;*/
+    /*}*/
 
-    .card:nth-child(17){
-            animation: fadeIn .3s 5.1s backwards;
-    }
+    /*.card:nth-child(17){*/
+    /*        animation: fadeIn .3s 5.1s backwards;*/
+    /*}*/
 
     .card:hover{
         transform: scale(1.05);
