@@ -123,3 +123,12 @@
             .jssort101 .pav .t, .jssort101 .p:hover .t {
                 opacity: 1;
             }
+
+
+ .images p {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+}
