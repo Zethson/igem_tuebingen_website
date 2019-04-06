@@ -1,5 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
+@import url("https://fonts.googleapis.com/css?family=Droid+Serif");
 
 /*
 	Solid State by HTML5 UP
@@ -4118,7 +4119,7 @@ body.is-preload #banner p {
 }
 
 .subtitle {
-    font-family: Raleway, Helvetica, sans-serif;
+    font-family: "Droid Serif";
     text-align: center;
     font-weight: 700;
     letter-spacing: 0.1em;
