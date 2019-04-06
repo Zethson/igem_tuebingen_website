@@ -123,3 +123,31 @@
             .jssort101 .pav .t, .jssort101 .p:hover .t {
                 opacity: 1;
             }
+
+ .images-caption-top p {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 350px;
+  left: 0;
+}
+
+  .images-caption-bottom p {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+}
+
+p.normal {
+  font-weight: normal;
+}
+
+p.thick {
+  font-weight: bold;
+}
+
+p.thicker {
+  font-weight: 900;
+}

@@ -66,6 +66,14 @@
   opacity: 0;
   right: calc(-100% - 56px);
 }
+
+@media screen and (max-width: 500px) {
+
+    .timeline-item text {
+        font-size: 40px;
+    }
+}
+
 .timeline-item:nth-child(even) {
   align-self: flex-end;
 }
@@ -93,11 +101,13 @@
 }
 @media only screen and (max-width: 767px) {
   .timeline-item {
+    content: "";
     align-self: baseline !important;
     width: 100%;
     padding: 0 30px 150px 80px;
   }
   .timeline-item:before {
+      content: attr(data-text);
     left: 10px !important;
     padding: 0 !important;
     top: 50px;
@@ -146,6 +156,19 @@
   font-weight: normal;
   margin: 0;
 }
+
+@media screen and (max-width: 500px) {
+
+    .timeline-header__title {
+        font-size: 40px;
+    }
+
+    .timeline-header__subtitle {
+        font-size: 30px;
+    }
+
+}
+
 .timeline-header__subtitle {
   color: rgba(255, 255, 255, 0.5);
   font-family: "Pathway Gothic One", sans-serif;

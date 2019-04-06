@@ -1,5 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
+@import url("https://fonts.googleapis.com/css?family=Droid+Serif");
 
 /*
 	Solid State by HTML5 UP
@@ -4107,6 +4108,38 @@ body.is-preload #banner p {
 
     #footer .inner {
         padding: 2em 1.5em 0.1em 1.5em;
+    }
+
+}
+
+.backi {
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/09/16/24/virus-1812092_960_720.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.subtitle {
+    font-family: "Droid Serif";
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    margin: 0 0 2em 0;
+    text-transform: uppercase;
+}
+
+.subtitle h2 {
+    font-family: "Droid Serif";
+    font-size: 5.0em;
+}
+
+.subtitle p {
+    font-size: 1.8em;
+}
+
+@media screen and (max-width: 500px) {
+
+    .subtitle h2 {
+        font-size: 2.0em;
     }
 
 }

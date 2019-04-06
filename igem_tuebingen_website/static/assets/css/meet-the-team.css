@@ -115,7 +115,7 @@ section{
 
 .about{
     font-size: 1.8rem;
-    margin: 0;
+    margin: 1em;
     font-style: italic;
     text-align: center;
     color: #333;
@@ -178,6 +178,29 @@ section{
 .fa-linkedin:hover,
 .fa-envelope:hover{
     color: #45e19f;
+}
+
+@media screen and (max-width: 500px){
+
+    .card h1{
+        font-size: 2.3rem;
+    }
+
+    .about{
+        font-size: 1.4rem;
+        max-width: 70%;
+    }
+
+    .subitem{
+        font-size: 1.6rem;
+        max-width: 70%;
+    }
+
+    .job-title{
+        font-size: 1.8rem;
+        max-width: 70%;
+    }
+
 }
 
 @media screen and (min-width: 700px){
