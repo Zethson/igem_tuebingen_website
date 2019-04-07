@@ -2,7 +2,7 @@ pytest
 gevent
 click
 Flask-Mail
+Flask
 Flask-Babel
 Babel
-Flask
 configparser
