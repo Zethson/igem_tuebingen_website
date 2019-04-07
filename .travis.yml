@@ -8,7 +8,7 @@ matrix:
 
 install:
   - cd ${TRAVIS_BUILD_DIR}
-  - pip install .
+  - pip install --verbose .
   - pip install codecov pytest pytest-cov
 
 script: python -m pytest --cov=igem_tuebingen_website .
