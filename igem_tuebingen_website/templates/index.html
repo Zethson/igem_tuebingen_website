@@ -21,7 +21,7 @@
 
     <!-- Header -->
     <header id="header" class="alt">
-        <h1><a href="{{ url_for('index') }}">iGEM Tübingen</a></h1>
+        <h1><a href="{{ url_for('index') }}">{{ _('iGEM Tübingen') }}</a></h1>
         <nav>
             <a href="#menu">Menu</a>
         </nav>
@@ -64,7 +64,7 @@
                         src="{{ url_for('static', filename='images/subsite_icons/IGEM_logo.png') }}" alt=""/></a>
                 <div class="content">
                     <h2 class="major">About iGEM and Team Tübingen</h2>
-                    <p>Read about the iGEM competition and get to know our team!</p>
+                    <p>{{ _('Read about the iGEM competition and get to know our team!') }}</p>
                     <a href="{{ url_for('about_igem_teamtuebingen') }}" class="special">Learn more</a>
                 </div>
             </div>
@@ -77,7 +77,7 @@
                         src="{{ url_for('static', filename='images/subsite_icons/project_bacteria_cut_2_squared.jpg') }}"
                         alt=""/></a>
                 <div class="content">
-                    <h2 class="major">Project 2019</h2>
+                    <h2 class="major">{{ _('Project 2019') }}</h2>
                     <p>The aim of the project 2019 is to generate a probiotic for the therapy of Type II Diabetes
                         Mellitus, based on a plasmid chassis incorporating a Cas3 self-kill mechanism to prevent the
                         spread of GMOs in the environment.</p>

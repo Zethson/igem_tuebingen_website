@@ -2,6 +2,7 @@ import logging
 import os
 import configparser
 from flask import Flask
+from flask_babel import Babel
 
 console = logging.StreamHandler()
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -16,6 +17,11 @@ STATIC_PATH = os.path.join(MODULE_DIR, 'static')
 TEMPLATES_PATH = os.path.join(MODULE_DIR, 'templates')
 
 app = Flask(__name__)
+app.config['BABEL_DEFAULT_LOCALE'] = 'en'
+app.config['BABEL_TRANSLATION_DIRECTORIES'] = 'translations'
+
+babel = Babel(app)
+
 try:
     config = configparser.ConfigParser()
     config.read(STATIC_PATH + '/mail.conf')
