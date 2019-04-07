@@ -3,5 +3,5 @@ gevent
 click
 Flask-Babel
 Flask-Mail
-Flask
+Flask>=1.0.2
 configparser
