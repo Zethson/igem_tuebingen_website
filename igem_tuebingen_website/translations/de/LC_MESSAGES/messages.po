@@ -1,15 +1,16 @@
-# German translations for PROJECT.
-# Copyright (C) 2019 ORGANIZATION
+# German translations for iGEM Tübingen Website.
+# Copyright (C) 2019 iGEM Tübingen
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# Lukas Heumos <lukas.heumos@posteo.net>, 2019.
+# Philipp Ehmele <philipp_ehm@protonmail.com>, 2019.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"Project-Id-Version: 1.0.0\n"
+"Report-Msgid-Bugs-To: philipp_ehm@protonmail.com\n"
 "POT-Creation-Date: 2019-04-07 19:24+0200\n"
 "PO-Revision-Date: 2019-04-07 18:51+0200\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: Philipp Ehmele <philipp_ehm@protonmail.com>\n"
 "Language: de\n"
 "Language-Team: de <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
