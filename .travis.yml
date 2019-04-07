@@ -10,6 +10,7 @@ install:
   - cd ${TRAVIS_BUILD_DIR}
   - pip install flask
   - pip install flask-babel
+  - pip install flask-mail
   - pip install . -vvv
   - pip install codecov pytest pytest-cov
 
