@@ -1,8 +1,7 @@
 pytest
 gevent
 click
+Flask-Babel
 Flask-Mail
 Flask
-Flask-Babel
-Babel
 configparser
