@@ -1,7 +1,7 @@
 import logging
 import os
 import configparser
-from flask import Flask
+from flask import Flask, request
 from flask_babel import Babel
 
 console = logging.StreamHandler()
@@ -46,5 +46,12 @@ except KeyError:
         MAIL_USERNAME="username_not_available",
         MAIL_PASSWORD="password_not_available"
     )
+
+
+@babel.localeselector
+def get_locale():
+    #  return 'de': use this for testing purposes or set preferred language in your browser
+    return request.accept_languages.best_match(['en', 'de'])
+
 
 from . import handlers
