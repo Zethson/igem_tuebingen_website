@@ -23,6 +23,15 @@
     <header id="header" class="alt">
         <h1><a href="{{ url_for('index') }}">{{ _('iGEM Tübingen') }}</a></h1>
         <nav>
+            {% if CURRENT_LANGUAGE == 'en' %}
+        <a href="{{ url_for('set_language', language='de') }}">
+            <img src="https://cdn.pixabay.com/photo/2012/04/12/23/52/germany-31017_960_720.png" style="width:60px;height:35px;border:0;border-radius: 25%; margin-top: 0;">
+        </a>
+    {% else %}
+        <a href="{{ url_for('set_language', language='en') }}">
+            <img src="https://cdn.pixabay.com/photo/2015/11/06/13/29/union-jack-1027898_960_720.jpg" style="width:60px;height:35px;border:0;border-radius: 25%;margin-top: 0;">
+        </a>
+    {%  endif %}
             <a href="#menu">Menu</a>
         </nav>
     </header>
@@ -44,6 +53,7 @@
             <a href="#" class="close">Close</a>
         </div>
     </nav>
+
 
     <!-- Banner -->
     <div class="backi">

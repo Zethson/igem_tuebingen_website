@@ -1,6 +1,6 @@
 import logging
 import configparser
-from flask import Flask, request
+from flask import Flask, request, session
 from flask_babel import Babel
 import os
 import click
@@ -18,8 +18,14 @@ STATIC_PATH = os.path.join(MODULE_DIR, 'static')
 TEMPLATES_PATH = os.path.join(MODULE_DIR, 'templates')
 
 app = Flask(__name__)
+app.secret_key = 'SOME_SUPERSECRETKEY'  # bad practice
 app.config['BABEL_DEFAULT_LOCALE'] = 'en'
 app.config['BABEL_TRANSLATION_DIRECTORIES'] = 'translations'
+
+LANGUAGES = {
+  'en': 'English',
+  'de': 'German'
+}
 
 babel = Babel(app)
 
@@ -85,10 +91,32 @@ def compile():
         raise RuntimeError('compile command failed')
 
 
+"""This selector checks, if the user selected a language manually and in that case uses this language for translations.
+    
+   However, if the user has not selected any language (when accessing the page for the first time, new browser session,
+   ...) it will choose the best matching language out of the configured ones, using browser settings and request headers
+   "Accept-Language:" property
+"""
 @babel.localeselector
 def get_locale():
-    #  return 'de': use this for testing purposes or set preferred language in your browser
-    return request.accept_languages.best_match(['en', 'de'])
+    # if the user has set up the language manually it will be stored in the session,
+    # so we use the locale from the user settings
+    try:
+        language = session['language']
+    except KeyError:
+        language = None
+    if language is not None:
+        return language
+    return request.accept_languages.best_match(LANGUAGES.keys())
+
+
+"""This function allows us to use all possible language options and the current language in our templates"""
+@app.context_processor
+def inject_conf_var():
+    return dict(
+                AVAILABLE_LANGUAGES=LANGUAGES,
+                CURRENT_LANGUAGE=session.get('language', request.accept_languages.best_match(LANGUAGES.keys())))
+
 
 
 from . import handlers
