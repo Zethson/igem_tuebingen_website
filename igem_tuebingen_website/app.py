@@ -35,8 +35,8 @@ try:
     mail_username = config['DEFAULT']['gmail_user_name']
     mail_password = config['DEFAULT']['gmail_password']
 
+    # EMAIL SETTINGS
     app.config.update(
-        # EMAIL SETTINGS
         MAIL_SERVER='smtp.gmail.com',
         MAIL_PORT=465,
         MAIL_USE_SSL=True,
@@ -44,9 +44,10 @@ try:
         MAIL_PASSWORD=mail_password
     )
 except KeyError:
-    LOG.error("Mail config file could not be found! Sending emails via form has been disabled!")
+    LOG.warning("Mail config file could not be found! Sending emails via form has been disabled!")
+
+    # EMAIL SETTINGS
     app.config.update(
-        # EMAIL SETTINGS
         MAIL_SERVER='smtp.gmail.com',
         MAIL_PORT=465,
         MAIL_USE_SSL=True,

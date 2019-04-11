@@ -21,7 +21,7 @@ TEMPLATES_PATH = os.path.join(MODULE_DIR, 'templates')
 
 
 @click.command()
-@click.option('-d', '--debug',
+@click.option('-d/-p', '--debug/--production',
               help='Enable Flask debugger', required=False)
 @click.option('-l', '--listen', default='0.0.0.0',
               help='Listen to this address for HTTP', required=False)
