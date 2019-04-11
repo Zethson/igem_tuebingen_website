@@ -4113,7 +4113,7 @@ body.is-preload #banner p {
 }
 
 .backi {
-    background-image: url("https://cdn.pixabay.com/photo/2016/11/09/16/24/virus-1812092_960_720.jpg");
+    background-image: url("images/virus.jpg");
     background-attachment: fixed;
     background-size: cover;
 }

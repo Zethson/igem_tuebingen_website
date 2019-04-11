@@ -17,7 +17,7 @@ $ cd ~
 
 $ git clone https://github.com/Zethson/igem_tuebingen_website
 ```
-Substitute the URL given in igem_tuebingen_website/production_setup/dark_proteome_visualization with your domains    
+Substitute the URL given in igem_tuebingen_website/production_setup/igem_tuebingen_website with your domains.    
 Substitute the username in the igem_tuebingen_website/production_setup/igem_tuebingen_website.service file.    
 You may need to substitute the port.    
 Rename the username given in the igem_tuebingen_website/production_setup/setup.sh script to match your home folder.
