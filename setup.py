@@ -40,7 +40,7 @@ setup(
     package_data={
         module.__name__: walker(
             os.path.dirname(module.__file__),
-            'templates', 'static'
+            'templates', 'static', 'translations'
         ),
     },
     entry_points={
