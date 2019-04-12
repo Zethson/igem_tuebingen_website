@@ -2,6 +2,7 @@ import logging
 import configparser
 from flask import Flask, request, session
 from flask_babel import Babel
+from .config import Config
 import os
 import click
 
@@ -12,26 +13,14 @@ LOG = logging.getLogger("App")
 LOG.addHandler(console)
 LOG.setLevel(logging.INFO)
 
-CURRENT_DIR = os.path.abspath(os.getcwd())
-MODULE_DIR = os.path.dirname(os.path.abspath(__file__))
-STATIC_PATH = os.path.join(MODULE_DIR, 'static')
-TEMPLATES_PATH = os.path.join(MODULE_DIR, 'templates')
 
 app = Flask(__name__)
-app.secret_key = 'SOME_SUPERSECRETKEY'  # bad practice
-app.config['BABEL_DEFAULT_LOCALE'] = 'en'
-app.config['BABEL_TRANSLATION_DIRECTORIES'] = 'translations'
-
-LANGUAGES = {
-  'en': 'English',
-  'de': 'German'
-}
-
+app.config.from_object(Config)
 babel = Babel(app)
 
 try:
     config = configparser.ConfigParser()
-    config.read(STATIC_PATH + '/mail.conf')
+    config.read(Config.STATIC_PATH + '/mail.conf')
     mail_username = config['DEFAULT']['gmail_user_name']
     mail_password = config['DEFAULT']['gmail_password']
 
@@ -108,15 +97,15 @@ def get_locale():
         language = None
     if language is not None:
         return language
-    return request.accept_languages.best_match(LANGUAGES.keys())
+    return request.accept_languages.best_match(Config.LANGUAGES.keys())
 
 
 """This function allows us to use all possible language options and the current language in our templates"""
 @app.context_processor
 def inject_conf_var():
     return dict(
-                AVAILABLE_LANGUAGES=LANGUAGES,
-                CURRENT_LANGUAGE=session.get('language', request.accept_languages.best_match(LANGUAGES.keys())))
+                AVAILABLE_LANGUAGES=Config.LANGUAGES,
+                CURRENT_LANGUAGE=session.get('language', request.accept_languages.best_match(Config.LANGUAGES.keys())))
 
 
 
