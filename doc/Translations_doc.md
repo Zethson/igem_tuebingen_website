@@ -11,7 +11,7 @@ $ pybabel extract -F babel.cfg -o messages.pot .
 
 2. Initialize a translation file for a (new) language using (with its literal as a paramter for the -l option)
 ```bash
-$ pybabel init -i messages.pot -d igem_tuebingen_website/translations -l
+$ pybabel init -i messages.pot -d path/to/your/translations/folder/translations -l
 ```
 
 3. Compile this file to actual lower level code for usage with 
@@ -36,12 +36,22 @@ The commands are:
 ```bash
 $ flask translate init [new language literal]
 
-$ flask translate update //this updates the messages.po (translation file) if changes has been made
+$ flask translate update //this updates the messages.po (translation file) when changes has been made
+
+$ flask translate compile
+```
+Note that you´ll have to compile everytime you made a change (via update/init) in order to get the translation working
+On top of that, the messages.pot file will be removed if everything goes fine.
+
+So a typical workflow, if some changes has been made, will look like:
+
+```bash
+$ flask translate update 
 
 $ flask translate compile
 ```
 
-Note that the messages.pot file will be removed if everything goes fine.
+That´s all!
 
 Type
 ```bash
