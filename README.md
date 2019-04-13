@@ -17,7 +17,7 @@ $ igem_tuebingen_website -l 127.0.0.1
 If you don't want to enable messaging support you can skip steps 1-3.
 Less secure applications need to be enabled to receive and send messages in any forms.    
 You can find the credentials for our gmail website service account in our centralized drive document.   
-Consult the [translation docs](docs/translations.md) for instructions to update the translations.         
+Consult the [translation docs](doc/translations.md) for instructions to update the translations.         
 Point your browser to http://127.0.0.1:5000/    
 
 # Production Setup
