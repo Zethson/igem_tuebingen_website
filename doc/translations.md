@@ -40,7 +40,7 @@ $ flask translate update //this updates the messages.po (translation file) when 
 
 $ flask translate compile
 ```
-Note that you´ll have to compile everytime you made a change (via update/init) in order to get the translation working
+Note that you´ll have to compile every time you made a change (via update/init) in order to get the translation working
 On top of that, the messages.pot file will be removed if everything goes fine.
 
 So a typical workflow, if some changes has been made, will look like:
