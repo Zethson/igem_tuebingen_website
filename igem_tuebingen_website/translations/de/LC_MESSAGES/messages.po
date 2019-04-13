@@ -1,6 +1,6 @@
 # German translations for iGEM Tübingen Website.
 # Copyright (C) 2019 iGEM Tübingen
-# This file is distributed under the same license as the  project.
+# This file is distributed under the MIT license.
 # Lukas Heumos <lukas.heumos@posteo.net>, 2019.
 # Philipp Ehmele <philipp_ehm@protonmail.com>, 2019.
 #
@@ -21,11 +21,11 @@ msgstr ""
 
 #: igem_tuebingen_website/templates/index.html:24
 msgid "iGEM Tübingen"
-msgstr "Test"
+msgstr "iGEM Tübingen"
 
 #: igem_tuebingen_website/templates/index.html:67
 msgid "Read about the iGEM competition and get to know our team!"
-msgstr "Dies ist ein deutscher Testsatz"
+msgstr "Finden Sie mehr über den iGEM Wettbewerb heraus und lernen Sie unser Team kennen!"
 
 #: igem_tuebingen_website/templates/index.html:80
 msgid "Project 2019"
@@ -34,7 +34,7 @@ msgstr "Projekt 2019"
 #: igem_tuebingen_website/templates/index.html:157
 msgid ""
 "If you are interested in one of our projects and would like to get "
-"involved we would be happy to hear\n"
+"involved we would be happy to hear "
 "                from you!"
-msgstr "Wenn sie an einem unserer Projekte interessiert sind ... usw."
+msgstr "Wenn sie an einem unserer Projekte interessiert sind und involviert werden möchten würden wir uns freuen von Ihnen zu hören!"
 
