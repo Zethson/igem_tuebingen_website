@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  1.0.0\n"
 "Report-Msgid-Bugs-To: philipp_ehm@protonmail.com\n"
-"POT-Creation-Date: 2019-04-14 17:26+0200\n"
+"POT-Creation-Date: 2019-04-14 17:39+0200\n"
 "PO-Revision-Date: 2019-04-07 18:51+0200\n"
 "Last-Translator: Philipp Ehmele <philipp_ehm@protonmail.com>\n"
 "Language: de\n"
@@ -36,6 +36,7 @@ msgstr ""
 #: igem_tuebingen_website/templates/contact_error.html:36
 #: igem_tuebingen_website/templates/contact_successful.html:37
 #: igem_tuebingen_website/templates/gallery.html:38
+#: igem_tuebingen_website/templates/gallery.html:189
 #: igem_tuebingen_website/templates/generic.html:36
 #: igem_tuebingen_website/templates/get_involved.html:36
 #: igem_tuebingen_website/templates/history.html:37
@@ -267,6 +268,7 @@ msgstr ""
 #: build/lib/igem_tuebingen_website/templates/about_igem_teamtuebingen.html:733
 #: build/lib/igem_tuebingen_website/templates/index.html:125
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:733
+#: igem_tuebingen_website/templates/gallery.html:198
 #: igem_tuebingen_website/templates/index.html:125
 msgid ""
 "Team Tübingen has been participating in iGEM since 2012. Take a look at "
@@ -277,10 +279,15 @@ msgstr ""
 "Projekte und Errungenschaften."
 
 #: build/lib/igem_tuebingen_website/templates/about_igem_teamtuebingen.html:746
+#: build/lib/igem_tuebingen_website/templates/contact_error.html:77
+#: build/lib/igem_tuebingen_website/templates/contact_successful.html:79
 #: build/lib/igem_tuebingen_website/templates/index.html:169
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:746
 #: igem_tuebingen_website/templates/contact_error.html:77
 #: igem_tuebingen_website/templates/contact_successful.html:79
+#: igem_tuebingen_website/templates/gallery.html:212
+#: igem_tuebingen_website/templates/generic.html:109
+#: igem_tuebingen_website/templates/get_involved.html:151
 #: igem_tuebingen_website/templates/index.html:169
 msgid ""
 "If you are interested in one of our projects and would like to get "
@@ -294,19 +301,29 @@ msgstr ""
 "schnellstmöglich bei Dir melden!"
 
 #: build/lib/igem_tuebingen_website/templates/about_igem_teamtuebingen.html:759
+#: build/lib/igem_tuebingen_website/templates/contact_error.html:90
+#: build/lib/igem_tuebingen_website/templates/contact_successful.html:92
 #: build/lib/igem_tuebingen_website/templates/index.html:182
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:759
 #: igem_tuebingen_website/templates/contact_error.html:90
 #: igem_tuebingen_website/templates/contact_successful.html:92
+#: igem_tuebingen_website/templates/gallery.html:225
+#: igem_tuebingen_website/templates/generic.html:122
+#: igem_tuebingen_website/templates/get_involved.html:164
 #: igem_tuebingen_website/templates/index.html:182
 msgid "Message"
 msgstr "Nachricht"
 
 #: build/lib/igem_tuebingen_website/templates/about_igem_teamtuebingen.html:774
+#: build/lib/igem_tuebingen_website/templates/contact_error.html:105
+#: build/lib/igem_tuebingen_website/templates/contact_successful.html:107
 #: build/lib/igem_tuebingen_website/templates/index.html:197
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:774
 #: igem_tuebingen_website/templates/contact_error.html:105
 #: igem_tuebingen_website/templates/contact_successful.html:107
+#: igem_tuebingen_website/templates/gallery.html:240
+#: igem_tuebingen_website/templates/generic.html:137
+#: igem_tuebingen_website/templates/get_involved.html:179
 #: igem_tuebingen_website/templates/index.html:197
 msgid ""
 "Send us a\n"
@@ -314,28 +331,43 @@ msgid ""
 msgstr "Sende uns eine Mail!"
 
 #: build/lib/igem_tuebingen_website/templates/about_igem_teamtuebingen.html:776
+#: build/lib/igem_tuebingen_website/templates/contact_error.html:107
+#: build/lib/igem_tuebingen_website/templates/contact_successful.html:109
 #: build/lib/igem_tuebingen_website/templates/index.html:199
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:776
 #: igem_tuebingen_website/templates/contact_error.html:107
 #: igem_tuebingen_website/templates/contact_successful.html:109
+#: igem_tuebingen_website/templates/gallery.html:242
+#: igem_tuebingen_website/templates/generic.html:139
+#: igem_tuebingen_website/templates/get_involved.html:181
 #: igem_tuebingen_website/templates/index.html:199
 msgid "Follow us on Twitter!"
 msgstr "Folge uns auf Twitter!"
 
 #: build/lib/igem_tuebingen_website/templates/about_igem_teamtuebingen.html:777
+#: build/lib/igem_tuebingen_website/templates/contact_error.html:108
+#: build/lib/igem_tuebingen_website/templates/contact_successful.html:110
 #: build/lib/igem_tuebingen_website/templates/index.html:200
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:777
 #: igem_tuebingen_website/templates/contact_error.html:108
 #: igem_tuebingen_website/templates/contact_successful.html:110
+#: igem_tuebingen_website/templates/gallery.html:243
+#: igem_tuebingen_website/templates/generic.html:140
+#: igem_tuebingen_website/templates/get_involved.html:182
 #: igem_tuebingen_website/templates/index.html:200
 msgid "Like us on Facebook!"
 msgstr "Like uns auf Facebook!"
 
 #: build/lib/igem_tuebingen_website/templates/about_igem_teamtuebingen.html:778
+#: build/lib/igem_tuebingen_website/templates/contact_error.html:109
+#: build/lib/igem_tuebingen_website/templates/contact_successful.html:111
 #: build/lib/igem_tuebingen_website/templates/index.html:201
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:778
 #: igem_tuebingen_website/templates/contact_error.html:109
 #: igem_tuebingen_website/templates/contact_successful.html:111
+#: igem_tuebingen_website/templates/gallery.html:244
+#: igem_tuebingen_website/templates/generic.html:141
+#: igem_tuebingen_website/templates/get_involved.html:183
 #: igem_tuebingen_website/templates/index.html:201
 msgid "Follow us on Instagram!"
 msgstr "Folge uns auf Instagram!"
@@ -346,6 +378,7 @@ msgid "iGEM Tübingen"
 msgstr "iGEM Tübingen"
 
 #: build/lib/igem_tuebingen_website/templates/index.html:79
+#: igem_tuebingen_website/templates/gallery.html:190
 #: igem_tuebingen_website/templates/index.html:79
 msgid "Read about the iGEM competition and get to know our team!"
 msgstr "Finde mehr über den iGEM Wettbewerb heraus und lerne unser Team kennen!"
@@ -408,4 +441,14 @@ msgid ""
 msgstr ""
 "Im Zuge unserer Teilnahmen bei iGEM wurden mehrere Softwarepakete "
 "entwickelt. Lies mehr über sie und finde die Download Instruktionen hier."
+
+#: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:745
+#: igem_tuebingen_website/templates/contact_error.html:76
+#: igem_tuebingen_website/templates/contact_successful.html:78
+#: igem_tuebingen_website/templates/gallery.html:211
+#: igem_tuebingen_website/templates/generic.html:108
+#: igem_tuebingen_website/templates/get_involved.html:150
+#: igem_tuebingen_website/templates/index.html:168
+msgid "Get in touch"
+msgstr "Kontaktiere uns"
 
