@@ -59,3 +59,15 @@ $ flask translate --help
 ```
 
 for more information about the different commands.
+
+# Mark text for translation
+
+In the HTML - template file, one has to mark text, that needs to be translated. 
+To mark the corresponding text, use the following syntax:
+```bash
+{{ _('TRANSLATE ME') }}
+```
+
+Note that one can also use methods to translate variables directly from python code; but since we don´t use them, it´s not important here.
+
+See [Flask Babel Docs](https://pythonhosted.org/Flask-Babel/) for more information.
