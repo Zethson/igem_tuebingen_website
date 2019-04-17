@@ -69,18 +69,18 @@
             <div class="wrapper">
                 <div class="inner">
 
-                    <h3 class="major">How to support us</h3>
-                    <p>The iGEM team Tübingen is an independent research group of motivated students and is therefore
+                    <h3 class="major">{{ _('How to support us') }}</h3>
+                    <p>{{ _('The iGEM team Tübingen is an independent research group of motivated students and is therefore
                         responsible for the organisation and financing of the project. In order to realize a successful
                         iGEM
                         project and achieve our goals in this competition, we need the support of researchers,
                         companies,
                         institutions, associations and private individuals.
                         Not only financial support, but also the provision of materials and resources or expertise helps
-                        us tremendously.</p>
+                        us tremendously.') }}</p>
 
-                    <h3 class="major">Participation</h3>
-                    <p> iGEM offers each of us a unique and valuable training opportunity that is hard to find anywhere
+                    <h3 class="major">{{ _('Participation') }}</h3>
+                    <p> {{ _('iGEM offers each of us a unique and valuable training opportunity that is hard to find anywhere
                         else. Not only are our practical skills deepened, expanded and improved within the framework of
                         a large project, it also gives us the opportunity to expand our knowledge and skills in other
                         areas. This enables us to learn valuable skills in the areas of project organization,
@@ -93,11 +93,11 @@
                         Experienced researchers play a vital role in the project development and planning stage.
                         Furthermore, they teach us important techniques and give valuable feedback. We would hereby like
                         to extend
-                        our invitation to experienced researchers who are willing to collaborate with us.
+                        our invitation to experienced researchers who are willing to collaborate with us.') }}
                     </p>
 
-                    <h3 class="major">Sponsoring</h3>
-                    <p> iGEM is an intensive experience that gives students the opportunity to continue their education
+                    <h3 class="major">{{ _('Sponsoring') }}</h3>
+                    <p> {{ _('iGEM is an intensive experience that gives students the opportunity to continue their education
                         outside of
                         their academic career and, by networking with professors, companies, researchers and former
                         participants, it draws on a large pool of knowledge and experience.
@@ -109,13 +109,11 @@
                         project. In return for a sponsorship of our project, our sponsors have the opportunity to
                         advertise
                         and represent themselves in public, at presentations, on our website and in many social
-                        networks.
-
-                        Our past and current sponsors can be found on our <a href="{{ url_for('sponsors') }}"
+                        networks.') }}
+                        {{ _('Our past and current sponsors can be found on our') }} <a href="{{ url_for('sponsors') }}"
                                                                              class="special">Sponsors Page</a>
-                        If you are interested in sponsoring us, please do not hesitate to contact us using the form at
-                        the
-                        bottom of the page!
+                        {{ _('If you are interested in sponsoring us, please do not hesitate to contact us using the form at
+                        the bottom of the page!') }}
                     </p>
 
 
@@ -124,17 +122,17 @@
                             <a href="{{ url_for('about_igem_teamtuebingen') }}" class="image"><img
                                     src="{{ url_for('static', filename='images/team/team_all_cut.jpg') }}"
                                     alt=""/></a>
-                            <h3 class="major">About iGEM and Team Tübingen</h3>
-                            <p>Read about the iGEM competition and get to know our team!</p>
-                            <a href="{{ url_for('about_igem_teamtuebingen') }}" class="special">Learn more</a>
+                            <h3 class="major">{{ _('About iGEM and Team Tübingen') }}</h3>
+                            <p>{{ _('Read about the iGEM competition and get to know our team!') }}</p>
+                            <a href="{{ url_for('about_igem_teamtuebingen') }}" class="special">{{ _('Learn more') }}</a>
                         </article>
                         <article>
                             <a href="{{ url_for('sponsors') }}" class="image"><img
                                     src="{{ url_for('static', filename='images/subsite_icons/sponsors_2_cut.jpg') }}"
                                     alt=""/></a>
-                            <h3 class="major">Our Sponsors</h3>
-                            <p>A project as ambitious as iGEM cannot be realized without the generous help of our
-                                sponsors.</p>
+                            <h3 class="major">{{ _('Our Sponsors') }}</h3>
+                            <p>{{ _('A project as ambitious as iGEM cannot be realized without the generous help of our
+                                sponsors.') }}</p>
                             <a href="{{ url_for('sponsors') }}" class="special">Learn more</a>
                         </article>
                     </section>
