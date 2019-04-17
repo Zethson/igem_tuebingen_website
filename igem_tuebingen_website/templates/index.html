@@ -25,11 +25,11 @@
         <nav>
             {% if CURRENT_LANGUAGE == 'en' %}
         <a href="{{ url_for('set_language', language='de') }}">
-            <img src="https://cdn.pixabay.com/photo/2012/04/12/23/52/germany-31017_960_720.png" style="width:60px;height:50px;border:0;border-radius: 25%; margin-right: 130px">
+            <img src="{{ url_for('static', filename='images/subsite_icons/german_flag_translation.png') }}" style="width:60px;height:50px;border:0;border-radius: 25%; margin-right: 130px">
         </a>
     {% else %}
         <a href="{{ url_for('set_language', language='en') }}">
-            <img src="https://cdn.pixabay.com/photo/2015/11/06/13/29/union-jack-1027898_960_720.jpg" style="width:60px;height:50px;border:0;border-radius: 25%; margin-right: 130px">
+            <img src="{{ url_for('static', filename='images/subsite_icons/uk_flag_translation.jpg') }}" style="width:60px;height:50px;border:0;border-radius: 25%; margin-right: 130px">
         </a>
     {%  endif %}
         </nav>
