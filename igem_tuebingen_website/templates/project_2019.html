@@ -69,81 +69,63 @@
             <div class="wrapper">
                 <div class="inner">
 
-                    <h3 class="major">Our project</h3>
+                    <h3 class="major">{{ _('Our project') }}</h3>
                     <p>
-                        The aim of the project 2019 is to generate a probiotic for the therapy of Type II Diabetes
+                        {{ _('The aim of the project 2019 is the generation of a probiotic for the therapy of Type II Diabetes
                         Mellitus based on a plasmid chassis incorporating a Cas3 self-kill mechanism to prevent
                         the spread of GMOs in the environment which also addresses the high amount of concerns associated
                         with GMOs and fulfills the necessary biosafety standards.
                         Moreover, the plasmid chassis allows for a controlled use of the probiotic and
                         limits its habitat to that of the human gut due to the incorporation of three different
-                        regulators
-                        inhibiting the Cas3 self-kill system when the bacterium is located in its designated
-                        environment. In
-                        the gut, our probiotic is supposed to form and secrete incretin mimetics in response to glucose.
-                        The
-                        incretin mimetics will be taken up by the enterocytes and are transported to the pancreas via
-                        the blood,
-                        where they enhance insulin secretion. Since Diabetes is one of the most prevalent diseases
+                        regulators inhibiting the Cas3 self-kill system when the bacterium is located in its designated
+                        environment. In the gut, our probiotic is supposed to form and secrete incretin mimetics in response to glucose.
+                        The incretin mimetics will be taken up by the enterocytes and are transported to the pancreas via
+                        the blood, where they enhance insulin secretion. Since Diabetes is one of the most prevalent diseases
                         nowadays, we address an important and relevant problem not only for the clinics but also for the
                         economy and world wide health situation. In addition to the development of such a GMO we also
-                        plan to model
-                        the efficiency, stability and kinetics of the self-kill mechanism. Using GUIDE-Seq and
+                        plan to model the efficiency, stability and kinetics of the self-kill mechanism. Using GUIDE-Seq and
                         Nextflow we will also determine the off-target cleavage of our Cas systems and plan to build a
                         GUIDE-Seq data analysis pipeline.
                         Our Cas3 biosafety probiotic chassis can also be used for different applications by exchanging
-                        the
-                        gene of interest within the plasmid. Therefore, our chassis can be used by researchers who
-                        search for a
-                        functional chassis which fulfills biosafety standards.
+                        the gene of interest within the plasmid. Therefore, our chassis can be used by researchers who
+                        search for a functional chassis which fulfills biosafety standards.') }}
                     </p>
 
-                    <h3 class="major">Type II Diabetes Mellitus and incretin mimetics</h3>
+                    <h3 class="major">{{ _('Type II Diabetes Mellitus and incretin mimetics') }}</h3>
                     <p>
-                        Type II Diabetes Mellitus is a metabolic disease that affects about 10% of the population. One
-                        of its
-                        major symptoms is the relative lack of insulin, which causes a decreased uptake of glucose into
-                        cells,
-                        leading to an energy crisis. In Type II Diabetes Mellitus the body compensates this
+                        {{ _('Type II Diabetes Mellitus is a metabolic disease that affects about 10% of the population. One
+                        of its major symptoms is the relative lack of insulin, which causes a decreased uptake of glucose into
+                        cells, leading to an energy crisis. In Type II Diabetes Mellitus the body compensates this
                         relative lack of insulin by secreting more insulin, which causes stress for insulin producing
-                        beta
-                        cells of the pancreas. This increased stress will, in the end, lead to the destruction of the
-                        beta
+                        beta cells of the pancreas. This increased stress will, in the end, lead to the destruction of the beta
                         cells, leaving the body with an absolute lack of insulin, making insulin substitution necessary.
                         In Type II Diabetes Mellitus the relative lack of insulin can have multiple reasons. It can be
                         induced by overconsumption of sugar-containing food, decreasing the sensitivity of the Insulin
                         Receptors, as they are downregulated. But it can also have genetic reasons, such as a mutation
                         in an essential gene etc.
                         A form of treatment for Type II Diabetes Mellitus are incretin mimetics. Incretin mimetics copy
-                        the
-                        incretin effect of incretins such as Glucagon Like Peptide 1. This is the explanation for the
-                        fact that
-                        oral uptake causes a bigger release of insulin, than the parenteral uptake.
+                        the incretin effect of incretins such as Glucagon Like Peptide 1. This is the explanation for the
+                        fact that oral uptake causes a bigger release of insulin, than the parenteral uptake.
                         Glucagon like peptide 1, produced in the L-cells of the intestine, is secreted upon nutrient
                         availability, and reaches the pancreas through the bloodstream. There it will bind its receptor
-                        (a
-                        G-protein coupled receptor), which will activate Adenylate Cyclase (if ATP is available within
-                        the
-                        cell), initiating the production of cAMP. Overall, this will lead to increased Calcium Ion
-                        influx,
-                        allowing for more Insulin to be secreted from the beta cells. This increased secretion will help
+                        (a G-protein coupled receptor), which will activate Adenylate Cyclase (if ATP is available within
+                        the cell), initiating the production of cAMP. Overall, this will lead to increased Calcium Ion
+                        influx, allowing for more Insulin to be secreted from the beta cells. This increased secretion will help
                         overcome a relative lack of insulin in Type II Diabetes Mellitus, if the amount of incretins
-                        secreted
-                        is sufficient.
+                        secreted is sufficient.') }}
                     </p>
 
-                    <h3 class="major">Genetically modified organisms (GMOs)</h3>
+                    <h3 class="major">{{ _('Genetically modified organisms (GMOs)') }}</h3>
                     <p>
-                        Genetically modified organisms (GMOs) are organisms whose genetic information has been altered
+                        {{ _('Genetically modified organisms (GMOs) are organisms whose genetic information has been altered
                         intentionally with the use of genetic engineering. The technique used and the way of alteration
                         varies between different GMOs and comprises gene knockouts and knockins as well as enhancement
-                        or
-                        repression of gene expression.
+                        or repression of gene expression.
                         GMOs open up many possibilities for basic research, food production, industry and
                         treatment or diagnosis of diseases. Concerns about GMOs have been raised by many people and
                         especially address their safety when intentionally or unintentionally released into the
                         environment.
-                        Therefore, efforts have been made and are still made towards ensuring the biosafety of GMOs.
+                        Therefore, efforts have been made and are still made towards ensuring the biosafety of GMOs.') }}
                     </p>
 
                     <section class="features">
@@ -151,18 +133,17 @@
                             <a href="{{ url_for('software') }}" class="image"><img
                                     src="{{ url_for('static', filename='images/subsite_icons/software_cut.jpg') }}"
                                     alt=""/></a>
-                            <h3 class="major">Software</h3>
-                            <p>Throughout our participations in iGEM, several software tools have been developed. Read
-                                more
-                                about them and find download instructions here.</p>
+                            <h3 class="major">{{ _('Software') }}</h3>
+                            <p>{{ _('Throughout our participations in iGEM several software tools have been developed. Read more
+                            about them and find download instructions here.') }}</p>
                             <a href="{{ url_for('software') }}" class="special">Learn more</a>
                         </article>
                         <article>
                             <a href="{{ url_for('gallery') }}" class="image"><img
                                     src="{{ url_for('static', filename='images/subsite_icons/gallery_cut.jpg') }}"
                                     alt=""/></a>
-                            <h3 class="major">Gallery</h3>
-                            <p>Gallery of our various iGEM teams, presentations and awesome projects.</p>
+                            <h3 class="major">{{ _('Gallery') }}</h3>
+                            <p>{{ _('A gallery of our various iGEM teams, presentations and awesome projects.') }}</p>
                             <a href="{{ url_for('gallery') }}" class="special">Learn more</a>
                         </article>
                     </section>
@@ -175,10 +156,9 @@
     <!-- Footer -->
     <section id="footer">
         <div class="inner">
-            <h2 class="major">Get in touch</h2>
-            <p>If you are interested in one of our projects and would like to get involved we would be happy to hear
-                from you!
-                Simply drop us a message and we'll get back to you in no time!</p>
+            <h2 class="major">{{ _('Get in touch') }}</h2>
+            <p>{{ _('If you are interested in one of our projects and would like to get involved we would be happy to hear
+                from you! Simply drop us a message and we will get back to you in no time!') }}</p>
             <form method="post" action="{{ url_for('contact_request') }}">
                 <div class="fields">
                     <div class="field">
@@ -190,7 +170,7 @@
                         <input type="email" name="email" id="email"/>
                     </div>
                     <div class="field">
-                        <label for="message">Message</label>
+                        <label for="message">{{ _('Message') }}</label>
                         <textarea name="message" id="message" rows="4"></textarea>
                     </div>
                 </div>
@@ -205,11 +185,11 @@
                     72076 Tübingen
                 </li>
                 <li class="fa-phone">+49 176 97894002</li>
-                <li class="fa-envelope"><a href="mailto:igem@ifib.uni-tuebingen.de?Subject=iGEM%20Tuebingen">Send us a
-                    Mail!</a></li>
-                <li class="fa-twitter"><a href="https://twitter.com/igemtuebingen">Follow us on Twitter!</a></li>
-                <li class="fa-facebook"><a href="https://facebook.com/igemtuebingen">Like us on Facebook!</a></li>
-                <li class="fa-instagram"><a href="https://instagram.com/igem_tuebingen">Follow us on Instagram!</a></li>
+                <li class="fa-envelope"><a href="mailto:igem@ifib.uni-tuebingen.de?Subject=iGEM%20Tuebingen">{{ _('Send us a
+                    Mail!') }}</a></li>
+                <li class="fa-twitter"><a href="https://twitter.com/igemtuebingen">{{ _('Follow us on Twitter!') }}</a></li>
+                <li class="fa-facebook"><a href="https://facebook.com/igemtuebingen">{{ _('Like us on Facebook!') }}</a></li>
+                <li class="fa-instagram"><a href="https://instagram.com/igem_tuebingen">{{ _('Follow us on Instagram!') }}</a></li>
             </ul>
             <ul class="copyright">
                 <li>&copy; iGEM Tübingen All rights reserved.</li>
@@ -217,6 +197,7 @@
             </ul>
         </div>
     </section>
+
 
 </div>
 
