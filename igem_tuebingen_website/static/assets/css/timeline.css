@@ -139,7 +139,7 @@
   height: 100%;
   background: rgba(99, 99, 99, 0.8);
   content: "";
-  background: url("https://cdn.pixabay.com/photo/2016/11/21/12/39/cosmos-1845140_960_720.jpg");
+  background: url("images/timeline_space.jpg");
   background-attachment: fixed;
   background-size: 100% 100%;
 }
