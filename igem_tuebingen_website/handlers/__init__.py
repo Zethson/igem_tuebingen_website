@@ -11,3 +11,4 @@ from . import software
 from . import gallery
 from . import errors
 from . import language
+from . import human_practices
