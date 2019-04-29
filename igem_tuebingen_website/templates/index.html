@@ -47,6 +47,7 @@
                 <li><a href="{{ url_for('about_igem_teamtuebingen') }}">About iGEM and Team Tübingen</a></li>
                 <li><a href="{{ url_for('project_2019') }}">Project 2019</a></li>
                 <li><a href="{{ url_for('get_involved') }}">Get involved</a></li>
+                <li><a href="{{ url_for('human_practices') }}">Human Practices</a></li>
                 <li><a href="{{ url_for('history') }}">History of iGEM Tübingen</a></li>
                 <li><a href="{{ url_for('software') }}">Software by iGEM Tübingen</a></li>
                 <li><a href="{{ url_for('gallery') }}">Gallery</a></li>
@@ -70,7 +71,7 @@
     <section id="wrapper">
 
         <!-- One -->
-        <section id="one" class="wrapper spotlight style1">
+        <section id="one" class="wrapper alt spotlight style2">
             <div class="inner">
                 <a href="{{ url_for('about_igem_teamtuebingen') }}" class="image"><img
                         src="{{ url_for('static', filename='images/subsite_icons/IGEM_logo.png') }}" alt=""/></a>
@@ -82,8 +83,8 @@
             </div>
         </section>
 
-        <!-- Two -->
-        <section id="two" class="wrapper alt spotlight style2">
+        <!-- One -->
+        <section id="one" class="wrapper spotlight style1">
             <div class="inner">
                 <a href="{{ url_for('project_2019') }}" class="image"><img
                         src="{{ url_for('static', filename='images/subsite_icons/project_bacteria_cut_2_squared.jpg') }}"
@@ -98,8 +99,23 @@
             </div>
         </section>
 
-        <!-- Three -->
-        <section id="three" class="wrapper spotlight style3">
+        <!-- Two -->
+        <section id="two" class="wrapper alt spotlight style2">
+            <div class="inner">
+                <a href="{{ url_for('human_practices') }}" class="image"><img
+                        src="{{ url_for('static', filename='images/subsite_icons/involved_cut.jpg') }}"
+                        alt=""/></a>
+                <div class="content">
+                    <h2 class="major">Human Practices</h2>
+                    <p>Read about our Human Practice.</p>
+                    <a href="{{ url_for('human_practices') }}" class="special">Learn more</a>
+                </div>
+            </div>
+        </section>
+
+
+
+         <section id="three" class="wrapper spotlight style3">
             <div class="inner">
                 <a href="{{ url_for('get_involved') }}" class="image"><img
                         src="{{ url_for('static', filename='images/subsite_icons/involved_cut.jpg') }}" alt=""/></a>
