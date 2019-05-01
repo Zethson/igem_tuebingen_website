@@ -1422,8 +1422,7 @@ msgid ""
 "Read about how to get involved as a researcher or in the role of a "
 "sponsor."
 msgstr ""
-"Lies mehr darüber, wie man am Besten als Forscher oder Sponsor uns "
-"unterstützen kann."
+"Erfahre mehr darüber, wie man uns am Besten als Forscher oder Sponsor unterstützen kann."
 
 #: build/lib/igem_tuebingen_website/templates/index.html:133
 #: igem_tuebingen_website/templates/index.html:133
