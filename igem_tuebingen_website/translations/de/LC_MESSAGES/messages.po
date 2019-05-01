@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  1.0.0\n"
 "Report-Msgid-Bugs-To: philipp_ehm@protonmail.com\n"
-"POT-Creation-Date: 2019-05-01 11:36+0200\n"
+"POT-Creation-Date: 2019-05-01 23:28+0200\n"
 "PO-Revision-Date: 2019-04-07 18:51+0200\n"
 "Last-Translator: Philipp Ehmele <philipp_ehm@protonmail.com>\n"
 "Language: de\n"
@@ -30,9 +30,9 @@ msgstr ""
 #: build/lib/igem_tuebingen_website/templates/get_involved.html:126
 #: build/lib/igem_tuebingen_website/templates/history.html:37
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:36
-#: build/lib/igem_tuebingen_website/templates/index.html:47
-#: build/lib/igem_tuebingen_website/templates/index.html:79
-#: build/lib/igem_tuebingen_website/templates/project_2019.html:47
+#: build/lib/igem_tuebingen_website/templates/index.html:58
+#: build/lib/igem_tuebingen_website/templates/index.html:90
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:36
 #: build/lib/igem_tuebingen_website/templates/software.html:37
 #: build/lib/igem_tuebingen_website/templates/software.html:127
 #: build/lib/igem_tuebingen_website/templates/sponsors.html:36
@@ -48,9 +48,9 @@ msgstr ""
 #: igem_tuebingen_website/templates/get_involved.html:126
 #: igem_tuebingen_website/templates/history.html:37
 #: igem_tuebingen_website/templates/human_practices.html:36
-#: igem_tuebingen_website/templates/index.html:47
-#: igem_tuebingen_website/templates/index.html:79
-#: igem_tuebingen_website/templates/project_2019.html:47
+#: igem_tuebingen_website/templates/index.html:58
+#: igem_tuebingen_website/templates/index.html:90
+#: igem_tuebingen_website/templates/project_2019.html:36
 #: igem_tuebingen_website/templates/software.html:37
 #: igem_tuebingen_website/templates/software.html:127
 #: igem_tuebingen_website/templates/sponsors.html:36
@@ -67,9 +67,9 @@ msgstr "Über iGEM und Team Tübingen"
 #: build/lib/igem_tuebingen_website/templates/history.html:38
 #: build/lib/igem_tuebingen_website/templates/history.html:192
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:37
-#: build/lib/igem_tuebingen_website/templates/index.html:48
-#: build/lib/igem_tuebingen_website/templates/index.html:93
-#: build/lib/igem_tuebingen_website/templates/project_2019.html:48
+#: build/lib/igem_tuebingen_website/templates/index.html:59
+#: build/lib/igem_tuebingen_website/templates/index.html:104
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:37
 #: build/lib/igem_tuebingen_website/templates/software.html:38
 #: build/lib/igem_tuebingen_website/templates/software.html:135
 #: build/lib/igem_tuebingen_website/templates/sponsors.html:37
@@ -83,9 +83,9 @@ msgstr "Über iGEM und Team Tübingen"
 #: igem_tuebingen_website/templates/history.html:38
 #: igem_tuebingen_website/templates/history.html:192
 #: igem_tuebingen_website/templates/human_practices.html:37
-#: igem_tuebingen_website/templates/index.html:48
-#: igem_tuebingen_website/templates/index.html:93
-#: igem_tuebingen_website/templates/project_2019.html:48
+#: igem_tuebingen_website/templates/index.html:59
+#: igem_tuebingen_website/templates/index.html:104
+#: igem_tuebingen_website/templates/project_2019.html:37
 #: igem_tuebingen_website/templates/software.html:38
 #: igem_tuebingen_website/templates/software.html:135
 #: igem_tuebingen_website/templates/sponsors.html:37
@@ -101,9 +101,9 @@ msgstr "Projekt 2019"
 #: build/lib/igem_tuebingen_website/templates/get_involved.html:38
 #: build/lib/igem_tuebingen_website/templates/history.html:39
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:38
-#: build/lib/igem_tuebingen_website/templates/index.html:49
-#: build/lib/igem_tuebingen_website/templates/index.html:123
-#: build/lib/igem_tuebingen_website/templates/project_2019.html:49
+#: build/lib/igem_tuebingen_website/templates/index.html:60
+#: build/lib/igem_tuebingen_website/templates/index.html:134
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:38
 #: build/lib/igem_tuebingen_website/templates/software.html:39
 #: build/lib/igem_tuebingen_website/templates/sponsors.html:38
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:41
@@ -114,9 +114,9 @@ msgstr "Projekt 2019"
 #: igem_tuebingen_website/templates/get_involved.html:38
 #: igem_tuebingen_website/templates/history.html:39
 #: igem_tuebingen_website/templates/human_practices.html:38
-#: igem_tuebingen_website/templates/index.html:49
-#: igem_tuebingen_website/templates/index.html:123
-#: igem_tuebingen_website/templates/project_2019.html:49
+#: igem_tuebingen_website/templates/index.html:60
+#: igem_tuebingen_website/templates/index.html:134
+#: igem_tuebingen_website/templates/project_2019.html:38
 #: igem_tuebingen_website/templates/software.html:39
 #: igem_tuebingen_website/templates/sponsors.html:38
 msgid "Get involved"
@@ -130,9 +130,9 @@ msgstr "Mach mit"
 #: build/lib/igem_tuebingen_website/templates/get_involved.html:40
 #: build/lib/igem_tuebingen_website/templates/history.html:41
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:40
-#: build/lib/igem_tuebingen_website/templates/index.html:51
-#: build/lib/igem_tuebingen_website/templates/index.html:140
-#: build/lib/igem_tuebingen_website/templates/project_2019.html:51
+#: build/lib/igem_tuebingen_website/templates/index.html:62
+#: build/lib/igem_tuebingen_website/templates/index.html:151
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:40
 #: build/lib/igem_tuebingen_website/templates/software.html:41
 #: build/lib/igem_tuebingen_website/templates/sponsors.html:40
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:43
@@ -143,13 +143,13 @@ msgstr "Mach mit"
 #: igem_tuebingen_website/templates/get_involved.html:40
 #: igem_tuebingen_website/templates/history.html:41
 #: igem_tuebingen_website/templates/human_practices.html:40
-#: igem_tuebingen_website/templates/index.html:51
-#: igem_tuebingen_website/templates/index.html:140
-#: igem_tuebingen_website/templates/project_2019.html:51
+#: igem_tuebingen_website/templates/index.html:62
+#: igem_tuebingen_website/templates/index.html:151
+#: igem_tuebingen_website/templates/project_2019.html:40
 #: igem_tuebingen_website/templates/software.html:41
 #: igem_tuebingen_website/templates/sponsors.html:40
 msgid "History of iGEM Tübingen"
-msgstr "iGEM Tübingen Historie"
+msgstr "iGEM Tübingen Chronik"
 
 #: build/lib/igem_tuebingen_website/templates/about_igem_teamtuebingen.html:44
 #: build/lib/igem_tuebingen_website/templates/contact_error.html:41
@@ -159,8 +159,8 @@ msgstr "iGEM Tübingen Historie"
 #: build/lib/igem_tuebingen_website/templates/get_involved.html:41
 #: build/lib/igem_tuebingen_website/templates/history.html:42
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:41
-#: build/lib/igem_tuebingen_website/templates/index.html:52
-#: build/lib/igem_tuebingen_website/templates/project_2019.html:52
+#: build/lib/igem_tuebingen_website/templates/index.html:63
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:41
 #: build/lib/igem_tuebingen_website/templates/software.html:42
 #: build/lib/igem_tuebingen_website/templates/sponsors.html:41
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:44
@@ -171,8 +171,8 @@ msgstr "iGEM Tübingen Historie"
 #: igem_tuebingen_website/templates/get_involved.html:41
 #: igem_tuebingen_website/templates/history.html:42
 #: igem_tuebingen_website/templates/human_practices.html:41
-#: igem_tuebingen_website/templates/index.html:52
-#: igem_tuebingen_website/templates/project_2019.html:52
+#: igem_tuebingen_website/templates/index.html:63
+#: igem_tuebingen_website/templates/project_2019.html:41
 #: igem_tuebingen_website/templates/software.html:42
 #: igem_tuebingen_website/templates/sponsors.html:41
 msgid "Software by iGEM Tübingen"
@@ -188,10 +188,10 @@ msgstr "Software von iGEM Tübingen"
 #: build/lib/igem_tuebingen_website/templates/history.html:204
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:42
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:181
-#: build/lib/igem_tuebingen_website/templates/index.html:53
-#: build/lib/igem_tuebingen_website/templates/index.html:158
-#: build/lib/igem_tuebingen_website/templates/project_2019.html:53
-#: build/lib/igem_tuebingen_website/templates/project_2019.html:157
+#: build/lib/igem_tuebingen_website/templates/index.html:64
+#: build/lib/igem_tuebingen_website/templates/index.html:169
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:42
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:149
 #: build/lib/igem_tuebingen_website/templates/software.html:43
 #: build/lib/igem_tuebingen_website/templates/sponsors.html:42
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:45
@@ -204,10 +204,10 @@ msgstr "Software von iGEM Tübingen"
 #: igem_tuebingen_website/templates/history.html:204
 #: igem_tuebingen_website/templates/human_practices.html:42
 #: igem_tuebingen_website/templates/human_practices.html:181
-#: igem_tuebingen_website/templates/index.html:53
-#: igem_tuebingen_website/templates/index.html:158
-#: igem_tuebingen_website/templates/project_2019.html:53
-#: igem_tuebingen_website/templates/project_2019.html:157
+#: igem_tuebingen_website/templates/index.html:64
+#: igem_tuebingen_website/templates/index.html:169
+#: igem_tuebingen_website/templates/project_2019.html:42
+#: igem_tuebingen_website/templates/project_2019.html:149
 #: igem_tuebingen_website/templates/software.html:43
 #: igem_tuebingen_website/templates/sponsors.html:42
 msgid "Gallery"
@@ -221,8 +221,8 @@ msgstr "Galerie"
 #: build/lib/igem_tuebingen_website/templates/get_involved.html:43
 #: build/lib/igem_tuebingen_website/templates/history.html:44
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:43
-#: build/lib/igem_tuebingen_website/templates/index.html:54
-#: build/lib/igem_tuebingen_website/templates/project_2019.html:54
+#: build/lib/igem_tuebingen_website/templates/index.html:65
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:43
 #: build/lib/igem_tuebingen_website/templates/software.html:44
 #: build/lib/igem_tuebingen_website/templates/sponsors.html:43
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:46
@@ -233,8 +233,8 @@ msgstr "Galerie"
 #: igem_tuebingen_website/templates/get_involved.html:43
 #: igem_tuebingen_website/templates/history.html:44
 #: igem_tuebingen_website/templates/human_practices.html:43
-#: igem_tuebingen_website/templates/index.html:54
-#: igem_tuebingen_website/templates/project_2019.html:54
+#: igem_tuebingen_website/templates/index.html:65
+#: igem_tuebingen_website/templates/project_2019.html:43
 #: igem_tuebingen_website/templates/software.html:44
 #: igem_tuebingen_website/templates/sponsors.html:43
 msgid "Sponsors"
@@ -270,12 +270,12 @@ msgid ""
 msgstr ""
 "iGEM (International Genetically Engineered Machine) ist ein "
 "internationaler Wettbewerb in der synthetischen Biologie, welcher vom "
-"Massachusetts Institute of Technology (MIT) initiiert wurde.Der "
+"Massachusetts Institute of Technology (MIT) initiiert wurde. Der "
 "Wettbewerb zielt auf die Entwicklung von innovativen und intelligenten "
-"Lösungen für relevante und hochaktuelle Probleme durch den Einsatz "
-"genetischer Modifikationen ab.Die Teilnahme am iGEM Wettbewerb erlaubt es"
-" unserem Team ihren theoretischen Hintergrund in einem interdisziplinären"
-" und selbstständigen Umfeld anzuwenden.Projekte, die im Kontext von iGEM "
+"Lösungen für hochaktuelle Probleme durch den Einsatz genetischer "
+"Modifikationen ab. Die Teilnahme am iGEM Wettbewerb erlaubt es unserem "
+"Team ihren theoretischen Hintergrund in einem interdisziplinären und "
+"selbstständigen Umfeld anzuwenden. Projekte, die im Kontext von iGEM "
 "entstanden sind, werden häufig publiziert oder führen zur Gründung von "
 "Startups."
 
@@ -285,9 +285,9 @@ msgid "Meet the team"
 msgstr "Lerne das Team kennen"
 
 #: build/lib/igem_tuebingen_website/templates/about_igem_teamtuebingen.html:724
-#: build/lib/igem_tuebingen_website/templates/index.html:94
+#: build/lib/igem_tuebingen_website/templates/index.html:105
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:724
-#: igem_tuebingen_website/templates/index.html:94
+#: igem_tuebingen_website/templates/index.html:105
 msgid ""
 "The aim of the project 2019 is to generate a probiotic for the therapy of"
 " Type II Diabetes\n"
@@ -296,9 +296,9 @@ msgid ""
 "                        spread of GMOs in the environment."
 msgstr ""
 "Das Ziel unseres Projektes 2019 ist ein Probiotikum für die Therapie von "
-"Typ II Diabetes Mellitus zu entwickeln, basierend auf einem Plasmid "
-"Chassis, welches einen Cas3 Selbsttötungsmechanismus enthält um die "
-"Streuung von GMOs in die Umwelt zu verhindern."
+"Typ II Diabetes Mellitus zu entwickeln. Das Probiotikum basiert auf einem"
+" Plasmid Chassis, welches einen Cas3 Selbsttötungsmechanismus enthält um "
+"die Streuung von GMOs in die Umwelt zu verhindern."
 
 #: build/lib/igem_tuebingen_website/templates/about_igem_teamtuebingen.html:727
 #: build/lib/igem_tuebingen_website/templates/about_igem_teamtuebingen.html:736
@@ -310,16 +310,16 @@ msgstr ""
 #: build/lib/igem_tuebingen_website/templates/history.html:206
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:175
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:183
-#: build/lib/igem_tuebingen_website/templates/index.html:81
-#: build/lib/igem_tuebingen_website/templates/index.html:97
-#: build/lib/igem_tuebingen_website/templates/index.html:111
-#: build/lib/igem_tuebingen_website/templates/index.html:125
-#: build/lib/igem_tuebingen_website/templates/index.html:143
-#: build/lib/igem_tuebingen_website/templates/index.html:152
-#: build/lib/igem_tuebingen_website/templates/index.html:160
-#: build/lib/igem_tuebingen_website/templates/index.html:169
+#: build/lib/igem_tuebingen_website/templates/index.html:92
+#: build/lib/igem_tuebingen_website/templates/index.html:108
+#: build/lib/igem_tuebingen_website/templates/index.html:122
+#: build/lib/igem_tuebingen_website/templates/index.html:136
+#: build/lib/igem_tuebingen_website/templates/index.html:154
+#: build/lib/igem_tuebingen_website/templates/index.html:163
+#: build/lib/igem_tuebingen_website/templates/index.html:171
+#: build/lib/igem_tuebingen_website/templates/index.html:180
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:143
 #: build/lib/igem_tuebingen_website/templates/project_2019.html:151
-#: build/lib/igem_tuebingen_website/templates/project_2019.html:159
 #: build/lib/igem_tuebingen_website/templates/software.html:129
 #: build/lib/igem_tuebingen_website/templates/software.html:141
 #: build/lib/igem_tuebingen_website/templates/sponsors.html:106
@@ -334,36 +334,36 @@ msgstr ""
 #: igem_tuebingen_website/templates/history.html:206
 #: igem_tuebingen_website/templates/human_practices.html:175
 #: igem_tuebingen_website/templates/human_practices.html:183
-#: igem_tuebingen_website/templates/index.html:81
-#: igem_tuebingen_website/templates/index.html:97
-#: igem_tuebingen_website/templates/index.html:111
-#: igem_tuebingen_website/templates/index.html:125
-#: igem_tuebingen_website/templates/index.html:143
-#: igem_tuebingen_website/templates/index.html:152
-#: igem_tuebingen_website/templates/index.html:160
-#: igem_tuebingen_website/templates/index.html:169
+#: igem_tuebingen_website/templates/index.html:92
+#: igem_tuebingen_website/templates/index.html:108
+#: igem_tuebingen_website/templates/index.html:122
+#: igem_tuebingen_website/templates/index.html:136
+#: igem_tuebingen_website/templates/index.html:154
+#: igem_tuebingen_website/templates/index.html:163
+#: igem_tuebingen_website/templates/index.html:171
+#: igem_tuebingen_website/templates/index.html:180
+#: igem_tuebingen_website/templates/project_2019.html:143
 #: igem_tuebingen_website/templates/project_2019.html:151
-#: igem_tuebingen_website/templates/project_2019.html:159
 #: igem_tuebingen_website/templates/software.html:129
 #: igem_tuebingen_website/templates/software.html:141
 #: igem_tuebingen_website/templates/sponsors.html:106
 #: igem_tuebingen_website/templates/sponsors.html:118
 msgid "Learn more"
-msgstr "Mehr herausfinden"
+msgstr "Genaueres erfahren"
 
 #: build/lib/igem_tuebingen_website/templates/about_igem_teamtuebingen.html:734
 #: build/lib/igem_tuebingen_website/templates/gallery.html:199
-#: build/lib/igem_tuebingen_website/templates/index.html:141
+#: build/lib/igem_tuebingen_website/templates/index.html:152
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:734
 #: igem_tuebingen_website/templates/gallery.html:199
-#: igem_tuebingen_website/templates/index.html:141
+#: igem_tuebingen_website/templates/index.html:152
 msgid ""
 "Team Tübingen has been participating in iGEM since 2012. Take a look at "
 "our past projects and\n"
 "                            accomplishments."
 msgstr ""
-"Team Tübingen nimmt an iGEM seit 2012 teil. Lies über unsere vergangenen "
-"Projekte und Errungenschaften."
+"Team Tübingen nimmt an iGEM seit 2012 teil. Erfahre mehr über unsere "
+"vergangenen Projekte und Errungenschaften."
 
 #: build/lib/igem_tuebingen_website/templates/about_igem_teamtuebingen.html:746
 #: build/lib/igem_tuebingen_website/templates/contact_error.html:77
@@ -373,8 +373,8 @@ msgstr ""
 #: build/lib/igem_tuebingen_website/templates/get_involved.html:149
 #: build/lib/igem_tuebingen_website/templates/history.html:218
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:195
-#: build/lib/igem_tuebingen_website/templates/index.html:184
-#: build/lib/igem_tuebingen_website/templates/project_2019.html:171
+#: build/lib/igem_tuebingen_website/templates/index.html:195
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:163
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:746
 #: igem_tuebingen_website/templates/contact_error.html:77
 #: igem_tuebingen_website/templates/contact_successful.html:79
@@ -383,8 +383,8 @@ msgstr ""
 #: igem_tuebingen_website/templates/get_involved.html:149
 #: igem_tuebingen_website/templates/history.html:218
 #: igem_tuebingen_website/templates/human_practices.html:195
-#: igem_tuebingen_website/templates/index.html:184
-#: igem_tuebingen_website/templates/project_2019.html:171
+#: igem_tuebingen_website/templates/index.html:195
+#: igem_tuebingen_website/templates/project_2019.html:163
 msgid "Get in touch"
 msgstr "Kontaktiere uns"
 
@@ -395,8 +395,8 @@ msgstr "Kontaktiere uns"
 #: build/lib/igem_tuebingen_website/templates/generic.html:109
 #: build/lib/igem_tuebingen_website/templates/get_involved.html:150
 #: build/lib/igem_tuebingen_website/templates/history.html:219
-#: build/lib/igem_tuebingen_website/templates/index.html:185
-#: build/lib/igem_tuebingen_website/templates/project_2019.html:172
+#: build/lib/igem_tuebingen_website/templates/index.html:196
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:164
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:747
 #: igem_tuebingen_website/templates/contact_error.html:78
 #: igem_tuebingen_website/templates/contact_successful.html:80
@@ -404,8 +404,8 @@ msgstr "Kontaktiere uns"
 #: igem_tuebingen_website/templates/generic.html:109
 #: igem_tuebingen_website/templates/get_involved.html:150
 #: igem_tuebingen_website/templates/history.html:219
-#: igem_tuebingen_website/templates/index.html:185
-#: igem_tuebingen_website/templates/project_2019.html:172
+#: igem_tuebingen_website/templates/index.html:196
+#: igem_tuebingen_website/templates/project_2019.html:164
 msgid ""
 "If you are interested in one of our projects and would like to get "
 "involved we would be happy to hear\n"
@@ -425,8 +425,8 @@ msgstr ""
 #: build/lib/igem_tuebingen_website/templates/get_involved.html:163
 #: build/lib/igem_tuebingen_website/templates/history.html:232
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:210
-#: build/lib/igem_tuebingen_website/templates/index.html:198
-#: build/lib/igem_tuebingen_website/templates/project_2019.html:185
+#: build/lib/igem_tuebingen_website/templates/index.html:209
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:177
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:760
 #: igem_tuebingen_website/templates/contact_error.html:91
 #: igem_tuebingen_website/templates/contact_successful.html:93
@@ -435,8 +435,8 @@ msgstr ""
 #: igem_tuebingen_website/templates/get_involved.html:163
 #: igem_tuebingen_website/templates/history.html:232
 #: igem_tuebingen_website/templates/human_practices.html:210
-#: igem_tuebingen_website/templates/index.html:198
-#: igem_tuebingen_website/templates/project_2019.html:185
+#: igem_tuebingen_website/templates/index.html:209
+#: igem_tuebingen_website/templates/project_2019.html:177
 msgid "Message"
 msgstr "Nachricht"
 
@@ -448,8 +448,8 @@ msgstr "Nachricht"
 #: build/lib/igem_tuebingen_website/templates/get_involved.html:178
 #: build/lib/igem_tuebingen_website/templates/history.html:247
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:225
-#: build/lib/igem_tuebingen_website/templates/index.html:213
-#: build/lib/igem_tuebingen_website/templates/project_2019.html:200
+#: build/lib/igem_tuebingen_website/templates/index.html:224
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:192
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:775
 #: igem_tuebingen_website/templates/contact_error.html:106
 #: igem_tuebingen_website/templates/contact_successful.html:108
@@ -458,8 +458,8 @@ msgstr "Nachricht"
 #: igem_tuebingen_website/templates/get_involved.html:178
 #: igem_tuebingen_website/templates/history.html:247
 #: igem_tuebingen_website/templates/human_practices.html:225
-#: igem_tuebingen_website/templates/index.html:213
-#: igem_tuebingen_website/templates/project_2019.html:200
+#: igem_tuebingen_website/templates/index.html:224
+#: igem_tuebingen_website/templates/project_2019.html:192
 msgid ""
 "Send us a\n"
 "                    Mail!"
@@ -473,8 +473,8 @@ msgstr "Sende uns eine Mail!"
 #: build/lib/igem_tuebingen_website/templates/get_involved.html:180
 #: build/lib/igem_tuebingen_website/templates/history.html:249
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:227
-#: build/lib/igem_tuebingen_website/templates/index.html:215
-#: build/lib/igem_tuebingen_website/templates/project_2019.html:202
+#: build/lib/igem_tuebingen_website/templates/index.html:226
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:194
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:777
 #: igem_tuebingen_website/templates/contact_error.html:108
 #: igem_tuebingen_website/templates/contact_successful.html:110
@@ -483,8 +483,8 @@ msgstr "Sende uns eine Mail!"
 #: igem_tuebingen_website/templates/get_involved.html:180
 #: igem_tuebingen_website/templates/history.html:249
 #: igem_tuebingen_website/templates/human_practices.html:227
-#: igem_tuebingen_website/templates/index.html:215
-#: igem_tuebingen_website/templates/project_2019.html:202
+#: igem_tuebingen_website/templates/index.html:226
+#: igem_tuebingen_website/templates/project_2019.html:194
 msgid "Follow us on Twitter!"
 msgstr "Folge uns auf Twitter!"
 
@@ -496,8 +496,8 @@ msgstr "Folge uns auf Twitter!"
 #: build/lib/igem_tuebingen_website/templates/get_involved.html:181
 #: build/lib/igem_tuebingen_website/templates/history.html:250
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:228
-#: build/lib/igem_tuebingen_website/templates/index.html:216
-#: build/lib/igem_tuebingen_website/templates/project_2019.html:203
+#: build/lib/igem_tuebingen_website/templates/index.html:227
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:195
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:778
 #: igem_tuebingen_website/templates/contact_error.html:109
 #: igem_tuebingen_website/templates/contact_successful.html:111
@@ -506,8 +506,8 @@ msgstr "Folge uns auf Twitter!"
 #: igem_tuebingen_website/templates/get_involved.html:181
 #: igem_tuebingen_website/templates/history.html:250
 #: igem_tuebingen_website/templates/human_practices.html:228
-#: igem_tuebingen_website/templates/index.html:216
-#: igem_tuebingen_website/templates/project_2019.html:203
+#: igem_tuebingen_website/templates/index.html:227
+#: igem_tuebingen_website/templates/project_2019.html:195
 msgid "Like us on Facebook!"
 msgstr "Like uns auf Facebook!"
 
@@ -519,8 +519,8 @@ msgstr "Like uns auf Facebook!"
 #: build/lib/igem_tuebingen_website/templates/get_involved.html:182
 #: build/lib/igem_tuebingen_website/templates/history.html:251
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:229
-#: build/lib/igem_tuebingen_website/templates/index.html:217
-#: build/lib/igem_tuebingen_website/templates/project_2019.html:204
+#: build/lib/igem_tuebingen_website/templates/index.html:228
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:196
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:779
 #: igem_tuebingen_website/templates/contact_error.html:110
 #: igem_tuebingen_website/templates/contact_successful.html:112
@@ -529,19 +529,19 @@ msgstr "Like uns auf Facebook!"
 #: igem_tuebingen_website/templates/get_involved.html:182
 #: igem_tuebingen_website/templates/history.html:251
 #: igem_tuebingen_website/templates/human_practices.html:229
-#: igem_tuebingen_website/templates/index.html:217
-#: igem_tuebingen_website/templates/project_2019.html:204
+#: igem_tuebingen_website/templates/index.html:228
+#: igem_tuebingen_website/templates/project_2019.html:196
 msgid "Follow us on Instagram!"
 msgstr "Folge uns auf Instagram!"
 
 #: build/lib/igem_tuebingen_website/templates/gallery.html:191
 #: build/lib/igem_tuebingen_website/templates/get_involved.html:127
-#: build/lib/igem_tuebingen_website/templates/index.html:80
+#: build/lib/igem_tuebingen_website/templates/index.html:91
 #: build/lib/igem_tuebingen_website/templates/software.html:128
 #: build/lib/igem_tuebingen_website/templates/sponsors.html:105
 #: igem_tuebingen_website/templates/gallery.html:191
 #: igem_tuebingen_website/templates/get_involved.html:127
-#: igem_tuebingen_website/templates/index.html:80
+#: igem_tuebingen_website/templates/index.html:91
 #: igem_tuebingen_website/templates/software.html:128
 #: igem_tuebingen_website/templates/sponsors.html:105
 msgid "Read about the iGEM competition and get to know our team!"
@@ -570,15 +570,15 @@ msgid ""
 "                        us tremendously."
 msgstr ""
 "Das iGEM Team Tübingen ist eine von anderen Institutionen unabhängige "
-"Gruppe die sich aus motivierten Studierenden und beratenden "
+"Gruppe, welche sich aus motivierten Studierenden und beratenden "
 "Promovierenden zusammensetzt. Als Gruppe sind wir verantwortlich für die "
-"Organisation und die Finanzierung unseres selbst gewählten Projektes.Um "
-"ein solches Projekt durchzuführen und erfolgreich am Wettbewerb "
-"teilzunehmen, brauchen wir die Unterstützung von Forschern, Firmen, "
-"Institutionen, anderen Einrichtungen und Privatpersonen.Wir sind nicht "
-"nur dankbar für finanziellen Support, sondern freuen uns im Besonderen "
-"auch über die Bereitstellung von Materialien und Ressourcen sowie über "
-"Unterstützung durch Fachwissen."
+"Organisation und Finanzierung unseres selbst gewählten Projektes. Um ein "
+"solches Projekt durchzuführen und erfolgreich am Wettbewerb teilzunehmen,"
+" brauchen wir die Unterstützung von Forschern, Firmen, Institutionen, "
+"anderen Einrichtungen und Privatpersonen. Wir sind nicht nur dankbar für "
+"finanziellen Support, sondern freuen uns im Besonderen auch über die "
+"Bereitstellung von Materialien und Ressourcen sowie über Unterstützung "
+"durch Fachwissen."
 
 #: build/lib/igem_tuebingen_website/templates/get_involved.html:83
 #: igem_tuebingen_website/templates/get_involved.html:83
@@ -615,17 +615,17 @@ msgid ""
 " willing to collaborate with us."
 msgstr ""
 "Der iGEM Wettbewerb bietet eine einzigartige und wertvolle Gelegenheit, "
-"selber ein naturwissenschaftliches Projekt durchzuführen.Dadurch werden "
-"nicht nur Fähigkeiten rund ums naturwissenschaftliche Arbeiten erlernt "
-"und vertieft sondern auch in anderen Bereichen wie zum Beispiel "
-"Projektorganisation, Durchführung, Präsentieren, Finanzieren und "
-"Beziehungen knüpfen.Das sind auch Fähigkeiten die jeder angehende "
-"(Natur-)Wissenschaftler haben sollte und die die Teilnehmer des iGEM "
-"Wettbewerbs von Anderen unterscheidet. Als internationaler Wettbewerb "
-"bietet iGEM außerdem die Möglichkeit, neue internationale und nationale "
-"Kontakte durch Austausch mit anderen Gruppen und Forschern zu knüpfen.Bei"
-" uns ist jeder willkommen, je interdisziplinärer und diverser unser Team,"
-" desto wahrscheinlicher ist eine erfolgreiche Teilnahme. "
+"selbstständig ein naturwissenschaftliches Projekt durchzuführen. Dadurch "
+"werden nicht nur Fähigkeiten rund ums naturwissenschaftliche Arbeiten "
+"erlernt und vertieft sondern auch in anderen Bereichen wie beispielsweise"
+" Projektorganisation, Durchführung, Präsentieren, Finanzieren und "
+"Beziehungen knüpfen. Dies sind Fähigkeiten die jeder angehende "
+"(Natur-)Wissenschaftler erwerben sollte und welche die Teilnehmer des "
+"iGEM Wettbewerbs von Anderen unterscheidet. Als internationaler "
+"Wettbewerb bietet iGEM außerdem die Möglichkeit, neue internationale und "
+"nationale Kontakte durch Austausch mit anderen Gruppen und Forschern zu "
+"knüpfen. Bei uns ist jeder willkommen, je interdisziplinärer und diverser"
+" unser Team, desto wahrscheinlicher ist eine erfolgreiche Teilnahme. "
 
 #: build/lib/igem_tuebingen_website/templates/get_involved.html:100
 #: igem_tuebingen_website/templates/get_involved.html:100
@@ -657,20 +657,20 @@ msgid ""
 "presentations, on our website and in many social\n"
 "                        networks."
 msgstr ""
-" iGEM ist eine intensive Erfahrung, die den Studenten die Möglichkeit "
+" iGEM ist eine intensive Erfahrung, welche Studenten die Möglichkeit "
 "gibt, ihre Ausbildung außerhalb von ihrer akademischen Laufbahn "
 "weiterzuführen. Durch die Vernetzung mit Professoren, Unternehmen, "
 "Forschern und ehemaligen Mitarbeitern greifen die Teilnehmer auf einen "
-"großen Wissens- und Erfahrungsschatz zurück.Die Unterstützung der letzten"
-" Jahre hat dazu geführt, dass das iGEM-Team Tübingen seine Ziele und "
-"Projekte erfolgreich umsetzen konnte. Durch das iGEM-Team Tübingen kommen "
-"Sponsoren in Kontakt mit kompetenten und motivierten "
+"großen Wissens- und Erfahrungsschatz zurück. Die Unterstützung der "
+"letzten Jahre hat dazu geführt, dass das iGEM-Team Tübingen seine Ziele "
+"und Projekte erfolgreich umsetzen konnte. Durch das iGEM-Team Tübingen "
+"kommen Sponsoren in Kontakt mit kompetenten und motivierten "
 "Nachwuchswissenschaftlern und einem innovativen wissenschaftlichen "
 "Projekt. Als Gegenleistung für eine Partnerschaft haben unsere Förderer "
 "die Möglichkeit, für sich zu werben und werden in der Öffentlichkeit, bei"
-" Präsentationen, in sozialen Medien und auf unserer Website "
-"präsentiert. Unsere früheren und derzeitigen Sponsoren können auf unserer "
-"Website eingesehen werden.Wir würden uns freuen, wenn Sie sich dazu "
+" Präsentationen, in sozialen Medien und auf unserer Website präsentiert. "
+"Unsere früheren und derzeitigen Sponsoren können auf unserer Website "
+"eingesehen werden. Wir würden uns sehr freuen, wenn Sie sich dazu "
 "entscheiden uns zu unterstützen. "
 
 #: build/lib/igem_tuebingen_website/templates/get_involved.html:114
@@ -689,9 +689,9 @@ msgstr ""
 " in Kontakt zu treten!"
 
 #: build/lib/igem_tuebingen_website/templates/get_involved.html:134
-#: build/lib/igem_tuebingen_website/templates/index.html:166
+#: build/lib/igem_tuebingen_website/templates/index.html:177
 #: igem_tuebingen_website/templates/get_involved.html:134
-#: igem_tuebingen_website/templates/index.html:166
+#: igem_tuebingen_website/templates/index.html:177
 msgid "Our Sponsors"
 msgstr "Unsere Sponsoren"
 
@@ -707,14 +707,14 @@ msgstr ""
 
 #: build/lib/igem_tuebingen_website/templates/history.html:46
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:45
-#: build/lib/igem_tuebingen_website/templates/index.html:56
-#: build/lib/igem_tuebingen_website/templates/project_2019.html:56
+#: build/lib/igem_tuebingen_website/templates/index.html:67
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:45
 #: build/lib/igem_tuebingen_website/templates/software.html:46
 #: build/lib/igem_tuebingen_website/templates/sponsors.html:45
 #: igem_tuebingen_website/templates/history.html:46
 #: igem_tuebingen_website/templates/human_practices.html:45
-#: igem_tuebingen_website/templates/index.html:56
-#: igem_tuebingen_website/templates/project_2019.html:56
+#: igem_tuebingen_website/templates/index.html:67
+#: igem_tuebingen_website/templates/project_2019.html:45
 #: igem_tuebingen_website/templates/software.html:46
 #: igem_tuebingen_website/templates/sponsors.html:45
 msgid "Close"
@@ -735,9 +735,9 @@ msgid ""
 "                        serves as a summary for the various projects and "
 "achieved medals."
 msgstr ""
-"Team Tübingen nimmt an iGEM teil seit 2012.Jährlich stellen sich "
-"Studenten mit verschiedenen Hintergründen einem herausfordernden Projekt."
-" Diese Seite fasst die Projekte und Erfolge zusammen."
+"Team Tübingen nimmt an iGEM seit 2012 teil. Jährlich stellen sich "
+"Studenten mit verschiedenen Hintergründen einem herausfordernden "
+"Projekt.Hier werden unsere Projekte und Erfolge dargestellt."
 
 #: build/lib/igem_tuebingen_website/templates/history.html:91
 #: igem_tuebingen_website/templates/history.html:91
@@ -767,10 +767,10 @@ msgid ""
 msgstr ""
 "Unser Team entwickelte einen Hefe-basierten Sensor für Progestin, einem "
 "Schadstoff in Abwasser, welcher negative Effekte auf das hormonelle "
-"Gleichgewicht von Fischen hervorruft.Bei Anwesenheit von Progestin in der"
-" Wasserprobe wird die Expression von Luciferin in den Hefezellen "
+"Gleichgewicht von Fischen hervorruft. Bei Anwesenheit von Progestin in "
+"der Wasserprobe wird die Expression von Luciferin in den Hefezellen "
 "induziert, indem eine G-Protein gekoppelte Kaskade aktiviert wird, die "
-"zur Aktivierung des Luciferasegen Promotors führt.Dementsprechend kann "
+"zur Aktivierung des Luciferasegen Promotors führt. Dementsprechend kann "
 "das Vorhandensein von Progestin im getesteten Wasser nachgewiesen und "
 "anhand der Analyse der Lichtaktivierung qualitativ analysiert werden, "
 "sowie quantitativ unter Verwendung eines Spektrometers. "
@@ -799,8 +799,8 @@ msgstr ""
 "aber auch die seltenste Gruppe für Blutspenden ist. Indem die "
 "glykolisierten Proteinketten an den Erythrozyten der Blutgruppen A, B und"
 " AB  modifiziert werden, nehmen diese die Charakteristika von Zellen der "
-"Blutgruppe Null an. Einsimpler Agglutinationstest diente als Beweis einer"
-" erfolgreichen Transformation."
+"Blutgruppe Null an. Ein simpler Agglutinationstest diente als Beweis "
+"einer erfolgreichen Transformation."
 
 #: build/lib/igem_tuebingen_website/templates/history.html:122
 #: igem_tuebingen_website/templates/history.html:122
@@ -831,12 +831,12 @@ msgid ""
 msgstr ""
 "Unser Team entwickelte ein Modul, mit dem es möglich ist, jederzeit einen"
 " Schnappschuss der Aktivität eines Sensors zu machen. Mithilfe eines "
-"caging mechanism bei welchen eine  Variante des fluoreszenten Proteins "
+"caging mechanism bei welchen eine Variante des fluoreszenten Proteins "
 "Dronpa sowohl mit dem C-, als auch dem N-Terminus der Cre Rekombinase "
 "verbunden wird, kann dessen Aktivität reversibel durch Licht   "
 "kontrolliert werden. Indem dieses Konstrukt für eine kurze Zeit aktiviert"
 " wird, wird Cre dazu verwendet, die Expression der Luziferase in einer "
-"beschränkten Zahl der Zellen einzuschalten.Durch die Kopplung der Cre "
+"beschränkten Zahl der Zellen einzuschalten. Durch die Kopplung der Cre "
 "Expression an den Sensor, kann so der Stand des Sensors zu einem "
 "bestimmten Zeitpunkt dauerhaft in die DNS eines Systems geschrieben "
 "werden. "
@@ -868,13 +868,13 @@ msgid ""
 msgstr ""
 "2016 haben wir uns drei Problemen angenommenUm Menschen mit einem "
 "Aldolase B Mangel (was zu einer Fructoseintoleranz führt) zu helfen, hat "
-"unser Team Lactobacilli, welche bereits im menschlichen Darm "
-"vorkommen,modifiziert, so dass sie Fructose verarbeiten können. "
-"Zusätzlich haben wir einen Pipettier-Roboter entworfen, der in der Lage "
-"ist, dieKlonierungsexperimente für unser Hauptprojekt durchzuführen. Zu "
-"guter letzt haben wir uns des Problems der Plasmidextraktion in einem "
-"Roboterangenommen und einen simplen Weg entwickelt, mit dem man auf "
-"einfache Arttransformierte Plasmid DNS sammeln und purifizieren kann. "
+"unser Team Lactobacilli, welche bereits im menschlichen Darm vorkommen, "
+"modifiziert, so dass sie Fructose verarbeiten können. Zusätzlich haben "
+"wir einen Pipettier-Roboter entworfen, der in der Lage ist, die "
+"Klonierungsexperimente für unser Hauptprojekt durchzuführen. Zu guter "
+"letzt haben wir uns des Problems der Plasmidextraktion in einem Roboter "
+"angenommen und einen simplen Weg entwickelt, mit dem man auf einfache "
+"Arttransformierte Plasmid DNS sammeln und purifizieren kann. "
 
 #: build/lib/igem_tuebingen_website/templates/history.html:156
 #: igem_tuebingen_website/templates/history.html:156
@@ -898,13 +898,13 @@ msgid ""
 " advanced Trojan horse is set free."
 msgstr ""
 " Die zunehmende Anzahl mikrobieller Resistenzen verlangt nach Innovation "
-"und neuenTherapeutika. Deshalb haben wir ein neues Derivativ der "
-"Aminocumarine mit einemveränderten Interaktionsmuster mit Proteinen, "
+"und neuen Therapeutika. Deshalb haben wir ein neues Derivativ der "
+"Aminocumarine mit einem veränderten Interaktionsmuster mit Proteinen, "
 "sowie verbesserten chemischen Eigenschaften, entwickelt. Diese "
 "Eigenschaften machen es zu einem Antibiotikum, welchesdurch enzymatische "
-"Spaltung nur durch β-Lactam resistenten Pathogenen selbst aktiviertwird, "
-"während andere Zellen des menschlichen Körpers nicht davon betroffen sind"
-" – dasfortschrittliche Trojanische Pferd ist freigelassen."
+"Spaltung nur durch β-Lactam resistenten Pathogenen selbst aktiviert wird,"
+" während andere Zellen des menschlichen Körpers nicht davon betroffen "
+"sind – das fortschrittliche Trojanische Pferd ist freigelassen."
 
 #: build/lib/igem_tuebingen_website/templates/history.html:171
 #: igem_tuebingen_website/templates/history.html:171
@@ -931,14 +931,14 @@ msgid ""
 "bioinformatics approach."
 msgstr ""
 "2018 war unser Projekt, das Botolinium Toxin so zu modifizieren, dass der"
-" spezifischeShuttle-Mechanismus für neuronale Zellen in zukünftigen "
-"therapeutischen Anwendungenund neuronalem targeting in der "
-"Gundlagenforschung genutzt werden kann. Wirentwickelten eine Sammlung an "
-"detoxifizierten botolinium Toxin Derivativen, die mithilfe spezifischer "
+" spezifische Shuttle-Mechanismus für neuronale Zellen in zukünftigen "
+"therapeutischen Anwendungen und neuronalem targeting in der "
+"Gundlagenforschung genutzt werden kann. Wir entwickelten eine Sammlung an"
+" detoxifizierten botolinium Toxin Derivativen, die mithilfe spezifischer "
 "Linker mit verschiedenen Substanzen (Proteine, kleine Moleküle, "
-"Fluorchrome)gekoppelt werden können. Da unser Shuttle Mechanismus "
+"Fluorchrome) gekoppelt werden können. Da unser Shuttle Mechanismus "
 "potentiell in Patienten verwendetwerden kann, haben wir mit einer "
-"theoretischen, bioinformatischen Herangehensweise dieprävalentesten "
+"theoretischen, bioinformatischen Herangehensweise die häufigsten "
 "Immunepitope entfernt."
 
 #: build/lib/igem_tuebingen_website/templates/history.html:193
@@ -957,19 +957,19 @@ msgid ""
 "                                spread of GMOs in the environment."
 msgstr ""
 "Ziel des diesjährigen Projektes ist die Entwicklung von Probiotika für "
-"die Therapie von Typ II Diabetes Mellitus.Hierbei verwenden wir ein "
+"die Therapie von Typ II Diabetes Mellitus. Hierbei verwenden wir ein "
 "Plasmid Chassis, welches einen Cas3 Selbsttötungsmechanismus enthält, um "
 "die Verteilung unseres genmodifizierten Organismuses in die Umwelt zu "
 "verhindern."
 
 #: build/lib/igem_tuebingen_website/templates/history.html:205
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:182
-#: build/lib/igem_tuebingen_website/templates/index.html:159
-#: build/lib/igem_tuebingen_website/templates/project_2019.html:158
+#: build/lib/igem_tuebingen_website/templates/index.html:170
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:150
 #: igem_tuebingen_website/templates/history.html:205
 #: igem_tuebingen_website/templates/human_practices.html:182
-#: igem_tuebingen_website/templates/index.html:159
-#: igem_tuebingen_website/templates/project_2019.html:158
+#: igem_tuebingen_website/templates/index.html:170
+#: igem_tuebingen_website/templates/project_2019.html:150
 msgid "A gallery of our various iGEM teams, presentations and awesome projects."
 msgstr ""
 "Eine Galerie über unsere verschiedenen iGEM Teams, Präsentationen und "
@@ -1007,14 +1007,14 @@ msgid ""
 "                        by using Synthetic Biology."
 msgstr ""
 "Im Jahr 2014 gab es 422 Millionen Menschen mit einer diagnostizierten "
-"Diabetes Mellitus Erkrankung.Diese hohe Prävalenz inspirierte uns in der "
-"Suche nach neuen Behandlungskonzepten für die Typ II Diabetes Mellitus "
-"Therapie,da diese den größten Anteil der Diabetiker betrifft. Derzeit "
-"gibt es multiple Therapiestrategien,jedoch verlangen alle eine aktive "
-"Partizipation und die Erfüllung strikter Einnahmeabläufe der "
-"Medikamente.Da eben diese Bereitschaft und der Zeitaufwand essentiell für"
-" den Therapieerfolg sind, wollen wir, das iGEMTeam Tübingen, die Therapie"
-" revolutionieren, indem wir die Synthetische Biologie anwenden."
+"Diabetes Mellitus Erkrankung. Diese hohe Prävalenz inspirierte uns in der"
+" Suche nach neuen Behandlungskonzepten für die Typ II Diabetes Mellitus "
+"Therapie, da diese den größten Anteil der Diabetiker betrifft. Derzeit "
+"gibt es multiple Therapiestrategien, jedoch verlangen alle eine aktive "
+"Partizipation und die Erfüllung strikter Einnahmeabläufe der Medikamente."
+" Da eben diese Bereitschaft und der Zeitaufwand essentiell für den "
+"Therapieerfolg sind, wollen wir, das iGEM Team Tübingen, die Therapie "
+"revolutionieren, indem wir die Synthetische Biologie anwenden."
 
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:86
 #: igem_tuebingen_website/templates/human_practices.html:86
@@ -1031,7 +1031,7 @@ msgid ""
 "treatment."
 msgstr ""
 "Unsere Lösung ist ein probiotisches Bakterium, welches ein Medikament "
-"synthetisiert,sobald dieses gebraucht wird, sodass der Patient / die "
+"synthetisiert, sobald dieses gebraucht wird, sodass der Patient / die "
 "Patientin von der Belastung einer akribischen Applikation befreit ist. Da"
 " wir ein neues Produkt entwickeln wollten, das den Anforderungen der "
 "Patienten entspricht, waren wir uns schnell im klaren, dass wir die "
@@ -1076,13 +1076,13 @@ msgid ""
 "                        the obvious group are"
 msgstr ""
 "Zu Beginn der Human Practice Arbeiten, identifizierten wir alle von "
-"unserem Projekt betroffenen Parteien.In unserem Fall sind Typ II Diabetes"
-" Mellitus Patienten die offensichtliche Gruppe."
+"unserem Projekt betroffenen Parteien. In unserem Fall sind Typ II "
+"Diabetes Mellitus Patienten die offensichtliche Gruppe."
 
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:100
 #: igem_tuebingen_website/templates/human_practices.html:100
 msgid "patients with Type II Diabetes Mellitus"
-msgstr ""
+msgstr "Patienten mit Typ II Diabetes Mellitus"
 
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:100
 #: igem_tuebingen_website/templates/human_practices.html:100
@@ -1117,7 +1117,7 @@ msgid ""
 "compromise the reputation of the scientific\n"
 "                        community"
 msgstr ""
-"wichtig, zu der wir uns auch zählen.Da jedes wissenschaftliche Projekt "
+"wichtig, zu der wir uns auch zählen. Da jedes wissenschaftliche Projekt "
 "Einfluss auf die gesamte wissenschaftliche Gemeinschaft hat, sind wir "
 "dafür verantwortlich, dass unser Projekt in keinem Fall die Reputation "
 "der wissenschaftlichen Gemeinde negativ beeinflusst"
@@ -1169,7 +1169,7 @@ msgstr ""
 "unser Projekt die Öffentlichkeit und sollte dementsprechend diskutiert "
 "werden, um sicherzugehen,dass sich die Öffentlichkeit eine informierte "
 "Meinung bilden kann und über potentielle Biosicherheitsrisiken aufgeklärt"
-" werden kann. Auch beinhaltet dies, die Kommunikation unserer "
+" werden kann. Dies beinhaltet auch die Kommunikation unserer "
 "Biosicherheitsstrategie."
 
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:118
@@ -1238,10 +1238,10 @@ msgid ""
 msgstr ""
 "da unser GMO  oral verabreicht werden soll und dementsprechend auch "
 "ausgeschieden wird. Aufgrund dessen integrieren wir einen sogenannten "
-"“Kill-Switch” in unser Projekt, sodass die Bakterien absterbenund das "
+"“Kill-Switch” in unser Projekt, sodass die Bakterien absterben und das "
 "genetische Material abgebaut wird, sobald die Bakterien den menschlichen "
-"Körper und die dortigen Gegebenheiten verlassen.Zusätzlich wird jedes "
-"Teammitglied eine entsprechende Biologische Sicherheitsbelehrung "
+"Körper und die dortigen Gegebenheiten verlassen. Zusätzlich wird jedes "
+"Teammitglied eine entsprechende biologische Sicherheitsbelehrung "
 "erhalten, die es uns erlaubt im Labor zu arbeiten."
 
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:133
@@ -1267,8 +1267,8 @@ msgid ""
 "                        Engineering) and others, which apply"
 msgstr ""
 "evaluieren. Unser Projekt soll in all seinen Stadien den Regularien und "
-"Gesetzender Bundesrepublik Deutschland entsprechen, was unter anderem die"
-" Einhaltung des Gentechnikgesetz,des Infektionsschutzgesetz und der "
+"Gesetzen der Bundesrepublik Deutschland entsprechen, was unter anderem "
+"die Einhaltung des Gentechnikgesetz, des Infektionsschutzgesetz und der "
 "Gentechniksicherheitsverordnung beinhaltet."
 
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:139
@@ -1303,15 +1303,14 @@ msgid ""
 "                        opportunities and threats."
 msgstr ""
 " Da unser GMO den Ausblick besitzt das Labor zu verlassen, muss darüber "
-"eine öffentliche Diskussion stattfinden.Um Zugang zu eben dieser "
+"eine öffentliche Diskussion stattfinden. Um Zugang zu eben dieser "
 "öffentlichen Meinungsbildung zu erlangen und die generelle Wahrnehmung "
 "und Meinung zu unserem Projektund Genetisch Modifizierten Organismen "
-"einschätzen zu können, werden wir multiple Events organisieren.Diese "
+"einschätzen zu können, werden wir mehrere Events organisieren. Diese "
 "Events sollen wissenschaftliche Kommunikation und freie Diskussion "
-"fördern und uns helfen, unser Projekt weiterzu entwickeln. Auch werden "
-"wir uns mit Experten unterhalten,  um deren Sorgen und Ideen zu "
-"integrieren und unsere Schwächen, Stärken, Möglichkeiten und Risiken zu "
-"erarbeiten."
+"fördern und uns helfen unser Projekt weiterzu entwickeln. Auch werden wir"
+" uns mit Experten unterhalten, um deren Sorgen und Ideen zu integrieren "
+"und unsere Schwächen, Stärken, Möglichkeiten und Risiken zu erarbeiten."
 
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:149
 #: igem_tuebingen_website/templates/human_practices.html:149
@@ -1332,12 +1331,12 @@ msgid ""
 "                        strategy"
 msgstr ""
 "Für unsere Human Practice Arbeiten wollen wir eine Umfrage durchführen, "
-"um das generelle Wissenund Empfindungen über Diabetes Mellitus und seine "
-"Therapie, sowie die Beeinflussen derer durch die Synthetische Biologiein "
-"der Zukunft, abschätzen zu können. Dies ist für unser gesamtes Projekt "
-"sehr wichtig, da es uns helfen wird unsereHuman Practice Arbeiten und die"
-" von uns betriebene Aufklärung zu verbessern und die Wahrnehmungen und "
-"Meinungen bezüglichunseres Therapiekonzeptes einschätzen zu können. "
+"um das generelle Wissen und Empfindungen über Diabetes Mellitus und seine"
+" Therapie, sowie die Beeinflussen derer durch die Synthetische Biologiein"
+" der Zukunft, abschätzen zu können. Dies ist für unser gesamtes Projekt "
+"sehr wichtig, da es uns helfen wird unsere Human Practice Arbeiten und "
+"die von uns betriebene Aufklärung zu verbessern und die Wahrnehmungen und"
+" Meinungen bezüglich unseres Therapiekonzeptes einschätzen zu können. "
 
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:157
 #: igem_tuebingen_website/templates/human_practices.html:157
@@ -1370,18 +1369,18 @@ msgstr ""
 "Konsequenzen für unser Projekt ziehen zu können. "
 
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:172
-#: build/lib/igem_tuebingen_website/templates/project_2019.html:148
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:140
 #: igem_tuebingen_website/templates/human_practices.html:172
-#: igem_tuebingen_website/templates/project_2019.html:148
+#: igem_tuebingen_website/templates/project_2019.html:140
 msgid "Software"
 msgstr "Software"
 
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:173
-#: build/lib/igem_tuebingen_website/templates/index.html:150
-#: build/lib/igem_tuebingen_website/templates/project_2019.html:149
+#: build/lib/igem_tuebingen_website/templates/index.html:161
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:141
 #: igem_tuebingen_website/templates/human_practices.html:173
-#: igem_tuebingen_website/templates/index.html:150
-#: igem_tuebingen_website/templates/project_2019.html:149
+#: igem_tuebingen_website/templates/index.html:161
+#: igem_tuebingen_website/templates/project_2019.html:141
 msgid ""
 "Throughout our participations in iGEM several software tools have been "
 "developed. Read more\n"
@@ -1404,33 +1403,32 @@ msgstr ""
 "Kontakt treten wollen, schreiben Sie uns einfach eine Nachricht und wir "
 "kommen auf Sie zu."
 
-#: build/lib/igem_tuebingen_website/templates/index.html:24
-#: build/lib/igem_tuebingen_website/templates/project_2019.html:24
-#: igem_tuebingen_website/templates/index.html:24
-#: igem_tuebingen_website/templates/project_2019.html:24
+#: build/lib/igem_tuebingen_website/templates/index.html:25
+#: igem_tuebingen_website/templates/index.html:25
 msgid "iGEM Tübingen"
 msgstr "iGEM Tübingen"
 
-#: build/lib/igem_tuebingen_website/templates/index.html:110
-#: igem_tuebingen_website/templates/index.html:110
+#: build/lib/igem_tuebingen_website/templates/index.html:121
+#: igem_tuebingen_website/templates/index.html:121
 msgid "Read about our Human Practice"
 msgstr "Erfahre mehr über Human Practice"
 
-#: build/lib/igem_tuebingen_website/templates/index.html:124
-#: igem_tuebingen_website/templates/index.html:124
+#: build/lib/igem_tuebingen_website/templates/index.html:135
+#: igem_tuebingen_website/templates/index.html:135
 msgid ""
 "Read about how to get involved as a researcher or in the role of a "
 "sponsor."
 msgstr ""
-"Erfahre mehr darüber, wie man uns am Besten als Forscher oder Sponsor unterstützen kann."
+"Erfahre mehr darüber, wie man uns am Besten als Forscher oder Sponsor "
+"unterstützen kann."
 
-#: build/lib/igem_tuebingen_website/templates/index.html:133
-#: igem_tuebingen_website/templates/index.html:133
+#: build/lib/igem_tuebingen_website/templates/index.html:144
+#: igem_tuebingen_website/templates/index.html:144
 msgid "Further Information"
 msgstr "Weitere Informationen"
 
-#: build/lib/igem_tuebingen_website/templates/index.html:167
-#: igem_tuebingen_website/templates/index.html:167
+#: build/lib/igem_tuebingen_website/templates/index.html:178
+#: igem_tuebingen_website/templates/index.html:178
 msgid ""
 "A project as ambitious as iGEM cannot be realized without the generous "
 "help of our\n"
@@ -1439,13 +1437,13 @@ msgstr ""
 "Ein so ambitioniertes Projekt wie iGEM könnte nicht ohne die Hilfe "
 "unserer großzügigen Sponsoren realisiert werden."
 
-#: build/lib/igem_tuebingen_website/templates/project_2019.html:84
-#: igem_tuebingen_website/templates/project_2019.html:84
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:73
+#: igem_tuebingen_website/templates/project_2019.html:73
 msgid "Our project"
 msgstr "Unser Projekt"
 
-#: build/lib/igem_tuebingen_website/templates/project_2019.html:86
-#: igem_tuebingen_website/templates/project_2019.html:86
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:76
+#: igem_tuebingen_website/templates/project_2019.html:76
 msgid ""
 "The aim of the project 2019 is the generation of a probiotic for the "
 "therapy of Type II Diabetes\n"
@@ -1487,7 +1485,7 @@ msgstr ""
 " Diabetes mellitus zu entwickeln, basierend auf einem Plasmid-Chassis mit"
 " einem Cas3-Selbsttötungsmechanismus, um die Ausbreitung von GVOs zu "
 "verhindern, was sowohl die vielen Bedenken gegenüber GVOs anspricht als "
-"auch die notwendigen Biosicherheitsstandards erfüllt.Darüber hinaus "
+"auch die notwendigen Biosicherheitsstandards erfüllt. Darüber hinaus "
 "ermöglicht der Plasmid-Chassis einen kontrollierten Einsatz des "
 "Probiotikum und beschränkt seinen Lebensraum auf den des menschlichen "
 "Darms. Kontrolle erhält man durch das Verwenden von drei verschiedenen "
@@ -1503,20 +1501,20 @@ msgstr ""
 "GVO planen wir auch die Modellierung der Effizienz, Stabilität und "
 "Kinetik des Selbsttötungsmechanismus. Durch die Verwendung von GUIDE-Seq "
 "und Nextflow werden wir auch die Off-Target-Spaltung unserer Cas-Systeme "
-"ermitteln und planen eine GUIDE-Seq Datenanalyse zu erstellen.Unser "
+"ermitteln und planen eine GUIDE-Seq Datenanalyse zu erstellen. Unser "
 "probiotischer Cas3-Biosicherheitschassis kann auch für andere Anwendungen"
 " eingesetzt werden, indem man das Gen von Interesse im Plasmid "
 "austauscht. Daher kann unser Chassis von Fprschern verwendet werden, die "
 "auf der Suche nach einem funktionalen Chassis sind, der die "
 "Biosicherheitsstandards erfüllt."
 
-#: build/lib/igem_tuebingen_website/templates/project_2019.html:106
-#: igem_tuebingen_website/templates/project_2019.html:106
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:96
+#: igem_tuebingen_website/templates/project_2019.html:96
 msgid "Type II Diabetes Mellitus and incretin mimetics"
 msgstr "Typ II Diabetes Mellitus und Incretin Mimetika"
 
-#: build/lib/igem_tuebingen_website/templates/project_2019.html:108
-#: igem_tuebingen_website/templates/project_2019.html:108
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:99
+#: igem_tuebingen_website/templates/project_2019.html:99
 msgid ""
 "Type II Diabetes Mellitus is a metabolic disease that affects about 10 "
 "percent of the population. One\n"
@@ -1560,37 +1558,37 @@ msgstr ""
 "  Typ II Diabetes Mellitus ist eine Stoffwechselkrankheit unter welcher "
 "etwa 10 Prozent aller Menschen leiden. Eines der Hauptsymptome ist der "
 "relative Mangel von Insulin, was eine verminderte Glukoseaufnahme durch "
-"die Zellen bedingt.Das Führt zu einer Zellulären Energiekriese. In Typ II"
-" Diabetes Mellitus kompensiert der Körper diesen Mangel durch erhöhte "
+"die Zellen bedingt. Das Führt zu einer Zellulären Energiekriese. In Typ "
+"II Diabetes Mellitus kompensiert der Körper diesen Mangel durch erhöhte "
 "Insulinausschüttung, was zu stress in den Insulin sekretierenden beta "
-"Zellen des Pankreas führt.Dieser Stress resultiert letztendlich in der "
+"Zellen des Pankreas führt. Dieser Stress resultiert letztendlich in der "
 "Zerstörung der beta Zellen und somit zum fehlen jeglichen Insulins im "
-"Körper.Der relative Insulinmangel bei Typ II Diabetes Mellitus kann "
-"verschiedene Gründe haben.Eine Ursache kann stark erhöhter Zuckerkonsum "
+"Körper. Der relative Insulinmangel bei Typ II Diabetes Mellitus kann "
+"verschiedene Gründe haben. Eine Ursache kann stark erhöhter Zuckerkonsum "
 "sein was die Sensitivität der Insulinrezeptoren verringert. Genetische "
 "Predisposition durch z.B. Mutationen in essentiellen Genen muss aber auch"
-" als Grund genannt werden.Eine Form der Behandlung von Typ II Diabetes "
+" als Grund genannt werden. Eine Form der Behandlung von Typ II Diabetes "
 "Mellitus ist die gabe von Inkretin Mimetica. Diese lösen den "
 "Inkretineffekt aus bekannt vom körpereigene Glucagon-Like-Peptide-1 "
 "(GLP-1). Das erklärt die Tatsache dass die orale Gabe eine größeren "
 "Insulinausschüttung bewirkt als die parenterale Zufuhr.Das in den "
 "L-Zellen des Darms produzierte GLP-1 wird bei Anwesenheit von Nährstoffen"
-" ausgeschüttet und erreicht den Pankreas über das Blut.Dort bindet es an "
-"seinen Rezeptor (ein G-Protein gekoppelter Rezeptor) welcher die Adenylat"
-" Cyclase aktiviert und so die Produktion von cAMP anstößt.Das führt zu "
-"einem erhöhten Calcium Fluss in die Zelle und in Folge dessen zu einer "
-"verstärkten Insulinsekretion durch die beta Zellen.Diese Erhöhte "
+" ausgeschüttet und erreicht den Pankreas über das Blut. Dort bindet es an"
+" seinen Rezeptor (ein G-Protein gekoppelter Rezeptor) welcher die "
+"Adenylat Cyclase aktiviert und so die Produktion von cAMP anstößt. Das "
+"führt zu einem erhöhten Calcium Fluss in die Zelle und in Folge dessen zu"
+" einer verstärkten Insulinsekretion durch die beta Zellen. Diese Erhöhte "
 "Sekretion hilft den relativen Mangel an Insulin in Typ II Diabetes "
 "Mellitus zu compensieren, solange die Menge des ausgeschüttenten "
 "incretins ausreichen."
 
-#: build/lib/igem_tuebingen_website/templates/project_2019.html:130
-#: igem_tuebingen_website/templates/project_2019.html:130
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:121
+#: igem_tuebingen_website/templates/project_2019.html:121
 msgid "Genetically modified organisms (GMOs)"
 msgstr "Genetisch modifizierte Organismen (GMOs)"
 
-#: build/lib/igem_tuebingen_website/templates/project_2019.html:132
-#: igem_tuebingen_website/templates/project_2019.html:132
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:124
+#: igem_tuebingen_website/templates/project_2019.html:124
 msgid ""
 "Genetically modified organisms (GMOs) are organisms whose genetic "
 "information has been altered\n"
@@ -1609,15 +1607,20 @@ msgid ""
 "                        Therefore, efforts have been made and are still "
 "made towards ensuring the biosafety of GMOs."
 msgstr ""
-"Gentechnisch modifizierte Organismen (GMOs) sind Organismen, dessen "
-"genetische Information durch Genmodifizierungen verändert wurden.Hierbei "
-"variiert die verwendete Technik zwischen den verschiedenen GMOs und "
+"Gentechnisch modifizierte Organismen (GMOs) sind Organismen, deren "
+"genetische Information durch Genmodifizierungen verändert wurden. Hierbei"
+" variiert die verwendete Technik zwischen den verschiedenen GMOs und "
 "besteht aus Gen Knockouts and Knockins, sowie Erhöhung oder Repression "
-"von Genexpression.GMOs eröffnen viele Möglichkeiten für "
+"von Genexpression. GMOs eröffnen viele Möglichkeiten für "
 "Grundlagenforschung, Nahrungsproduktion, sowie die Diagnose und "
 "Behandlung von Krankheiten.Aufgrund von Sorgen und Vorbehalten gegenüber "
 "der Sicherheit von GMOs, stellt die Risikominimierung und die "
 "Biosicherheit ein sehr aktives Forschungsfeld dar."
+
+#: build/lib/igem_tuebingen_website/templates/software.html:75
+#: igem_tuebingen_website/templates/software.html:75
+msgid "Overview of BERTs components and workflow."
+msgstr "Überblick über BERTs Komponenten und Workflow."
 
 #: build/lib/igem_tuebingen_website/templates/software.html:76
 #: igem_tuebingen_website/templates/software.html:76
@@ -1659,13 +1662,13 @@ msgid ""
 msgstr ""
 "Das Softwareprojekt des iGEM Teams Tübingen 2018 beschäftigte sich mit "
 "dem Problem, dass Biopharmazeutika vom menschlichen Immunsystem bekämpft "
-"werden. Bei Kontaktmit Fremdproteinen kann das Immunsystem die Produktion"
-" von Anti-Drug-Antikörpern (ADAs) in Plasmazellen anregen, was "
-"dieFunktion und Verfügbarkeit von Pharmazeutika im Körper reduziert.Um "
+"werden. Bei Kontakt mit Fremdproteinen kann das Immunsystem die "
+"Produktion von Anti-Drug-Antikörpern (ADAs) in Plasmazellen anregen, was "
+"die Funktion und Verfügbarkeit von Pharmazeutika im Körper reduziert.Um "
 "dieses Problem zu lösen haben wir den leistungsstarken modularen "
-"Entimmunisierungs-Workflow Boosted Epitope Reduction based onTrees (BERT)"
-" zur automatisierten Deimmunisierung von Proteinen entwickelt. Bewege den"
-" Mauszeiger über das Bild auf der Seite links für einen Überblick über "
+"Deimmunisierungs-Workflow Boosted Epitope Reduction based onTrees (BERT) "
+"zur automatisierten Deimmunisierung von Proteinen entwickelt. Bewege den "
+"Mauszeiger über das Bild auf der Seite links für einen Überblick über "
 "BERT.BERT berechnet die Immunität basierend auf dem MHC-Klasse-II-Epitop "
 "Predictor NetMHCIIpan und minimiert die Immunität durch eine "
 "epitopzerstörende Aminosäure-Substitution. Um die strukturelle Integrität"
@@ -1750,7 +1753,7 @@ msgstr ""
 "vielen Experimenten ein äußerst wichtiger Schritt. Um die Analyse von "
 "Off-target Schnitten zu vereinfachen wird das iGEM Team Tübingen 2019 "
 "eine Analysepipeline ausarbeiten um Daten aus GUIDE-Seq Experimenten zu "
-"verarbeiten.GUIDE-Seq ist eine Molekularbiologische Methode zur "
+"verarbeiten. GUIDE-Seq ist eine Molekularbiologische Methode zur "
 "genomweiten Analyse von Nucleaseschnittstellen durch z.B. das CRISPR/Cas "
 "System. Unser Ziel ist es ein reproduzierbares und parallelisierbares "
 "bioinformatisches Analysesoftware-Tool zu entwickeln basierend auf dem "
@@ -1763,12 +1766,12 @@ msgstr ""
 "verschiedenen Komponenten auftreten, was die die Reproduzierbarkeit der "
 "Ergebnisse sicherstellt. Für uns hat die Entwicklung eines einfach zu "
 "bedienenden Software-Tools höchste Priorität. Wir wollen ein gutes und "
-"erfolgreiches Ergebnis durchintuitive Bedienbarkeit erzielen, ohne dass "
+"erfolgreiches Ergebnis durch intuitive Bedienbarkeit erzielen, ohne dass "
 "der Anwender zusätzliche Programmierarbeiten durchführen muss. Deshalb "
 "möchten wir eine klare und verständliche graphische Benutzeroberfläche "
 "entwickeln. Wir möchten auch den bereits existierenden Workflow "
 "verbessern, indem wir einzelne Komponenten austauschen um die Genauigkeit"
-" zu erhöhen und die benötigte Rechenzeit zu verringern.Ein weiteres "
+" zu erhöhen und die benötigte Rechenzeit zu verringern. Ein weiteres "
 "Hauptziel ist es, die Ergebnisse unseres Workflows experimentell zu "
 "validieren und die Integration der Ergebnisse unseres Softwaretools in "
 "unsere Wet-Lab-Experimente einfließen zu lassen. Wir wollen auch andere "
@@ -1797,24 +1800,21 @@ msgid ""
 "forward to working with you!"
 msgstr ""
 "Durch die großartige Unterstützung unserer Sponsoren war es uns bisher "
-"stets möglich erfolgreich am iGEM Wettbewerb teilzunehmen.Sowohl durch "
+"stets möglich erfolgreich am iGEM Wettbewerb teilzunehmen. Sowohl durch "
 "finanzielle Unterstützung als auch durch das Bereitstellen von "
 "Materialien haben unsere Sponsoren maßgeblich zu unserem Erfolg "
 "beigetragen. Sie sind es, die es uns ermöglicht haben alleine ein "
 "professionelles Forschungsprojekt durchzuführen, wodurch wir wichtige "
 "Fähigkeiten erhalten. Als von Studenten organisiertes Team, "
 "verantwortlich für Organisation, Planung, Finanzierung, Vertretung und "
-"die Teilnahme an iGEM, wäre uns dies sonst nicht möglich gewesen.Während "
-"wir den Weg für ein vielversprechendes Projekt ebnen, können sich unsere "
-"Sponsoren mit hochmotivierten und talentierten Studenten austauschen. Wir"
-" sind überaus dankbar für die Unterstützung unserer Förderer und freuen "
-"uns auf die Zusammenarbeit mit Ihnen. "
+"die Teilnahme an iGEM, wäre uns dies sonst nicht möglich gewesen. Während"
+" wir den Weg für ein vielversprechendes Projekt ebnen, können sich unsere"
+" Sponsoren mit hochmotivierten und talentierten Studenten austauschen. "
+"Wir sind überaus dankbar für die Unterstützung unserer Förderer und "
+"freuen uns auf die Zusammenarbeit mit Ihnen. "
 
 #: build/lib/igem_tuebingen_website/templates/sponsors.html:90
 #: igem_tuebingen_website/templates/sponsors.html:90
 msgid "Sponsors of Team Tübingen 2018"
 msgstr "Sponsoren von Team Tübingen 2018"
-
-#~ msgid "Project Portfolio"
-#~ msgstr "Projektmappe"
 
