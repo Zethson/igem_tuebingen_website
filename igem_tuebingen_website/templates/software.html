@@ -43,7 +43,7 @@
                 <li><a href="{{ url_for('gallery') }}">{{ _('Gallery') }}</a></li>
                 <li><a href="{{ url_for('sponsors') }}">{{ _('Sponsors') }}</a></li>
             </ul>
-            <a href="#" class="close">Close</a>
+            <a href="#" class="close">{{ _('Close') }}</a>
         </div>
     </nav>
 
@@ -73,72 +73,50 @@
                     <h3 class="major">2018</h3>
                     <p><span class="image left zoom"><img
                             src="{{ url_for('static', filename='images/software/BERT.png') }}"
-                            alt=""/></span>The software project of the iGEM Team Tübingen 2018
+                            alt=""/></span>{{ _('The software project of the iGEM Team Tübingen 2018
                         addressed the problem of biopharmaceuticals being targeted by the human immune system. Upon
-                        contact
-                        with foreign proteins, the immune system can trigger the production of anti-drug antibodies
-                        (ADAs)
-                        by plasma cells, which neutralize the
-                        function and reduce the bioavailability of biopharmaceuticals in the system.<br>
-                        We constructed the powerful and modular deimmunization workflow “<b>B</b>oosted <b>E</b>pitope
-                        <b>R</b>eduction based on
-                        <b>T</b>rees” (BERT), automating protein deimmunization to solve this problem. Hover over the
-                        image on the
-                        left for an overview of BERT.<br>
+                        contact with foreign proteins, the immune system can trigger the production of anti-drug antibodies
+                        (ADAs) by plasma cells, which neutralize the
+                        function and reduce the bioavailability of biopharmaceuticals in the system.
+                        We constructed the powerful and modular deimmunization workflow “Boosted Epitope
+                        Reduction based on Trees” (BERT), automating protein deimmunization to solve this problem.
+                        Hover over the image on the left for an overview of BERT.
                         BERT computes the immunity based on MHC class II epitope using NetMHCIIpan and minimizes the
                         immunity by epitope destroying amino acid substitution.
                         To ensure the structural integrity of the protein, highly conserved amino acids
                         were excluded from the substitution process.
                         Furthermore, BERT computes the Gibbs free energy change (ddG) for each amino acid substitution
-                        and
-                        chooses the final amino acid substitutions based on the minimum ddG and minimum immunity of the
-                        protein.<br>
+                        and chooses the final amino acid substitutions based on the minimum ddG and minimum immunity of the
+                        protein.
                         Moreover, we created a fast and highly accurate MHC class I prediction tool called MHCBoost,
-                        which
-                        achieves accuracy benchmarks in the range of state of the art MHC class I prediction tools.
+                        which achieves accuracy benchmarks in the range of state of the art MHC class I prediction tools.
                         MHCBoost uses gradient boosted trees to predict short MHC binding peptides that have the
-                        potential to trigger an immune response with unparalleled speed.</p>
+                        potential to trigger an immune response with unparalleled speed.') }}</p>
 
-                    <p>Links to GitHub repositories:<br>
-                        <a href="https://github.com/igemsoftware2018/Team_Tuebingen_BERT">View BERT on GitHub</a><br>
-                        <a href="https://github.com/igemsoftware2018/Team_Tuebingen_MHCBoost">View MHCBoost on GitHub</a><br>
+                    <p>{{ _('Links to GitHub repositories:') }}<br>
+                        <a href="https://github.com/igemsoftware2018/Team_Tuebingen_BERT">{{ _('View BERT on GitHub') }}</a><br>
+                        <a href="https://github.com/igemsoftware2018/Team_Tuebingen_MHCBoost">{{ _('View MHCBoost on GitHub') }}</a><br>
                     </p>
 
 
                     <h3 class="major">2019</h3>
-                    <p>The CRISPR/Cas system is a very powerful tool for genome editing in biological
-                        research and in treatment of diseases. Besides its high specificity, off-target activity often
-                        yields unwanted side effects. Therefore, the identification of off-target sites is a crucial
-                        point
-                        in many experimental set-ups. <br>
-                        To facilitate the analysis of experimental off-target identification, the iGEM Team Tübingen
-                        2019
-                        creates a data analysis pipeline for data generated in GUIDE-Seq experiments, which is an
-                        unbiased
-                        and genome-wide method to identify off-target sites in CRISPR/Cas experiments. Our goal is to
-                        generate a reproducible and parallelizable analysis software tool, based on the bioinformatics
-                        workflow management system Nextflow. <br>
-                        Nextflow allows to develop portable and reproducible workflows which can be deployed on various
-                        platforms for execution. A key property of this workflow management system is its ability to
-                        decouple workflow components by isolating their dependencies with containers. This ensures that
-                        no
-                        future requirement conflicts occur between different components, which allows maintaining the
-                        reproducibility of results. <br>
-                        To us, creating an easy-to-use software tool is of highest priority. We want to achieve a good
-                        and
-                        intuitive usability without the user being required to do any additional programming. For a
-                        considerable number of useful bioinformatic tools installation and handling is not quite
-                        intuitive.
+                    <p>{{ _('The CRISPR/Cas system is a very powerful tool for genome editing in biological research and in treatment of diseases.
+                        Besides its high specificity, off-target activity often yields unwanted side effects.
+                        Therefore, the identification of off-target sites is a crucial point in many experimental set-ups.
+                        To facilitate the analysis of experimental off-target identification, the iGEM Team Tübingen 2019 creates a data analysis pipeline for data generated in GUIDE-Seq experiments,
+                        which is an unbiased and genome-wide method to identify off-target sites in CRISPR/Cas experiments.
+                        Our goal is to generate a reproducible and parallelizable analysis software tool, based on the bioinformatics workflow management system Nextflow.
+                        Nextflow allows the development of portable and reproducible workflows which can be deployed on various platforms for execution.
+                        A key property of this workflow management system is its ability to decouple workflow components by isolating their dependencies with containers.
+                        This ensures that no future requirement conflicts occur between different components, which allows maintaining the reproducibility of results.
+                        To us, creating an easy-to-use software tool is of highest priority.
+                        We want to achieve a good and intuitive usability without the user being required to do any additional programming or setup.
+                        For a considerable number of useful bioinformatic tools installation and handling is not quite intuitive.
                         This potentially limits the number of users and therefore decreases the impact of the tool.
-                        Therefore, we are creating a clear and comprehensible web-based user interface. We also plan to
-                        improve the existing workflow layout, by replacing single components to improve the accuracy of
-                        the
-                        result and to reduce the computational time needed.
-                        Another main goal is to validate the results of our workflow experimentally and to integrate the
-                        results of our software tool into our wet-lab experiments. We also want to motivate other iGEM
-                        teams
-                        and research groups, who are working with CRISPR/Cas systems and are concerned about potential
-                        off-target sites, to use our tool.
+                        Therefore, we are creating a clear and comprehensible graphical user interface.
+                        We also plan to improve the existing workflow layout, by replacing single components to improve the accuracy of the result and to reduce the computational time needed.
+                        Another main goal is to validate the results of our workflow experimentally and to integrate the results of our software tool into our wet-lab experiments.
+                        We also want to encourage other iGEM teams and research groups, who are working with CRISPR/Cas systems and are concerned about potential off-target sites, to use our tool.') }}
                     </p>
 
                     <section class="features">
@@ -146,20 +124,20 @@
                             <a href="{{ url_for('about_igem_teamtuebingen') }}" class="image"><img
                                     src="{{ url_for('static', filename='images/subsite_icons/tuebingen_town_cut.jpg') }}"
                                     alt=""/></a>
-                            <h3 class="major">About iGEM and Team Tübingen</h3>
-                            <p>Read about the iGEM competition and get to know our team!</p>
+                            <h3 class="major">{{ _('About iGEM and Team Tübingen') }}</h3>
+                            <p>{{ _('Read about the iGEM competition and get to know our team!') }}</p>
                             <a href="{{ url_for('about_igem_teamtuebingen') }}" class="special">{{ _('Learn more')}}</a>
                         </article>
                         <article>
                             <a href="{{ url_for('project_2019') }}" class="image"><img
                                     src="{{ url_for('static', filename='images/subsite_icons/project_bacteria_cut_2.jpg') }}"
                                     alt=""/></a>
-                            <h3 class="major">Project 2019</h3>
-                            <p>The aim of the project 2019 is to generate a probiotic for the therapy of Type II
+                            <h3 class="major">{{ _('Project 2019') }}</h3>
+                            <p>{{ _('The aim of the project 2019 is to generate a probiotic for the therapy of Type II
                                 Diabetes
                                 Mellitus, based on a plasmid chassis incorporating a Cas3 self-kill mechanism to prevent
                                 the
-                                spread of GMOs in the environment.</p>
+                                spread of GMOs in the environment.') }}</p>
                             <a href="{{ url_for('project_2019') }}" class="special">{{ _('Learn more')}}</a>
                         </article>
                     </section>

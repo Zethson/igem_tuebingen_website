@@ -42,7 +42,7 @@
                 <li><a href="{{ url_for('gallery') }}">{{ _('Gallery') }}</a></li>
                 <li><a href="{{ url_for('sponsors') }}">{{ _('Sponsors') }}</a></li>
             </ul>
-            <a href="#" class="close">Close</a>
+            <a href="#" class="close">{{ _('Close') }}</a>
         </div>
     </nav>
 
@@ -69,32 +69,25 @@
             <div class="wrapper">
                 <div class="inner">
                     <h3 class="major">Sponsoring</h3>
-                    With the generous support of our sponsors it so far has always been possible to successfully take
-                    part
-                    in the iGEM competition. By financially supporting us and by providing us with materials, our
-                    sponsors have
-                    contributed greatly to our success. They are who enabled us to complete professional research
-                    projects
-                    on our own and to receive unique and outstanding training. Since we are a student-organized team
+                    {{ _('Only with the generous support of our sponsors it so far has always been possible to successfully take
+                    part in the iGEM competition. By financially supporting us and by providing us with materials, our
+                    sponsors have contributed greatly to our success. They are who enabled us to complete professional research
+                    projects on our own and to receive unique and outstanding training. Since we are a student-organized team
                     responsible for organization, planning, funding and representation, participating in iGEM
                     would otherwise not have been possible for us. While paving the way for a promising project our
                     supporters could also connect with highly motivated and talented students. We are immensely grateful
-                    for
-                    the support of our sponsors and are looking forward to working with you!
-
-                    <h3 class="major">Project Portfolio</h3>
-
+                    for the support of our sponsors and are looking forward to working with you!') }}
                     {% if CURRENT_LANGUAGE == 'en' %}
                         <p> If you are interested in additional data and sponsoring information, you can
                         <a href="../static/images/V4.2_en.pdf" class="special"
                             download="Project Portfolio iGEM Team Tübingen">download our project portfolio</a></p>
                     {% else %}
-                        <p> If you are interested in additional data and sponsoring information, you can<a
+                        <p> Falls du in weiteren Daten und Sponsoreninformationen interessiert bist, kannst du<a
                             href="../static/images/V4.2_en.pdf" class="special"
-                            download="Projektmappe iGEM Team Tübingen">Downloaden sie unsere Projektmappe</a></p>
+                            download="Projektmappe iGEM Team Tübingen">unsere Projektmappe downloaden.</a></p>
                     {% endif %}
 
-                    <h3 class="major">Sponsors of Team Tübingen 2018</h3>
+                    <h3 class="major">{{ _('Sponsors of Team Tübingen 2018') }}</h3>
                     <div class="box alt">
                         <div class="row gtr-uniform">
                             <div class="col-12"><span class="image fit zoom"><img
@@ -108,20 +101,20 @@
                             <a href="{{ url_for('about_igem_teamtuebingen') }}" class="image"><img
                                     src="{{ url_for('static', filename='images/subsite_icons/tuebingen_town_cut.jpg') }}"
                                     alt=""/></a>
-                            <h3 class="major">About iGEM and Team Tübingen</h3>
-                            <p>Read about the iGEM competition and get to know our team!</p>
+                            <h3 class="major">{{ _('About iGEM and Team Tübingen') }}</h3>
+                            <p>{{ _('Read about the iGEM competition and get to know our team!') }}</p>
                             <a href="{{ url_for('about_igem_teamtuebingen') }}" class="special">{{ _('Learn more')}}</a>
                         </article>
                         <article>
                             <a href="{{ url_for('project_2019') }}" class="image"><img
                                     src="{{ url_for('static', filename='images/subsite_icons/project_bacteria_cut_2.jpg') }}"
                                     alt=""/></a>
-                            <h3 class="major">Project 2019</h3>
-                            <p>The aim of the project 2019 is to generate a probiotic for the therapy of Type II
+                            <h3 class="major">{{ _('Project 2019') }}</h3>
+                            <p>{{ _('The aim of the project 2019 is to generate a probiotic for the therapy of Type II
                                 Diabetes
                                 Mellitus, based on a plasmid chassis incorporating a Cas3 self-kill mechanism to prevent
                                 the
-                                spread of GMOs in the environment.</p>
+                                spread of GMOs in the environment.') }}</p>
                             <a href="{{ url_for('project_2019') }}" class="special">{{ _('Learn more')}}</a>
                         </article>
                     </section>
