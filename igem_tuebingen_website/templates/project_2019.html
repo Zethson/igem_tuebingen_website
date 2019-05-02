@@ -71,8 +71,9 @@
                 <div class="inner">
 
                     <h3 class="major">{{ _('Our project') }}</h3>
-                    <p><figure><div class="image right"><img src="{{ url_for('static', filename='images/project/diabOverview.png') }}">
-                    <figcaption style="font-size: small">Fig.1 This is a placeholder for images in project 2019!</figcaption></div></figure>
+                    <p><figure><div class="image right"><img src="{{ url_for('static', filename='images/project/application.png') }}">
+                    <figcaption style="font-size: small">{{ _('Our therapeutic agent is a probiotic secreting incretin mimetics that is placed in the patients intestine by oral administration of capsules.
+                     This enables an easier therapy where a regular intake of a medication is not required.') }}</figcaption></div></figure>
                         {{ _('The aim of the project 2019 is the generation of a probiotic for the therapy of Type II Diabetes
                         Mellitus based on a plasmid chassis incorporating a Cas3 self-kill mechanism to prevent
                         the spread of GMOs in the environment which also addresses the high amount of concerns associated
@@ -80,7 +81,11 @@
                         Moreover, the plasmid chassis allows for a controlled use of the probiotic and
                         limits its habitat to that of the human gut due to the incorporation of three different
                         regulators inhibiting the Cas3 self-kill system when the bacterium is located in its designated
-                        environment. In the gut, our probiotic is supposed to form and secrete incretin mimetics in response to glucose.
+                        environment.') }}
+                        <figure><div class="image left"><img src="{{ url_for('static', filename='images/project/gut.png') }}">
+                    <figcaption style="font-size: small">{{ _('Simplified representation of our project: The plasmid encoding the GLP analog is introduced into a probiotic E. coli strain which
+                     then secretes peptide which can be absorbed through the intestine to increase insulin secretion in the pancreas. ') }}</figcaption></div></figure>
+                        {{ _('In the gut, our probiotic is supposed to form and secrete incretin mimetics in response to glucose.
                         The incretin mimetics will be taken up by the enterocytes and are transported to the pancreas via
                         the blood, where they enhance insulin secretion. Since Diabetes is one of the most prevalent diseases
                         nowadays, we address an important and relevant problem not only for the clinics but also for the
@@ -94,8 +99,9 @@
                     </p>
 
                     <h3 class="major">{{ _('Type II Diabetes Mellitus and incretin mimetics') }}</h3>
-                    <p><figure><div class="image left"><img src="{{ url_for('static', filename='images/project/gut.png') }}">
-                    <figcaption style="font-size: small">Fig.2 This is a placeholder for images in project 2019!</figcaption></div></figure>
+                    <p><figure><div class="image right"><img src="{{ url_for('static', filename='images/project/GLP_mechanism.png') }}">
+                    <figcaption style="font-size: small">{{ _('Signaling pathway causing increased Insulin secretion: The GLP-Analogon will bind to its receptor (a G-protein-coupled receptor), which will activate Adenylate Cyclase (if ATP is available within the cell), initiating the production of cAMP. "
+                    Overall, this will lead to increased Calcium Ion influx, allowing for more Insulin to be secreted from the beta cells.') }}</figcaption></div></figure>
                         {{ _('Type II Diabetes Mellitus is a metabolic disease that affects about 10 percent of the population. One
                         of its major symptoms is the relative lack of insulin, which causes a decreased uptake of glucose into
                         cells, leading to an energy crisis. In Type II Diabetes Mellitus the body compensates this
@@ -119,8 +125,9 @@
                     </p>
 
                     <h3 class="major">{{ _('Genetically modified organisms (GMOs)') }}</h3>
-                    <p><figure><div class="image left"><img src="{{ url_for('static', filename='images/project/GOI.png') }}">
-                    <figcaption style="font-size: small">Fig.1 This is a placeholder for images in project 2019!</figcaption></div></figure>
+                    <p><figure><div class="image left"><img src="{{ url_for('static', filename='images/project/lizard_peptide.png') }}">
+                    <figcaption style="font-size: small">{{ _('The Gila monster (Heloderma suspectum) is a firm venomous lizard living in the wastelands of southwest North America. It is secreting its Venom composed of a neurotoxin (gilatoxin) and different glycoproteins from a mandibular gland.
+                    One of the secreted glycoproteins is exendin-4 which has the synthetic analogue Exenatid.') }}</figcaption></div></figure>
                         {{ _('Genetically modified organisms (GMOs) are organisms whose genetic information has been altered
                         intentionally with the use of genetic engineering. The technique used and the way of alteration
                         varies between different GMOs and comprises gene knockouts and knockins as well as enhancement
@@ -130,7 +137,33 @@
                         especially address their safety when intentionally or unintentionally released into the
                         environment.
                         Therefore, efforts have been made and are still made towards ensuring the biosafety of GMOs.') }}
+                        <p><figure><div class="image right"><img src="{{ url_for('static', filename='images/project/GOI.png') }}">
+                    <figcaption style="font-size: small">{{ _('Our probiotic strain contains a plasmid which expresses the GLP-analog Exenatid in the presence of glucose. Exenatid is further modified with a secretion tag and a
+                     cell penetrating peptide to allow for it to pass through the epithelial cells of the intestine and to reach the blood stream.') }}</figcaption></div></figure>
                     </p>
+
+                    <h3 class="major">{{ _('Drylab and Bioinformatics') }}</h3>
+                    <p>
+                        {{ _('The CRISPR-Cas System is a versatile toolkit for gene editing. It is known to be very accurate,
+                        yet depending on many factors off-target activities can be observed. Such off-target cuts lead
+                        to unwanted genome alterations which have to be considered in every experiment.
+                        To facilitate the analysis of experimental off-target identification, we create a data analysis
+                        pipeline for data generated in GUIDE-Seq experiments, which is a method to identify off-target
+                        sites in CRISPR/Cas experiments. Our goal is to generate a reproducible and parallelizable
+                        analysis software tool, based on the bioinformatics workflow management system Nextflow. To us,
+                        creating an easy-to-use software tool is of highest priority. We want to achieve a good and
+                        intuitive usability without the user being required to do any additional programming.
+                        For a considerable number of useful bioinformatic tools installation and handling is not quite
+                        intuitive. This potentially limits the number of users and therefore decreases the impact of the
+                        tool. So, we are creating a clear and comprehensible graphical user interface. We plan to
+                        improve the existing workflow layout, by replacing single components to improve the accuracy of
+                        the result and to reduce the computational time needed. Another main goal is to validate the
+                        results of our workflow experimentally and to integrate the results of our software tool into
+                        our wet-lab experiments. We also want to encourage other iGEM teams and research groups, who are
+                        working with CRISPR/Cas systems and are concerned about potential off-target sites, to use our
+                        tool. ') }}
+                    </p>
+
 
                     <section class="features">
                         <article>
