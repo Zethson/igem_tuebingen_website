@@ -1105,7 +1105,7 @@ msgstr "Als nächstes ist uns die"
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:104
 #: igem_tuebingen_website/templates/human_practices.html:104
 msgid "scientific community"
-msgstr "wissenschaftliche Gemeinschaft"
+msgstr "wissenschaftliche Gemeinschaft "
 
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:104
 #: igem_tuebingen_website/templates/human_practices.html:104
@@ -1118,14 +1118,14 @@ msgid ""
 "                        community"
 msgstr ""
 "wichtig, zu der wir uns auch zählen. Da jedes wissenschaftliche Projekt "
-"Einfluss auf die gesamte wissenschaftliche Gemeinschaft hat, sind wir "
+"Einfluss auf die gesamte wissenschaftliche Gemeinschaft hat sind wir "
 "dafür verantwortlich, dass unser Projekt in keinem Fall die Reputation "
 "der wissenschaftlichen Gemeinde negativ beeinflusst"
 
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:109
 #: igem_tuebingen_website/templates/human_practices.html:109
 msgid "Education"
-msgstr "Auch Bildung"
+msgstr "Auch Bildung "
 
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:109
 #: igem_tuebingen_website/templates/human_practices.html:109
