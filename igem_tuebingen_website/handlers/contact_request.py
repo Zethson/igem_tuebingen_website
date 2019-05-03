@@ -17,7 +17,6 @@ def contact_request():
     sent_by = "The request was sent by: " + request.form['name'] + " with the contact e-mail: " + request.form['email'] + "\n\n"
     message = "His/her message is: \n\n" + request.form['message']
     msg.body = sent_by + message
-    print(len(request.form['emailSPAM']))
     if len(request.form['emailSPAM']) == 0:
         Thread(target=send_async_email, args=(app, msg)).start()
         return render_template("contact_successful.html")
