@@ -71,8 +71,25 @@
                 <div class="inner">
 
                     <h3 class="major">2018</h3>
-                    <p><figure><div class="image left zoom"><img src="{{ url_for('static', filename='images/software/BERT.png') }}">
-                    <figcaption style="font-size: small">{{ _('Overview of BERTs components and workflow.') }}</figcaption></div></figure>
+                    <p><figure>
+                    <div  class="image left"><script type="text/javascript" src="{{ url_for('static', filename='assets/js/fluidImages.js') }}"></script>
+                        <img  src="{{ url_for('static', filename='images/software/BERT.png') }}"
+                              alt="" style="cursor:pointer" onclick="showImage('{{ url_for('static', filename='images/software/BERT.png') }}');">
+                        <figcaption style="font-size: small">{{ _('Overview of BERTs components and workflow.') }}</figcaption>
+                        <div id="largeImgPanel"  style="text-align: center;
+                                visibility: hidden;
+                                position: fixed;
+                                z-index: 100;
+                                top: 4%;
+                                left: 0;
+                                width:100%;
+                                height:100%;
+                                opacity: 60%;
+                                background-color: rgba(100, 100, 100, 0.95);" onclick="hideMe(this);">
+                            <img id="largeImg" style="height: 50%; padding: 0; width: 90%; margin: 10% 0 0 5%;">
+                        </div>
+                    </div>
+                    </figure>
                         {{ _('The software project of the iGEM Team Tübingen 2018
                         addressed the problem of biopharmaceuticals being targeted by the human immune system. Upon
                         contact with foreign proteins, the immune system can trigger the production of anti-drug antibodies
@@ -209,6 +226,7 @@
 <script src="{{ url_for('static', filename='assets/js/util.js') }}"></script>
 <script src="{{ url_for('static', filename='assets/js/spam.js') }}"></script>
 <script src="{{ url_for('static', filename='assets/js/main.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/js/fluidImages.js') }}"></script>
 
 </body>
 </html>
