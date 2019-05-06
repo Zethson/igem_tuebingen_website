@@ -10,6 +10,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/magnific-popup.css') }}">
     <noscript>
         <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/noscript.css') }}"/>
     </noscript>
@@ -71,9 +72,16 @@
                 <div class="inner">
 
                     <h3 class="major">{{ _('Our project') }}</h3>
-                    <p><figure><div class="image right"><img src="{{ url_for('static', filename='images/project/application.png') }}">
-                    <figcaption style="font-size: small">{{ _('Our therapeutic agent is a probiotic secreting incretin mimetics that is placed in the patients intestine by oral administration of capsules.
-                     This enables an easier therapy where a regular intake of a medication is not required.') }}</figcaption></div></figure>
+                    <ul id="image-popups">
+                    <p><figure>
+                            <div  class="image right">
+                            <a style="font-size: small" href="{{ url_for('static', filename='images/project/application.png') }}" data-effect="mfp-zoom-out"
+                               title="This title appears when image is clicked. Choose wisely ;)">
+                                <img src="{{ url_for('static', filename='images/project/application.png') }}"/>
+                                Tap for more details
+                            </a><figcaption style="font-size: small">{{ _('Dummy Image Caption') }}</figcaption>
+                            </div>
+                    </figure>
                         {{ _('The aim of the project 2019 is the generation of a probiotic for the therapy of Type II Diabetes
                         Mellitus based on a plasmid chassis incorporating a Cas3 self-kill mechanism to prevent
                         the spread of GMOs in the environment which also addresses the high amount of concerns associated
@@ -82,9 +90,18 @@
                         limits its habitat to that of the human gut due to the incorporation of three different
                         regulators inhibiting the Cas3 self-kill system when the bacterium is located in its designated
                         environment.') }}
-                        <figure><div class="image left"><img src="{{ url_for('static', filename='images/project/gut.png') }}">
-                    <figcaption style="font-size: small">{{ _('Simplified representation of our project: The plasmid encoding the GLP analog is introduced into a probiotic E. coli strain which
-                     then secretes peptide which can be absorbed through the intestine to increase insulin secretion in the pancreas. ') }}</figcaption></div></figure>
+                        <br>
+                        <br>
+                        <br>
+                        <figure>
+                            <div  class="image left">
+                            <a style="font-size: small" href="{{ url_for('static', filename='images/project/gut.png') }}" data-effect="mfp-zoom-out"
+                               title="This title appears when image is clicked. Choose wisely ;)">
+                                <img src="{{ url_for('static', filename='images/project/gut.png') }}"/>
+                                Tap for more details
+                            </a><figcaption style="font-size: small">{{ _('Dummy Image Caption') }}</figcaption>
+                            </div>
+                    </figure>
                         {{ _('In the gut, our probiotic is supposed to form and secrete incretin mimetics in response to glucose.
                         The incretin mimetics will be taken up by the enterocytes and are transported to the pancreas via
                         the blood, where they enhance insulin secretion. Since Diabetes is one of the most prevalent diseases
@@ -99,9 +116,15 @@
                     </p>
 
                     <h3 class="major">{{ _('Type II Diabetes Mellitus and incretin mimetics') }}</h3>
-                    <p><figure><div class="image right"><img src="{{ url_for('static', filename='images/project/GLP_mechanism.png') }}">
-                    <figcaption style="font-size: small">{{ _('Signaling pathway causing increased Insulin secretion: The GLP-Analogon will bind to its receptor (a G-protein-coupled receptor), which will activate Adenylate Cyclase (if ATP is available within the cell), initiating the production of cAMP. "
-                    Overall, this will lead to increased Calcium Ion influx, allowing for more Insulin to be secreted from the beta cells.') }}</figcaption></div></figure>
+                    <p><figure>
+                            <div  class="image right">
+                            <a style="font-size: small" href="{{ url_for('static', filename='images/project/GLP_mechanism.png') }}" data-effect="mfp-zoom-out"
+                               title="This title appears when image is clicked. Choose wisely ;)">
+                                <img src="{{ url_for('static', filename='images/project/GLP_mechanism.png') }}"/>
+                                Tap for more details
+                            </a><figcaption style="font-size: small">{{ _('Dummy Image Caption') }}</figcaption>
+                            </div>
+                    </figure>
                         {{ _('Type II Diabetes Mellitus is a metabolic disease that affects about 10 percent of the population. One
                         of its major symptoms is the relative lack of insulin, which causes a decreased uptake of glucose into
                         cells, leading to an energy crisis. In Type II Diabetes Mellitus the body compensates this
@@ -125,9 +148,15 @@
                     </p>
 
                     <h3 class="major">{{ _('Genetically modified organisms (GMOs)') }}</h3>
-                    <p><figure><div class="image left"><img src="{{ url_for('static', filename='images/project/lizard_peptide.png') }}">
-                    <figcaption style="font-size: small">{{ _('The Gila monster (Heloderma suspectum) is a firm venomous lizard living in the wastelands of southwest North America. It is secreting its Venom composed of a neurotoxin (gilatoxin) and different glycoproteins from a mandibular gland.
-                    One of the secreted glycoproteins is exendin-4 which has the synthetic analogue Exenatid.') }}</figcaption></div></figure>
+                    <p><figure>
+                            <div  class="image left">
+                            <a style="font-size: small" href="{{ url_for('static', filename='images/project/lizard_peptide.png') }}" data-effect="mfp-zoom-out"
+                               title="This title appears when image is clicked. Choose wisely ;)">
+                                <img src="{{ url_for('static', filename='images/project/lizard_peptide.png') }}"/>
+                                Tap for more details
+                            </a><figcaption style="font-size: small">{{ _('Dummy Image Caption') }}</figcaption>
+                            </div>
+                    </figure>
                         {{ _('Genetically modified organisms (GMOs) are organisms whose genetic information has been altered
                         intentionally with the use of genetic engineering. The technique used and the way of alteration
                         varies between different GMOs and comprises gene knockouts and knockins as well as enhancement
@@ -137,16 +166,21 @@
                         especially address their safety when intentionally or unintentionally released into the
                         environment.
                         Therefore, efforts have been made and are still made towards ensuring the biosafety of GMOs.') }}
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                        <p><figure><div class="image right"><img src="{{ url_for('static', filename='images/project/GOI.png') }}">
-                    <figcaption style="font-size: small">{{ _('Our probiotic strain contains a plasmid which expresses the GLP-analog Exenatid in the presence of glucose. Exenatid is further modified with a secretion tag and a
-                     cell penetrating peptide to allow for it to pass through the epithelial cells of the intestine and to reach the blood stream.') }}</figcaption></div></figure>
                     </p>
 
-                    <h3 class="major">{{ _('Drylab and Bioinformatics') }}</h3>
+
+                        <h3 class="major">{{ _('Drylab and Bioinformatics') }}</h3>
+                        <p><figure>
+                            <div  class="image right">
+                            <a style="font-size: small" href="{{ url_for('static', filename='images/project/GOI.png') }}" data-effect="mfp-zoom-out"
+                               title="This title appears when image is clicked. Choose wisely ;)">
+                                <img src="{{ url_for('static', filename='images/project/GOI.png') }}"/>
+                                Tap for more details
+                            </a><figcaption style="font-size: small">{{ _('Dummy Image Caption') }}</figcaption>
+                            </div>
+                    </figure>
+                    </p>
+                    </ul>
                     <p>
                         {{ _('The CRISPR-Cas System is a versatile toolkit for gene editing. It is known to be very accurate,
                         yet depending on many factors off-target activities can be observed. Such off-target cuts lead
@@ -256,6 +290,8 @@
 <script src="{{ url_for('static', filename='assets/js/util.js') }}"></script>
 <script src="{{ url_for('static', filename='assets/js/spam.js') }}"></script>
 <script src="{{ url_for('static', filename='assets/js/main.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/js/jquery.magnific-popup.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/js/popup_images.js') }}"></script>
 
 </body>
 </html>
