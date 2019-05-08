@@ -6,7 +6,7 @@
 -->
 <html>
 <head>
-    <title>Gallery</title>
+    <title>{{ _('Gallery') }}</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}"/>
@@ -58,7 +58,7 @@
                     <p></p><br>
                     <p></p><br>
                     <div class="subtitle">
-                        <h2>Gallery</h2>
+                        <h2>{{ _('Gallery') }}</h2>
 {#                        <p>"I spend a lot of time in bed when I'm off. But if I'm feeling adventurous, I'll go to a gallery." --Dua Lipa</p>#}
                     </div>
                     <p></p><br>
@@ -195,7 +195,7 @@
                             <a href="{{ url_for('history') }}" class="image"><img
                                     src="{{ url_for('static', filename='images/subsite_icons/library_cut.jpg') }}"
                                     alt=""/></a>
-                            <h3 class="major">{{ ('History of iGEM Tübingen') }}</h3>
+                            <h3 class="major">{{ _('History of iGEM Tübingen') }}</h3>
                             <p>{{ _('Team Tübingen has been participating in iGEM since 2012. Take a look at our past projects and
                             accomplishments.') }}</p>
                             <a href="{{ url_for('history') }}" class="special">{{ _('Learn more')}}</a>
