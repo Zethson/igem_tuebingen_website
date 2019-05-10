@@ -6,7 +6,7 @@
 -->
 <html>
 <head>
-    <title>Get involved</title>
+    <title>{{ _('Get involved') }}</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}"/>
@@ -57,7 +57,7 @@
                     <p></p><br>
                     <p></p><br>
                     <div class="subtitle">
-                        <h2>Get Involved</h2>
+                        <h2>{{ _('Get Involved') }}</h2>
 {#                        <p>"A strong team can take any crazy vision and turn it into reality." --John Carmack</p>#}
                     </div>
                     <p></p><br>
@@ -111,8 +111,8 @@
                         advertise
                         and represent themselves in public, at presentations, on our website and in many social
                         networks.') }}
-                        {{ _('Our past and current sponsors can be found on our') }} <a href="{{ url_for('sponsors') }}"
-                                                                             class="special">Sponsors Page</a>
+                        {{ _('Our past and current sponsors can be found on our') }}<br><br> <a href="{{ url_for('sponsors') }}"
+                                                                             class="special">{{ _('Sponsors Page') }}</a>
                         {{ _('If you are interested in sponsoring us, please do not hesitate to contact us using the form at
                         the bottom of the page!') }}
                     </p>
@@ -189,6 +189,8 @@
             </ul>
             <ul class="copyright">
                 <li>&copy; iGEM Tübingen All rights reserved.</li>
+                <li>iGem Tübingen: <a href="{{ url_for('impressum') }}">Impressum</a></li>
+                <li>iGem Tübingen: <a href="{{ url_for('dsgvo') }}">DSGVO</a></li>
                 <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
             </ul>
         </div>

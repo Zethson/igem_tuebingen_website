@@ -4,13 +4,13 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
 <head>
     <title>Software</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/images.css') }}"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/magnific-popup.css') }}">
     <noscript>
         <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/noscript.css') }}"/>
     </noscript>
@@ -71,8 +71,15 @@
                 <div class="inner">
 
                     <h3 class="major">2018</h3>
-                    <p><figure><div class="image left zoom"><img src="{{ url_for('static', filename='images/software/BERT.png') }}">
-                    <figcaption style="font-size: small">{{ _('Overview of BERTs components and workflow.') }}</figcaption></div></figure>
+                    <ul id="image-popups">
+                    <p><figure>
+                            <div  class="image left">
+                                <a style="font-size: small" href="{{ url_for('static', filename='images/software/BERT.png') }}" data-effect="mfp-zoom-out" title="BERT workflow">
+                                    <img src="{{ url_for('static', filename='images/software/BERT.png') }}"/>
+                                    Tap for more details
+                                </a><figcaption style="font-size: small">{{ _('Overview of BERT´s components and workflow.') }}</figcaption>
+                            </div>
+                    </figure>
                         {{ _('The software project of the iGEM Team Tübingen 2018
                         addressed the problem of biopharmaceuticals being targeted by the human immune system. Upon
                         contact with foreign proteins, the immune system can trigger the production of anti-drug antibodies
@@ -117,7 +124,7 @@
                         We also plan to improve the existing workflow layout, by replacing single components to improve the accuracy of the result and to reduce the computational time needed.
                         Another main goal is to validate the results of our workflow experimentally and to integrate the results of our software tool into our wet-lab experiments.
                         We also want to encourage other iGEM teams and research groups, who are working with CRISPR/Cas systems and are concerned about potential off-target sites, to use our tool.') }}
-                    </p>
+                    </p></ul>
 
                     <section class="features">
                         <article>
@@ -150,10 +157,9 @@
     <!-- Footer -->
     <section id="footer">
         <div class="inner">
-            <h2 class="major">Get in touch</h2>
-            <p>If you are interested in one of our projects and would like to get involved we would be happy to hear
-                from you!
-                Simply drop us a message and we'll get back to you in no time!</p>
+            <h2 class="major">{{ _('Get in touch') }}</h2>
+            <p>{{ _('If you are interested in one of our projects and would like to get involved we would be happy to hear
+                from you! Simply drop us a message and we will get back to you in no time!') }}</p>
             <form method="post" action="{{ url_for('contact_request') }}">
                 <form>
                 <div class="field" style="display: none">
@@ -194,6 +200,8 @@
             </ul>
             <ul class="copyright">
                 <li>&copy; iGEM Tübingen All rights reserved.</li>
+                <li>iGem Tübingen: <a href="{{ url_for('impressum') }}">Impressum</a></li>
+                <li>iGem Tübingen: <a href="{{ url_for('dsgvo') }}">DSGVO</a></li>
                 <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
             </ul>
         </div>
@@ -209,6 +217,9 @@
 <script src="{{ url_for('static', filename='assets/js/util.js') }}"></script>
 <script src="{{ url_for('static', filename='assets/js/spam.js') }}"></script>
 <script src="{{ url_for('static', filename='assets/js/main.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/js/jquery.magnific-popup.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/js/popup_images.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/js/fluidImages.js') }}"></script>
 
 </body>
 </html>

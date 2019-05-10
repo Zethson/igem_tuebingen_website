@@ -6,7 +6,7 @@
 -->
 <html>
 <head>
-    <title>History of iGEM Tübingen</title>
+    <title>{{ _('History of iGEM Tübingen') }}</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}"/>
@@ -58,7 +58,7 @@
                     <p></p><br>
                     <p></p><br>
                     <div class="subtitle">
-                        <h2>History of iGem Tübingen</h2>
+                        <h2>{{ _('History of iGem Tübingen')}}</h2>
 {#                        <p>“History doesn't repeat itself, but it does rhyme.” --Mark Twain</p>#}
                     </div>
                     <p></p><br>
@@ -80,7 +80,7 @@
                         <div class="timeline-container" id="timeline-1">
                             <div class="timeline-header">
                                 <h2 class="timeline-header__title">IGEM Tübingen</h2>
-                                <h3 class="timeline-header__subtitle">HISTORY</h3>
+                                <h3 class="timeline-header__subtitle">{{ _('HISTORY') }}</h3>
                             </div>
                             <div class="timeline">
                                 <div class="timeline-item" data-text="Bronze/Silver">
@@ -258,6 +258,8 @@
             </ul>
             <ul class="copyright">
                 <li>&copy; iGEM Tübingen All rights reserved.</li>
+                <li>iGem Tübingen: <a href="{{ url_for('impressum') }}">Impressum</a></li>
+                <li>iGem Tübingen: <a href="{{ url_for('dsgvo') }}">DSGVO</a></li>
                 <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
             </ul>
         </div>
