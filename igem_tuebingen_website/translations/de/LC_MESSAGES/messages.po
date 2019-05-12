@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  1.0.0\n"
 "Report-Msgid-Bugs-To: philipp_ehm@protonmail.com\n"
-"POT-Creation-Date: 2019-05-11 16:04+0200\n"
+"POT-Creation-Date: 2019-05-12 21:11+0200\n"
 "PO-Revision-Date: 2019-04-07 18:51+0200\n"
 "Last-Translator: Philipp Ehmele <philipp_ehm@protonmail.com>\n"
 "Language: de\n"
@@ -293,7 +293,7 @@ msgstr "Software von iGEM Tübingen"
 #: igem_tuebingen_website/templates/index.html:64
 #: igem_tuebingen_website/templates/index.html:169
 #: igem_tuebingen_website/templates/project_2019.html:43
-#: igem_tuebingen_website/templates/project_2019.html:220
+#: igem_tuebingen_website/templates/project_2019.html:216
 #: igem_tuebingen_website/templates/software.html:43
 #: igem_tuebingen_website/templates/sponsors.html:42
 msgid "Gallery"
@@ -442,8 +442,8 @@ msgstr ""
 #: igem_tuebingen_website/templates/index.html:163
 #: igem_tuebingen_website/templates/index.html:171
 #: igem_tuebingen_website/templates/index.html:180
-#: igem_tuebingen_website/templates/project_2019.html:214
-#: igem_tuebingen_website/templates/project_2019.html:222
+#: igem_tuebingen_website/templates/project_2019.html:210
+#: igem_tuebingen_website/templates/project_2019.html:218
 #: igem_tuebingen_website/templates/software.html:136
 #: igem_tuebingen_website/templates/software.html:148
 #: igem_tuebingen_website/templates/sponsors.html:106
@@ -498,7 +498,7 @@ msgstr ""
 #: igem_tuebingen_website/templates/human_practices.html:197
 #: igem_tuebingen_website/templates/impressum.html:108
 #: igem_tuebingen_website/templates/index.html:195
-#: igem_tuebingen_website/templates/project_2019.html:234
+#: igem_tuebingen_website/templates/project_2019.html:230
 #: igem_tuebingen_website/templates/software.html:160
 #: igem_tuebingen_website/templates/sponsors.html:130
 msgid "Get in touch"
@@ -535,7 +535,7 @@ msgstr "Kontaktiere uns"
 #: igem_tuebingen_website/templates/history.html:219
 #: igem_tuebingen_website/templates/impressum.html:109
 #: igem_tuebingen_website/templates/index.html:196
-#: igem_tuebingen_website/templates/project_2019.html:235
+#: igem_tuebingen_website/templates/project_2019.html:231
 #: igem_tuebingen_website/templates/software.html:161
 #: igem_tuebingen_website/templates/sponsors.html:131
 msgid ""
@@ -568,7 +568,7 @@ msgstr ""
 #: igem_tuebingen_website/templates/history.html:237
 #: igem_tuebingen_website/templates/human_practices.html:217
 #: igem_tuebingen_website/templates/index.html:215
-#: igem_tuebingen_website/templates/project_2019.html:253
+#: igem_tuebingen_website/templates/project_2019.html:249
 msgid "Message"
 msgstr "Nachricht"
 
@@ -591,7 +591,7 @@ msgstr "Nachricht"
 #: igem_tuebingen_website/templates/history.html:253
 #: igem_tuebingen_website/templates/human_practices.html:233
 #: igem_tuebingen_website/templates/index.html:231
-#: igem_tuebingen_website/templates/project_2019.html:269
+#: igem_tuebingen_website/templates/project_2019.html:265
 msgid ""
 "Send us a\n"
 "                    Mail!"
@@ -616,7 +616,7 @@ msgstr "Sende uns eine Mail!"
 #: igem_tuebingen_website/templates/history.html:255
 #: igem_tuebingen_website/templates/human_practices.html:235
 #: igem_tuebingen_website/templates/index.html:233
-#: igem_tuebingen_website/templates/project_2019.html:271
+#: igem_tuebingen_website/templates/project_2019.html:267
 msgid "Follow us on Twitter!"
 msgstr "Folge uns auf Twitter!"
 
@@ -639,7 +639,7 @@ msgstr "Folge uns auf Twitter!"
 #: igem_tuebingen_website/templates/history.html:256
 #: igem_tuebingen_website/templates/human_practices.html:236
 #: igem_tuebingen_website/templates/index.html:234
-#: igem_tuebingen_website/templates/project_2019.html:272
+#: igem_tuebingen_website/templates/project_2019.html:268
 msgid "Like us on Facebook!"
 msgstr "Like uns auf Facebook!"
 
@@ -662,7 +662,7 @@ msgstr "Like uns auf Facebook!"
 #: igem_tuebingen_website/templates/history.html:257
 #: igem_tuebingen_website/templates/human_practices.html:237
 #: igem_tuebingen_website/templates/index.html:235
-#: igem_tuebingen_website/templates/project_2019.html:273
+#: igem_tuebingen_website/templates/project_2019.html:269
 msgid "Follow us on Instagram!"
 msgstr "Folge uns auf Instagram!"
 
@@ -1123,7 +1123,7 @@ msgstr ""
 #: igem_tuebingen_website/templates/history.html:205
 #: igem_tuebingen_website/templates/human_practices.html:184
 #: igem_tuebingen_website/templates/index.html:170
-#: igem_tuebingen_website/templates/project_2019.html:221
+#: igem_tuebingen_website/templates/project_2019.html:217
 msgid "A gallery of our various iGEM teams, presentations and awesome projects."
 msgstr ""
 "Eine Galerie über unsere verschiedenen iGEM Teams, Präsentationen und "
@@ -1526,7 +1526,7 @@ msgstr ""
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:174
 #: build/lib/igem_tuebingen_website/templates/project_2019.html:211
 #: igem_tuebingen_website/templates/human_practices.html:174
-#: igem_tuebingen_website/templates/project_2019.html:211
+#: igem_tuebingen_website/templates/project_2019.html:207
 msgid "Software"
 msgstr "Software"
 
@@ -1535,7 +1535,7 @@ msgstr "Software"
 #: build/lib/igem_tuebingen_website/templates/project_2019.html:212
 #: igem_tuebingen_website/templates/human_practices.html:175
 #: igem_tuebingen_website/templates/index.html:161
-#: igem_tuebingen_website/templates/project_2019.html:212
+#: igem_tuebingen_website/templates/project_2019.html:208
 msgid ""
 "Throughout our participations in iGEM several software tools have been "
 "developed. Read more\n"
@@ -1883,7 +1883,6 @@ msgstr ""
 "es durch die Darmepithelzellen in den Blutstrom gelangen kann."
 
 #: build/lib/igem_tuebingen_website/templates/project_2019.html:184
-#: igem_tuebingen_website/templates/project_2019.html:184
 msgid ""
 "The CRISPR-Cas System is a versatile toolkit for gene editing. It is "
 "known to be very accurate,\n"
@@ -2144,4 +2143,63 @@ msgstr ""
 #: igem_tuebingen_website/templates/sponsors.html:90
 msgid "Sponsors of Team Tübingen 2018"
 msgstr "Sponsoren von Team Tübingen 2018"
+
+#: igem_tuebingen_website/templates/project_2019.html:184
+msgid ""
+"While our biocontainment strategy relies on the Class I Type I CRISPR "
+"system, we will utilize CRISPR/Cas9 technology for the construction of "
+"the chassis.\n"
+"                         CRISPR/Cas9 (or similar) technology has become a"
+" versatile toolkit for gene editing in all domains of life.\n"
+"                          Despite of the successes, off-target activities"
+" can be observed in many cases.\n"
+"                          These off-target activities lead to unwanted "
+"genome alterations when non-homologous end\n"
+"                          joining machineries are available in the system"
+" of interest, and therefore have to be considered in every experiment.\n"
+"                          To facilitate the analysis of experimental off-"
+"target identification, we will create a data analysis pipeline for\n"
+"                          GUIDE-Seq and CIRCLE-Seq experiments to "
+"identify off-target sites in CRISPR/Cas9 experiments.\n"
+"                          Our goal is to generate a reproducible and "
+"parallelizable analysis software tool, based on the bioinformatics "
+"workflow management system Nextflow.\n"
+"                          To us, creating an easy-to-use software tool is"
+" of highest priority.\n"
+"                          Thus, we are creating a clear and "
+"comprehensible graphical user interface.\n"
+"                          We plan to improve the existing workflow layout"
+" by replacing single components to improve the accuracy of the result,\n"
+"                          and to reduce the computational time needed. "
+"Furthermore, we will validate the results of our workflow experimentally,"
+"\n"
+"                          and will integrate the results of our software "
+"tool into our wet-lab experiments.\n"
+"                          We will encourage other iGEM teams and research"
+" groups, who are working with CRISPR/Cas9 systems, to use our tool. "
+msgstr ""
+"Während unsere Bioabdichtungsstrategie auf dem CRISPR-System der Klasse I"
+" Typ I basiert, werden wir die CRISPR/Cas9-Technologie für den Bau des "
+"Chassis einsetzen. Die CRISPR/Cas9 (oder ähnliche) Technologie hat sich "
+"zu einem vielseitigen Toolkit für die Genveränderung in allen "
+"Lebensbereichen entwickelt. Trotz der Erfolge sind in vielen Fällen Off-"
+"Target-Effekte zu beobachten. Wenn non-homologous end joining machineries"
+" im betrachteten System vorhanden sind führen nicht zielgerichtete "
+"CRISPR/Cas9 Aktivitäten zu unterwünschten Genomveränderungen. Diese "
+"müssen deshalb in jedem Experiment evaluiert werden.Um die Analyse der "
+"experimentellen Off-Target-Identifikation zu erleichtern, werden wir eine"
+" Datenanalysepipeline für GUIDE-Seq und CIRCLE-Seq-Experimente erstellen, um"
+" Off-Target-Stellen in CRISPR/Cas9-Experimenten zu identifizieren. "
+"Unser Ziel ist es, ein reproduzierbares und parallelisierbares "
+"Analysesoftware-Tool auf Basis des bioinformatischen Workflow-Management-"
+"Systems Nextflow zu entwickeln. Für uns hat die Entwicklung eines einfach"
+" zu bedienenden Software-Tools höchste Priorität. Damit schaffen wir eine"
+" übersichtliche und verständliche grafische Benutzeroberfläche. Wir "
+"planen, das bestehende Workflow-Layout durch den Austausch einzelner "
+"Komponenten zu verbessern, um die Genauigkeit des Ergebnisses zu "
+"verbessern und die benötigte Rechenzeit zu reduzieren. Darüber hinaus "
+"werden wir die Ergebnisse unseres Workflows experimentell validieren und "
+"die Ergebnisse unseres Softwaretools in unsere Wet-Lab-Experimente "
+"integrieren. Wir werden andere iGEM-Teams und Forschungsgruppen, die mit "
+"CRISPR/Cas9-Systemen arbeiten, ermutigen, unser Tool zu nutzen."
 
