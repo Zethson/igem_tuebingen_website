@@ -42,9 +42,9 @@ ufw delete allow 5000
 
 ufw allow 'Nginx Full'
 
-add-apt-repository ppa:certbot/certbot
+add-apt-repository ppa:certbot/certbot -y
 
-apt install python-certbot-nginx
+apt install python-certbot-nginx -y
 
 certbot --nginx -d igem-tuebingen.com -d www.igem-tuebingen.com --non-interactive --agree-tos -m lukas.heumos@posteo.net
 
