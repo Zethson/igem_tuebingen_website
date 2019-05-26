@@ -815,7 +815,7 @@ msgstr ""
 #: build/lib/igem_tuebingen_website/templates/get_involved.html:114
 #: igem_tuebingen_website/templates/get_involved.html:114
 msgid "Our past and current sponsors can be found on our"
-msgstr "Unsere vergangenen und aktuelle Sponsoren können auf unserer"
+msgstr "Unsere vergangenen und aktuelle Sponsoren können auf unserer Sponsoren Seite eingesehen werden."
 
 #: build/lib/igem_tuebingen_website/templates/get_involved.html:115
 #: igem_tuebingen_website/templates/get_involved.html:115
@@ -2074,7 +2074,7 @@ msgid ""
 msgstr ""
 "Das CRISPR/Cas-System ist ein sehr leistungsfähiges Werkzeug zur Genome "
 "Editierung in Forschung und Therapie. Trotz der hohen Spezifität führen "
-"Nuclease aktivitäten an off-target Sequenzen zu unerwünschten "
+"Nuklease Aktivitäten an off-target Sequenzen zu unerwünschten "
 "Nebenwirkungen.Daher ist die Identifizierung von Off-Target Sequenzen in "
 "vielen Experimenten ein äußerst wichtiger Schritt. Um die Analyse von "
 "Off-target Schnitten zu vereinfachen wird das iGEM Team Tübingen 2019 "
@@ -2182,8 +2182,7 @@ msgstr ""
 " Typ I basiert, werden wir die CRISPR/Cas9-Technologie für den Bau des "
 "Chassis einsetzen. Die CRISPR/Cas9 (oder ähnliche) Technologie hat sich "
 "zu einem vielseitigen Toolkit für die Genveränderung in allen "
-"Lebensbereichen entwickelt. Trotz der Erfolge sind in vielen Fällen Off-"
-"Target-Effekte zu beobachten. Wenn non-homologous end joining machineries"
+"Lebensbereichen entwickelt. Trotz der Erfolge sind in vielen Fällen Off-Target-Effekte zu beobachten. Wenn non-homologous end joining machineries"
 " im betrachteten System vorhanden sind führen nicht zielgerichtete "
 "CRISPR/Cas9 Aktivitäten zu unterwünschten Genomveränderungen. Diese "
 "müssen deshalb in jedem Experiment evaluiert werden.Um die Analyse der "
