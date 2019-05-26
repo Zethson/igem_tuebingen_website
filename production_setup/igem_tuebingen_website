@@ -1,9 +1,22 @@
 server {
-    listen 80;
     server_name igem-tuebingen.com www.igem-tuebingen.com.com;
 
     location / {
         include proxy_params;
         proxy_pass http://unix:/home/zeth/igem_tuebingen_website/igem_tuebingen_website.sock;
     }
+}
+
+server {
+    if ($host = igem-tuebingen.com) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+    if ($host = www.igem-tuebingen.com) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+    listen 80;
+    server_name www.igem-tuebingen.com igem-tuebingen.com;
+    return 301 https://$host$request_uri;
 }
