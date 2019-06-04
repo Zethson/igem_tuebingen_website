@@ -1,0 +1,232 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+    <title>{{ _('Sustainable Development Goals') }}</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}"/>
+    <noscript>
+        <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/noscript.css') }}"/>
+    </noscript>
+</head>
+<body class="is-preload">
+
+<!-- Page Wrapper -->
+<div id="page-wrapper">
+
+    <!-- Header -->
+    <header id="header">
+        <h1><a href="{{ url_for('index') }}">iGEM Tübingen</a></h1>
+        <nav>
+            <a href="#menu">Menu</a>
+        </nav>
+    </header>
+
+    <!-- Menu -->
+    <nav id="menu">
+        <div class="inner">
+            <h2>Menu</h2>
+            <ul class="links">
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('about_igem_teamtuebingen') }}">{{ _('About iGEM and Team Tübingen') }}</a></li>
+                <li><a href="{{ url_for('project_2019') }}">{{ _('Project 2019') }}</a></li>
+                <li><a href="{{ url_for('get_involved') }}">{{ _('Get involved') }}</a></li>
+                <li><a href="{{ url_for('human_practices') }}">Human Practices</a>
+                <li><a href="{{ url_for('history') }}">{{ _('History of iGEM Tübingen') }}</a></li>
+                <li><a href="{{ url_for('software') }}">{{ _('Software by iGEM Tübingen') }}</a></li>
+                <li><a href="{{ url_for('gallery') }}">{{ _('Gallery') }}</a></li>
+                <li><a href="{{ url_for('sponsors') }}">{{ _('Sponsors') }}</a></li>
+            </ul>
+            <a href="#" class="close">Close</a>
+        </div>
+    </nav>
+
+    <!-- Wrapper -->
+    <section id="wrapper">
+        <div class="backi">
+            <header>
+
+                <div class="inner">
+                    <p></p><br>
+                    <p></p><br>
+                    <p></p><br>
+                    <p></p><br>
+                    <div class="subtitle">
+                        <h2>{{ _('Diabetes Mellitus and Sustainable Development Goals') }}</h2>
+{#                        <p>"A strong team can take any crazy vision and turn it into reality." --John Carmack</p>#}
+                    </div>
+                    <p></p><br>
+                    <p></p><br>
+                    <p></p><br>
+                </div>
+            </header>
+
+            <!-- Content -->
+            <div class="wrapper">
+                <div class="inner">
+
+                    <h3 class="major">{{ _('Facts and figures') }}</h3>
+                    <p>{{ _('Diabetes is now considered a pandemic with a substantial threat to human health around the world.
+                     Currently, at least 400 Million people worldwide suffer from Diabetes, with a dark figure of about 10
+                     per cent of the world’s population, as 40 to 60 percent of diabetes cases remain undiagnosed.
+                     The increasing number of diabetic people, especially in low- and middle-income countries,
+                     is expected to grow alarmingly to more than 600 million cases within the next 30 years,
+                     since there are already more than 300 Million people with impaired glucose tolerance,
+                     who have a high chance of developing Diabetes in the near future.
+                     The most dramatic increase will, according to the International Diabetes Federation,
+                     occur in urbanized African, Middle Eastern and South Asian regions,
+                     with a rise of up to 156 percent until 2045 [IDF Diabetes Atlas, 8th Edition, 2017].
+                     However, Germany, as a comparatively small country,
+                     is currently on rank 9 of total diabetes cases with 7.5 Million cases [IDF, 2017]. ') }}</p>
+
+                    <p>{{ _('This pandemic is a result of an unhealthy and sedentary lifestyle, which promotes obesity
+                     and lack of overall fitness, resulting in not only a health, but a socioeconomic crisis as well.
+                     As diabetes is a chronic disease with a progressive nature, it not only proposes a financial threat
+                     to the people suffering from it, as yearly costs can exceed 4 000 USD,
+                     but it is also a burden to the health care system with more than 700 Billion USD
+                     of costs in the US per year [IDF, 2017]. ') }}</p>
+
+                    <p>{{ _('The global burden of diabetes, with an estimated 3 Million deaths a year,
+                     and its essential threat to human development, has been recognized by the United Nations in
+                     its 2030 Agenda for Sustainable Development, which wants to – among others –
+                     reduce the premature mortality caused by Diabetes by one third and increase access to affordable
+                     and effective health care.
+                     As Diabetes plays a major role in Cardiovascular Disease and wrongfully or untreated Diabetes
+                     can result in the necessity of limp amputation, blindness, neuropathy or kidney failure. ') }}</p>
+
+                    <p>{{ _('However, Diabetes can be managed very well, if the patients can have access to
+                     the right treatment and preventive measures, which includes the necessary promotion of a healthy lifestyle. ') }}</p>
+
+                    <h3 class="major">{{ _('UN Sustainable Development Goals (SDG)') }}</h3>
+                    <p>{{ _('Together with the iGEM Team Costa Rica we want to promote the United Nations’ Sustainable Development Goals,
+                     because after all, iGEM projects generally aim to improve people’s lives while keeping strong contact to their communities.
+                     This makes a promotion of the UN’s SDGs an opportunity to take responsibility, as we are very privileged
+                     to take part in such a project in the first place.') }}</p>
+
+                    <p>{{ _('Overall, the Sustainable Development Goals aim to improve the world’s situation by promoting prosperity,
+                     equality, peace and care for the environment in terms of i) no poverty, ii) zero hunger, iii) good health and well-being, iv) quality education,
+                     v) gender equality, vi) clean water and sanitation, vii) affordable and clean energy, viii) decent work and economic growth, ix) industry,
+                     innovation and infrastructure, ix) reduced inequalities, xi) sustainable cities and communities, xii) responsible consumption and production,
+                     xiii) climate action, xiv) life below water, xv) life on land and xvi) peace, justice and strong institutions.
+                     Lastly, xvii) Partnerships are the essence of the program. As there are now only 11 years left to reach these goals, we,
+                     as teams of iGEM, want to help target these goals more aggressively and promote their fulfilment. ') }}</p>
+
+                       <div class="box alt">
+                            <div class="row gtr-uniform">
+                                <div class="col-12"><span class="image fit"><img src="{{ url_for('static', filename='images/sdg/E_2018_SDG_Poster_without_UN_emblem_Letter US.png') }}" alt=""/></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    <p>{{ _('We, Team Tübingen, want to target multiple of these goals. First of all, our new therapeutic strategy aims to increase good health and well-being,
+                     also since diabetes is openly recognized by the UN to be a major burden for the world’s health.
+                     Secondly, we want to lift the financial burden of the treatment, with the goal to provide a less cost intensive alternative
+                     to current treatments and prevent follow-up costs for worsened stages of diabetes.
+                     It is important to note, that in low- and middle-income countries less than 30 percent have access to GLP-1 analogue treatment [IDF, 2017],
+                     which justifies a new approach in formulating it  as a probiotic to increase this margin.
+                     Secondly, we have initiated several educational programs and knowledge transfer opportunities,
+                     in order to support education in the matter of diabetes and obesity.
+                     Also, we hope to drive innovation in therapeutic strategies and, if our project is realized in the future,
+                     we might be able to participate in the goal of work and economic growth, as well as industrial infrastructure.
+                     With an administration such as a probiotic, we hope to decrease inequalities in treatment,
+                     as there are no burdens of a cool chain or cost. Hence, a probiotic could be a viable concept of therapy for economically weak people.
+                     To conclude, our iGEM project, a probiotic producing exendin-4 as a treatment for Type 2 Diabetes Mellitus, targets a lot of the
+                     Sustainable Development Goals proposed by the United Nations. And we hope to, in cooperation with the iGEM Team of Costa Rica,
+                     promote the SDGs within the iGEM community and our team’s community, with the goal of playing a small but important role in reaching the goals in time.') }}</p>
+
+                    <section class="features">
+                        <article>
+                            <a href="{{ url_for('about_igem_teamtuebingen') }}" class="image"><img
+                                    src="{{ url_for('static', filename='images/team/team_all_cut.jpg') }}"
+                                    alt=""/></a>
+                            <h3 class="major">{{ _('About iGEM and Team Tübingen') }}</h3>
+                            <p>{{ _('Read about the iGEM competition and get to know our team!') }}</p>
+                            <a href="{{ url_for('about_igem_teamtuebingen') }}" class="special">{{ _('Learn more') }}</a>
+                        </article>
+                        <article>
+                            <a href="{{ url_for('sponsors') }}" class="image"><img
+                                    src="{{ url_for('static', filename='images/subsite_icons/sponsors_2_cut.jpg') }}"
+                                    alt=""/></a>
+                            <h3 class="major">{{ _('Our Sponsors') }}</h3>
+                            <p>{{ _('A project as ambitious as iGEM cannot be realized without the generous help of our
+                                sponsors.') }}</p>
+                            <a href="{{ url_for('sponsors') }}" class="special">{{ _('Learn more')}}</a>
+                        </article>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+        <div class="inner">
+            <h2 class="major">{{ _('Get in touch') }}</h2>
+            <p>{{ _('If you are interested in one of our projects and would like to get involved we would be happy to hear
+                from you! Simply drop us a message and we will get back to you in no time!') }}</p>
+            <form method="post" action="{{ url_for('contact_request') }}">
+                <form>
+                <div class="field" style="display: none">
+                    <label for="emailSPAM">Adresse</label>
+                    <input type="text" name="emailSPAM" id="emailSPAM"/>
+                </div>
+                <div class="fields">
+                    <div class="field">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name"/>
+                    </div>
+                    <div class="field">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email"/>
+                    </div>
+                    <div class="field">
+                        <label for="message">{{ _('Message') }}</label>
+                        <textarea name="message" id="message" rows="4"></textarea>
+                    </div>
+                </div>
+                <ul class="actions">
+                    <li><input type="submit" value="Send Message"/></li>
+                </ul>
+                </form>
+            </form>
+            <ul class="contact">
+                <li class="fa-home">
+                    iGEM Tübingen<br/>
+                    Hoppe-Seyler-Straße 4<br/>
+                    72076 Tübingen
+                </li>
+                <li class="fa-phone">+49 176 97894002</li>
+                <li class="fa-envelope"><a href="mailto:igem@ifib.uni-tuebingen.de?Subject=iGEM%20Tuebingen">{{ _('Send us a
+                    Mail!') }}</a></li>
+                <li class="fa-twitter"><a href="https://twitter.com/igemtuebingen">{{ _('Follow us on Twitter!') }}</a></li>
+                <li class="fa-facebook"><a href="https://facebook.com/igemtuebingen">{{ _('Like us on Facebook!') }}</a></li>
+                <li class="fa-instagram"><a href="https://instagram.com/igem_tuebingen">{{ _('Follow us on Instagram!') }}</a></li>
+            </ul>
+            <ul class="copyright">
+                <li>&copy; iGEM Tübingen All rights reserved.</li>
+                <li>iGem Tübingen: <a href="{{ url_for('impressum') }}">Impressum</a></li>
+                <li>iGem Tübingen: <a href="{{ url_for('dsgvo') }}">DSGVO</a></li>
+                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            </ul>
+        </div>
+    </section>
+
+</div>
+
+<!-- Scripts -->
+<script src="{{ url_for('static', filename='assets/js/jquery.min.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/js/jquery.scrollex.min.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/js/browser.min.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/js/breakpoints.min.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/js/util.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/js/spam.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/js/main.js') }}"></script>
+
+</body>
+</html>
