@@ -8,7 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  1.0.0\n"
 "Report-Msgid-Bugs-To: philipp_ehm@protonmail.com\n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2019-07-10 18:28+0200\n"
+=======
+"POT-Creation-Date: 2019-07-10 13:42+0200\n"
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 "PO-Revision-Date: 2019-04-07 18:51+0200\n"
 "Last-Translator: Philipp Ehmele <philipp_ehm@protonmail.com>\n"
 "Language: de\n"
@@ -17,7 +21,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.7.0\n"
 
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/about_igem_teamtuebingen.html:9
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/about_igem_teamtuebingen.html:39
@@ -49,6 +53,8 @@ msgstr ""
 #: build/lib/igem_tuebingen_website/templates/about_igem_teamtuebingen.html:39
 #: build/lib/igem_tuebingen_website/templates/contact_error.html:36
 #: build/lib/igem_tuebingen_website/templates/contact_successful.html:37
+#: build/lib/igem_tuebingen_website/templates/diabetes_prevention.html:36
+#: build/lib/igem_tuebingen_website/templates/diabetes_prevention.html:82
 #: build/lib/igem_tuebingen_website/templates/dsgvo.html:36
 #: build/lib/igem_tuebingen_website/templates/errors/403.html:36
 #: build/lib/igem_tuebingen_website/templates/errors/404.html:36
@@ -72,6 +78,8 @@ msgstr ""
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:39
 #: igem_tuebingen_website/templates/contact_error.html:36
 #: igem_tuebingen_website/templates/contact_successful.html:37
+#: igem_tuebingen_website/templates/diabetes_prevention.html:36
+#: igem_tuebingen_website/templates/diabetes_prevention.html:84
 #: igem_tuebingen_website/templates/dsgvo.html:36
 #: igem_tuebingen_website/templates/errors/403.html:36
 #: igem_tuebingen_website/templates/errors/404.html:36
@@ -123,6 +131,7 @@ msgstr "Über iGEM und Team Tübingen"
 #: build/lib/igem_tuebingen_website/templates/about_igem_teamtuebingen.html:723
 #: build/lib/igem_tuebingen_website/templates/contact_error.html:37
 #: build/lib/igem_tuebingen_website/templates/contact_successful.html:38
+#: build/lib/igem_tuebingen_website/templates/diabetes_prevention.html:37
 #: build/lib/igem_tuebingen_website/templates/dsgvo.html:37
 #: build/lib/igem_tuebingen_website/templates/errors/403.html:37
 #: build/lib/igem_tuebingen_website/templates/errors/404.html:37
@@ -144,6 +153,7 @@ msgstr "Über iGEM und Team Tübingen"
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:723
 #: igem_tuebingen_website/templates/contact_error.html:37
 #: igem_tuebingen_website/templates/contact_successful.html:38
+#: igem_tuebingen_website/templates/diabetes_prevention.html:37
 #: igem_tuebingen_website/templates/dsgvo.html:37
 #: igem_tuebingen_website/templates/errors/403.html:37
 #: igem_tuebingen_website/templates/errors/404.html:37
@@ -188,6 +198,7 @@ msgstr "Projekt 2019"
 #: build/lib/igem_tuebingen_website/templates/about_igem_teamtuebingen.html:41
 #: build/lib/igem_tuebingen_website/templates/contact_error.html:38
 #: build/lib/igem_tuebingen_website/templates/contact_successful.html:39
+#: build/lib/igem_tuebingen_website/templates/diabetes_prevention.html:38
 #: build/lib/igem_tuebingen_website/templates/dsgvo.html:38
 #: build/lib/igem_tuebingen_website/templates/errors/403.html:38
 #: build/lib/igem_tuebingen_website/templates/errors/404.html:38
@@ -206,6 +217,7 @@ msgstr "Projekt 2019"
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:41
 #: igem_tuebingen_website/templates/contact_error.html:38
 #: igem_tuebingen_website/templates/contact_successful.html:39
+#: igem_tuebingen_website/templates/diabetes_prevention.html:38
 #: igem_tuebingen_website/templates/dsgvo.html:38
 #: igem_tuebingen_website/templates/errors/403.html:38
 #: igem_tuebingen_website/templates/errors/404.html:38
@@ -252,6 +264,7 @@ msgstr "Mach mit"
 #: build/lib/igem_tuebingen_website/templates/about_igem_teamtuebingen.html:733
 #: build/lib/igem_tuebingen_website/templates/contact_error.html:40
 #: build/lib/igem_tuebingen_website/templates/contact_successful.html:41
+#: build/lib/igem_tuebingen_website/templates/diabetes_prevention.html:40
 #: build/lib/igem_tuebingen_website/templates/dsgvo.html:40
 #: build/lib/igem_tuebingen_website/templates/errors/403.html:40
 #: build/lib/igem_tuebingen_website/templates/errors/404.html:40
@@ -272,6 +285,7 @@ msgstr "Mach mit"
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:733
 #: igem_tuebingen_website/templates/contact_error.html:40
 #: igem_tuebingen_website/templates/contact_successful.html:41
+#: igem_tuebingen_website/templates/diabetes_prevention.html:40
 #: igem_tuebingen_website/templates/dsgvo.html:40
 #: igem_tuebingen_website/templates/errors/403.html:40
 #: igem_tuebingen_website/templates/errors/404.html:40
@@ -314,6 +328,7 @@ msgstr "iGEM Tübingen Chronik"
 #: build/lib/igem_tuebingen_website/templates/about_igem_teamtuebingen.html:44
 #: build/lib/igem_tuebingen_website/templates/contact_error.html:41
 #: build/lib/igem_tuebingen_website/templates/contact_successful.html:42
+#: build/lib/igem_tuebingen_website/templates/diabetes_prevention.html:41
 #: build/lib/igem_tuebingen_website/templates/dsgvo.html:41
 #: build/lib/igem_tuebingen_website/templates/errors/403.html:41
 #: build/lib/igem_tuebingen_website/templates/errors/404.html:41
@@ -331,6 +346,7 @@ msgstr "iGEM Tübingen Chronik"
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:44
 #: igem_tuebingen_website/templates/contact_error.html:41
 #: igem_tuebingen_website/templates/contact_successful.html:42
+#: igem_tuebingen_website/templates/diabetes_prevention.html:41
 #: igem_tuebingen_website/templates/dsgvo.html:41
 #: igem_tuebingen_website/templates/errors/403.html:41
 #: igem_tuebingen_website/templates/errors/404.html:41
@@ -377,6 +393,7 @@ msgstr "Software von iGEM Tübingen"
 #: build/lib/igem_tuebingen_website/templates/about_igem_teamtuebingen.html:45
 #: build/lib/igem_tuebingen_website/templates/contact_error.html:42
 #: build/lib/igem_tuebingen_website/templates/contact_successful.html:43
+#: build/lib/igem_tuebingen_website/templates/diabetes_prevention.html:42
 #: build/lib/igem_tuebingen_website/templates/dsgvo.html:42
 #: build/lib/igem_tuebingen_website/templates/errors/403.html:42
 #: build/lib/igem_tuebingen_website/templates/errors/404.html:42
@@ -390,14 +407,22 @@ msgstr "Software von iGEM Tübingen"
 #: build/lib/igem_tuebingen_website/templates/history.html:43
 #: build/lib/igem_tuebingen_website/templates/history.html:204
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:42
-#: build/lib/igem_tuebingen_website/templates/human_practices.html:188
+#: build/lib/igem_tuebingen_website/templates/human_practices.html:194
 #: build/lib/igem_tuebingen_website/templates/impressum.html:42
+<<<<<<< HEAD
+=======
+#: build/lib/igem_tuebingen_website/templates/index.html:64
+#: build/lib/igem_tuebingen_website/templates/index.html:169
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:43
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:219
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 #: build/lib/igem_tuebingen_website/templates/software.html:43
 #: build/lib/igem_tuebingen_website/templates/sponsors.html:42
 #: build/lib/igem_tuebingen_website/templates/sustainable_development_goals.html:42
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:45
 #: igem_tuebingen_website/templates/contact_error.html:42
 #: igem_tuebingen_website/templates/contact_successful.html:43
+#: igem_tuebingen_website/templates/diabetes_prevention.html:42
 #: igem_tuebingen_website/templates/dsgvo.html:42
 #: igem_tuebingen_website/templates/errors/403.html:42
 #: igem_tuebingen_website/templates/errors/404.html:42
@@ -411,10 +436,10 @@ msgstr "Software von iGEM Tübingen"
 #: igem_tuebingen_website/templates/history.html:43
 #: igem_tuebingen_website/templates/history.html:204
 #: igem_tuebingen_website/templates/human_practices.html:42
-#: igem_tuebingen_website/templates/human_practices.html:188
+#: igem_tuebingen_website/templates/human_practices.html:194
 #: igem_tuebingen_website/templates/impressum.html:42
 #: igem_tuebingen_website/templates/project_2019.html:43
-#: igem_tuebingen_website/templates/project_2019.html:216
+#: igem_tuebingen_website/templates/project_2019.html:219
 #: igem_tuebingen_website/templates/software.html:43
 #: igem_tuebingen_website/templates/sponsors.html:42
 #: igem_tuebingen_website/templates/sustainable_development_goals.html:42
@@ -444,6 +469,7 @@ msgstr "Galerie"
 #: build/lib/igem_tuebingen_website/templates/about_igem_teamtuebingen.html:46
 #: build/lib/igem_tuebingen_website/templates/contact_error.html:43
 #: build/lib/igem_tuebingen_website/templates/contact_successful.html:44
+#: build/lib/igem_tuebingen_website/templates/diabetes_prevention.html:43
 #: build/lib/igem_tuebingen_website/templates/dsgvo.html:43
 #: build/lib/igem_tuebingen_website/templates/errors/403.html:43
 #: build/lib/igem_tuebingen_website/templates/errors/404.html:43
@@ -462,6 +488,7 @@ msgstr "Galerie"
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:46
 #: igem_tuebingen_website/templates/contact_error.html:43
 #: igem_tuebingen_website/templates/contact_successful.html:44
+#: igem_tuebingen_website/templates/diabetes_prevention.html:43
 #: igem_tuebingen_website/templates/dsgvo.html:43
 #: igem_tuebingen_website/templates/errors/403.html:43
 #: igem_tuebingen_website/templates/errors/404.html:43
@@ -573,14 +600,31 @@ msgstr ""
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/sustainable_development_goals.html:158
 #: build/lib/igem_tuebingen_website/templates/about_igem_teamtuebingen.html:727
 #: build/lib/igem_tuebingen_website/templates/about_igem_teamtuebingen.html:736
+#: build/lib/igem_tuebingen_website/templates/diabetes_prevention.html:84
+#: build/lib/igem_tuebingen_website/templates/diabetes_prevention.html:93
 #: build/lib/igem_tuebingen_website/templates/gallery.html:192
 #: build/lib/igem_tuebingen_website/templates/gallery.html:201
 #: build/lib/igem_tuebingen_website/templates/get_involved.html:128
 #: build/lib/igem_tuebingen_website/templates/get_involved.html:137
 #: build/lib/igem_tuebingen_website/templates/history.html:198
 #: build/lib/igem_tuebingen_website/templates/history.html:206
+<<<<<<< HEAD
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:182
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:190
+=======
+#: build/lib/igem_tuebingen_website/templates/human_practices.html:188
+#: build/lib/igem_tuebingen_website/templates/human_practices.html:196
+#: build/lib/igem_tuebingen_website/templates/index.html:92
+#: build/lib/igem_tuebingen_website/templates/index.html:108
+#: build/lib/igem_tuebingen_website/templates/index.html:122
+#: build/lib/igem_tuebingen_website/templates/index.html:136
+#: build/lib/igem_tuebingen_website/templates/index.html:154
+#: build/lib/igem_tuebingen_website/templates/index.html:163
+#: build/lib/igem_tuebingen_website/templates/index.html:171
+#: build/lib/igem_tuebingen_website/templates/index.html:180
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:213
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:221
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 #: build/lib/igem_tuebingen_website/templates/software.html:136
 #: build/lib/igem_tuebingen_website/templates/software.html:148
 #: build/lib/igem_tuebingen_website/templates/sponsors.html:115
@@ -589,16 +633,33 @@ msgstr ""
 #: build/lib/igem_tuebingen_website/templates/sustainable_development_goals.html:158
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:727
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:736
+#: igem_tuebingen_website/templates/diabetes_prevention.html:86
+#: igem_tuebingen_website/templates/diabetes_prevention.html:95
 #: igem_tuebingen_website/templates/gallery.html:192
 #: igem_tuebingen_website/templates/gallery.html:201
 #: igem_tuebingen_website/templates/get_involved.html:128
 #: igem_tuebingen_website/templates/get_involved.html:137
 #: igem_tuebingen_website/templates/history.html:198
 #: igem_tuebingen_website/templates/history.html:206
+<<<<<<< HEAD
 #: igem_tuebingen_website/templates/human_practices.html:182
 #: igem_tuebingen_website/templates/human_practices.html:190
 #: igem_tuebingen_website/templates/project_2019.html:210
 #: igem_tuebingen_website/templates/project_2019.html:218
+=======
+#: igem_tuebingen_website/templates/human_practices.html:188
+#: igem_tuebingen_website/templates/human_practices.html:196
+#: igem_tuebingen_website/templates/index.html:92
+#: igem_tuebingen_website/templates/index.html:108
+#: igem_tuebingen_website/templates/index.html:122
+#: igem_tuebingen_website/templates/index.html:136
+#: igem_tuebingen_website/templates/index.html:154
+#: igem_tuebingen_website/templates/index.html:163
+#: igem_tuebingen_website/templates/index.html:171
+#: igem_tuebingen_website/templates/index.html:180
+#: igem_tuebingen_website/templates/project_2019.html:213
+#: igem_tuebingen_website/templates/project_2019.html:221
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 #: igem_tuebingen_website/templates/software.html:136
 #: igem_tuebingen_website/templates/software.html:148
 #: igem_tuebingen_website/templates/sponsors.html:115
@@ -645,6 +706,7 @@ msgstr ""
 #: build/lib/igem_tuebingen_website/templates/about_igem_teamtuebingen.html:746
 #: build/lib/igem_tuebingen_website/templates/contact_error.html:77
 #: build/lib/igem_tuebingen_website/templates/contact_successful.html:79
+#: build/lib/igem_tuebingen_website/templates/diabetes_prevention.html:105
 #: build/lib/igem_tuebingen_website/templates/dsgvo.html:228
 #: build/lib/igem_tuebingen_website/templates/errors/403.html:77
 #: build/lib/igem_tuebingen_website/templates/errors/404.html:75
@@ -654,14 +716,20 @@ msgstr ""
 #: build/lib/igem_tuebingen_website/templates/generic.html:108
 #: build/lib/igem_tuebingen_website/templates/get_involved.html:149
 #: build/lib/igem_tuebingen_website/templates/history.html:218
-#: build/lib/igem_tuebingen_website/templates/human_practices.html:202
+#: build/lib/igem_tuebingen_website/templates/human_practices.html:208
 #: build/lib/igem_tuebingen_website/templates/impressum.html:108
+<<<<<<< HEAD
+=======
+#: build/lib/igem_tuebingen_website/templates/index.html:195
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:233
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 #: build/lib/igem_tuebingen_website/templates/software.html:160
 #: build/lib/igem_tuebingen_website/templates/sponsors.html:139
 #: build/lib/igem_tuebingen_website/templates/sustainable_development_goals.html:170
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:746
 #: igem_tuebingen_website/templates/contact_error.html:77
 #: igem_tuebingen_website/templates/contact_successful.html:79
+#: igem_tuebingen_website/templates/diabetes_prevention.html:107
 #: igem_tuebingen_website/templates/dsgvo.html:228
 #: igem_tuebingen_website/templates/errors/403.html:77
 #: igem_tuebingen_website/templates/errors/404.html:75
@@ -671,9 +739,14 @@ msgstr ""
 #: igem_tuebingen_website/templates/generic.html:108
 #: igem_tuebingen_website/templates/get_involved.html:149
 #: igem_tuebingen_website/templates/history.html:218
-#: igem_tuebingen_website/templates/human_practices.html:202
+#: igem_tuebingen_website/templates/human_practices.html:208
 #: igem_tuebingen_website/templates/impressum.html:108
+<<<<<<< HEAD
 #: igem_tuebingen_website/templates/project_2019.html:230
+=======
+#: igem_tuebingen_website/templates/index.html:195
+#: igem_tuebingen_website/templates/project_2019.html:233
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 #: igem_tuebingen_website/templates/software.html:160
 #: igem_tuebingen_website/templates/sponsors.html:139
 #: igem_tuebingen_website/templates/sustainable_development_goals.html:170
@@ -700,6 +773,7 @@ msgstr "Kontaktiere uns"
 #: build/lib/igem_tuebingen_website/templates/about_igem_teamtuebingen.html:747
 #: build/lib/igem_tuebingen_website/templates/contact_error.html:78
 #: build/lib/igem_tuebingen_website/templates/contact_successful.html:80
+#: build/lib/igem_tuebingen_website/templates/diabetes_prevention.html:106
 #: build/lib/igem_tuebingen_website/templates/dsgvo.html:229
 #: build/lib/igem_tuebingen_website/templates/errors/403.html:78
 #: build/lib/igem_tuebingen_website/templates/errors/404.html:76
@@ -710,11 +784,17 @@ msgstr "Kontaktiere uns"
 #: build/lib/igem_tuebingen_website/templates/get_involved.html:150
 #: build/lib/igem_tuebingen_website/templates/history.html:219
 #: build/lib/igem_tuebingen_website/templates/impressum.html:109
+<<<<<<< HEAD
+=======
+#: build/lib/igem_tuebingen_website/templates/index.html:196
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:234
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 #: build/lib/igem_tuebingen_website/templates/software.html:161
 #: build/lib/igem_tuebingen_website/templates/sustainable_development_goals.html:171
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:747
 #: igem_tuebingen_website/templates/contact_error.html:78
 #: igem_tuebingen_website/templates/contact_successful.html:80
+#: igem_tuebingen_website/templates/diabetes_prevention.html:108
 #: igem_tuebingen_website/templates/dsgvo.html:229
 #: igem_tuebingen_website/templates/errors/403.html:78
 #: igem_tuebingen_website/templates/errors/404.html:76
@@ -725,7 +805,12 @@ msgstr "Kontaktiere uns"
 #: igem_tuebingen_website/templates/get_involved.html:150
 #: igem_tuebingen_website/templates/history.html:219
 #: igem_tuebingen_website/templates/impressum.html:109
+<<<<<<< HEAD
 #: igem_tuebingen_website/templates/project_2019.html:231
+=======
+#: igem_tuebingen_website/templates/index.html:196
+#: igem_tuebingen_website/templates/project_2019.html:234
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 #: igem_tuebingen_website/templates/software.html:161
 #: igem_tuebingen_website/templates/sustainable_development_goals.html:171
 msgid ""
@@ -754,22 +839,36 @@ msgstr ""
 #: build/lib/igem_tuebingen_website/templates/about_igem_teamtuebingen.html:765
 #: build/lib/igem_tuebingen_website/templates/contact_error.html:96
 #: build/lib/igem_tuebingen_website/templates/contact_successful.html:98
+#: build/lib/igem_tuebingen_website/templates/diabetes_prevention.html:124
 #: build/lib/igem_tuebingen_website/templates/gallery.html:231
 #: build/lib/igem_tuebingen_website/templates/generic.html:122
 #: build/lib/igem_tuebingen_website/templates/get_involved.html:168
 #: build/lib/igem_tuebingen_website/templates/history.html:237
+<<<<<<< HEAD
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:222
+=======
+#: build/lib/igem_tuebingen_website/templates/human_practices.html:228
+#: build/lib/igem_tuebingen_website/templates/index.html:215
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:252
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 #: build/lib/igem_tuebingen_website/templates/sponsors.html:159
 #: build/lib/igem_tuebingen_website/templates/sustainable_development_goals.html:189
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:765
 #: igem_tuebingen_website/templates/contact_error.html:96
 #: igem_tuebingen_website/templates/contact_successful.html:98
+#: igem_tuebingen_website/templates/diabetes_prevention.html:126
 #: igem_tuebingen_website/templates/gallery.html:231
 #: igem_tuebingen_website/templates/generic.html:122
 #: igem_tuebingen_website/templates/get_involved.html:168
 #: igem_tuebingen_website/templates/history.html:237
+<<<<<<< HEAD
 #: igem_tuebingen_website/templates/human_practices.html:222
 #: igem_tuebingen_website/templates/project_2019.html:249
+=======
+#: igem_tuebingen_website/templates/human_practices.html:228
+#: igem_tuebingen_website/templates/index.html:215
+#: igem_tuebingen_website/templates/project_2019.html:252
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 #: igem_tuebingen_website/templates/sponsors.html:159
 #: igem_tuebingen_website/templates/sustainable_development_goals.html:189
 msgid "Message"
@@ -790,22 +889,36 @@ msgstr "Nachricht"
 #: build/lib/igem_tuebingen_website/templates/about_igem_teamtuebingen.html:781
 #: build/lib/igem_tuebingen_website/templates/contact_error.html:112
 #: build/lib/igem_tuebingen_website/templates/contact_successful.html:114
+#: build/lib/igem_tuebingen_website/templates/diabetes_prevention.html:140
 #: build/lib/igem_tuebingen_website/templates/gallery.html:247
 #: build/lib/igem_tuebingen_website/templates/generic.html:137
 #: build/lib/igem_tuebingen_website/templates/get_involved.html:184
 #: build/lib/igem_tuebingen_website/templates/history.html:253
+<<<<<<< HEAD
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:238
+=======
+#: build/lib/igem_tuebingen_website/templates/human_practices.html:244
+#: build/lib/igem_tuebingen_website/templates/index.html:231
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:268
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 #: build/lib/igem_tuebingen_website/templates/sponsors.html:175
 #: build/lib/igem_tuebingen_website/templates/sustainable_development_goals.html:205
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:781
 #: igem_tuebingen_website/templates/contact_error.html:112
 #: igem_tuebingen_website/templates/contact_successful.html:114
+#: igem_tuebingen_website/templates/diabetes_prevention.html:142
 #: igem_tuebingen_website/templates/gallery.html:247
 #: igem_tuebingen_website/templates/generic.html:137
 #: igem_tuebingen_website/templates/get_involved.html:184
 #: igem_tuebingen_website/templates/history.html:253
+<<<<<<< HEAD
 #: igem_tuebingen_website/templates/human_practices.html:238
 #: igem_tuebingen_website/templates/project_2019.html:265
+=======
+#: igem_tuebingen_website/templates/human_practices.html:244
+#: igem_tuebingen_website/templates/index.html:231
+#: igem_tuebingen_website/templates/project_2019.html:268
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 #: igem_tuebingen_website/templates/sponsors.html:175
 #: igem_tuebingen_website/templates/sustainable_development_goals.html:205
 msgid ""
@@ -828,22 +941,36 @@ msgstr "Sende uns eine Mail!"
 #: build/lib/igem_tuebingen_website/templates/about_igem_teamtuebingen.html:783
 #: build/lib/igem_tuebingen_website/templates/contact_error.html:114
 #: build/lib/igem_tuebingen_website/templates/contact_successful.html:116
+#: build/lib/igem_tuebingen_website/templates/diabetes_prevention.html:142
 #: build/lib/igem_tuebingen_website/templates/gallery.html:249
 #: build/lib/igem_tuebingen_website/templates/generic.html:139
 #: build/lib/igem_tuebingen_website/templates/get_involved.html:186
 #: build/lib/igem_tuebingen_website/templates/history.html:255
+<<<<<<< HEAD
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:240
+=======
+#: build/lib/igem_tuebingen_website/templates/human_practices.html:246
+#: build/lib/igem_tuebingen_website/templates/index.html:233
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:270
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 #: build/lib/igem_tuebingen_website/templates/sponsors.html:177
 #: build/lib/igem_tuebingen_website/templates/sustainable_development_goals.html:207
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:783
 #: igem_tuebingen_website/templates/contact_error.html:114
 #: igem_tuebingen_website/templates/contact_successful.html:116
+#: igem_tuebingen_website/templates/diabetes_prevention.html:144
 #: igem_tuebingen_website/templates/gallery.html:249
 #: igem_tuebingen_website/templates/generic.html:139
 #: igem_tuebingen_website/templates/get_involved.html:186
 #: igem_tuebingen_website/templates/history.html:255
+<<<<<<< HEAD
 #: igem_tuebingen_website/templates/human_practices.html:240
 #: igem_tuebingen_website/templates/project_2019.html:267
+=======
+#: igem_tuebingen_website/templates/human_practices.html:246
+#: igem_tuebingen_website/templates/index.html:233
+#: igem_tuebingen_website/templates/project_2019.html:270
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 #: igem_tuebingen_website/templates/sponsors.html:177
 #: igem_tuebingen_website/templates/sustainable_development_goals.html:207
 msgid "Follow us on Twitter!"
@@ -864,22 +991,36 @@ msgstr "Folge uns auf Twitter!"
 #: build/lib/igem_tuebingen_website/templates/about_igem_teamtuebingen.html:784
 #: build/lib/igem_tuebingen_website/templates/contact_error.html:115
 #: build/lib/igem_tuebingen_website/templates/contact_successful.html:117
+#: build/lib/igem_tuebingen_website/templates/diabetes_prevention.html:143
 #: build/lib/igem_tuebingen_website/templates/gallery.html:250
 #: build/lib/igem_tuebingen_website/templates/generic.html:140
 #: build/lib/igem_tuebingen_website/templates/get_involved.html:187
 #: build/lib/igem_tuebingen_website/templates/history.html:256
+<<<<<<< HEAD
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:241
+=======
+#: build/lib/igem_tuebingen_website/templates/human_practices.html:247
+#: build/lib/igem_tuebingen_website/templates/index.html:234
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:271
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 #: build/lib/igem_tuebingen_website/templates/sponsors.html:178
 #: build/lib/igem_tuebingen_website/templates/sustainable_development_goals.html:208
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:784
 #: igem_tuebingen_website/templates/contact_error.html:115
 #: igem_tuebingen_website/templates/contact_successful.html:117
+#: igem_tuebingen_website/templates/diabetes_prevention.html:145
 #: igem_tuebingen_website/templates/gallery.html:250
 #: igem_tuebingen_website/templates/generic.html:140
 #: igem_tuebingen_website/templates/get_involved.html:187
 #: igem_tuebingen_website/templates/history.html:256
+<<<<<<< HEAD
 #: igem_tuebingen_website/templates/human_practices.html:241
 #: igem_tuebingen_website/templates/project_2019.html:268
+=======
+#: igem_tuebingen_website/templates/human_practices.html:247
+#: igem_tuebingen_website/templates/index.html:234
+#: igem_tuebingen_website/templates/project_2019.html:271
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 #: igem_tuebingen_website/templates/sponsors.html:178
 #: igem_tuebingen_website/templates/sustainable_development_goals.html:208
 msgid "Like us on Facebook!"
@@ -900,38 +1041,86 @@ msgstr "Like uns auf Facebook!"
 #: build/lib/igem_tuebingen_website/templates/about_igem_teamtuebingen.html:785
 #: build/lib/igem_tuebingen_website/templates/contact_error.html:116
 #: build/lib/igem_tuebingen_website/templates/contact_successful.html:118
+#: build/lib/igem_tuebingen_website/templates/diabetes_prevention.html:144
 #: build/lib/igem_tuebingen_website/templates/gallery.html:251
 #: build/lib/igem_tuebingen_website/templates/generic.html:141
 #: build/lib/igem_tuebingen_website/templates/get_involved.html:188
 #: build/lib/igem_tuebingen_website/templates/history.html:257
+<<<<<<< HEAD
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:242
+=======
+#: build/lib/igem_tuebingen_website/templates/human_practices.html:248
+#: build/lib/igem_tuebingen_website/templates/index.html:235
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:272
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 #: build/lib/igem_tuebingen_website/templates/sponsors.html:179
 #: build/lib/igem_tuebingen_website/templates/sustainable_development_goals.html:209
 #: igem_tuebingen_website/templates/about_igem_teamtuebingen.html:785
 #: igem_tuebingen_website/templates/contact_error.html:116
 #: igem_tuebingen_website/templates/contact_successful.html:118
+#: igem_tuebingen_website/templates/diabetes_prevention.html:146
 #: igem_tuebingen_website/templates/gallery.html:251
 #: igem_tuebingen_website/templates/generic.html:141
 #: igem_tuebingen_website/templates/get_involved.html:188
 #: igem_tuebingen_website/templates/history.html:257
+<<<<<<< HEAD
 #: igem_tuebingen_website/templates/human_practices.html:242
 #: igem_tuebingen_website/templates/project_2019.html:269
+=======
+#: igem_tuebingen_website/templates/human_practices.html:248
+#: igem_tuebingen_website/templates/index.html:235
+#: igem_tuebingen_website/templates/project_2019.html:272
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 #: igem_tuebingen_website/templates/sponsors.html:179
 #: igem_tuebingen_website/templates/sustainable_development_goals.html:209
 msgid "Follow us on Instagram!"
 msgstr "Folge uns auf Instagram!"
 
+<<<<<<< HEAD
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/gallery.html:191
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/get_involved.html:127
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/index.html:91
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/software.html:135
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/sponsors.html:114
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/sustainable_development_goals.html:148
+=======
+#: build/lib/igem_tuebingen_website/templates/diabetes_prevention.html:9
+#: igem_tuebingen_website/templates/diabetes_prevention.html:9
+msgid "Diabetes prevention"
+msgstr "Diabetes Prävention"
+
+#: build/lib/igem_tuebingen_website/templates/diabetes_prevention.html:60
+#: igem_tuebingen_website/templates/diabetes_prevention.html:62
+msgid "Diabetes Mellitus Prevention"
+msgstr "Diabetes Mellitus Prävention"
+
+#: build/lib/igem_tuebingen_website/templates/diabetes_prevention.html:73
+#: build/lib/igem_tuebingen_website/templates/human_practices.html:114
+#: igem_tuebingen_website/templates/diabetes_prevention.html:75
+#: igem_tuebingen_website/templates/human_practices.html:114
+msgid "Education"
+msgstr "Weiterbildung"
+
+#: build/lib/igem_tuebingen_website/templates/diabetes_prevention.html:74
+#: igem_tuebingen_website/templates/diabetes_prevention.html:76
+msgid ""
+"Together with the group of Prof. Eicke Latz and iGEM Dresden, we plan to "
+"educate about possibilities \n"
+"                        that individuals have in order to prevent "
+"diseases like type 2 diabetes."
+msgstr ""
+"Zusammen mit der Gruppe von Prof. Dr. Eicke Latz und dem iGEM Team der TU"
+" Dresden wollen wir über Ernährung und Gesundheit im Kontext von Diabetes"
+" informieren und weiterbilden."
+
+#: build/lib/igem_tuebingen_website/templates/diabetes_prevention.html:83
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 #: build/lib/igem_tuebingen_website/templates/gallery.html:191
 #: build/lib/igem_tuebingen_website/templates/get_involved.html:127
 #: build/lib/igem_tuebingen_website/templates/software.html:135
 #: build/lib/igem_tuebingen_website/templates/sponsors.html:114
 #: build/lib/igem_tuebingen_website/templates/sustainable_development_goals.html:148
+#: igem_tuebingen_website/templates/diabetes_prevention.html:85
 #: igem_tuebingen_website/templates/gallery.html:191
 #: igem_tuebingen_website/templates/get_involved.html:127
 #: igem_tuebingen_website/templates/software.html:135
@@ -940,7 +1129,35 @@ msgstr "Folge uns auf Instagram!"
 msgid "Read about the iGEM competition and get to know our team!"
 msgstr "Finde mehr über den iGEM Wettbewerb heraus und lerne unser Team kennen!"
 
+<<<<<<< HEAD
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/get_involved.html:60
+=======
+#: build/lib/igem_tuebingen_website/templates/diabetes_prevention.html:90
+#: build/lib/igem_tuebingen_website/templates/get_involved.html:134
+#: build/lib/igem_tuebingen_website/templates/index.html:177
+#: build/lib/igem_tuebingen_website/templates/sustainable_development_goals.html:155
+#: igem_tuebingen_website/templates/diabetes_prevention.html:92
+#: igem_tuebingen_website/templates/get_involved.html:134
+#: igem_tuebingen_website/templates/index.html:177
+#: igem_tuebingen_website/templates/sustainable_development_goals.html:155
+msgid "Our Sponsors"
+msgstr "Unsere Sponsoren"
+
+#: build/lib/igem_tuebingen_website/templates/diabetes_prevention.html:91
+#: build/lib/igem_tuebingen_website/templates/get_involved.html:135
+#: build/lib/igem_tuebingen_website/templates/sustainable_development_goals.html:156
+#: igem_tuebingen_website/templates/diabetes_prevention.html:93
+#: igem_tuebingen_website/templates/get_involved.html:135
+#: igem_tuebingen_website/templates/sustainable_development_goals.html:156
+msgid ""
+"A project as ambitious as iGEM cannot be realized without the generous "
+"help of our\n"
+"                                sponsors."
+msgstr ""
+"Ein so ambitioniertes Projekt wie iGEM kann nicht ohne die Hilfe unserer "
+"großzügigen Sponsoren realisiert werden."
+
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 #: build/lib/igem_tuebingen_website/templates/get_involved.html:60
 #: igem_tuebingen_website/templates/get_involved.html:60
 msgid "Get Involved"
@@ -1106,6 +1323,7 @@ msgstr ""
 "Solltest Du an Sponsoring interessiert sein, so zögere nicht mit uns in "
 "Kontakt zu treten!"
 
+<<<<<<< HEAD
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/get_involved.html:134
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/index.html:177
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/sustainable_development_goals.html:155
@@ -1136,6 +1354,8 @@ msgstr ""
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/project_2019.html:46
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/software.html:46
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/sponsors.html:45
+=======
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 #: build/lib/igem_tuebingen_website/templates/history.html:46
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:45
 #: build/lib/igem_tuebingen_website/templates/software.html:46
@@ -1424,10 +1644,20 @@ msgstr ""
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/index.html:170
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/project_2019.html:217
 #: build/lib/igem_tuebingen_website/templates/history.html:205
+<<<<<<< HEAD
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:189
 #: igem_tuebingen_website/templates/history.html:205
 #: igem_tuebingen_website/templates/human_practices.html:189
 #: igem_tuebingen_website/templates/project_2019.html:217
+=======
+#: build/lib/igem_tuebingen_website/templates/human_practices.html:195
+#: build/lib/igem_tuebingen_website/templates/index.html:170
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:220
+#: igem_tuebingen_website/templates/history.html:205
+#: igem_tuebingen_website/templates/human_practices.html:195
+#: igem_tuebingen_website/templates/index.html:170
+#: igem_tuebingen_website/templates/project_2019.html:220
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 msgid "A gallery of our various iGEM teams, presentations and awesome projects."
 msgstr ""
 "Eine Galerie über unsere verschiedenen iGEM Teams, Präsentationen und "
@@ -1458,7 +1688,7 @@ msgstr "Human Practice"
 #: igem_tuebingen_website/templates/human_practices.html:78
 #: igem_tuebingen_website/templates/sustainable_development_goals.html:9
 msgid "Sustainable Development Goals"
-msgstr ""
+msgstr "Ziele für nachhaltige Entwicklung"
 
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/human_practices.html:76
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:76
@@ -1469,8 +1699,8 @@ msgid ""
 "                     More information can be found here:"
 msgstr ""
 "In Zusammenarbeit mit iGEM Costa Rica wollen wir, iGEM Tübingen, die UN "
-"Sustainable Development Goals fördern. Weitere Informationen findest Du "
-"hier: "
+"Ziele für nachhaltige Entwicklung fördern. Weitere Informationen findest "
+"Du hier: "
 
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/human_practices.html:81
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:81
@@ -1624,12 +1854,15 @@ msgstr ""
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/human_practices.html:114
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:114
 #: igem_tuebingen_website/templates/human_practices.html:114
+<<<<<<< HEAD
 msgid "Education"
 msgstr "Auch Bildung "
 
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/human_practices.html:114
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:114
 #: igem_tuebingen_website/templates/human_practices.html:114
+=======
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 msgid ""
 " of ourselves and others, would need to be a big factor within our "
 "project, as well.\n"
@@ -1832,13 +2065,38 @@ msgstr ""
 
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/human_practices.html:154
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:154
+#: build/lib/igem_tuebingen_website/templates/human_practices.html:158
 #: igem_tuebingen_website/templates/human_practices.html:154
+#: igem_tuebingen_website/templates/human_practices.html:158
+msgid "Diabetes Prevention"
+msgstr "Diabetes Prävention"
+
+#: build/lib/igem_tuebingen_website/templates/human_practices.html:155
+#: igem_tuebingen_website/templates/human_practices.html:155
+msgid ""
+"Together with the group of Prof. Dr. Eicke Latz and iGEM Dresden, we, "
+"iGEM Tübingen want to educate \n"
+"                            about health and diet in the context of "
+"diabetes.\n"
+"                             More information can be found here:"
+msgstr ""
+"Zusammen mit der Gruppe von Prof. Dr. Eicke Latz und dem iGEM Team der TU"
+" Dresden möchten wir Fakten über Ernährung und Gesundheit im Kontext zu "
+"Diabetes vermitteln. Hier geht es zu weiteren Informationen: "
+
+#: build/lib/igem_tuebingen_website/templates/human_practices.html:160
+#: igem_tuebingen_website/templates/human_practices.html:160
 msgid "Survey about the Diabetes Mellitus Therapy"
 msgstr "Umfrage über die Diabetes Mellitus Therapie"
 
+<<<<<<< HEAD
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/human_practices.html:156
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:156
 #: igem_tuebingen_website/templates/human_practices.html:156
+=======
+#: build/lib/igem_tuebingen_website/templates/human_practices.html:162
+#: igem_tuebingen_website/templates/human_practices.html:162
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 msgid ""
 "For our human practice work, we want to conduct the following survey to "
 "gather information about\n"
@@ -1858,9 +2116,14 @@ msgstr ""
 "die von uns betriebene Aufklärung zu verbessern und die Wahrnehmungen und"
 " Meinungen bezüglich unseres Therapiekonzeptes einschätzen zu können. "
 
+<<<<<<< HEAD
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/human_practices.html:162
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:162
 #: igem_tuebingen_website/templates/human_practices.html:162
+=======
+#: build/lib/igem_tuebingen_website/templates/human_practices.html:168
+#: igem_tuebingen_website/templates/human_practices.html:168
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 msgid ""
 "To design our survey, we wanted to fulfill the criteria proposed by iGEM."
 " Hence, informed\n"
@@ -1878,9 +2141,14 @@ msgstr ""
 "sein, mit dem Ziel unsere Ergebnisse nicht durch insinuiert “korrekte” "
 "Antworten zu kompromittieren."
 
+<<<<<<< HEAD
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/human_practices.html:167
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:167
 #: igem_tuebingen_website/templates/human_practices.html:167
+=======
+#: build/lib/igem_tuebingen_website/templates/human_practices.html:173
+#: igem_tuebingen_website/templates/human_practices.html:173
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 msgid ""
 "Once we have gathered enough information, we will analyze and evaluate "
 "our results and hope to\n"
@@ -1890,6 +2158,7 @@ msgstr ""
 "wir diese analysieren und auswerten, mit dem Ziel daraus sinnvolle "
 "Konsequenzen für unser Projekt ziehen zu können. "
 
+<<<<<<< HEAD
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/human_practices.html:179
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/project_2019.html:207
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:179
@@ -1904,6 +2173,21 @@ msgstr "Software"
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:180
 #: igem_tuebingen_website/templates/human_practices.html:180
 #: igem_tuebingen_website/templates/project_2019.html:208
+=======
+#: build/lib/igem_tuebingen_website/templates/human_practices.html:185
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:210
+#: igem_tuebingen_website/templates/human_practices.html:185
+#: igem_tuebingen_website/templates/project_2019.html:210
+msgid "Software"
+msgstr "Software"
+
+#: build/lib/igem_tuebingen_website/templates/human_practices.html:186
+#: build/lib/igem_tuebingen_website/templates/index.html:161
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:211
+#: igem_tuebingen_website/templates/human_practices.html:186
+#: igem_tuebingen_website/templates/index.html:161
+#: igem_tuebingen_website/templates/project_2019.html:211
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 msgid ""
 "Throughout our participations in iGEM several software tools have been "
 "developed. Read more\n"
@@ -1913,11 +2197,15 @@ msgstr ""
 "Während unserer Teilnahmen bei iGEM wurden mehrere Software Tools "
 "entwickelt. Finde die Download Instruktionen hier."
 
+<<<<<<< HEAD
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/human_practices.html:203
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/sponsors.html:140
 #: build/lib/igem_tuebingen_website/templates/human_practices.html:203
+=======
+#: build/lib/igem_tuebingen_website/templates/human_practices.html:209
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 #: build/lib/igem_tuebingen_website/templates/sponsors.html:140
-#: igem_tuebingen_website/templates/human_practices.html:203
+#: igem_tuebingen_website/templates/human_practices.html:209
 #: igem_tuebingen_website/templates/sponsors.html:140
 msgid ""
 "If you are interested in one of our projects and would like to get "
@@ -2065,6 +2353,7 @@ msgid ""
 "research groups, who are working with CRISPR/Cas systems and are "
 "concerned about potential off-target sites, to use our tool."
 msgstr ""
+<<<<<<< HEAD
 "Das CRISPR/Cas-System ist ein sehr leistungsfähiges Werkzeug zur Genome "
 "Editierung in Forschung und Therapie. Trotz der hohen Spezifität führen "
 "Nuklease Aktivitäten an Off-Target Sequenzen zu unerwünschten "
@@ -2101,6 +2390,32 @@ msgstr ""
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/sponsors.html:72
 #: build/lib/igem_tuebingen_website/templates/sponsors.html:72
 #: igem_tuebingen_website/templates/sponsors.html:72
+=======
+"Ein so ambitioniertes Projekt wie iGEM könnte nicht ohne die Hilfe "
+"unserer großzügigen Sponsoren realisiert werden."
+
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:74
+#: igem_tuebingen_website/templates/project_2019.html:74
+msgid ""
+"Please check out our official <a "
+"href=\"https://2019.igem.org/Team:Tuebingen/Description\">iGEM 2019 "
+"wiki</a> \n"
+"                        for further information about our project."
+msgstr ""
+"Bitte besuchen Sie auch unsere offizielle <a "
+"href=\"https://2019.igem.org/Team:Tuebingen/Description\">iGEM 2019 "
+"wiki</a> \n"
+"                        für weitere Informationen über unser Projekt (auf"
+" Englisch)."
+
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:77
+#: igem_tuebingen_website/templates/project_2019.html:77
+msgid "Our project"
+msgstr "Unser Projekt"
+
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:82
+#: igem_tuebingen_website/templates/project_2019.html:82
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 msgid ""
 "Only with the generous support of our sponsors it so far has always been "
 "possible to successfully take\n"
@@ -2133,6 +2448,7 @@ msgstr ""
 "Wir sind überaus dankbar für die Unterstützung unserer Förderer und "
 "freuen uns auf die Zusammenarbeit mit Ihnen. "
 
+<<<<<<< HEAD
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/sponsors.html:90
 #: build/lib/igem_tuebingen_website/templates/sponsors.html:90
 #: igem_tuebingen_website/templates/sponsors.html:90
@@ -2160,6 +2476,28 @@ msgstr "Zahlen und Fakten"
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/sustainable_development_goals.html:74
 #: build/lib/igem_tuebingen_website/templates/sustainable_development_goals.html:74
 #: igem_tuebingen_website/templates/sustainable_development_goals.html:74
+=======
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:85
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:106
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:128
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:161
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:183
+#: igem_tuebingen_website/templates/project_2019.html:85
+#: igem_tuebingen_website/templates/project_2019.html:106
+#: igem_tuebingen_website/templates/project_2019.html:128
+#: igem_tuebingen_website/templates/project_2019.html:161
+#: igem_tuebingen_website/templates/project_2019.html:183
+msgid "Tap for more details"
+msgstr "Klicke hier für Details"
+
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:86
+#: igem_tuebingen_website/templates/project_2019.html:86
+msgid "Overview over Application"
+msgstr "Übersicht: Applikation"
+
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:89
+#: igem_tuebingen_website/templates/project_2019.html:89
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 msgid ""
 "Diabetes is now considered a pandemic with a substantial threat to human "
 "health around the world.\n"
@@ -2202,9 +2540,14 @@ msgstr ""
 "relativ kleines Land, bereits auf Platz 9 der totalen Diabetes Fälle "
 "weltweit, mit mehr als 7.5 Millionen Diabetikern [IDF, 2017]. "
 
+<<<<<<< HEAD
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/sustainable_development_goals.html:87
 #: build/lib/igem_tuebingen_website/templates/sustainable_development_goals.html:87
 #: igem_tuebingen_website/templates/sustainable_development_goals.html:87
+=======
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:103
+#: igem_tuebingen_website/templates/project_2019.html:103
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 msgid ""
 "This pandemic is a result of an unhealthy and sedentary lifestyle, which "
 "promotes obesity\n"
@@ -2227,6 +2570,7 @@ msgstr ""
 "die Gesundheitssysteme, mit Kosten die 700 Milliarden USD jährlich "
 "überschreiten [IDF, 2017]. "
 
+<<<<<<< HEAD
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/sustainable_development_goals.html:94
 #: build/lib/igem_tuebingen_website/templates/sustainable_development_goals.html:94
 #: igem_tuebingen_website/templates/sustainable_development_goals.html:94
@@ -2258,6 +2602,15 @@ msgstr ""
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/sustainable_development_goals.html:102
 #: build/lib/igem_tuebingen_website/templates/sustainable_development_goals.html:102
 #: igem_tuebingen_website/templates/sustainable_development_goals.html:102
+=======
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:107
+#: igem_tuebingen_website/templates/project_2019.html:107
+msgid "Simplified representation of our project."
+msgstr "Vereinfachte Darstellung unseres Projektes. "
+
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:110
+#: igem_tuebingen_website/templates/project_2019.html:110
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 msgid ""
 "However, Diabetes can be managed very well, if the patients can have "
 "access to\n"
@@ -2269,6 +2622,7 @@ msgstr ""
 "und präventiven Maßnahmen hat, was unter anderem die Förderung eines "
 "gesunden Lebensstils beinhaltet. "
 
+<<<<<<< HEAD
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/sustainable_development_goals.html:105
 #: build/lib/igem_tuebingen_website/templates/sustainable_development_goals.html:105
 #: igem_tuebingen_website/templates/sustainable_development_goals.html:105
@@ -2278,6 +2632,15 @@ msgstr "UN Sustainable Development Goals (SDG)"
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/sustainable_development_goals.html:106
 #: build/lib/igem_tuebingen_website/templates/sustainable_development_goals.html:106
 #: igem_tuebingen_website/templates/sustainable_development_goals.html:106
+=======
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:121
+#: igem_tuebingen_website/templates/project_2019.html:121
+msgid "Type II Diabetes Mellitus and incretin mimetics"
+msgstr "Typ II Diabetes Mellitus und Incretin Mimetika"
+
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:125
+#: igem_tuebingen_website/templates/project_2019.html:125
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 msgid ""
 "Together with the iGEM Team Costa Rica we want to promote the United "
 "Nations’ Sustainable Development Goals,\n"
@@ -2288,6 +2651,7 @@ msgid ""
 "opportunity to take responsibility, as we are very privileged\n"
 "                     to take part in such a project in the first place."
 msgstr ""
+<<<<<<< HEAD
 "Zusammen mit dem iGEM Team Costa Rica arbeiten wir an der Förderung der "
 "Sustainable Development Goals (Nachhaltige Entwicklungsziele) der UN, da "
 "alle iGEM Projekte generell das Ziel haben, die Leben der Menschen zu "
@@ -2299,6 +2663,21 @@ msgstr ""
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/sustainable_development_goals.html:111
 #: build/lib/igem_tuebingen_website/templates/sustainable_development_goals.html:111
 #: igem_tuebingen_website/templates/sustainable_development_goals.html:111
+=======
+"Das GLP-Analogon wird sich an seinen G-Protein-gekoppelten Rezeptor "
+"binden, der die Adenylylcyclase aktiviert, um die Produktion von cAMP zu "
+"initiieren. Insgesamt wird dies zu einem erhöhten Calcium-Ionen-Einstrom "
+"führen, sodass mehr Insulin aus den beta-Zellen ausgeschüttet werden "
+"kann."
+
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:129
+#: igem_tuebingen_website/templates/project_2019.html:129
+msgid "GLP mechanism"
+msgstr "GLP Mechanismus"
+
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:132
+#: igem_tuebingen_website/templates/project_2019.html:132
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 msgid ""
 "Overall, the Sustainable Development Goals aim to improve the world’s "
 "situation by promoting prosperity,\n"
@@ -2318,6 +2697,7 @@ msgid ""
 "                     as teams of iGEM, want to help target these goals "
 "more aggressively and promote their fulfilment. "
 msgstr ""
+<<<<<<< HEAD
 "Zusammengefasst beruhen die Sustainable Development Goals darauf, die "
 "Situation in der Welt zu verbessern, indem Wohlstand, Gleichheit, Frieden"
 " und Umweltschutz wie folgt gefördert werden sollen: i) keine Armut, ii) "
@@ -2337,6 +2717,42 @@ msgstr ""
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/sustainable_development_goals.html:126
 #: build/lib/igem_tuebingen_website/templates/sustainable_development_goals.html:126
 #: igem_tuebingen_website/templates/sustainable_development_goals.html:126
+=======
+"Typ II Diabetes Mellitus ist eine Stoffwechselkrankheit unter welcher "
+"etwa 10 Prozent aller Menschen leiden. Eines der Hauptsymptome ist der "
+"relative Mangel von Insulin, was eine verminderte Glukoseaufnahme durch "
+"die Zellen bedingt. Das Führt zu einer Zellulären Energiekriese. In Typ "
+"II Diabetes Mellitus kompensiert der Körper diesen Mangel durch erhöhte "
+"Insulinausschüttung, was zu Stress in den Insulin sekretierenden beta "
+"Zellen des Pankreas führt. Dieser Stress resultiert letztendlich in der "
+"Zerstörung der beta Zellen und somit zum fehlen jeglichen Insulins im "
+"Körper. Der relative Insulinmangel bei Typ II Diabetes Mellitus kann "
+"verschiedene Gründe haben. Eine Ursache kann stark erhöhter Zuckerkonsum "
+"sein was die Sensitivität der Insulinrezeptoren verringert. Genetische "
+"Predisposition durch z.B. Mutationen in essentiellen Genen muss aber auch"
+" als Grund genannt werden. Eine Form der Behandlung von Typ II Diabetes "
+"Mellitus ist die Gabe von Inkretin Mimetica. Diese lösen den "
+"Inkretineffekt aus bekannt vom körpereigene Glucagon-Like-Peptide-1 "
+"(GLP-1). Das erklärt die Tatsache dass die orale Gabe eine größeren "
+"Insulinausschüttung bewirkt als die parenterale Zufuhr. Das in den "
+"L-Zellen des Darms produzierte GLP-1 wird bei Anwesenheit von Nährstoffen"
+" ausgeschüttet und erreicht den Pankreas über das Blut. Dort bindet es an"
+" seinen Rezeptor (ein G-Protein gekoppelter Rezeptor) welcher die "
+"Adenylat Cyclase aktiviert und so die Produktion von cAMP anstößt. Das "
+"führt zu einem erhöhten Calcium Fluss in die Zelle und in Folge dessen zu"
+" einer verstärkten Insulinsekretion durch die beta Zellen. Diese Erhöhte "
+"Sekretion hilft den relativen Mangel an Insulin in Typ II Diabetes "
+"Mellitus zu kompensieren, solange die Menge des ausgeschütteten incretins"
+" ausreichen."
+
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:154
+#: igem_tuebingen_website/templates/project_2019.html:154
+msgid "Genetically modified organisms (GMOs)"
+msgstr "Genetisch modifizierte Organismen (GMOs)"
+
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:158
+#: igem_tuebingen_website/templates/project_2019.html:158
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 msgid ""
 "We, Team Tübingen, want to target multiple of these goals. First of all, "
 "our new therapeutic strategy aims to increase good health and well-being,"
@@ -2399,6 +2815,7 @@ msgstr ""
 "verantwortungsvoll produzieren ohne negativen Einfluss auf die Umwelt zu "
 "nehmen. "
 
+<<<<<<< HEAD
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/index.html:25
 msgid "iGEM Tübingen"
 msgstr "iGEM Tübingen"
@@ -2408,6 +2825,15 @@ msgid "Read about our Human Practice"
 msgstr "Erfahre mehr über Human Practice"
 
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/index.html:135
+=======
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:162
+#: igem_tuebingen_website/templates/project_2019.html:162
+msgid "Origin of exendin-4"
+msgstr "Ursprung des Exendin-4"
+
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:165
+#: igem_tuebingen_website/templates/project_2019.html:165
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 msgid ""
 "Read about how to get involved as a researcher or in the role of a "
 "sponsor."
@@ -2415,11 +2841,21 @@ msgstr ""
 "Erfahre mehr darüber, wie man uns am Besten als Forscher oder Sponsor "
 "unterstützen kann."
 
+<<<<<<< HEAD
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/index.html:144
 msgid "Further Information"
 msgstr "Weitere Informationen"
 
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/index.html:178
+=======
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:176
+#: igem_tuebingen_website/templates/project_2019.html:176
+msgid "Drylab and Bioinformatics"
+msgstr "Drylab und Bioinformatik"
+
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:180
+#: igem_tuebingen_website/templates/project_2019.html:180
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 msgid ""
 "A project as ambitious as iGEM cannot be realized without the generous "
 "help of our\n"
@@ -2428,6 +2864,7 @@ msgstr ""
 "Ein so ambitioniertes Projekt wie iGEM könnte nicht ohne die Hilfe "
 "unserer großzügigen Sponsoren realisiert werden."
 
+<<<<<<< HEAD
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/project_2019.html:9
 msgid "Type 2 Diabetes mellitus therapy - Project 2019"
 msgstr "Typ 2 Diabetes mellitus Therapie - Projekt 2019"
@@ -2438,6 +2875,10 @@ msgstr "Unser Projekt"
 
 #: build/lib.linux-x86_64-2.7/igem_tuebingen_website/templates/project_2019.html:79
 #: igem_tuebingen_website/templates/project_2019.html:79
+=======
+#: build/lib/igem_tuebingen_website/templates/project_2019.html:187
+#: igem_tuebingen_website/templates/project_2019.html:187
+>>>>>>> 513f8093728be686260fa5d60180ade26ce8b139
 msgid ""
 "Our therapeutic agent is a probiotic secreting incretin mimetics placed "
 "in the patients intestine by oral administration of capsules.\n"
@@ -2796,11 +3237,4 @@ msgstr ""
 #: igem_tuebingen_website/templates/project_2019.html:173
 msgid "iGEM Drylab - Synthetic biology bioinformatics"
 msgstr ""
-
-#~ msgid ""
-#~ "Together with iGEM Costa Rica, we, "
-#~ "iGEM Tübingen want to promote the "
-#~ "UN Sustainable Development Goals.\n"
-#~ "                     More information can be found on our"
-#~ msgstr ""
 
