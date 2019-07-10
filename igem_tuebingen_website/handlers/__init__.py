@@ -15,3 +15,4 @@ from . import human_practices
 from . import impressum
 from . import dsgvo
 from . import sustainable_development_goals
+from . import diabetes_prevention
