@@ -6,7 +6,8 @@
 -->
 <html>
 <head>
-    <title>Team Tübingen 2019</title>
+    <!-- #include virtual="/files/menu.html" -->
+    <title>{{ _('Diabetes mellitus 2 therapy - project 2019') }}</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}"/>
@@ -29,23 +30,7 @@
     </header>
 
     <!-- Menu -->
-    <nav id="menu">
-        <div class="inner">
-            <h2>Menu</h2>
-            <ul class="links">
-                <li><a href="{{ url_for('index') }}">Home</a></li>
-                <li><a href="{{ url_for('about_igem_teamtuebingen') }}">{{ _('About iGEM and Team Tübingen') }}</a></li>
-                <li><a href="{{ url_for('project_2019') }}">{{ _('Project 2019') }}</a></li>
-                <li><a href="{{ url_for('get_involved') }}">{{ _('Get involved') }}</a></li>
-                <li><a href="{{ url_for('human_practices') }}">Human Practices</a>
-                <li><a href="{{ url_for('history') }}">{{ _('History of iGEM Tübingen') }}</a></li>
-                <li><a href="{{ url_for('software') }}">{{ _('Software by iGEM Tübingen') }}</a></li>
-                <li><a href="{{ url_for('gallery') }}">{{ _('Gallery') }}</a></li>
-                <li><a href="{{ url_for('sponsors') }}">{{ _('Sponsors') }}</a></li>
-            </ul>
-            <a href="#" class="close">{{ _('Close') }}</a>
-        </div>
-    </nav>
+    <src="menu.html">
 
     <!-- Wrapper -->
     <section id="wrapper">
@@ -58,7 +43,7 @@
                     <p></p><br>
                     <p></p><br>
                     <div class="subtitle">
-                        <h2>Team Tübingen 2019</h2>
+                        <h2>{{ _('Diabetes mellitus 2 therapy - project 2019') }}</h2>
 {#                        <p>"Every project has challenges, and every project has its rewards." --Stephen Schwartz</p>#}
                     </div>
                     <p></p><br>
@@ -71,10 +56,10 @@
             <div class="wrapper">
                 <div class="inner">
 
-                    <p>{{ _('Please check out our official <a href="https://2019.igem.org/Team:Tuebingen/Description">iGEM 2019 wiki</a> 
+                    <p>{{ _('Please check out our official <a href="https://2019.igem.org/Team:Tuebingen/Description">iGEM 2019 wiki</a>
                         for further information about our project.') }}</p>
 
-                    <h3 class="major">{{ _('Our project') }}</h3>
+                    <h3 class="major">{{ _('Diabetes mellitus 2 therapy - project 2019') }}</h3>
                     <ul id="image-popups">
                     <p><figure>
                             <div  class="image right">
@@ -151,7 +136,7 @@
                         secreted is sufficient.') }}
                     </p>
 
-                    <h3 class="major">{{ _('Genetically modified organisms (GMOs)') }}</h3>
+                    <h3 class="major">{{ _('Are gmos good for you?') }}</h3>
                     <p><figure>
                             <div  class="image left">
                             <a style="font-size: small" href="{{ url_for('static', filename='images/project/lizard_peptide.png') }}" data-effect="mfp-zoom-out"
@@ -173,7 +158,7 @@
                         Therefore, efforts have been made and are still made towards ensuring the biosafety of GMOs.') }}
                     </p><br>
 
-                        <h3 class="major">{{ _('Drylab and Bioinformatics') }}</h3>
+                        <h3 class="major">{{ _('iGEM Drylab - Synthetic biology bioinformatics') }}</h3>
                         <p><figure>
                             <div  class="image right">
                             <a style="font-size: small" href="{{ url_for('static', filename='images/project/GOI.png') }}" data-effect="mfp-zoom-out"
