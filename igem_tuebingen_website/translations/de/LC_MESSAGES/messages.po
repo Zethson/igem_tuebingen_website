@@ -2675,4 +2675,3 @@ msgid ""
 msgstr ""
 "Während unserer Teilnahmen bei iGEM wurden mehrere Software Tools "
 "entwickelt. Finde die Download Instruktionen hier. "
-
