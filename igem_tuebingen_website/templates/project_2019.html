@@ -9,17 +9,15 @@
     <title>{{ _('Diabetes mellitus 2 therapy - project 2019') }}</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-    <meta name="og:title" property="og:title" content={{ _('Diabetes mellitus 2 therapy - igem project 2019') }} />
+    <meta name="og:title" property="og:title" content="{{ _('Diabetes mellitus 2 therapy - igem project 2019') }}" />
     <meta name="og:type"property="og:type" content="website" />
     <meta name="og:image" property="og:image" content="https://igem-tuebingen.com/static/images/project/application.png" />
-    <meta name="og:description" property="og:description" content={{ _('The aim of the project 2019 is the generation of a probiotic for the therapy of Type II Diabetes
+    <meta name="og:description" property="og:description" content="{{ _('The aim of the igem tübingen project 2019 is the generation of a probiotic for the therapy of Type II Diabetes
     Mellitus based on a plasmid chassis incorporating a Cas3 self-kill mechanism to prevent
-    the spread of GMOs in the environment which also addresses the high amount of concerns associated
-    with GMOs and fulfills the necessary biosafety standards.') }} />
-    <meta name="description" content={{ _('The aim of the project 2019 is the generation of a probiotic for the therapy of Type II Diabetes
+    the spread of GMOs in the environment. Probiotics drugs which consist of synthetic biology bacteria could relieve diabetes mellitus symptoms') }}" />
+    <meta name="description" content="{{ _('The aim of the igem tübingen project 2019 is the generation of a probiotic for the therapy of Type II Diabetes
     Mellitus based on a plasmid chassis incorporating a Cas3 self-kill mechanism to prevent
-    the spread of GMOs in the environment which also addresses the high amount of concerns associated
-    with GMOs and fulfills the necessary biosafety standards.') }} />
+    the spread of GMOs in the environment. Probiotics drugs which consist of synthetic biology bacteria could relieve diabetes mellitus symptoms') }}" />
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/magnific-popup.css') }}">
     <noscript>
@@ -76,7 +74,7 @@
                             <a style="font-size: small" href="{{ url_for('static', filename='images/project/application.png') }}" data-effect="mfp-zoom-out"
                                title="{{ _('Our therapeutic agent is a probiotic secreting incretin mimetics placed in the patients intestine by oral administration of capsules.
                                             This enables an easier therapy where a regular intake of a medication is not required.') }}">
-                                <img src="{{ url_for('static', filename='images/project/application.png') }}"/>
+                                <img src="{{ url_for('static', filename='images/project/application.png') }}" alt="{{ _('incretin glp 1') }}" />
                                 {{ _('Tap for more details') }}
                             </a><figcaption style="font-size: small">{{ _('Overview over Application') }}</figcaption>
                             </div>
@@ -97,7 +95,7 @@
                             <a style="font-size: small" href="{{ url_for('static', filename='images/project/gut.png') }}" data-effect="mfp-zoom-out"
                                title="{{ _('The plasmid encoding the GLP analog is introduced into a probiotic E. coli strain which
                                         then secretes peptide which can be absorbed through the intestine to increase insulin secretion in the pancreas. ') }}">
-                                <img src="{{ url_for('static', filename='images/project/gut.png') }}"/>
+                                <img src="{{ url_for('static', filename='images/project/gut.png') }}" alt="{{ _('glp 1 diabetes drugs') }}" />
                                 {{ _('Tap for more details') }}
                             </a><figcaption style="font-size: small">{{ _('Simplified representation of our project.') }}</figcaption>
                             </div>
@@ -117,9 +115,9 @@
                     <p><figure>
                             <div  class="image right">
                             <a style="font-size: small" href="{{ url_for('static', filename='images/project/GLP_mechanism.png') }}" data-effect="mfp-zoom-out"
-                               title="{{ _('The GLP-Analogon will bind to its G-protein-coupled receptor activating Adenylate Cyclase to initiate the production of cAMP. "
+                               title="{{ _('The GLP-Analogon will bind to its G-protein-coupled receptor activating Adenylate Cyclase to initiate the production of cAMP.
                                             Overall, this will lead to increased Calcium Ion influx, allowing for more Insulin to be secreted from the beta cells.') }}">
-                                <img src="{{ url_for('static', filename='images/project/GLP_mechanism.png') }}"/>
+                                <img src="{{ url_for('static', filename='images/project/GLP_mechanism.png') }}" alt="{{ _('glp 1 mechanism of action') }}" />
                                 {{ _('Tap for more details') }}
                             </a><figcaption style="font-size: small">{{ _('GLP mechanism') }}</figcaption>
                             </div>
@@ -152,7 +150,7 @@
                             <a style="font-size: small" href="{{ url_for('static', filename='images/project/lizard_peptide.png') }}" data-effect="mfp-zoom-out"
                                title="{{ _('The Gila monster (Heloderma suspectum) is a firm venomous lizard, which is secreting venom composed of a neurotoxin (gilatoxin) and different glycoproteins from a mandibular gland.
                                            One of the secreted glycoproteins is exendin-4 which has the synthetic analogue Exenatid.') }}">
-                                <img src="{{ url_for('static', filename='images/project/lizard_peptide.png') }}"/>
+                                <img src="{{ url_for('static', filename='images/project/lizard_peptide.png') }}" alt="{{ _('exendin 4 gila monster') }}" />
                                 {{ _('Tap for more details') }}
                             </a><figcaption style="font-size: small">{{ _('Origin of exendin-4') }}</figcaption>
                             </div>
@@ -165,7 +163,8 @@
                         treatment or diagnosis of diseases. Concerns about GMOs have been raised by many people and
                         especially address their safety when intentionally or unintentionally released into the
                         environment.
-                        Therefore, efforts have been made and are still made towards ensuring the biosafety of GMOs.') }}
+                        Therefore, efforts have been made and are still made towards ensuring the biosafety of GMOs.
+                        There are a lot of benefits of genetic engineering in medicine') }}
                     </p><br>
 
                         <h3 class="major">{{ _('iGEM Drylab - Synthetic biology bioinformatics') }}</h3>
@@ -174,7 +173,7 @@
                             <a style="font-size: small" href="{{ url_for('static', filename='images/project/GOI.png') }}" data-effect="mfp-zoom-out"
                                title="{{ _('Our probiotic strain contains a plasmid which expresses the GLP-analog Exenatid in the presence of glucose. Exenatid is further modified with a secretion tag and a
                      cell penetrating peptide to allow for it to pass through the epithelial cells of the intestine and to reach the blood stream.') }}">
-                                <img src="{{ url_for('static', filename='images/project/GOI.png') }}"/>
+                                <img src="{{ url_for('static', filename='images/project/GOI.png') }}" alt="{{ _('glp 1 synthesis')}}" />
                                 {{ _('Tap for more details') }}
                             </a><figcaption style="font-size: small">GOI</figcaption>
                             </div>
