@@ -72,9 +72,44 @@
             <div class="wrapper">
                 <div class="inner">
 
-                    <h3 class="major">{{ _('Education') }}</h3>
+                    <h3 class="major">{{ _('Collaborative Education') }}</h3>
                     <p>{{ _('Together with the group of Prof. Eicke Latz and iGEM Dresden, we plan to educate about possibilities 
-                        that individuals have in order to prevent diseases like type 2 diabetes.') }}</p>
+                        that individuals have in order to prevent diseases like type 2 diabetes and adipositas.
+                        ') }}</p>
+
+                        <p>{{ _('Overall, there is more than enough evidence that western life-style, in its sedentary, 
+                            high-sugar, high-unsaturated fatty acids, high-cholesterol, high-salt and low-fibre way, 
+                            promotes the development of inflammatory and chronic diseases [1,2]. Although, especially in 
+                            research environment, this fact is known, knowledge transfer to the public has not been sufficient 
+                            enough to adequately spread the notion of a balanced nutrition to prevent potentially fatal diseases, 
+                            such as Diabetes Mellitus and Morbus Crohn[1,2,3,4]. 
+                            ') }}</p>
+
+                        <p>{{ _('As we, iGEM Tübingen, want to target Type 2 DM treatment and iGEM Dresden works on the 
+                            development of a new sugar substitution, we want to share our knowledge with the public and start a preventive project. 
+                            ') }}</p>
+
+                        <p>{{ _('As our projects are highly intertwined with the use of synthetic biology and the 
+                            design and use of GMOs (Genetically modified organisms), we want to combine education 
+                            about healthy nutrition, which prevents diseases like Diabetes from occurring solely 
+                            because of malnutrition, and the usage of GMO-based food. We are aware, that especially 
+                            in communities like the vegan and organic community, who are trying to base their diets 
+                            on health-based concepts, GMO-based food, which means food that is either a GMO, contains 
+                            a GMO or was produced by a GMO, is faced with a lot of, in our opinion unreasonable, stigma. 
+                            This is especially important, since due to the rising world population, at one point there 
+                            won’t be enough resources, if we completely rule out the use of GMO-based food.
+                            ') }}</p>
+
+                        <p>{{ _('Overall, we want this project to be a plea for healthy, GMO-based food.') }}</p>
+
+                        <h3 class="major">{{ _('Sources and Literature') }}</h3>
+                        <p>[1] Christ, A., Lauterbauch, M., Latz, E. Western lifestyle and the immune system, an inflammatory connection, not published<br>
+                                [2] Mozaffarian, D. (2016). Dietary and Policy Priorities for Cardiovascular Disease, Diabetes, and Obesity: A Comprehensive 
+                                Review. Circulation 133, 187-225.<br>
+                                [3] Atkinson, F.S., Foster-Powell, K., and Brand-Miller, J.C. (2008). International tables of glycemic index and glycemic 
+                                load values: 2008. Diabetes Care 31, 2281-2283.<br>
+                                [4] Hosseini, Z., Whiting, S.J., and Vatanparast, H. (2016). Current evidence on the association of the metabolic syndrome 
+                                and dietary patterns in a global perspective. Nutr Res Rev 29, 152-162.</p>
 
                     <section class="features">
                         <article>
@@ -86,13 +121,13 @@
                             <a href="{{ url_for('about_igem_teamtuebingen') }}" class="special">{{ _('Learn more') }}</a>
                         </article>
                         <article>
-                            <a href="{{ url_for('sponsors') }}" class="image"><img
-                                    src="{{ url_for('static', filename='images/subsite_icons/sponsors_2_cut.jpg') }}"
-                                    alt=""/></a>
-                            <h3 class="major">{{ _('Our Sponsors') }}</h3>
-                            <p>{{ _('A project as ambitious as iGEM cannot be realized without the generous help of our
-                                sponsors.') }}</p>
-                            <a href="{{ url_for('sponsors') }}" class="special">{{ _('Learn more')}}</a>
+                                <a href="{{ url_for('software') }}" class="image"><img
+                                        src="{{ url_for('static', filename='images/subsite_icons/software_cut.jpg') }}"
+                                        alt=""/></a>
+                                <h3 class="major">{{ _('Software') }}</h3>
+                                <p>{{ _('Throughout our participations in iGEM several software tools have been developed. Read more
+                                about them and find download instructions here.') }}</p>
+                                <a href="{{ url_for('software') }}" class="special">{{ _('Learn more')}}</a>
                         </article>
                     </section>
 
@@ -139,7 +174,7 @@
                     72076 Tübingen
                 </li>
                 <li class="fa-phone">+49 176 97894002</li>
-                <li class="fa-envelope"><a href="mailto:igem@ifib.uni-tuebingen.de?Subject=iGEM%20Tuebingen">{{ _('Send us a
+                <li class="fa-envelope"><a href="mailto:info@igem-tuebingen.de?Subject=iGEM%20Tuebingen">{{ _('Send us a
                     Mail!') }}</a></li>
                 <li class="fa-twitter"><a href="https://twitter.com/igemtuebingen">{{ _('Follow us on Twitter!') }}</a></li>
                 <li class="fa-facebook"><a href="https://facebook.com/igemtuebingen">{{ _('Like us on Facebook!') }}</a></li>
