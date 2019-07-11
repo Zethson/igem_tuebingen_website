@@ -6,7 +6,6 @@
 -->
 <html>
 <head>
-    <!-- #include virtual="/files/menu.html" -->
     <title>{{ _('Diabetes mellitus 2 therapy - project 2019') }}</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
@@ -23,14 +22,14 @@
 
     <!-- Header -->
     <header id="header">
-        <h1><a href="{{ url_for('index') }}">iGEM Tübingen</a></h1>
+        <h1><a href="{{ url_for('index') }}">{{ _('iGEM Tübingen') }}</a></h1>
         <nav>
             <a href="#menu">Menu</a>
         </nav>
     </header>
 
     <!-- Menu -->
-    <src="menu.html">
+    {% include 'menu.html' %}
 
     <!-- Wrapper -->
     <section id="wrapper">
