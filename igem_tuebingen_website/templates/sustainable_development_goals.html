@@ -10,6 +10,14 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}"/>
+    <!-- SEO -->
+    <meta name="og:title" property="og:title" content="{{ _('Sustainable Development Goals') }}" />
+    <meta name="og:type"property="og:type" content="website" />
+    <meta property="og:url" content="https://igem-tuebingen.com/sustainable_development_goals"/>
+    <!--TODO: LOGO fehlt noch -->
+    <!--<meta name="og:image" property="og:image" content="https://igem-tuebingen.com/static/images/project/application.png" />-->
+
+
     <noscript>
         <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/noscript.css') }}"/>
     </noscript>
@@ -21,7 +29,7 @@
 
     <!-- Header -->
     <header id="header">
-        <h1><a href="{{ url_for('index') }}">iGEM Tübingen</a></h1>
+        <h1><a href="{{ url_for('index') }}">{{ _('iGEM Team Tübingen 2019 GLP.exe') }}</a></h1>
         <nav>
             <a href="#menu">Menu</a>
         </nav>

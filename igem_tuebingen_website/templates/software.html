@@ -5,12 +5,21 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <head>
-    <title>Software</title>
+    <title>{{ _('Synthetic biology software - iGem Tübingen') }}</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/images.css') }}"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/magnific-popup.css') }}">
+    <!-- SEO -->
+    <meta name="og:title" property="og:title" content="{{ _('Synthetic biology software - iGem Tübingen') }}" />
+    <meta name="og:type"property="og:type" content="website" />
+    <meta property="og:url" content="https://igem-tuebingen.com/software"/>
+    <!--TODO: LOGO fehlt noch -->
+    <!--<meta name="og:image" property="og:image" content="https://igem-tuebingen.com/static/images/project/application.png" />-->
+    <meta name="og:description" property="og:description" content="{{ _('The iGem team Tübingen subteam drylab produces synthetic biology software. Synthetic biology bioinformatics are needed.') }}" />
+    <meta name="description" content="{{ _('The iGem team Tübingen subteam drylab produces synthetic biology software. Synthetic biology bioinformatics are needed.') }}" />
+
     <noscript>
         <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/noscript.css') }}"/>
     </noscript>
@@ -22,7 +31,7 @@
 
     <!-- Header -->
     <header id="header">
-        <h1><a href="{{ url_for('index') }}">iGEM Tübingen</a></h1>
+        <h1><a href="{{ url_for('index') }}">{{ _('iGEM Team Tübingen 2019 GLP.exe') }}</a></h1>
         <nav>
             <a href="#menu">Menu</a>
         </nav>
@@ -41,7 +50,7 @@
                     <p></p><br>
                     <p></p><br>
                     <div class="subtitle">
-                        <h2>Software</h2>
+                        <h2>{{ _('Synthetic biology software - iGem Tübingen') }}</h2>
 {#                        <p>"Life is a DNA software system." --Craig Venter</p>#}
                     </div>
                     <p></p><br>
@@ -54,7 +63,7 @@
             <div class="wrapper">
                 <div class="inner">
 
-                    <h3 class="major">2018</h3>
+                    <h2 class="major">{{ _('Synthetic biology software - iGem Tübingen 2018') }}</h2>
                     <ul id="image-popups">
                     <p><figure>
                             <div  class="image left">
@@ -90,7 +99,7 @@
                     </p>
 
 
-                    <h3 class="major">2019</h3>
+                    <h2 class="major">{{ _('Synthetic biology software - iGem Tübingen 2019') }}</h2>
                     <p>{{ _('The CRISPR/Cas system is a very powerful tool for genome editing in biological research and in treatment of diseases.
                         Besides its high specificity, off-target activity often yields unwanted side effects.
                         Therefore, the identification of off-target sites is a crucial point in many experimental set-ups.
@@ -111,26 +120,8 @@
                     </p></ul>
 
                     <section class="features">
-                        <article>
-                            <a href="{{ url_for('about_igem_teamtuebingen') }}" class="image"><img
-                                    src="{{ url_for('static', filename='images/subsite_icons/tuebingen_town_cut.jpg') }}"
-                                    alt=""/></a>
-                            <h3 class="major">{{ _('About iGEM and Team Tübingen') }}</h3>
-                            <p>{{ _('Read about the iGEM competition and get to know our team!') }}</p>
-                            <a href="{{ url_for('about_igem_teamtuebingen') }}" class="special">{{ _('Learn more')}}</a>
-                        </article>
-                        <article>
-                            <a href="{{ url_for('project_2019') }}" class="image"><img
-                                    src="{{ url_for('static', filename='images/subsite_icons/project_bacteria_cut_2.jpg') }}"
-                                    alt=""/></a>
-                            <h3 class="major">{{ _('Project 2019') }}</h3>
-                            <p>{{ _('The aim of the project 2019 is to generate a probiotic for the therapy of Type II
-                                Diabetes
-                                Mellitus, based on a plasmid chassis incorporating a Cas3 self-kill mechanism to prevent
-                                the
-                                spread of GMOs in the environment.') }}</p>
-                            <a href="{{ url_for('project_2019') }}" class="special">{{ _('Learn more')}}</a>
-                        </article>
+                        {% include 'banner/about.html' %}
+                        {% include 'banner/project.html' %}
                     </section>
 
                 </div>
@@ -139,57 +130,7 @@
     </section>
 
     <!-- Footer -->
-    <section id="footer">
-        <div class="inner">
-            <h2 class="major">{{ _('Get in touch') }}</h2>
-            <p>{{ _('If you are interested in one of our projects and would like to get involved we would be happy to hear
-                from you! Simply drop us a message and we will get back to you in no time!') }}</p>
-            <form method="post" action="{{ url_for('contact_request') }}">
-                <form>
-                <div class="field" style="display: none">
-                    <label for="emailSPAM">Adresse</label>
-                    <input type="text" name="emailSPAM" id="emailSPAM"/>
-                </div>
-                <div class="fields">
-                    <div class="field">
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name"/>
-                    </div>
-                    <div class="field">
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email"/>
-                    </div>
-                    <div class="field">
-                        <label for="message">Message</label>
-                        <textarea name="message" id="message" rows="4"></textarea>
-                    </div>
-                </div>
-                <ul class="actions">
-                    <li><input type="submit" value="Send Message"/></li>
-                </ul>
-                </form>
-            </form>
-            <ul class="contact">
-                <li class="fa-home">
-                    iGEM Tübingen<br/>
-                    Hoppe-Seyler-Straße 4<br/>
-                    72076 Tübingen
-                </li>
-                <li class="fa-phone">+49 176 97894002</li>
-                <li class="fa-envelope"><a href="mailto:info@igem-tuebingen.de?Subject=iGEM%20Tuebingen">Send us a
-                    Mail!</a></li>
-                <li class="fa-twitter"><a href="https://twitter.com/igemtuebingen">Follow us on Twitter!</a></li>
-                <li class="fa-facebook"><a href="https://facebook.com/igemtuebingen">Like us on Facebook!</a></li>
-                <li class="fa-instagram"><a href="https://instagram.com/igem_tuebingen">Follow us on Instagram!</a></li>
-            </ul>
-            <ul class="copyright">
-                <li>&copy; iGEM Tübingen All rights reserved.</li>
-                <li>iGem Tübingen: <a href="{{ url_for('impressum') }}">Impressum</a></li>
-                <li>iGem Tübingen: <a href="{{ url_for('dsgvo') }}">DSGVO</a></li>
-                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-            </ul>
-        </div>
-    </section>
+    {% include 'footer.html' %}
 
 </div>
 
