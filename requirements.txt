@@ -1,5 +1,5 @@
 pytest
-gevent
+gevent==1.4.0
 click
 Flask-Babel>=0.12.2
 Flask-Mail>=0.9.1
