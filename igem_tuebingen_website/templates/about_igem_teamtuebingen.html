@@ -6,13 +6,21 @@
 -->
 <html>
 <head>
-    <title>{{ _('About iGEM and Team Tübingen') }}</title>
+    <title>{{ _('iGEM Tübingen team members - About iGEM') }}</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
           integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/meet-the-team.css') }}"/>
+    <!-- SEO -->
+    <meta name="og:title" property="og:title" content="{{ _('iGEM Tübingen team members - About iGEM') }}" />
+    <meta name="og:type" property="og:type" content="website" />
+    <meta property="og:url" content="https://igem-tuebingen.com/about_igem_teamtuebingen"/>
+    <meta name="og:image" property="og:image" content="https://igem-tuebingen.com/static/images/team/team_all_cut.jpg" />
+    <meta name="og:description" property="og:description" content="{{ _('Lars Angenent guides the iGEM team Tübingen through the international student competition 2019 iGEM. Meet the iGEM Tübingen members.') }}" />
+    <meta name="description" content="{{ _('Lars Angenent guides the iGEM team tübingen through the international student competition 2019 iGEM. Meet the iGEM Tübingen members.') }}" />
+
     <noscript>
         <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/noscript.css') }}"/>
     </noscript>
@@ -24,7 +32,7 @@
 
     <!-- Header -->
     <header id="header">
-        <h1><a href="{{ url_for('index') }}">iGEM Tübingen</a></h1>
+        <h1><a href="{{ url_for('index') }}">{{ _('iGEM Team Tübingen 2019 GLP.exe') }}</a></h1>
         <nav>
             <a href="#menu">Menu</a>
         </nav>
@@ -43,7 +51,7 @@
                     <p></p><br>
                     <p></p><br>
                     <div class="subtitle">
-                        <h2>{{ _('About iGem and Team Tübingen') }}</h2>
+                        <h2>{{ _('iGEM Tübingen team members - About iGEM') }}</h2>
 {#                        <p>"Coming together is a beginning. Keeping together is progress. Working together is success." --Henry Ford</p>#}
                     </div>
                     <p></p><br>
@@ -55,7 +63,7 @@
             <!-- Content -->
             <div class="wrapper">
                 <div class="inner">
-                    <h3 class="major">{{ _('About iGEM') }}</h3>
+                    <h3 class="major">{{ _('About iGEM - a student competition') }}</h3>
                     <p>{{ _('iGEM (International Genetically Engineered Machine) is an international competition in the field
                         of synthetic biology, which was initiated by the Massachusetts Institute of Technology (MIT) in
                         Boston.
@@ -68,12 +76,12 @@
                 </div>
                 <div class="container">
 
-                    <h1 class="heading">{{ _('Meet the team') }}</h1>
+                    <h1 class="heading">{{ _('iGEM Tübingen team members') }}</h1>
                     <div class="card-wrapper">
                         <div class="card">
                             <img src="{{ url_for('static', filename='images/team/burning_dna.jpg') }}"
-                                 alt="card background" class="card-img">
-                            <img src="{{ url_for('static', filename='images/team/lars.png') }}" alt="profile image"
+                                 alt="{{ _('Lars Angenent - iGEM Tübingen team member') }}" class="card-img">
+                            <img src="{{ url_for('static', filename='images/team/lars.png') }}" alt="Lars Angenent"
                                  class="profile-img">
                             <h1>Lars Angenent</h1>
                             <p class="job-title">Principal Investigator, Mentor</p>
@@ -103,9 +111,9 @@
                         </div>
                         <div class="card">
                             <img src="{{ url_for('static', filename='images/team/burning_dna.jpg') }}"
-                                 alt="card background" class="card-img">
+                                 alt="{{ _('Bastian Molitor - iGEM Tübingen team member') }}" class="card-img">
                             <img src="{{ url_for('static', filename='images/team/bastian.jpg') }}"
-                                 alt="profile image"
+                                 alt="Bastian Molitor"
                                  class="profile-img">
                             <h1>Bastian Molitor</h1>
                             <p class="job-title">Principal Investigator, Mentor</p>
@@ -133,9 +141,9 @@
                         </div>
                         <div class="card">
                             <img src="{{ url_for('static', filename='images/team/burning_dna.jpg') }}"
-                                 alt="card background" class="card-img">
+                                 alt="{{ _('Patrick Schweizer - iGEM Tübingen team member') }}" class="card-img">
                             <img src="{{ url_for('static', filename='images/team/patrick_s.jpg') }}"
-                                 alt="profile image"
+                                 alt="Patrick Schweizer"
                                  class="profile-img">
                             <h1>Patrick Schweizer</h1>
                             <p class="job-title">Advisor</p>
@@ -162,8 +170,8 @@
                         </div>
                         <div class="card">
                             <img src="{{ url_for('static', filename='images/team/burning_dna.jpg') }}"
-                                 alt="card background" class="card-img">
-                            <img src="{{ url_for('static', filename='images/team/sarah.jpg') }}" alt="profile image"
+                                 alt="{{ _('Sarah Schulz - iGEM Tübingen team member') }}" class="card-img">
+                            <img src="{{ url_for('static', filename='images/team/sarah.jpg') }}" alt="Sarah Schulz"
                                  class="profile-img">
                             <h1>Sarah Schulz</h1>
                             <p class="job-title">Advisor</p>
@@ -192,8 +200,8 @@
                         </div>
                         <div class="card">
                             <img src="{{ url_for('static', filename='images/team/burning_dna.jpg') }}"
-                                 alt="card background" class="card-img">
-                            <img src="{{ url_for('static', filename='images/team/lukas.jpg') }}" alt="profile image"
+                                 alt="{{ _('Lukas Heumos - iGEM Tübingen team member') }}" class="card-img">
+                            <img src="{{ url_for('static', filename='images/team/lukas.jpg') }}" alt="Lukas Heumos"
                                  class="profile-img">
                             <h1>Lukas Heumos</h1>
                             <p class="job-title">Drylab, Organization, everywhere</p>
@@ -221,8 +229,8 @@
 
                         <div class="card">
                             <img src="{{ url_for('static', filename='images/team/burning_dna.jpg') }}"
-                                 alt="card background" class="card-img">
-                            <img src="{{ url_for('static', filename='images/team/lina.jpg') }}" alt="profile image"
+                                 alt="{{ _('Lina Widerspick - iGEM Tübingen team member') }}" class="card-img">
+                            <img src="{{ url_for('static', filename='images/team/lina.jpg') }}" alt="Lina Widerspick"
                                  class="profile-img">
                             <h1>Lina Widerspick</h1>
                             <p class="job-title">Wet Lab, Human Practice, Social Media</p>
@@ -253,8 +261,8 @@
 
                         <div class="card">
                             <img src="{{ url_for('static', filename='images/team/burning_dna.jpg') }}"
-                                 alt="card background" class="card-img">
-                            <img src="{{ url_for('static', filename='images/team/marie.jpg') }}" alt="profile image"
+                                 alt="{{ _('Marietheres Evers - iGEM Tübingen team member') }}" class="card-img">
+                            <img src="{{ url_for('static', filename='images/team/marie.jpg') }}" alt="Marietheres Evers"
                                  class="profile-img">
                             <h1>Marietheres Evers</h1>
                             <p class="job-title">Wetlab, Human Practice, Social Media</p>
@@ -286,8 +294,8 @@
 
                         <div class="card">
                             <img src="{{ url_for('static', filename='images/team/burning_dna.jpg') }}"
-                                 alt="card background" class="card-img">
-                            <img src="{{ url_for('static', filename='images/team/jakob.jpg') }}" alt="profile image"
+                                 alt="{{ _('Jakob Keck - iGEM Tübingen team member') }}" class="card-img">
+                            <img src="{{ url_for('static', filename='images/team/jakob.jpg') }}" alt="Jakob Keck"
                                  class="profile-img">
                             <h1>Jakob Keck</h1>
                             <p class="job-title">Drylab, Wetlab, Finance</p>
@@ -317,8 +325,8 @@
                         </div>
                         <div class="card">
                             <img src="{{ url_for('static', filename='images/team/burning_dna.jpg') }}"
-                                 alt="card background" class="card-img">
-                            <img src="{{ url_for('static', filename='images/team/eva.jpg') }}" alt="profile image"
+                                 alt="{{ _('Eva Kunzelmann - iGEM Tübingen team member') }}" class="card-img">
+                            <img src="{{ url_for('static', filename='images/team/eva.jpg') }}" alt="Eva Kunzelmann"
                                  class="profile-img">
                             <h1>Eva Kunzelmann</h1>
                             <p class="job-title">Wetlab, Finance</p>
@@ -348,9 +356,9 @@
                         </div>
                         <div class="card">
                             <img src="{{ url_for('static', filename='images/team/burning_dna.jpg') }}"
-                                 alt="card background" class="card-img">
+                                 alt="{{ _('Katharina Csik - iGEM Tübingen team member') }}" class="card-img">
                             <img src="{{ url_for('static', filename='images/team/katharina.jpg') }}"
-                                 alt="profile image"
+                                 alt="Katharina Csik"
                                  class="profile-img">
                             <h1>Katharina Csik</h1>
                             <p class="job-title">Wetlab, Human Practice</p>
@@ -382,8 +390,8 @@
                         </div>
                         <div class="card">
                             <img src="{{ url_for('static', filename='images/team/burning_dna.jpg') }}"
-                                 alt="card background" class="card-img">
-                            <img src="{{ url_for('static', filename='images/team/famke.png') }}" alt="profile image"
+                                 alt="{{ _('Famke Bäuerle - iGEM Tübingen team member') }}" class="card-img">
+                            <img src="{{ url_for('static', filename='images/team/famke.png') }}" alt="Famke Bäuerle"
                                  class="profile-img">
                             <h1>Famke Bäuerle</h1>
                             <p class="job-title">Drylab, Finance, Design</p>
@@ -414,9 +422,9 @@
                         </div>
                         <div class="card">
                             <img src="{{ url_for('static', filename='images/team/burning_dna.jpg') }}"
-                                 alt="card background" class="card-img">
+                                 alt="{{ _('Patrick Müller - iGEM Tübingen team member') }}" class="card-img">
                             <img src="{{ url_for('static', filename='images/team/patrick_m.jpg') }}"
-                                 alt="profile image"
+                                 alt="Patrick Müller"
                                  class="profile-img">
                             <h1>Patrick Müller</h1>
                             <p class="job-title">Wetlab, Finance, Design</p>
@@ -447,8 +455,8 @@
                         </div>
                         <div class="card">
                             <img src="{{ url_for('static', filename='images/team/burning_dna.jpg') }}"
-                                 alt="card background" class="card-img">
-                            <img src="{{ url_for('static', filename='images/team/mirna.jpg') }}" alt="profile image"
+                                 alt="{{ _('Mirna Maalouf - iGEM Tübingen team member') }}" class="card-img">
+                            <img src="{{ url_for('static', filename='images/team/mirna.jpg') }}" alt="Mirna Maalouf"
                                  class="profile-img">
                             <h1>Mirna Maalouf</h1>
                             <p class="job-title">Wetlab, Organization</p>
@@ -480,9 +488,9 @@
                         </div>
                         <div class="card">
                             <img src="{{ url_for('static', filename='images/team/burning_dna.jpg') }}"
-                                 alt="card background" class="card-img">
+                                 alt="{{ _('Antonia Binder - iGEM Tübingen team member') }}" class="card-img">
                             <img src="{{ url_for('static', filename='images/team/antonia.jpg') }}"
-                                 alt="profile image"
+                                 alt="Antonia Binder"
                                  class="profile-img">
                             <h1>Antonia Binder</h1>
                             <p class="job-title">Wetlab, Finance</p>
@@ -512,8 +520,8 @@
                         </div>
                         <div class="card">
                             <img src="{{ url_for('static', filename='images/team/burning_dna.jpg') }}"
-                                 alt="card background" class="card-img">
-                            <img src="{{ url_for('static', filename='images/team/jonas.jpg') }}" alt="profile image"
+                                 alt="{{ _('Jonas Steinwender - iGEM Tübingen team member') }}" class="card-img">
+                            <img src="{{ url_for('static', filename='images/team/jonas.jpg') }}" alt="Jonas Steinwender"
                                  class="profile-img">
                             <h1>Jonas Steinwender</h1>
                             <p class="job-title">Wetlab, Design, Finance</p>
@@ -543,8 +551,8 @@
                         </div>
                         <div class="card">
                             <img src="{{ url_for('static', filename='images/team/burning_dna.jpg') }}"
-                                 alt="card background" class="card-img">
-                            <img src="{{ url_for('static', filename='images/team/caro.jpg') }}" alt="profile image"
+                                 alt="{{ _('Carolin Schwitalla - iGEM Tübingen team member') }}" class="card-img">
+                            <img src="{{ url_for('static', filename='images/team/caro.jpg') }}" alt="Carolin Schwitalla"
                                  class="profile-img">
                             <h1>Carolin Schwitalla</h1>
                             <p class="job-title">Wetlab, everywhere</p>
@@ -573,8 +581,8 @@
                         </div>
                         <div class="card">
                             <img src="{{ url_for('static', filename='images/team/burning_dna.jpg') }}"
-                                 alt="card background" class="card-img">
-                            <img src="{{ url_for('static', filename='images/team/luzia.jpg') }}" alt="profile image"
+                                 alt="{{ _('Luzia Hamma - iGEM Tübingen team members') }}" class="card-img">
+                            <img src="{{ url_for('static', filename='images/team/luzia.jpg') }}" alt="Luzia Hamma"
                                  class="profile-img">
                             <h1>Luzia Hamma</h1>
                             <p class="job-title">Wetlab, Human Practice</p>
@@ -604,9 +612,9 @@
                         </div>
                         <div class="card">
                             <img src="{{ url_for('static', filename='images/team/burning_dna.jpg') }}"
-                                 alt="card background" class="card-img">
+                                 alt="{{ _('Steffen Lemke - iGEM Tübingen team member') }}" class="card-img">
                             <img src="{{ url_for('static', filename='images/team/steffen.jpg') }}"
-                                 alt="profile image"
+                                 alt="Steffen Lemke"
                                  class="profile-img">
                             <h1>Steffen Lemke</h1>
                             <p class="job-title">Drylab, Organization</p>
@@ -637,8 +645,8 @@
                         </div>
                         <div class="card">
                             <img src="{{ url_for('static', filename='images/team/burning_dna.jpg') }}"
-                                 alt="card background" class="card-img">
-                            <img src="{{ url_for('static', filename='images/team/marco.jpg') }}" alt="profile image"
+                                 alt="{{ _('Marco Kögel - iGEM Tübingen team member') }}" class="card-img">
+                            <img src="{{ url_for('static', filename='images/team/marco.jpg') }}" alt="Marco Kögel"
                                  class="profile-img">
                             <h1>Marco Kögel</h1>
                             <p class="job-title">Drylab, Design</p>
@@ -668,8 +676,8 @@
                         </div>
                         <div class="card">
                             <img src="{{ url_for('static', filename='images/team/burning_dna.jpg') }}"
-                                 alt="card background" class="card-img">
-                            <img src="{{ url_for('static', filename='images/team/zoe.jpg') }}" alt="profile image"
+                                 alt="{{ _('Zoë E. Kentischer - iGEM Tübingen team member') }}" class="card-img">
+                            <img src="{{ url_for('static', filename='images/team/zoe.jpg') }}" alt="Zoë E. Kentischer"
                                  class="profile-img">
                             <h1>Zoë E. Kentischer</h1>
                             <p class="job-title">Wetlab, Design</p>
@@ -700,82 +708,15 @@
 
                 <div class="inner">
                     <section class="features">
-                        <article>
-                            <a href="{{ url_for('project_2019') }}" class="image"><img
-                                    src="{{ url_for('static', filename='images/team/team_all_cut.jpg') }}"
-                                    alt=""/></a>
-                            <h3 class="major">{{ _('Project 2019') }}</h3>
-                            <p>{{ _('The aim of the project 2019 is to generate a probiotic for the therapy of Type II Diabetes
-                        Mellitus, based on a plasmid chassis incorporating a Cas3 self-kill mechanism to prevent the
-                        spread of GMOs in the environment.') }}</p>
-                            <a href="{{ url_for('project_2019') }}" class="special">{{ _('Learn more')}}</a>
-                        </article>
-                        <article>
-                            <a href="{{ url_for('history') }}" class="image"><img
-                                    src="{{ url_for('static', filename='images/subsite_icons/library_cut.jpg') }}"
-                                    alt=""/></a>
-                            <h3 class="major">{{ _('History of iGEM Tübingen') }}</h3>
-                            <p>{{ _('Team Tübingen has been participating in iGEM since 2012. Take a look at our past projects and
-                            accomplishments.') }}</p>
-                            <a href="{{ url_for('history') }}" class="special">{{ _('Learn more')}}</a>
-                        </article>
+                      {% include 'banner/project.html' %}
+                      {% include 'banner/history.html' %}
                     </section>
                 </div>
             </div>
         </div>
 
     <!-- Footer -->
-    <section id="footer">
-        <div class="inner">
-            <h2 class="major">{{ _('Get in touch') }}</h2>
-            <p>{{ _('If you are interested in one of our projects and would like to get involved we would be happy to hear
-                from you! Simply drop us a message and we will get back to you in no time!') }}</p>
-            <form method="post" action="{{ url_for('contact_request') }}">
-                <form>
-                <div class="field" style="display: none">
-                    <label for="emailSPAM">Adresse</label>
-                    <input type="text" name="emailSPAM" id="emailSPAM"/>
-                </div>
-                <div class="fields">
-                    <div class="field">
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name"/>
-                    </div>
-                    <div class="field">
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email"/>
-                    </div>
-                    <div class="field">
-                        <label for="message">{{ _('Message') }}</label>
-                        <textarea name="message" id="message" rows="4"></textarea>
-                    </div>
-                </div>
-                <ul class="actions">
-                    <li><input type="submit" value="Send Message"/></li>
-                </ul>
-                </form>
-            </form>
-            <ul class="contact">
-                <li class="fa-home">
-                    iGEM Tübingen<br/>
-                    Hoppe-Seyler-Straße 4<br/>
-                    72076 Tübingen
-                </li>
-                <li class="fa-phone">+49 176 97894002</li>
-                <li class="fa-envelope"><a href="mailto:info@igem-tuebingen.de">{{ _('Send us a
-                    Mail!') }}</a></li>
-                <li class="fa-twitter"><a href="https://twitter.com/igemtuebingen">{{ _('Follow us on Twitter!') }}</a></li>
-                <li class="fa-facebook"><a href="https://facebook.com/igemtuebingen">{{ _('Like us on Facebook!') }}</a></li>
-                <li class="fa-instagram"><a href="https://instagram.com/igem_tuebingen">{{ _('Follow us on Instagram!') }}</a></li>
-            </ul>
-            <ul class="copyright">
-                <li>&copy; iGEM Tübingen All rights reserved.</li>
-                <li>iGem Tübingen: <a href="{{ url_for('impressum') }}">Impressum</a></li>
-                <li>iGem Tübingen: <a href="{{ url_for('dsgvo') }}">DSGVO</a></li>
-                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-            </ul>
-        </div>
-    </section>
+    {% include 'footer.html' %}
     </section>
 </div>
 

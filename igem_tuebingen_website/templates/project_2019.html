@@ -4,22 +4,25 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+
 <html>
 <head>
     <title>{{ _('Diabetes mellitus 2 therapy - project 2019') }}</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-    <meta name="og:title" property="og:title" content={{ _('Diabetes mellitus 2 therapy - igem project 2019') }} />
+    <!-- SEO -->
+    <meta name="og:title" property="og:title" content="{{ _('Diabetes mellitus 2 therapy - iGEM project 2019') }}" />
     <meta name="og:type"property="og:type" content="website" />
+    <meta property="og:url" content="https://igem-tuebingen.com/project_2019"/>
     <meta name="og:image" property="og:image" content="https://igem-tuebingen.com/static/images/project/application.png" />
-    <meta name="og:description" property="og:description" content={{ _('The aim of the project 2019 is the generation of a probiotic for the therapy of Type II Diabetes
+    <meta name="og:description" property="og:description" content="{{ _('The aim of the iGEM Tübingen project 2019 is the generation of a probiotic for the therapy of Type II Diabetes
     Mellitus based on a plasmid chassis incorporating a Cas3 self-kill mechanism to prevent
-    the spread of GMOs in the environment which also addresses the high amount of concerns associated
-    with GMOs and fulfills the necessary biosafety standards.') }} />
-    <meta name="description" content={{ _('The aim of the project 2019 is the generation of a probiotic for the therapy of Type II Diabetes
+    the spread of GMOs in the environment. Probiotics drugs which consist of synthetic biology bacteria could relieve diabetes mellitus symptoms') }}" />
+    <meta name="description" content="{{ _('The aim of the iGEM Tübingen project 2019 is the generation of a probiotic for the therapy of Type II Diabetes
     Mellitus based on a plasmid chassis incorporating a Cas3 self-kill mechanism to prevent
-    the spread of GMOs in the environment which also addresses the high amount of concerns associated
-    with GMOs and fulfills the necessary biosafety standards.') }} />
+    the spread of GMOs in the environment. Probiotics drugs which consist of synthetic biology bacteria could relieve diabetes mellitus symptoms') }}" />
+
+
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/magnific-popup.css') }}">
     <noscript>
@@ -33,7 +36,7 @@
 
     <!-- Header -->
     <header id="header">
-        <h1><a href="{{ url_for('index') }}">{{ _('iGEM Tübingen') }}</a></h1>
+        <h1><a href="{{ url_for('index') }}">{{ _('iGEM Team Tübingen 2019 GLP.exe') }}</a></h1>
         <nav>
             <a href="#menu">Menu</a>
         </nav>
@@ -66,8 +69,8 @@
             <div class="wrapper">
                 <div class="inner">
 
-                    <p>{{ _('Please check out our official <a href="https://2019.igem.org/Team:Tuebingen/Description">iGEM 2019 wiki</a>
-                        for further information about our project.') }}</p>
+                    <p>{{ _('Please check out our official') }} <a href="https://2019.igem.org/Team:Tuebingen/Description">{{ _('iGEM 2019 wiki') }}</a>
+                        {{ _('for further information about our project.') }}</p>
 
                     <h3 class="major">{{ _('Diabetes mellitus 2 therapy - project 2019') }}</h3>
                     <ul id="image-popups">
@@ -76,7 +79,7 @@
                             <a style="font-size: small" href="{{ url_for('static', filename='images/project/application.png') }}" data-effect="mfp-zoom-out"
                                title="{{ _('Our therapeutic agent is a probiotic secreting incretin mimetics placed in the patients intestine by oral administration of capsules.
                                             This enables an easier therapy where a regular intake of a medication is not required.') }}">
-                                <img src="{{ url_for('static', filename='images/project/application.png') }}"/>
+                                <img src="{{ url_for('static', filename='images/project/application.png') }}" alt="{{ _('incretin glp 1') }}" />
                                 {{ _('Tap for more details') }}
                             </a><figcaption style="font-size: small">{{ _('Overview over Application') }}</figcaption>
                             </div>
@@ -97,7 +100,7 @@
                             <a style="font-size: small" href="{{ url_for('static', filename='images/project/gut.png') }}" data-effect="mfp-zoom-out"
                                title="{{ _('The plasmid encoding the GLP analog is introduced into a probiotic E. coli strain which
                                         then secretes peptide which can be absorbed through the intestine to increase insulin secretion in the pancreas. ') }}">
-                                <img src="{{ url_for('static', filename='images/project/gut.png') }}"/>
+                                <img src="{{ url_for('static', filename='images/project/gut.png') }}" alt="{{ _('glp 1 diabetes drugs') }}" />
                                 {{ _('Tap for more details') }}
                             </a><figcaption style="font-size: small">{{ _('Simplified representation of our project.') }}</figcaption>
                             </div>
@@ -117,9 +120,9 @@
                     <p><figure>
                             <div  class="image right">
                             <a style="font-size: small" href="{{ url_for('static', filename='images/project/GLP_mechanism.png') }}" data-effect="mfp-zoom-out"
-                               title="{{ _('The GLP-Analogon will bind to its G-protein-coupled receptor activating Adenylate Cyclase to initiate the production of cAMP. "
+                               title="{{ _('The GLP-Analogon will bind to its G-protein-coupled receptor activating Adenylate Cyclase to initiate the production of cAMP.
                                             Overall, this will lead to increased Calcium Ion influx, allowing for more Insulin to be secreted from the beta cells.') }}">
-                                <img src="{{ url_for('static', filename='images/project/GLP_mechanism.png') }}"/>
+                                <img src="{{ url_for('static', filename='images/project/GLP_mechanism.png') }}" alt="{{ _('glp 1 mechanism of action') }}" />
                                 {{ _('Tap for more details') }}
                             </a><figcaption style="font-size: small">{{ _('GLP mechanism') }}</figcaption>
                             </div>
@@ -152,7 +155,7 @@
                             <a style="font-size: small" href="{{ url_for('static', filename='images/project/lizard_peptide.png') }}" data-effect="mfp-zoom-out"
                                title="{{ _('The Gila monster (Heloderma suspectum) is a firm venomous lizard, which is secreting venom composed of a neurotoxin (gilatoxin) and different glycoproteins from a mandibular gland.
                                            One of the secreted glycoproteins is exendin-4 which has the synthetic analogue Exenatid.') }}">
-                                <img src="{{ url_for('static', filename='images/project/lizard_peptide.png') }}"/>
+                                <img src="{{ url_for('static', filename='images/project/lizard_peptide.png') }}" alt="{{ _('exendin 4 gila monster') }}" />
                                 {{ _('Tap for more details') }}
                             </a><figcaption style="font-size: small">{{ _('Origin of exendin-4') }}</figcaption>
                             </div>
@@ -165,7 +168,8 @@
                         treatment or diagnosis of diseases. Concerns about GMOs have been raised by many people and
                         especially address their safety when intentionally or unintentionally released into the
                         environment.
-                        Therefore, efforts have been made and are still made towards ensuring the biosafety of GMOs.') }}
+                        Therefore, efforts have been made and are still made towards ensuring the biosafety of GMOs.
+                        There are a lot of benefits of genetic engineering in medicine') }}
                     </p><br>
 
                         <h3 class="major">{{ _('iGEM Drylab - Synthetic biology bioinformatics') }}</h3>
@@ -174,7 +178,7 @@
                             <a style="font-size: small" href="{{ url_for('static', filename='images/project/GOI.png') }}" data-effect="mfp-zoom-out"
                                title="{{ _('Our probiotic strain contains a plasmid which expresses the GLP-analog Exenatid in the presence of glucose. Exenatid is further modified with a secretion tag and a
                      cell penetrating peptide to allow for it to pass through the epithelial cells of the intestine and to reach the blood stream.') }}">
-                                <img src="{{ url_for('static', filename='images/project/GOI.png') }}"/>
+                                <img src="{{ url_for('static', filename='images/project/GOI.png') }}" alt="{{ _('glp 1 synthesis')}}" />
                                 {{ _('Tap for more details') }}
                             </a><figcaption style="font-size: small">GOI</figcaption>
                             </div>
@@ -198,23 +202,8 @@
 
 
                     <section class="features">
-                        <article>
-                            <a href="{{ url_for('software') }}" class="image"><img
-                                    src="{{ url_for('static', filename='images/subsite_icons/software_cut.jpg') }}"
-                                    alt=""/></a>
-                            <h3 class="major">{{ _('Software') }}</h3>
-                            <p>{{ _('Throughout our participations in iGEM several software tools have been developed. Read more
-                            about them and find download instructions here.') }}</p>
-                            <a href="{{ url_for('software') }}" class="special">{{ _('Learn more')}}</a>
-                        </article>
-                        <article>
-                            <a href="{{ url_for('gallery') }}" class="image"><img
-                                    src="{{ url_for('static', filename='images/subsite_icons/gallery_cut.jpg') }}"
-                                    alt=""/></a>
-                            <h3 class="major">{{ _('Gallery') }}</h3>
-                            <p>{{ _('A gallery of our various iGEM teams, presentations and awesome projects.') }}</p>
-                            <a href="{{ url_for('gallery') }}" class="special">{{ _('Learn more')}}</a>
-                        </article>
+                        {% include 'banner/software.html' %}
+                        {% include 'banner/gallery.html' %}
                     </section>
 
                 </div>
@@ -223,57 +212,7 @@
     </section>
 
     <!-- Footer -->
-    <section id="footer">
-        <div class="inner">
-            <h2 class="major">{{ _('Get in touch') }}</h2>
-            <p>{{ _('If you are interested in one of our projects and would like to get involved we would be happy to hear
-                from you! Simply drop us a message and we will get back to you in no time!') }}</p>
-            <form method="post" action="{{ url_for('contact_request') }}">
-                <form>
-                <div class="field" style="display: none">
-                    <label for="emailSPAM">Adresse</label>
-                    <input type="text" name="emailSPAM" id="emailSPAM"/>
-                </div>
-                <div class="fields">
-                    <div class="field">
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name"/>
-                    </div>
-                    <div class="field">
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email"/>
-                    </div>
-                    <div class="field">
-                        <label for="message">{{ _('Message') }}</label>
-                        <textarea name="message" id="message" rows="4"></textarea>
-                    </div>
-                </div>
-                <ul class="actions">
-                    <li><input type="submit" value="Send Message"/></li>
-                </ul>
-                </form>
-            </form>
-            <ul class="contact">
-                <li class="fa-home">
-                    iGEM Tübingen<br/>
-                    Hoppe-Seyler-Straße 4<br/>
-                    72076 Tübingen
-                </li>
-                <li class="fa-phone">+49 176 97894002</li>
-                <li class="fa-envelope"><a href="mailto:info@igem-tuebingen.de?Subject=iGEM%20Tuebingen">{{ _('Send us a
-                    Mail!') }}</a></li>
-                <li class="fa-twitter"><a href="https://twitter.com/igemtuebingen">{{ _('Follow us on Twitter!') }}</a></li>
-                <li class="fa-facebook"><a href="https://facebook.com/igemtuebingen">{{ _('Like us on Facebook!') }}</a></li>
-                <li class="fa-instagram"><a href="https://instagram.com/igem_tuebingen">{{ _('Follow us on Instagram!') }}</a></li>
-            </ul>
-            <ul class="copyright">
-                <li>&copy; iGEM Tübingen All rights reserved.</li>
-                <li>iGem Tübingen: <a href="{{ url_for('impressum') }}">Impressum</a></li>
-                <li>iGem Tübingen: <a href="{{ url_for('dsgvo') }}">DSGVO</a></li>
-                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-            </ul>
-        </div>
-    </section>
+    {% include 'footer.html' %}
 
 
 </div>

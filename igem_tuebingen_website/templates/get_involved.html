@@ -6,10 +6,19 @@
 -->
 <html>
 <head>
-    <title>{{ _('Get involved') }}</title>
+    <title>{{ _('iGEM Tübingen support, sponsoring and participation') }}</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}"/>
+    <!-- SEO -->
+    <meta name="og:title" property="og:title" content="{{ _('iGEM Tübingen support, sponsoring and participation') }}" />
+    <meta name="og:type"property="og:type" content="website" />
+    <meta property="og:url" content="https://igem-tuebingen.com/get_involved"/>
+    <!-- TODO: bild fehlt -->
+    <!--<meta name="og:image" property="og:image" content="https://igem-tuebingen.com/static/images/team/team_all_cut.jpg" />-->
+    <meta name="og:description" property="og:description" content="{{ _('The iGEM finance subteam is searching for support and sponsoring. This is key for the iGEM team Tübingen to participate the student competition successfully.') }}" />
+    <meta name="description" content="{{ _('The iGEM finance subteam is searching for support and sponsoring. This is key for the iGEM team Tübingen to participate the student competition successfully.') }}" />
+
     <noscript>
         <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/noscript.css') }}"/>
     </noscript>
@@ -21,7 +30,7 @@
 
     <!-- Header -->
     <header id="header">
-        <h1><a href="{{ url_for('index') }}">iGEM Tübingen</a></h1>
+        <h1><a href="{{ url_for('index') }}">{{ _('iGEM Team Tübingen 2019 GLP.exe') }}</a></h1>
         <nav>
             <a href="#menu">Menu</a>
         </nav>
@@ -41,7 +50,7 @@
                     <p></p><br>
                     <p></p><br>
                     <div class="subtitle">
-                        <h2>{{ _('Get Involved') }}</h2>
+                        <h2>{{ _('iGEM Tübingen support, sponsoring and participation') }}</h2>
 {#                        <p>"A strong team can take any crazy vision and turn it into reality." --John Carmack</p>#}
                     </div>
                     <p></p><br>
@@ -64,7 +73,7 @@
                         Not only financial support, but also the provision of materials and resources or expertise helps
                         us tremendously.') }}</p>
 
-                    <h3 class="major">{{ _('Participation') }}</h3>
+                    <h3 class="major">{{ _('Participate in iGEM Tübingen') }}</h3>
                     <p> {{ _('iGEM offers each of us a unique and valuable training opportunity that is hard to find anywhere
                         else. Not only are our practical skills deepened, expanded and improved within the framework of
                         a large project, it also gives us the opportunity to expand our knowledge and skills in other
@@ -81,7 +90,7 @@
                         our invitation to experienced researchers who are willing to collaborate with us.') }}
                     </p>
 
-                    <h3 class="major">{{ _('Sponsoring') }}</h3>
+                    <h3 class="major">{{ _('Sponsoring and Support') }}</h3>
                     <p> {{ _('iGEM is an intensive experience that gives students the opportunity to continue their education
                         outside of
                         their academic career and, by networking with professors, companies, researchers and former
@@ -103,23 +112,8 @@
 
 
                     <section class="features">
-                        <article>
-                            <a href="{{ url_for('about_igem_teamtuebingen') }}" class="image"><img
-                                    src="{{ url_for('static', filename='images/team/team_all_cut.jpg') }}"
-                                    alt=""/></a>
-                            <h3 class="major">{{ _('About iGEM and Team Tübingen') }}</h3>
-                            <p>{{ _('Read about the iGEM competition and get to know our team!') }}</p>
-                            <a href="{{ url_for('about_igem_teamtuebingen') }}" class="special">{{ _('Learn more') }}</a>
-                        </article>
-                        <article>
-                            <a href="{{ url_for('sponsors') }}" class="image"><img
-                                    src="{{ url_for('static', filename='images/subsite_icons/sponsors_2_cut.jpg') }}"
-                                    alt=""/></a>
-                            <h3 class="major">{{ _('Our Sponsors') }}</h3>
-                            <p>{{ _('A project as ambitious as iGEM cannot be realized without the generous help of our
-                                sponsors.') }}</p>
-                            <a href="{{ url_for('sponsors') }}" class="special">{{ _('Learn more')}}</a>
-                        </article>
+                        {% include 'banner/about.html' %}
+                        {% include 'banner/sponsors.html' %}
                     </section>
 
                 </div>
@@ -128,57 +122,7 @@
     </section>
 
     <!-- Footer -->
-    <section id="footer">
-        <div class="inner">
-            <h2 class="major">{{ _('Get in touch') }}</h2>
-            <p>{{ _('If you are interested in one of our projects and would like to get involved we would be happy to hear
-                from you! Simply drop us a message and we will get back to you in no time!') }}</p>
-            <form method="post" action="{{ url_for('contact_request') }}">
-                <form>
-                <div class="field" style="display: none">
-                    <label for="emailSPAM">Adresse</label>
-                    <input type="text" name="emailSPAM" id="emailSPAM"/>
-                </div>
-                <div class="fields">
-                    <div class="field">
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name"/>
-                    </div>
-                    <div class="field">
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email"/>
-                    </div>
-                    <div class="field">
-                        <label for="message">{{ _('Message') }}</label>
-                        <textarea name="message" id="message" rows="4"></textarea>
-                    </div>
-                </div>
-                <ul class="actions">
-                    <li><input type="submit" value="Send Message"/></li>
-                </ul>
-                </form>
-            </form>
-            <ul class="contact">
-                <li class="fa-home">
-                    iGEM Tübingen<br/>
-                    Hoppe-Seyler-Straße 4<br/>
-                    72076 Tübingen
-                </li>
-                <li class="fa-phone">+49 176 97894002</li>
-                <li class="fa-envelope"><a href="mailto:info@igem-tuebingen.de?Subject=iGEM%20Tuebingen">{{ _('Send us a
-                    Mail!') }}</a></li>
-                <li class="fa-twitter"><a href="https://twitter.com/igemtuebingen">{{ _('Follow us on Twitter!') }}</a></li>
-                <li class="fa-facebook"><a href="https://facebook.com/igemtuebingen">{{ _('Like us on Facebook!') }}</a></li>
-                <li class="fa-instagram"><a href="https://instagram.com/igem_tuebingen">{{ _('Follow us on Instagram!') }}</a></li>
-            </ul>
-            <ul class="copyright">
-                <li>&copy; iGEM Tübingen All rights reserved.</li>
-                <li>iGem Tübingen: <a href="{{ url_for('impressum') }}">Impressum</a></li>
-                <li>iGem Tübingen: <a href="{{ url_for('dsgvo') }}">DSGVO</a></li>
-                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-            </ul>
-        </div>
-    </section>
+    {% include 'footer.html' %}
 
 </div>
 

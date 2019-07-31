@@ -6,10 +6,18 @@
 -->
 <html>
 <head>
-    <title>Human Practice</title>
+    <title>{{ _('Type II Diabetes Mellitus therapy - Human Practice') }}</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}"/>
+    <!-- SEO -->
+    <meta name="og:title" property="og:title" content="{{ _('Type II Diabetes Mellitus therapy - Human Practice') }}" />
+    <meta name="og:type"property="og:type" content="website" />
+    <meta property="og:url" content="https://igem-tuebingen.com/human_practices"/>
+    <!--TODO: LOGO fehlt noch -->
+    <!--<meta name="og:image" property="og:image" content="https://igem-tuebingen.com/static/images/project/application.png" />-->
+    <meta name="og:description" property="og:description" content="{{ _('iGEM Tübingen participates in sustainable development goals (SDGs). The subteam human practices organises diabetes prevention education programs and a survey about type 2 diabetes mellitus therapy.') }}" />
+    <meta name="description" content="{{ _('iGEM Tübingen participates in sustainable development goals (SDGs). The subteam human practices organises diabetes prevention education programs and a survey about type 2 diabetes mellitus therapy.') }}" />
     <noscript>
         <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/noscript.css') }}"/>
     </noscript>
@@ -21,7 +29,7 @@
 
      <!-- Header -->
     <header id="header">
-        <h1><a href="{{ url_for('index') }}">iGEM Tübingen</a></h1>
+        <h1><a href="{{ url_for('index') }}">{{ _('iGEM Team Tübingen 2019 GLP.exe') }}</a></h1>
         <nav>
             <a href="#menu">Menu</a>
         </nav>
@@ -41,7 +49,7 @@
                     <p></p><br>
                     <p></p><br>
                     <div class="subtitle">
-                        <h2>{{ _('Human Practice') }}</h2>
+                        <h2>{{ _('Type II Diabetes Mellitus therapy - Human Practice') }}</h2>
                         <p>“Human Practices is the study of how your work affects the world,
                             and how the world affects your work.” - Peter Carr, Director of Judging iGEM</p>
                     </div>
@@ -55,8 +63,8 @@
             <div class="wrapper">
                 <div class="inner">
 
-                     <h2 class="major">{{ _('Human Practices') }}</h2>
-                    <h3 class="major">{{ _('Sustainable Development Goals') }}</h3>
+                    <!-- <h2 class="major">{{ _('Human Practices') }}</h2>-->
+                    <h2 class="major">{{ _('Sustainable Development Goals') }}</h2>
                     <p>{{ _('Together with iGEM Costa Rica, we, iGEM Tübingen want to promote the UN Sustainable Development Goals.
                      More information can be found here:') }}</p>
                     <a href="{{ url_for('sustainable_development_goals') }}" class="special">{{ _('Sustainable Development Goals') }}</a>
@@ -135,13 +143,13 @@
                         opportunities and threats.') }}
                     </p>
 
-                    <h3 class="major">{{ _('Diabetes Prevention') }}</h3>
+                    <h2 class="major">{{ _('Diabetes Prevention') }}</h2>
                      <p>{{ _('Together with the group of Prof. Dr. Eicke Latz and iGEM Dresden, we, iGEM Tübingen want to educate
                             about health and diet in the context of diabetes.
                              More information can be found here:') }}</p>
                     <a href="{{ url_for('diabetes_prevention') }}" class="special">{{ _('Diabetes Prevention') }}</a>
 
-                     <h3 class="major">{{ _('Survey about the Diabetes Mellitus Therapy') }}</h3>
+                     <h2 class="major">{{ _('Survey about the Diabetes Mellitus Therapy') }}</h2>
                     <p>
                         {{ _('For our human practice work, we want to conduct the following survey to gather information about
                         general knowledge and options about Diabetes Mellitus, its therapy and how Synthetic Biology may
@@ -162,23 +170,8 @@
                             width="90%" height="1500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
                      <section class="features">
-                        <article>
-                            <a href="{{ url_for('software') }}" class="image"><img
-                                    src="{{ url_for('static', filename='images/subsite_icons/software_cut.jpg') }}"
-                                    alt=""/></a>
-                            <h3 class="major">{{ _('Software') }}</h3>
-                            <p>{{ _('Throughout our participations in iGEM several software tools have been developed. Read more
-                            about them and find download instructions here.') }}</p>
-                            <a href="{{ url_for('software') }}" class="special">{{ _('Learn more')}}</a>
-                        </article>
-                        <article>
-                            <a href="{{ url_for('gallery') }}" class="image"><img
-                                    src="{{ url_for('static', filename='images/subsite_icons/gallery_cut.jpg') }}"
-                                    alt=""/></a>
-                            <h3 class="major">{{ _('Gallery') }}</h3>
-                            <p>{{ _('A gallery of our various iGEM teams, presentations and awesome projects.') }}</p>
-                            <a href="{{ url_for('gallery') }}" class="special">{{ _('Learn more')}}</a>
-                        </article>
+                        {% include 'banner/software.html' %}
+                        {% include 'banner/gallery.html' %}
                     </section>
 
                  </div>
@@ -187,58 +180,7 @@
     </section>
 
      <!-- Footer -->
-    <section id="footer">
-        <div class="inner">
-            <h2 class="major">{{ _('Get in touch') }}</h2>
-            <p>{{ _('If you are interested in one of our projects and would like to get involved we would be happy to hear
-                from you!
-                Simply drop us a message and we\'ll get back to you in no time!') }}</p>
-            <form method="post" action="{{ url_for('contact_request') }}">
-                <form>
-                <div class="field" style="display: none">
-                    <label for="emailSPAM">Adresse</label>
-                    <input type="text" name="emailSPAM" id="emailSPAM"/>
-                </div>
-                <div class="fields">
-                    <div class="field">
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name"/>
-                    </div>
-                    <div class="field">
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email"/>
-                    </div>
-                    <div class="field">
-                        <label for="message">{{ _('Message') }}</label>
-                        <textarea name="message" id="message" rows="4"></textarea>
-                    </div>
-                </div>
-                <ul class="actions">
-                    <li><input type="submit" value="Send Message"/></li>
-                </ul>
-                </form>
-            </form>
-            <ul class="contact">
-                <li class="fa-home">
-                    iGEM Tübingen<br/>
-                    Hoppe-Seyler-Straße 4<br/>
-                    72076 Tübingen
-                </li>
-                <li class="fa-phone">+49 176 97894002</li>
-                <li class="fa-envelope"><a href="mailto:info@igem-tuebingen.de?Subject=iGEM%20Tuebingen">{{ _('Send us a
-                    Mail!') }}</a></li>
-                <li class="fa-twitter"><a href="https://twitter.com/igemtuebingen">{{ _('Follow us on Twitter!') }}</a></li>
-                <li class="fa-facebook"><a href="https://facebook.com/igemtuebingen">{{ _('Like us on Facebook!') }}</a></li>
-                <li class="fa-instagram"><a href="https://instagram.com/igem_tuebingen">{{ _('Follow us on Instagram!') }}</a></li>
-            </ul>
-            <ul class="copyright">
-                <li>&copy; iGEM Tübingen All rights reserved.</li>
-                <li>iGem Tübingen: <a href="{{ url_for('impressum') }}">Impressum</a></li>
-                <li>iGem Tübingen: <a href="{{ url_for('dsgvo') }}">DSGVO</a></li>
-                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-            </ul>
-        </div>
-    </section>
+    {% include 'footer.html' %}
 
  </div>
 
