@@ -6,14 +6,14 @@
 -->
 <html>
 <head>
-    <title>{{ _('iGEM Team Tübingen 2019 GLP.exe') }}</title>
+    <title>{{ _('iGEM Tübingen') }}</title>
     <!--<title>{{ _('iGEM team Tübingen 2019 GLP.exe') }}</title>-->
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/flags.css') }}"/>
     <!-- SEO -->
-    <meta name="og:title" property="og:title" content="{{ _('iGEM team Tübingen 2019 GLP.exe') }}" />
+    <meta name="og:title" property="og:title" content="{{ _('iGEM Tübingen') }}" />
     <meta name="og:type" property="og:type" content="website" />
     <meta property="og:url" content="https://igem-tuebingen.com/index"/>
     <!--TODO: LOGO fehlt noch -->
@@ -32,7 +32,7 @@
 
     <!-- Header -->
     <header id="header" class="alt">
-        <h1><a href="{{ url_for('index') }}">{{ _('iGEM Team Tübingen 2019 GLP.exe') }}</a></h1>
+        <h1><a href="{{ url_for('index') }}">{{ _('iGEM Tübingen') }}</a></h1>
         <nav>
             {% if CURRENT_LANGUAGE == 'en' %}
         <a href="{{ url_for('set_language', language='de') }}">
@@ -68,7 +68,7 @@
     <section id="banner">
         <div class="inner">
             <div class="logo"><span class="icon fa-diamond"></span></div>
-            <h2>{{ _('iGEM Team Tübingen 2019 GLP.exe') }}</h2>
+            <h2>{{ _('iGEM Tübingen') }}</h2>
         </div>
     </section>
 
@@ -117,8 +117,6 @@
                 </div>
             </div>
         </section>
-
-
 
          <section id="three" class="wrapper spotlight style3">
             <div class="inner">
