@@ -1,76 +1,68 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='assets/css/style_c3pred.css') }}">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href= "{{ url_for('static', filename='assets/css/style_c3pred.css') }}" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-<body>
-<header>
-    <div class="navbar navbar-dark bg-dark box-shadow">
-        <div class="header_box">
+  <body>
+    <header>
+        <div class="navbar navbar-dark bg-dark box-shadow">
+          <div class="header_box">
             <div class="logo">
                 <p class="aligncenter">
-                    <img style="width:20%" src="{{url_for(" static",
-                    filename="images/c3pred/T--Tuebingen--white_logo_animated.gif")}}"/>
+                <img style="width:20%" src="{{url_for("static", filename="images/c3pred/T--Tuebingen--white_logo_animated.gif")}}"/>
                 <h1>C3Pred - CPP Activity Predictor</h1>
                 </p>
             </div>
+          </div>
         </div>
-    </div>
-</header>
+    </header>
+
 <div class="album py-5 bg-light">
-    <p style="text-align:center;">Please choose the format of the protein, of which you want to predict its
-        activity:</p>
+  <p style="text-align:center;">Please choose the format of the protein, of which you want to predict its activity:</p>
     <div class="container">
         <div class="row">
             <div class="col-md-4">
                 <div class="card mb-4 box-shadow">
-                    <img class="card-img-top" src="{{url_for(" static", filename="images/c3pred/aa_seq.png")}}">
+                    <img class="card-img-top" src="{{url_for("static", filename="images/c3pred/aa_seq.png")}}">
                     <div class="card-body">
                         <p class="card-text">
-                            <a href={{ url_for('fromsequence') }} class='ph-button ph-btn-blue'>From Sequence</a>
-                            <br>
-                            <br>
-                            Our tool supports protein sequences in FASTA Format, which is a simple string of the one
-                            letter characters for each amino acid. Please make sure to only use sequences containing the
-                            characters of the 20 standard amino acids</p>
+                          <a href={{ url_for('fromsequence') }} class='ph-button ph-btn-blue'>From Sequence</a>
+                          <br>
+                          <br>
+                          Our tool supports protein sequences in FASTA Format, which is a simple string of the one letter characters for each amino acid.  Please make sure to only use sequences containing the characters of the 20 standard amino acids</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card mb-4 box-shadow">
-                    <img class="card-img-top" src={{url_for("static", filename="images/c3pred/uniprot.png" )}}>
+                    <img class="card-img-top" src={{url_for("static", filename="images/c3pred/uniprot.png")}}>
                     <div class="card-body">
                         <p class="card-text">
-                            <a href={{ url_for('from_up') }} style="vertical-align:middle" class='ph-button
-                            ph-btn-blue'>UniProtKB Accession Number</a>
-                            <br>
-                            <br>
-                            Proteins can also be submitted to the predictor by their unique UniProtKB accession number
-                            (e.g. P31946). Our tool acquires automatically the amino acid sequence and makes the
-                            prediction. For this function, an internet connection is required.</p>
+                          <a href={{ url_for('from_up') }} style="vertical-align:middle" class='ph-button ph-btn-blue'>UniProtKB Accession Number</a>
+                          <br>
+                          <br>
+                          Proteins can also be submitted to the predictor by their unique UniProtKB accession number (e.g. P31946). Our tool acquires automatically the amino acid sequence and makes the prediction. For this function, an internet connection is required.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card mb-4 box-shadow">
-                    <img class="card-img-top" src={{url_for("static", filename="images/c3pred/iGEM.png" )}}>
+                    <img class="card-img-top" src={{url_for("static", filename="images/c3pred/iGEM.png")}}>
                     <div class="card-body">
                         <p class="card-text">
-                            <a href={{ url_for('from_igem') }} class='ph-button ph-btn-blue'>Registry ID</a>
-                            <br>
-                            <br>
-                            iGEM registries ID can also be used as an input. If the submitted ID corresponds to the
-                            nucleic acid sequence of a protein, the sequence is translated to the corresponding protein
-                            sequence and a prediction is made on the protein sequence. For this function, an internet
-                            connection is required.</p>
+                          <a href={{ url_for('from_igem') }} class='ph-button ph-btn-blue'>Registry ID</a>
+                          <br>
+                          <br>
+                          iGEM registries ID can also be used as an input.  If the submitted ID corresponds to the nucleic acid sequence of a protein, the sequence is translated to the corresponding protein sequence and a prediction is made on the protein sequence. For this function, an internet connection is required.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+
 
 
 <footer class="text-muted bg-dark">
