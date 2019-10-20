@@ -58,13 +58,13 @@ def from_igem():
     if form.validate_on_submit():
         results = predict_igem(form.sequence.data)
         if results.error:
-            table_to_print = '<table class ="tg" align="center"><tr><th class="tg-lboi">Registry Id</th><th class="tg-lboi">' + form.sequence.data + \
+            table_to_print = '<table class ="tg" align="center"><tr><th class="tg-lboi">iGEM part ID</th><th class="tg-lboi">' + form.sequence.data + \
                              '</td></tr><tr><td class="tg-lboi">Error</td><td class="tg-lboi">' + results.error_type + \
                              '</td></tr></table>'
             flash(Markup(table_to_print))
 
         else:
-            table_to_print = '<table class ="tg" align="center"><tr><th class="tg-lboi">Registry ID</th><th class="tg-lboi">' + form.sequence.data + \
+            table_to_print = '<table class ="tg" align="center"><tr><th class="tg-lboi">iGEM part ID</th><th class="tg-lboi">' + form.sequence.data + \
                              '</th></tr><tr><td class="tg-lboi">Description</td><td class="tg-lboi">' + results.description + \
                              '</td></tr><tr><td class="tg-lboi">Sequence</td><td class="tg-lboi">' + results.sequence + \
                              '</td></tr><tr><td class="tg-lboi">Activity</td><td class="tg-lboi">' + str(results.activity) + \
