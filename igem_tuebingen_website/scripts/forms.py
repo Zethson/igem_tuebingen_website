@@ -14,5 +14,5 @@ class UniprotForm(FlaskForm):
 
 
 class IGEMForm(FlaskForm):
-    sequence = StringField('iGEM Registry ID', validators=[DataRequired()])
+    sequence = StringField('iGEM part ID', validators=[DataRequired()])
     submit = SubmitField('Predict')
