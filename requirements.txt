@@ -6,6 +6,6 @@ Flask-Mail>=0.9.1
 Flask>=1.0.2
 configparser==4.0.2
 c3pred==0.5
-flask-wtf
+flask-wtf==0.14.2
 wtforms
 
