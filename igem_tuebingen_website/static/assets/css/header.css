@@ -6,7 +6,7 @@
     -ms-transition: background-color 0.2s ease-in-out;
     transition: background-color 0.2s ease-in-out;
     background-color: rgba(53, 56, 73, 0.95);
-    height: 3.5em;
+    height: auto;
     left: 0;
     line-height: 3.5em;
     padding: 0 1.25em;
@@ -36,7 +36,7 @@
     font-family: Raleway, Helvetica, sans-serif;
     font-size: 0.8em;
     font-weight: 700;
-    height: 3em;
+    height: auto;
     letter-spacing: 0.1em;
     line-height: 3em;
     position: absolute;
@@ -65,16 +65,12 @@
 }
 
 @media screen and (max-width: 736px) {
-    #header {
-        height: 2.75em;
-        line-height: 2.75em;
-    }
-
     #header nav {
         top: 0;
         right: 0;
         height: inherit;
         line-height: inherit;
+        margin-left: -10px;
     }
 
     #header nav a {
@@ -104,6 +100,7 @@
 
 #menu .links li {
     float: left;
+    margin-bottom: 8px;
 }
 
 #menu .links li a {
@@ -116,7 +113,7 @@
     background-color: rgba(65, 68, 66, 0.98);
     letter-spacing: 0.1em;
     line-height: 1.5em;
-    padding: 0.5em 0.5em 0.5em 0.5em;
+    padding: 0.5em;
     text-transform: uppercase;
     text-align: center;
 }
@@ -133,7 +130,13 @@
     background: #45558d;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 736px) {
+    #menu .links li {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
     #language a img {
         width: 35px;
         height: 25px;
@@ -196,3 +199,5 @@
 .dropdown:hover .dropbtn {
     background-color: #243963;
 }
+
+

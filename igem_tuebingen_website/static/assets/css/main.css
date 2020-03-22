@@ -3153,6 +3153,7 @@ button:disabled,
     #banner {
         padding: 5em 2em 4.25em 2em;
         margin-bottom: -2.5em;
+        margin-top: 20em;
     }
 
     #banner .logo {
