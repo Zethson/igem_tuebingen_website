@@ -12,8 +12,14 @@
         <ul class="links">
             <li><a href="{{ url_for('index') }}">{{ _('Home') }}</a></li>
             <li><a href="{{ url_for('about_igem_teamtuebingen') }}">{{ _('Team Members') }}</a></li>
-            <li><a href="{{ url_for('project_2019') }}">{{ _('Past projects') }}</a></li>
-            <!-- #TODO add all the past years-->
+            <li class="dropdown">
+                    <a class="dropbtn">{{ _('Past projects') }}</a>
+                    <div class="dropdown-content">
+                        <a href="{{ url_for('project_2019') }}">2019</a>
+                        <!-- #TODO add all the past years we have something to report-->
+                    </div>
+            </li>
+
             <li><a href="{{ url_for('human_practices') }}">{{ _('Human Practice') }}</a>
             <li><a href="{{ url_for('sponsors') }}">{{ _('Sponsoring') }}</a></li>
             <li><a href="{{ url_for('gallery') }}">{{ _('Gallery') }}</a></li>
