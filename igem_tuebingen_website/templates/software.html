@@ -9,7 +9,10 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/header.css') }}"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/images.css') }}"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/header.css') }}"/>
+
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/magnific-popup.css') }}">
     <!-- SEO -->
     <meta name="og:title" property="og:title" content="{{ _('Synthetic biology software - iGEM Tübingen') }}" />
@@ -29,16 +32,10 @@
 <!-- Page Wrapper -->
 <div id="page-wrapper">
 
-    <!-- Header -->
-    <header id="header">
-        <h1><a href="{{ url_for('index') }}">{{ _('iGEM Team Tübingen 2019 GLP.exe') }}</a></h1>
-        <nav>
-            <a href="#menu">Menu</a>
-        </nav>
-    </header>
 
-    <!-- Menu -->
-    {% include 'menu.html' %}
+
+    <!-- Header -->
+    {% include 'header.html' %}
 
     <!-- Wrapper -->
     <section id="wrapper">

@@ -12,6 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/header.css') }}"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/header.css') }}"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/flags.css') }}"/>
     <!-- SEO -->
     <meta name="og:title" property="og:title" content="{{ _('iGEM Tübingen') }}" />
@@ -30,8 +31,9 @@
 
 <!-- Page Wrapper -->
 <div id="page-wrapper">
-    <!-- Menu / Header-->
-    {% include 'menu.html' %}
+
+    <!-- Header-->
+    {% include 'header.html' %}
 
     <!-- Banner -->
     <div class="backi">
@@ -117,7 +119,7 @@
             </div>
         </section>
 
-    </section>
+        </section>
     </div>
 
     <!-- Footer -->

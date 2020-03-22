@@ -10,6 +10,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/header.css') }}"/>
     <!-- SEO -->
     <meta name="og:title" property="og:title" content="{{ _('iGEM Tübingen support, sponsoring and participation') }}" />
     <meta name="og:type"property="og:type" content="website" />
@@ -28,16 +29,10 @@
 <!-- Page Wrapper -->
 <div id="page-wrapper">
 
-    <!-- Header -->
-    <header id="header">
-        <h1><a href="{{ url_for('index') }}">{{ _('iGEM Team Tübingen 2019 GLP.exe') }}</a></h1>
-        <nav>
-            <a href="#menu">Menu</a>
-        </nav>
-    </header>
 
-    <!-- Menu -->
-    {% include 'menu.html' %}
+
+    <!-- Header -->
+    {% include 'header.html' %}
 
     <!-- Wrapper -->
     <section id="wrapper">
