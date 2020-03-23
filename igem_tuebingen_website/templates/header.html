@@ -13,7 +13,7 @@
             <li><a href="{{ url_for('index') }}">{{ _('Home') }}</a></li>
             <li><a href="{{ url_for('about_igem_teamtuebingen') }}">{{ _('Team Members') }}</a></li>
             <li class="dropdown">
-                    <a class="dropbtn">{{ _('Past projects') }}</a>
+                    <a class="dropbtn" href="{{ url_for('history') }}">{{ _('Past projects') }}</a>
                     <div class="dropdown-content">
                         <a href="{{ url_for('project_2019') }}">2019</a>
                         <!-- #TODO add all the past years we have something to report-->
@@ -45,7 +45,6 @@
     <!--    Corpses-->
     <!-- #TODO integrate
                 <li><a href="{{ url_for('software') }}">{{ _('Bioinformatics Software') }}</a></li>     -->
-    <!--                <li><a href="{{ url_for('history') }}">{{ _('History') }}</a></li>-->
 </header>
 
 
