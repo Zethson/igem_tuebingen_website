@@ -4,7 +4,7 @@ pytest==5.4.1
 Flask-Babel>=0.12.2
 Flask-Mail>=0.9.1
 Flask>=1.0.2
-configparser==4.0.2
+configparser==5.0.0
 c3pred==0.5
 wtforms==2.2.1
 flask-wtf==0.14.3
