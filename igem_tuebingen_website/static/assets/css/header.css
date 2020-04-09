@@ -1,0 +1,203 @@
+/* Header */
+
+#header {
+    -moz-transition: background-color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
+    background-color: rgba(53, 56, 73, 0.95);
+    height: auto;
+    left: 0;
+    line-height: 3.5em;
+    padding: 0 1.25em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+}
+
+#header h1 {
+    -moz-transition: opacity 0.2s ease-in-out, visibility 0.2s;
+    -webkit-transition: opacity 0.2s ease-in-out, visibility 0.2s;
+    -ms-transition: opacity 0.2s ease-in-out, visibility 0.2s;
+    transition: opacity 0.2s ease-in-out, visibility 0.2s;
+    border-bottom: 0;
+    font-size: 0.8em;
+    margin-bottom: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+#header h1 a {
+    border: 0;
+}
+
+#header nav {
+    font-family: Raleway, Helvetica, sans-serif;
+    font-size: 0.8em;
+    font-weight: 700;
+    height: auto;
+    letter-spacing: 0.1em;
+    line-height: 3em;
+    position: absolute;
+    text-transform: uppercase;
+    top: 0.7em;
+}
+
+#header nav a {
+    border: 0;
+    display: inline-block;
+    padding: 0 1em;
+}
+
+#header nav a:before {
+    float: right;
+    margin-left: 0.75em;
+}
+
+#header.alt {
+    background-color: transparent;
+}
+
+#header.alt h1 {
+    opacity: 0;
+    visibility: hidden;
+}
+
+@media screen and (max-width: 736px) {
+    #header nav {
+        top: 0;
+        right: 0;
+        height: inherit;
+        line-height: inherit;
+        margin-left: -10px;
+    }
+
+    #header nav a {
+        height: inherit;
+        line-height: inherit;
+    }
+}
+
+/* Menu */
+#page-wrapper {
+    -moz-transition: -moz-filter 0.25s ease;
+    -webkit-transition: -webkit-filter 0.25s ease;
+    -ms-transition: -ms-filter 0.25s ease;
+    transition: filter 0.25s ease;
+}
+
+#menu {
+    right: 0.7em;
+}
+
+#menu .links {
+    list-style: none;
+    padding: 0;
+    vertical-align: center;
+    right: 2.7em;
+}
+
+#menu .links li {
+    float: left;
+    margin-bottom: 8px;
+}
+
+#menu .links li a {
+    border-radius: 5px;
+    border: 0;
+    display: block;
+    font-family: Raleway, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 200;
+    background-color: rgba(65, 68, 66, 0.98);
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+    padding: 0.5em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#language a img {
+    width: 30px;
+    height: 20px;
+    border: 0;
+    border-radius: 25%;
+    margin-right: 0.15em;
+}
+
+#menu .links li a:hover {
+    background: #45558d;
+}
+
+@media screen and (max-width: 736px) {
+    #menu .links li {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    #language a img {
+        width: 35px;
+        height: 25px;
+    }
+}
+
+/* Dropdown */
+
+.dropbtn {
+    border-radius: 5px;
+    border: 0;
+    display: block;
+    font-family: Raleway, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 200;
+    background-color: rgba(65, 68, 66, 0.98);
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    list-style: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    z-index: 1;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content a {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    z-index: 1;
+    width: 180px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+    width: inherit;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #243963;
+}
+
+

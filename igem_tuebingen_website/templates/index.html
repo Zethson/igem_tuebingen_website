@@ -11,6 +11,8 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/header.css') }}"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/header.css') }}"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/flags.css') }}"/>
     <!-- SEO -->
     <meta name="og:title" property="og:title" content="{{ _('iGEM Tübingen') }}" />
@@ -30,45 +32,15 @@
 <!-- Page Wrapper -->
 <div id="page-wrapper">
 
-    <!-- Header -->
-    <header id="header" class="alt">
-        <h1><a href="{{ url_for('index') }}">{{ _('iGEM Tübingen') }}</a></h1>
-        <nav>
-            {% if CURRENT_LANGUAGE == 'en' %}
-        <a href="{{ url_for('set_language', language='de') }}">
-            <img src="{{ url_for('static', filename='images/subsite_icons/german_flag_translation.png') }}" style="width:60px;height:50px;border:0;border-radius: 25%;margin-right: 130px;
-            @media screen and (max-width: 720px) {
-            width: 30px;
-            height: 25px;
-            margin-right: 60px;
-            }">
-        </a>
-    {% else %}
-        <a href="{{ url_for('set_language', language='en') }}">
-            <img src="{{ url_for('static', filename='images/subsite_icons/uk_flag_translation.jpg') }}" style="width:60px;height:50px;border:0;border-radius: 25%;margin-right: 130px;
-            @media screen and (max-width: 720px) {
-            width: 30px;
-            height: 25px;
-            margin-right: 60px;
-            }">
-        </a>
-    {%  endif %}
-        </nav>
-        <nav>
-            <a href="#menu">Menu</a>
-        </nav>
-    </header>
-
-    <!-- Menu -->
-    {% include 'menu.html' %}
-
+    <!-- Header-->
+    {% include 'header.html' %}
 
     <!-- Banner -->
     <div class="backi">
     <section id="banner">
         <div class="inner">
             <div class="logo"><span class="icon fa-diamond"></span></div>
-            <h2>{{ _('iGEM Tübingen') }}</h2>
+            <h2>{{ _('iGEM Tübingen TEST232') }}</h2>
         </div>
     </section>
 
@@ -76,7 +48,7 @@
     <section id="wrapper">
 
         <!-- One -->
-        <section id="one" class="wrapper alt spotlight style2">
+        <section id="zero" class="wrapper alt spotlight style2">
             <div class="inner">
                 <a href="{{ url_for('about_igem_teamtuebingen') }}" class="image"><img
                         src="{{ url_for('static', filename='images/subsite_icons/IGEM_logo.png') }}" alt="{{ _('iGEM Tübingen team members - About iGEM') }}"/></a>
@@ -147,7 +119,7 @@
             </div>
         </section>
 
-    </section>
+        </section>
     </div>
 
     <!-- Footer -->

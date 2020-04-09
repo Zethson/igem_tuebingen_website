@@ -24,6 +24,7 @@
 
 
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/header.css') }}"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/magnific-popup.css') }}">
     <noscript>
         <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/noscript.css') }}"/>
@@ -34,16 +35,10 @@
 <!-- Page Wrapper -->
 <div id="page-wrapper">
 
-    <!-- Header -->
-    <header id="header">
-        <h1><a href="{{ url_for('index') }}">{{ _('iGEM Team Tübingen 2019 GLP.exe') }}</a></h1>
-        <nav>
-            <a href="#menu">Menu</a>
-        </nav>
-    </header>
 
-    <!-- Menu -->
-    {% include 'menu.html' %}
+
+    <!-- Header -->
+    {% include 'header.html' %}
 
     <!-- Wrapper -->
     <section id="wrapper">

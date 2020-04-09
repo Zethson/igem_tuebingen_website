@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<!--
+	menu banner
+-->
+
+<!-- Header -->
+<header id="header" class="alt">
+    <h1><a href="{{ url_for('index') }}">{{ _('iGEM Tübingen') }}</a></h1>
+
+    <!-- Items -->
+    <nav id="menu">
+        <ul class="links">
+            <li><a href="{{ url_for('index') }}">{{ _('Home') }}</a></li>
+            <li><a href="{{ url_for('about_igem_teamtuebingen') }}">{{ _('Team Members') }}</a></li>
+            <li class="dropdown">
+                    <a class="dropbtn" href="{{ url_for('history') }}">{{ _('Past projects') }}</a>
+                    <div class="dropdown-content">
+                        <a href="{{ url_for('project_2019') }}">2019</a>
+                        <!-- #TODO add all the past years we have something to report-->
+                    </div>
+            </li>
+
+            <li><a href="{{ url_for('human_practices') }}">{{ _('Human Practice') }}</a>
+            <li><a href="{{ url_for('sponsors') }}">{{ _('Sponsoring') }}</a></li>
+            <li><a href="{{ url_for('gallery') }}">{{ _('Gallery') }}</a></li>
+            <li><a href="{{ url_for('get_involved') }}">{{ _('Contact') }}</a></li>
+
+            <!-- Language -->
+            <li>
+                <div id="language">
+                    {% if CURRENT_LANGUAGE == 'en' %}
+                    <a href="{{ url_for('set_language', language='de') }}">
+                        <img src="{{ url_for('static', filename='images/subsite_icons/german_flag_translation.png') }}">
+                    </a>
+                    {% else %}
+                    <a href="{{ url_for('set_language', language='en') }}">
+                        <img src="{{ url_for('static', filename='images/subsite_icons/uk_flag_translation.jpg') }}">
+                    </a>
+                    {% endif %}
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <!--    Corpses-->
+    <!-- #TODO integrate
+                <li><a href="{{ url_for('software') }}">{{ _('Bioinformatics Software') }}</a></li>     -->
+</header>
+
+
