@@ -16,6 +16,8 @@ STATIC_PATH = os.path.join(MODULE_DIR, 'static')
 TEMPLATES_PATH = os.path.join(MODULE_DIR, 'templates')
 
 app = Flask(__name__)
+
+# Mail notification setup
 try:
     config = configparser.ConfigParser()
     config.read(STATIC_PATH + '/mail.conf')
@@ -41,4 +43,5 @@ except KeyError:
         MAIL_PASSWORD="password_not_available"
     )
 
+# Adds all handler files here to have those routes available
 from . import handlers

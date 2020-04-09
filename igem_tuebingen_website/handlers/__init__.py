@@ -1,10 +1,12 @@
 # Import all handlers here
-from . import favicon
-from . import index
-from . import generic
-from . import elements
-from . import about
-from . import explore
-from . import analyze
-from . import features
-from . import contact_request
+
+from . import contact
+from . import current_project
+from . import home
+from . import human_practice
+from . import past_projects
+from . import project_2017
+from . import project_2018
+from . import project_2019
+from . import sponsor
+from . import team

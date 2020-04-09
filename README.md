@@ -11,7 +11,7 @@ iGEM is an international competition for synthetic biology. The university of Tu
 $ rename the mail_stub.conf in igem_tuebingen_website/static to mail.conf
 $ overwrite the stub values in mail.conf with a gmail account 
 $ enable less secure applications in your gmail account
-$ python setup.py clean --all install
+$ python setup.py clean --all install (you possibly need sudo rights)
 $ igem_tuebingen_website -l 127.0.0.1
 ```
 Steps 2 and 3 are <b>voluntary</b>, but step 2 <b>depends</b> on 3! Less secure applications need to be enabled to receive and send messages in any forms.    
