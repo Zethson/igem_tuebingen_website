@@ -25,12 +25,26 @@
                     <a class="nav-link js-scroll-trigger" href="{{url_for('human_practice')}}">Human Practice</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="{{url_for('sponsor')}}">Sponsoring</a>
+                    <a class="nav-link js-scroll-trigger" href="{{url_for('sponsor')}}">{{ _('Sponsors') }}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="{{url_for('contact')}}">Contact</a>
+                    <a class="nav-link js-scroll-trigger" href="{{url_for('contact')}}">{{ _('Contact') }}</a>
                 </li>
 
+                <!-- Language selector -->
+                <li class="nav-item">
+                    <div id="language" height="0.5em">
+                        {% if CURRENT_LANGUAGE == 'en' %}
+                        <a href="{{ url_for('set_language', language='de') }}">
+                            <img class="languages" src="{{ url_for('static', filename='/img/subsite_icons/de_flag.png') }}">
+                        </a>
+                        {% else %}
+                        <a href="{{ url_for('set_language', language='en') }}">
+                            <img class="languages" src="{{ url_for('static', filename='/img/subsite_icons/uk_flag.png') }}">
+                        </a>
+                        {% endif %}
+                    </div>
+                </li>
             </ul>
         </div>
     </div>

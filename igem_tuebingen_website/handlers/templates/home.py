@@ -1,5 +1,6 @@
 from flask import render_template, redirect, url_for
-from ..app import app
+import os
+from igem_tuebingen_website.app import app
 
 @app.route('/')
 def root():

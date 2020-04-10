@@ -1,12 +1,5 @@
 # Import all handlers here
 
-from . import contact
-from . import current_project
-from . import home
-from . import human_practice
-from . import past_projects
-from . import project_2017
-from . import project_2018
-from . import project_2019
-from . import sponsor
-from . import team
+from .templates import project_2017, project_2018, current_project, project_2019, contact, team, sponsor, \
+    human_practice, past_projects, home
+from . import language

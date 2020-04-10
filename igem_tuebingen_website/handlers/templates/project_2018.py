@@ -1,5 +1,5 @@
 from flask import render_template
-from ..app import app
+from igem_tuebingen_website.app import app
 
 @app.route('/project_2018')
 def project_2018():
