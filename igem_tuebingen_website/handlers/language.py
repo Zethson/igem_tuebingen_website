@@ -3,6 +3,9 @@ from ..app import app
 
 """This route is requested, whenever (and only if) the user changed the language manually"""
 @app.route('/language/<language>')
-def set_language(language=None):
+@app.route('/language/<language>/<redirectUrl>')
+def set_language(language=None, redirectUrl='home'):
     session['language'] = language
-    return redirect(url_for('index'))
+    print(redirectUrl)
+    print('Dasdasdasdasdasdassssssdsasfsadasdasdasf')
+    return redirect(url_for(redirectUrl))

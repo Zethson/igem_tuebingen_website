@@ -31,16 +31,19 @@
                     <a class="nav-link js-scroll-trigger" href="{{url_for('contact')}}">{{ _('Contact') }}</a>
                 </li>
 
-                <!-- Language selector -->
+                <!-- Language selector TODO this seems buggy atm-->
                 <li class="nav-item">
                     <div id="language" height="0.5em">
+                        {% set redirectUrl=redirect %}
                         {% if CURRENT_LANGUAGE == 'en' %}
-                        <a href="{{ url_for('set_language', language='de') }}">
-                            <img class="languages" src="{{ url_for('static', filename='/img/subsite_icons/de_flag.png') }}">
+                        <a href="{{ url_for('set_language', language='de', redirectUrl=redirectUrl) }}">
+                            <img class="languages"
+                                 src="{{ url_for('static', filename='/img/subsite_icons/uk_flag.png') }}">
                         </a>
                         {% else %}
-                        <a href="{{ url_for('set_language', language='en') }}">
-                            <img class="languages" src="{{ url_for('static', filename='/img/subsite_icons/uk_flag.png') }}">
+                        <a href="{{ url_for('set_language', language='en', redirectUrl=redirectUrl) }}">
+                            <img class="languages"
+                                 src="{{ url_for('static', filename='/img/subsite_icons/de_flag.png') }}">
                         </a>
                         {% endif %}
                     </div>

@@ -31,7 +31,9 @@
 <body id="page-top">
 
 <!-- Navigation -->
+{% with redirect='/home' %}
 {% include '/components/navigation.html' %}
+{% endwith %}
 
 <!-- Header -->
 {% with id='home', text='Welcome To iGEM Tübingen', headline='If I were an enzyme I´d be DNA helicase so I could unzip your genes ;)' %}
