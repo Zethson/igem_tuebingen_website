@@ -38,12 +38,12 @@
                         {% if CURRENT_LANGUAGE == 'en' %}
                         <a href="{{ url_for('set_language', language='de', redirectUrl=redirectUrl) }}">
                             <img class="languages"
-                                 src="{{ url_for('static', filename='/img/subsite_icons/uk_flag.png') }}">
+                                 src="{{ url_for('static', filename='/img/subsite_icons/de_flag.png') }}">
                         </a>
                         {% else %}
                         <a href="{{ url_for('set_language', language='en', redirectUrl=redirectUrl) }}">
                             <img class="languages"
-                                 src="{{ url_for('static', filename='/img/subsite_icons/de_flag.png') }}">
+                                 src="{{ url_for('static', filename='/img/subsite_icons/uk_flag.png') }}">
                         </a>
                         {% endif %}
                     </div>
