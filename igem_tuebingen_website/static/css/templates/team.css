@@ -1,0 +1,8 @@
+header.masthead#team {
+    text-align: center;
+    color: white;
+    background-color: black;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
