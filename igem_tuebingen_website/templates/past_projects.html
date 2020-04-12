@@ -1,7 +1,10 @@
-<!-- About -->
 <!DOCTYPE html>
-<html lang="en">
 
+<!-- About -->
+<!-- #TODO Find Images for those years and add them for the current placeholder images.-->
+<!-- #TODO Idea: It would be so sexy if we had a DNA helix as a connection inbetween those yellow dots.-->
+
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -21,53 +24,77 @@
           type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-    <!-- Custom styles for this template -->
-    <link href="static/css/igem_theme.min.css" rel="stylesheet">
+    <!-- Custom styles for this website -->
+    <link href="static/css/igem_theme.css" rel="stylesheet">
 
+    <!-- Custom styles for this template -->
+    <link href="static/css/templates/past_projects.css" rel="stylesheet">
 </head>
 
 <body id="page-top">
+
+<!-- Navigation -->
+{% include '/components/navigation.html' %}
+
+<!-- Header -->
+
+<!-- Header to vars like headline and text you need to pass the To-Be-Translated key (English text in our case!) -->
+{% with id='past_projects_header', text='', headline='Timeline of projects' %}
+{% include '/components/header.html' %}
+{% endwith %}
 
 <section class="page-section" id="about">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">About</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h2 class="section-heading text-uppercase">{{ _('Timeline of projects') }}</h2>
             </div>
+            <hr>
         </div>
         <div class="row">
             <div class="col-lg-12">
                 <ul class="timeline">
                     <li>
                         <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+                            <a class="nav-link js-scroll-trigger" href="{{url_for('project_2019')}}">
+                                <img class="rounded-circle img-fluid img-igem-style"
+                                     src="static/img/old_projects/2019/project_bacteria_cut_2_squared.jpg" alt="">
+                            </a>
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>2009-2011</h4>
-                                <h4 class="subheading">Our Humble Beginnings</h4>
+                                <h4>2019</h4>
+                                <h4 class="subheading">{{ _('Diabetes mellitus 2 therapy - project 2019') }}</h4>
                             </div>
                             <div class="timeline-body">
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
-                                    voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit
-                                    vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                <p>{{ _('The aim of the project 2019 is to generate a probiotic for
+                                    the therapy of Type II Diabetes
+                                    Mellitus, based on a plasmid chassis incorporating a Cas3 self-kill mechanism to
+                                    prevent the
+                                    spread of GMOs in the environment.') }}</p>
                             </div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
                         <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+                            <img class="rounded-circle img-fluid"
+                                 src="static/img/old_projects/2018/project_bacteria_cut_2.jpg" alt="">
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>March 2011</h4>
-                                <h4 class="subheading">An bääääm is Born</h4>
+                                <h4>2018</h4>
+                                <h4 class="subheading">{{ _('BoNT C - Licence to enter') }}</h4>
                             </div>
                             <div class="timeline-body">
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
-                                    voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit
-                                    vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                <p>{{ _('In 2018, our project was to modify Botulinum Toxin so that
+                                    its specific
+                                    shuttle mechanism for neuronal cells could be used in prospective therapeutic
+                                    approaches and neuronal targeting in basic research.
+                                    We developed a library of different detoxified botulinum toxin derivatives,
+                                    which can be coupled with a variety of substances (proteins, small
+                                    molecules, fluorochromes) by specific linkers. Since our shuttle mechanism could
+                                    potentially be used in patients, we removed the most prevalent immune
+                                    epitopes using a theoretical bioinformatics approach.') }}</p>
                             </div>
                         </div>
                     </li>
@@ -77,13 +104,18 @@
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>December 2012</h4>
-                                <h4 class="subheading">Transition to Full Service</h4>
+                                <h4>2017</h4>
+                                <h4 class="subheading">{{ _('An advanced Trojan horse') }}</h4>
                             </div>
                             <div class="timeline-body">
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
-                                    voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit
-                                    vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                <p> {{ _('The rising amount of microbial resistances urge for
+                                    innovation and new
+                                    therapeutics. Therefore, we created a new derivative of aminocoumarins with
+                                    a changed pattern of interaction with proteins and improved chemical
+                                    properties.
+                                    Those properties make it an antibiotic that is only activated by ß-lactam
+                                    resistant pathogens itself via enzymatic cleavage, while not affecting other
+                                    cells in the human body - the advanced Trojan horse is set free.') }}</p>
                             </div>
                         </div>
                     </li>
@@ -93,16 +125,96 @@
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>July 2014</h4>
-                                <h4 class="subheading">Phase Two Expansion</h4>
+                                <h4>2016</h4>
+                                <h4 class="subheading">{{ _('Fruit Force - Probiotics strike
+                                    back') }}</h4>
                             </div>
                             <div class="timeline-body">
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
-                                    voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit
-                                    vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                <p> {{ _('Three problems were addressed in 2016:
+                                    In order to help people with an Aldolase B deficiency (rendering them
+                                    fructose intolerant), our team modified lactobacilli, which already live in the
+                                    human
+                                    gut, to process fructose.
+                                    Additionally, we designed a pipetting robot able to do the cloning
+                                    experiments required for our main project.
+                                    Last but not least, we faced the problem of plasmid extraction in a robot,
+                                    so we developed a simple way to easily select and purify transformed plasmid DNA.')
+                                    }}
+                                </p>
                             </div>
                         </div>
                     </li>
+                    <li>
+                        <div class="timeline-image">
+                            <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2015</h4>
+                                <h4 class="subheading">{{ _('A Biosensor Memory Module: Cre
+                                    Sensor') }}</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p> {{ _('Our team created a module which makes it possible to take a
+                                    snapshot of a
+                                    sensor’s activity at any time. Using a caging mechanism by fusing a copy of
+                                    a variant of the fluorescent protein Dronpa to both the C- and N-terminus of
+                                    Cre recombinase, its activity can be reversibly controlled by light. By
+                                    activating this construct only for a short period of time, the Cre is used to switch
+                                    on
+                                    expression of Luciferase in only a limited amount of the sensor cells.
+                                    Through coupling the Cre expression to the sensor we can thereby permanently write
+                                    the sensor state of a given time point into the DNA of a system.') }}
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2014</h4>
+                                <h4 class="subheading">{{ _('T-ECO - Tuebingen Erythrocyte Converter to O') }}</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p> {{ _('We developed the T-ECO system to address the problem of
+                                    blood type zero
+                                    being the most valuable (universal donor) but also the rarest blood type for
+                                    donating.
+                                    By modifying the glycolised protein chains on erythrocytes of blood type A,
+                                    B and AB, they adopt the characteristics of blood type zero cells. A simple
+                                    agglutination test serves as proof for successful transformation.') }}
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image">
+                            <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2012/13</h4>
+                                <h4 class="subheading">{{ _('Yeast based measurement system for endocrine disruptors in
+                                    aquatic
+                                    environments') }}</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p> {{ _('Our team developed a yeast-based sensor for progestin, a
+                                    contaminator of
+                                    wastewater, which has harmful effects on the hormonal equilibrium in fish.
+                                    The presence of progestin in water samples induces the expression of luciferin
+                                    in the yeast cells by activating a G-protein coupled cascade leading to the
+                                    luciferase gene promoter activation. The presence of progestin in tested
+                                    water samples can thus be detected and analyzed qualitatively by detecting light
+                                    activation or quantitatively using a spectrometer.') }}
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+
                     <li class="timeline-inverted">
                         <div class="timeline-image">
                             <h4>Be Part
@@ -115,6 +227,8 @@
         </div>
     </div>
 </section>
+
+{% include '/components/footer.html' %}
 
 <!-- Bootstrap core JavaScript -->
 <script src="static/vendor/jquery/jquery.min.js"></script>

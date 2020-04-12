@@ -3,7 +3,7 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
 
- * NOTE: If you want to change stuff, you need to generate a new min as well, since that is the file thats used by the webpage
+ * NOTE: In the end we need to generate a min out of this
  */
 
 body {
@@ -39,12 +39,13 @@ h6 {
 
 .page-section {
     padding: 100px 0;
+    background-color: #6f746d;
 }
 
 .page-section h2.section-heading {
     font-size: 40px;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 100px;
 }
 
 .page-section h3.section-subheading {
@@ -193,16 +194,11 @@ img::-moz-selection {
 header.masthead {
     text-align: center;
     color: white;
-    background-image: url("../img/header-bg.jpg");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
 }
 
 header.masthead .intro-text {
-    padding-top: 150px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 header.masthead .intro-text .intro-lead-in {
@@ -223,8 +219,8 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width: 768px) {
     header.masthead .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 200px;
+        padding-bottom: 50px;
     }
 
     header.masthead .intro-text .intro-lead-in {
@@ -471,6 +467,7 @@ header.masthead .intro-text .intro-heading {
     font-size: 10px;
     line-height: 14px;
     margin-top: 12px;
+    color: black;
 }
 
 .timeline > li.timeline-inverted > .timeline-panel {
@@ -509,6 +506,7 @@ header.masthead .intro-text .intro-heading {
 .timeline .timeline-body > ul,
 .timeline .timeline-body > p {
     margin-bottom: 0;
+    color: black;
 }
 
 @media (min-width: 768px) {
@@ -539,6 +537,7 @@ header.masthead .intro-text .intro-heading {
         font-size: 13px;
         line-height: 18px;
         margin-top: 16px;
+        color: black;
     }
 
     .timeline > li.timeline-inverted > .timeline-panel {
@@ -567,6 +566,8 @@ header.masthead .intro-text .intro-heading {
         font-size: 18px;
         line-height: 26px;
         margin-top: 30px;
+        color: black;
+
     }
 
     .timeline > li.timeline-inverted > .timeline-panel {
@@ -591,6 +592,7 @@ header.masthead .intro-text .intro-heading {
 
     .timeline > li .timeline-image h4 {
         margin-top: 40px;
+        color: black;
     }
 
     .timeline > li.timeline-inverted > .timeline-panel {
@@ -679,6 +681,7 @@ section#contact :-ms-input-placeholder {
 .footer {
     padding: 25px 0;
     text-align: center;
+    background-color: black;
 }
 
 .footer span.copyright {

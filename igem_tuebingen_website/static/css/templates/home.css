@@ -1,0 +1,8 @@
+header.masthead#home {
+    background-image: url("../../img/header-bg.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}

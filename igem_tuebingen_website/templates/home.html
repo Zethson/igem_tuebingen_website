@@ -1,5 +1,3 @@
-<!--#TODO Footer & DSGVO-->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,8 +20,11 @@
           type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-    <!-- Custom styles for this template -->
-    <link href="static/css/igem_theme.min.css" rel="stylesheet">
+    <!-- Custom styles for this website #TODO Minify in the end ;) -->
+    <link href="static/css/igem_theme.css" rel="stylesheet">
+
+    <!-- Custom styles for this template #TODO Minify in the end ;) -->
+    <link href="static/css/templates/home.css" rel="stylesheet">
 
 </head>
 
@@ -33,7 +34,14 @@
 {% include '/components/navigation.html' %}
 
 <!-- Header -->
+{% with id='home', text='Welcome To iGEM Tübingen', headline='If I were an enzyme I´d be DNA helicase so I could unzip your genes ;)' %}
 {% include '/components/header.html' %}
+{% endwith %}
+
+<!-- <a style="border-radius: 1000px; align-content: center"
+   class="btn btn-primary btn-xl texhot-uppercase js-scroll-trigger" href="#services">
+    <i class="fas fa-angle-down"></i>
+</a> -->
 
 <!-- Services -->
 <section class="page-section" id="services">
@@ -41,7 +49,8 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading text-uppercase">Services</h2>
-                <h3 class="section-subheading text-muted">{{ _('Read about how to get involved as a researcher or in the role of a sponsor.') }}</h3>
+                <h3 class="section-subheading text-muted">{{ _('Read about how to get involved as a researcher or in the
+                    role of a sponsor.') }}</h3>
             </div>
         </div>
         <div class="row text-center">
@@ -617,6 +626,8 @@
         </div>
     </div>
 </div>
+
+{% include '/components/footer.html' %}
 
 <!-- Bootstrap core JavaScript -->
 <script src="static/vendor/jquery/jquery.min.js"></script>
