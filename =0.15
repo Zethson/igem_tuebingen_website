@@ -1,0 +1,4 @@
+Collecting Werkzeug
+  Downloading https://files.pythonhosted.org/packages/cc/94/5f7079a0e00bd6863ef8f1da638721e9da21e5bacee597595b318f71d62e/Werkzeug-1.0.1-py2.py3-none-any.whl (298kB)
+Installing collected packages: Werkzeug
+Successfully installed Werkzeug-1.0.1
