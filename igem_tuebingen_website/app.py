@@ -47,6 +47,8 @@ except KeyError:
 @app.cli.group()
 def translate():
     """Translation commands"""
+    print('Translate triggered')
+
     pass
 
 
@@ -94,9 +96,11 @@ def get_locale():
     # so we use the locale from the user settings
     try:
         language = session['language']
+        print('Set Language out of session: ' + language)
     except KeyError:
         language = None
     if language is not None:
+        print('Returned Language out of session: ' + language)
         return language
     return request.accept_languages.best_match(Config.LANGUAGES.keys())
 

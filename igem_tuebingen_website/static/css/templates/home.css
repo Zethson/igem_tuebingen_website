@@ -6,3 +6,7 @@ header.masthead#home {
     background-position: center center;
     background-size: cover;
 }
+
+.marginBtm {
+    margin-bottom: 5em
+}

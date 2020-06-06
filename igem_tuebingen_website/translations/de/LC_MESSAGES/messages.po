@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  1.0.0\n"
 "Report-Msgid-Bugs-To: philipp_ehm@protonmail.com\n"
-"POT-Creation-Date: 2020-04-10 12:25+0200\n"
+"POT-Creation-Date: 2020-04-16 21:20+0200\n"
 "PO-Revision-Date: 2019-04-07 18:51+0200\n"
 "Last-Translator: Philipp Ehmele <philipp_ehm@protonmail.com>\n"
 "Language: de\n"
@@ -18,6 +18,227 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
+
+#: build/lib/igem_tuebingen_website/templates/home.html:54
+#: igem_tuebingen_website/templates/home.html:54
+#: new_website/lib/python3.7/site-packages/igem_tuebingen_website-1.0.0-py3.7.egg/igem_tuebingen_website/templates/home.html:54
+msgid ""
+"Read about how to get involved as a researcher or in the role of a "
+"sponsor."
+msgstr "balbalbalbalblabsd"
+
+#: build/lib/igem_tuebingen_website/templates/past_projects.html:51
+#: igem_tuebingen_website/templates/past_projects.html:51
+#: new_website/lib/python3.7/site-packages/igem_tuebingen_website-1.0.0-py3.7.egg/igem_tuebingen_website/templates/past_projects.html:51
+msgid "Timeline of projects"
+msgstr "Zeitleiste unserer Projekte"
+
+#: build/lib/igem_tuebingen_website/templates/past_projects.html:68
+#: igem_tuebingen_website/templates/past_projects.html:68
+#: new_website/lib/python3.7/site-packages/igem_tuebingen_website-1.0.0-py3.7.egg/igem_tuebingen_website/templates/past_projects.html:68
+msgid "Diabetes mellitus 2 therapy - project 2019"
+msgstr "Diabetes Typ 2 Therapie -  Projekt 2019"
+
+#: build/lib/igem_tuebingen_website/templates/past_projects.html:71
+#: igem_tuebingen_website/templates/past_projects.html:71
+#: new_website/lib/python3.7/site-packages/igem_tuebingen_website-1.0.0-py3.7.egg/igem_tuebingen_website/templates/past_projects.html:71
+msgid ""
+"The aim of the project 2019 is to generate a probiotic for\n"
+"                                    the therapy of Type II Diabetes\n"
+"                                    Mellitus, based on a plasmid chassis "
+"incorporating a Cas3 self-kill mechanism to\n"
+"                                    prevent the\n"
+"                                    spread of GMOs in the environment."
+msgstr ""
+
+#: build/lib/igem_tuebingen_website/templates/past_projects.html:87
+#: igem_tuebingen_website/templates/past_projects.html:87
+#: new_website/lib/python3.7/site-packages/igem_tuebingen_website-1.0.0-py3.7.egg/igem_tuebingen_website/templates/past_projects.html:87
+msgid "BoNT C - Licence to enter"
+msgstr "BoNT C - Licence to enter"
+
+#: build/lib/igem_tuebingen_website/templates/past_projects.html:90
+#: igem_tuebingen_website/templates/past_projects.html:90
+#: new_website/lib/python3.7/site-packages/igem_tuebingen_website-1.0.0-py3.7.egg/igem_tuebingen_website/templates/past_projects.html:90
+msgid ""
+"In 2018, our project was to modify Botulinum Toxin so that\n"
+"                                    its specific\n"
+"                                    shuttle mechanism for neuronal cells "
+"could be used in prospective therapeutic\n"
+"                                    approaches and neuronal targeting in "
+"basic research.\n"
+"                                    We developed a library of different "
+"detoxified botulinum toxin derivatives,\n"
+"                                    which can be coupled with a variety "
+"of substances (proteins, small\n"
+"                                    molecules, fluorochromes) by specific"
+" linkers. Since our shuttle mechanism could\n"
+"                                    potentially be used in patients, we "
+"removed the most prevalent immune\n"
+"                                    epitopes using a theoretical "
+"bioinformatics approach."
+msgstr ""
+
+#: build/lib/igem_tuebingen_website/templates/past_projects.html:109
+#: igem_tuebingen_website/templates/past_projects.html:109
+#: new_website/lib/python3.7/site-packages/igem_tuebingen_website-1.0.0-py3.7.egg/igem_tuebingen_website/templates/past_projects.html:109
+msgid "An advanced Trojan horse"
+msgstr "Ein fortschrittliches Trojanisches Pferd"
+
+#: build/lib/igem_tuebingen_website/templates/past_projects.html:112
+#: igem_tuebingen_website/templates/past_projects.html:112
+#: new_website/lib/python3.7/site-packages/igem_tuebingen_website-1.0.0-py3.7.egg/igem_tuebingen_website/templates/past_projects.html:112
+msgid ""
+"The rising amount of microbial resistances urge for\n"
+"                                    innovation and new\n"
+"                                    therapeutics. Therefore, we created a"
+" new derivative of aminocoumarins with\n"
+"                                    a changed pattern of interaction with"
+" proteins and improved chemical\n"
+"                                    properties.\n"
+"                                    Those properties make it an "
+"antibiotic that is only activated by ß-lactam\n"
+"                                    resistant pathogens itself via "
+"enzymatic cleavage, while not affecting other\n"
+"                                    cells in the human body - the "
+"advanced Trojan horse is set free."
+msgstr ""
+
+#: build/lib/igem_tuebingen_website/templates/past_projects.html:130
+#: igem_tuebingen_website/templates/past_projects.html:130
+#: new_website/lib/python3.7/site-packages/igem_tuebingen_website-1.0.0-py3.7.egg/igem_tuebingen_website/templates/past_projects.html:130
+msgid ""
+"Fruit Force - Probiotics strike\n"
+"                                    back"
+msgstr ""
+
+#: build/lib/igem_tuebingen_website/templates/past_projects.html:134
+#: igem_tuebingen_website/templates/past_projects.html:134
+#: new_website/lib/python3.7/site-packages/igem_tuebingen_website-1.0.0-py3.7.egg/igem_tuebingen_website/templates/past_projects.html:134
+msgid ""
+"Three problems were addressed in 2016:\n"
+"                                    In order to help people with an "
+"Aldolase B deficiency (rendering them\n"
+"                                    fructose intolerant), our team "
+"modified lactobacilli, which already live in the\n"
+"                                    human\n"
+"                                    gut, to process fructose.\n"
+"                                    Additionally, we designed a pipetting"
+" robot able to do the cloning\n"
+"                                    experiments required for our main "
+"project.\n"
+"                                    Last but not least, we faced the "
+"problem of plasmid extraction in a robot,\n"
+"                                    so we developed a simple way to "
+"easily select and purify transformed plasmid DNA."
+msgstr ""
+
+#: build/lib/igem_tuebingen_website/templates/past_projects.html:155
+#: igem_tuebingen_website/templates/past_projects.html:155
+#: new_website/lib/python3.7/site-packages/igem_tuebingen_website-1.0.0-py3.7.egg/igem_tuebingen_website/templates/past_projects.html:155
+msgid ""
+"A Biosensor Memory Module: Cre\n"
+"                                    Sensor"
+msgstr ""
+
+#: build/lib/igem_tuebingen_website/templates/past_projects.html:159
+#: igem_tuebingen_website/templates/past_projects.html:159
+#: new_website/lib/python3.7/site-packages/igem_tuebingen_website-1.0.0-py3.7.egg/igem_tuebingen_website/templates/past_projects.html:159
+msgid ""
+"Our team created a module which makes it possible to take a\n"
+"                                    snapshot of a\n"
+"                                    sensor’s activity at any time. Using "
+"a caging mechanism by fusing a copy of\n"
+"                                    a variant of the fluorescent protein "
+"Dronpa to both the C- and N-terminus of\n"
+"                                    Cre recombinase, its activity can be "
+"reversibly controlled by light. By\n"
+"                                    activating this construct only for a "
+"short period of time, the Cre is used to switch\n"
+"                                    on\n"
+"                                    expression of Luciferase in only a "
+"limited amount of the sensor cells.\n"
+"                                    Through coupling the Cre expression "
+"to the sensor we can thereby permanently write\n"
+"                                    the sensor state of a given time "
+"point into the DNA of a system."
+msgstr ""
+
+#: build/lib/igem_tuebingen_website/templates/past_projects.html:180
+#: igem_tuebingen_website/templates/past_projects.html:180
+#: new_website/lib/python3.7/site-packages/igem_tuebingen_website-1.0.0-py3.7.egg/igem_tuebingen_website/templates/past_projects.html:180
+msgid "T-ECO - Tuebingen Erythrocyte Converter to O"
+msgstr "T-ECO - Tuebingen Erythrocyte Converter to O"
+
+#: build/lib/igem_tuebingen_website/templates/past_projects.html:183
+#: igem_tuebingen_website/templates/past_projects.html:183
+#: new_website/lib/python3.7/site-packages/igem_tuebingen_website-1.0.0-py3.7.egg/igem_tuebingen_website/templates/past_projects.html:183
+msgid ""
+"We developed the T-ECO system to address the problem of\n"
+"                                    blood type zero\n"
+"                                    being the most valuable (universal "
+"donor) but also the rarest blood type for\n"
+"                                    donating.\n"
+"                                    By modifying the glycolised protein "
+"chains on erythrocytes of blood type A,\n"
+"                                    B and AB, they adopt the "
+"characteristics of blood type zero cells. A simple\n"
+"                                    agglutination test serves as proof "
+"for successful transformation."
+msgstr ""
+
+#: build/lib/igem_tuebingen_website/templates/past_projects.html:201
+#: igem_tuebingen_website/templates/past_projects.html:201
+#: new_website/lib/python3.7/site-packages/igem_tuebingen_website-1.0.0-py3.7.egg/igem_tuebingen_website/templates/past_projects.html:201
+msgid ""
+"Yeast based measurement system for endocrine disruptors in\n"
+"                                    aquatic\n"
+"                                    environments"
+msgstr ""
+
+#: build/lib/igem_tuebingen_website/templates/past_projects.html:206
+#: igem_tuebingen_website/templates/past_projects.html:206
+#: new_website/lib/python3.7/site-packages/igem_tuebingen_website-1.0.0-py3.7.egg/igem_tuebingen_website/templates/past_projects.html:206
+msgid ""
+"Our team developed a yeast-based sensor for progestin, a\n"
+"                                    contaminator of\n"
+"                                    wastewater, which has harmful effects"
+" on the hormonal equilibrium in fish.\n"
+"                                    The presence of progestin in water "
+"samples induces the expression of luciferin\n"
+"                                    in the yeast cells by activating a "
+"G-protein coupled cascade leading to the\n"
+"                                    luciferase gene promoter activation. "
+"The presence of progestin in tested\n"
+"                                    water samples can thus be detected "
+"and analyzed qualitatively by detecting light\n"
+"                                    activation or quantitatively using a "
+"spectrometer."
+msgstr ""
+
+#: build/lib/igem_tuebingen_website/templates/components/navigation.html:28
+#: build/lib/igem_tuebingen_website/templates/errors/403.html:44
+#: build/lib/igem_tuebingen_website/templates/errors/404.html:44
+#: build/lib/igem_tuebingen_website/templates/errors/410.html:44
+#: build/lib/igem_tuebingen_website/templates/errors/500.html:44
+#: igem_tuebingen_website/templates/components/navigation.html:28
+#: igem_tuebingen_website/templates/errors/403.html:44
+#: igem_tuebingen_website/templates/errors/404.html:44
+#: igem_tuebingen_website/templates/errors/410.html:44
+#: igem_tuebingen_website/templates/errors/500.html:44
+#: new_website/lib/python3.7/site-packages/igem_tuebingen_website-1.0.0-py3.7.egg/igem_tuebingen_website/templates/components/navigation.html:28
+#: new_website/lib/python3.7/site-packages/igem_tuebingen_website-1.0.0-py3.7.egg/igem_tuebingen_website/templates/errors/403.html:44
+#: new_website/lib/python3.7/site-packages/igem_tuebingen_website-1.0.0-py3.7.egg/igem_tuebingen_website/templates/errors/404.html:44
+#: new_website/lib/python3.7/site-packages/igem_tuebingen_website-1.0.0-py3.7.egg/igem_tuebingen_website/templates/errors/410.html:44
+#: new_website/lib/python3.7/site-packages/igem_tuebingen_website-1.0.0-py3.7.egg/igem_tuebingen_website/templates/errors/500.html:44
+msgid "Sponsors"
+msgstr "Sponsoren"
+
+#: build/lib/igem_tuebingen_website/templates/components/navigation.html:31
+#: igem_tuebingen_website/templates/components/navigation.html:31
+#: new_website/lib/python3.7/site-packages/igem_tuebingen_website-1.0.0-py3.7.egg/igem_tuebingen_website/templates/components/navigation.html:31
+msgid "Contact"
+msgstr ""
 
 #: build/lib/igem_tuebingen_website/templates/errors/403.html:37
 #: build/lib/igem_tuebingen_website/templates/errors/404.html:37
@@ -108,21 +329,6 @@ msgstr "Software von iGEM Tübingen"
 #: new_website/lib/python3.7/site-packages/igem_tuebingen_website-1.0.0-py3.7.egg/igem_tuebingen_website/templates/errors/500.html:43
 msgid "Gallery"
 msgstr "Galerie"
-
-#: build/lib/igem_tuebingen_website/templates/errors/403.html:44
-#: build/lib/igem_tuebingen_website/templates/errors/404.html:44
-#: build/lib/igem_tuebingen_website/templates/errors/410.html:44
-#: build/lib/igem_tuebingen_website/templates/errors/500.html:44
-#: igem_tuebingen_website/templates/errors/403.html:44
-#: igem_tuebingen_website/templates/errors/404.html:44
-#: igem_tuebingen_website/templates/errors/410.html:44
-#: igem_tuebingen_website/templates/errors/500.html:44
-#: new_website/lib/python3.7/site-packages/igem_tuebingen_website-1.0.0-py3.7.egg/igem_tuebingen_website/templates/errors/403.html:44
-#: new_website/lib/python3.7/site-packages/igem_tuebingen_website-1.0.0-py3.7.egg/igem_tuebingen_website/templates/errors/404.html:44
-#: new_website/lib/python3.7/site-packages/igem_tuebingen_website-1.0.0-py3.7.egg/igem_tuebingen_website/templates/errors/410.html:44
-#: new_website/lib/python3.7/site-packages/igem_tuebingen_website-1.0.0-py3.7.egg/igem_tuebingen_website/templates/errors/500.html:44
-msgid "Sponsors"
-msgstr "Sponsoren"
 
 #: build/lib/igem_tuebingen_website/templates/errors/403.html:78
 #: build/lib/igem_tuebingen_website/templates/errors/404.html:76
@@ -889,9 +1095,6 @@ msgstr ""
 #~ " unsere Chronik der Synthetischer Biologie"
 #~ " Projekte."
 
-#~ msgid "Timeline of projects"
-#~ msgstr "Zeitleiste unserer Projekte"
-
 #~ msgid ""
 #~ "Team Tübingen has been participating in"
 #~ " iGEM since 2012. Every year students"
@@ -965,9 +1168,6 @@ msgstr ""
 
 #~ msgid "iGEM Tübingen 2014"
 #~ msgstr "iGEM Tübingen 2014"
-
-#~ msgid "T-ECO - Tuebingen Erythrocyte Converter to O"
-#~ msgstr "T-ECO - Tuebingen Erythrocyte Converter to O"
 
 #~ msgid ""
 #~ "We developed the T-ECO system to "
@@ -1110,9 +1310,6 @@ msgstr ""
 #~ msgid "iGEM Tübingen 2017"
 #~ msgstr "iGEM Tübingen 2017"
 
-#~ msgid "An advanced Trojan horse"
-#~ msgstr "Ein fortschrittliches Trojanisches Pferd"
-
 #~ msgid ""
 #~ "The rising amount of microbial "
 #~ "resistances urge for innovation and new"
@@ -1151,9 +1348,6 @@ msgstr ""
 
 #~ msgid "iGEM Tübingen 2018"
 #~ msgstr "iGEM Tübingen 2018"
-
-#~ msgid "BoNT C - Licence to enter"
-#~ msgstr "BoNT C - Licence to enter"
 
 #~ msgid ""
 #~ "In 2018, our project was to modify"
@@ -1715,9 +1909,6 @@ msgstr ""
 #~ " genetisch manipulierte Organismen eingesetzt "
 #~ "werden."
 
-#~ msgid "Diabetes mellitus 2 therapy - project 2019"
-#~ msgstr "Diabetes Typ 2 Therapie -  Projekt 2019"
-
 #~ msgid ""
 #~ "The aim of the project 2019 is "
 #~ "to generate a probiotic for the "
@@ -1739,15 +1930,6 @@ msgstr ""
 
 #~ msgid "Read about our Human Practice"
 #~ msgstr "Erfahre mehr über Human Practice"
-
-#~ msgid ""
-#~ "Read about how to get involved as"
-#~ " a researcher or in the role of"
-#~ " a sponsor."
-#~ msgstr ""
-#~ "Erfahre mehr darüber, wie man uns "
-#~ "am Besten als Forscher oder Sponsor "
-#~ "unterstützen kann."
 
 #~ msgid "Further Information"
 #~ msgstr "Weitere Informationen"

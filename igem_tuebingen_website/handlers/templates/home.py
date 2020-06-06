@@ -15,3 +15,7 @@ def index():
 @app.route("/home")
 def home():
     return render_template("home.html")
+
+@app.route("/home2020")
+def home2020():
+    return render_template("home.html")

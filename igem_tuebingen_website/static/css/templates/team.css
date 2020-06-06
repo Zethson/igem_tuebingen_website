@@ -6,3 +6,12 @@ header.masthead#team {
     background-position: center center;
     background-size: cover;
 }
+
+.rotate180 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transition: transform 1s;
+    -moz-transition: transform 1s;
+    transition: transform 1s;
+}
