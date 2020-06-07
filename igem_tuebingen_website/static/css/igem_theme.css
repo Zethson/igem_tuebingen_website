@@ -16,11 +16,11 @@ p {
 }
 
 a {
-    color: #FFB45E;
+    color: #B36A37;
 }
 
 a:hover {
-    color: #B36A17;
+    color: #FFB45E;
 }
 
 .text-primary {
@@ -39,7 +39,6 @@ h6 {
 
 .page-section {
     padding: 100px 0;
-    background-color: #6BD3FF;
 }
 
 .page-section h2.section-heading {
@@ -657,25 +656,25 @@ section#contact .form-control:focus {
 
 section#contact ::-webkit-input-placeholder {
     font-weight: 700;
-    color: #6BD3FF;
+    color: #AEE5FC;
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 section#contact :-moz-placeholder {
     font-weight: 700;
-    color: #6BD3FF;
+    color: #B36A17;
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 section#contact ::-moz-placeholder {
     font-weight: 700;
-    color: #6BD3FF;
+    color: #B36A17;
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 section#contact :-ms-input-placeholder {
     font-weight: 700;
-    color: #6BD3FF;
+    color: #B36A17;
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
@@ -719,13 +718,4 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
     background-color: #FFB45E;
-}
-
-#news {
-    background-color: #000000;
-    color: white;
-}
-
-#2020 {
-    background-color: #1984B3;
 }

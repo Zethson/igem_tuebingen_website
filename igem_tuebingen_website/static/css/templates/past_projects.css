@@ -6,3 +6,8 @@ header.masthead#past_projects_header {
     background-position: center center;
     background-size: cover;
 }
+
+#past_projects {
+    color: #FFB45E;
+}
+

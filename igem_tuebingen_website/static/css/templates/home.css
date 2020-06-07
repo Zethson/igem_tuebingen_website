@@ -10,3 +10,12 @@ header.masthead#home {
 .marginBtm {
     margin-bottom: 5em
 }
+
+#news {
+    background-color: #000000;
+    color: white;
+}
+
+#2020 {
+    background-color: #1984B3;
+}
