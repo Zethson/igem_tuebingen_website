@@ -6,15 +6,3 @@ header.masthead#past_projects_header {
     background-position: center center;
     background-size: cover;
 }
-
-.img-igem-style {
-    max-width: 100%;
-    width: 100%;
-    width: -moz-available; /* WebKit-based browsers will ignore this. */
-    width: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
-    width: fill-available;
-    max-height: auto;
-    height: -moz-available; /* WebKit-based browsers will ignore this. */
-    height: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
-    height: fill-available;
-}
