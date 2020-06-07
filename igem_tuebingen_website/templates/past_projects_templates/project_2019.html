@@ -1,10 +1,164 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<!-- Project Details Go Here -->
+<h2 class="text-uppercase">{{ _('Diabetes mellitus 2 therapy - project 2019') }}</h2>
+<p class="item-intro text-muted"> {{ _('The aim of the project 2019 is the generation of a probiotic for the therapy of
+    Type II Diabetes
+    Mellitus based on a plasmid chassis incorporating a Cas3 self-kill mechanism to prevent
+    the spread of GMOs in the environment which also addresses the high amount of concerns associated
+    with GMOs and fulfills the necessary biosafety standards.
+    Moreover, the plasmid chassis allows for a controlled use of the probiotic and
+    limits its habitat to that of the human gut due to the incorporation of three different
+    regulators inhibiting the Cas3 self-kill system when the bacterium is located in its designated
+    environment.') }}
+    <figure>
+        <div class="img-responsive rounded">
+            <img class="img-fluid d-block mx-auto"
+                 src="{{ url_for('static', filename='img/2019/application.png') }}"
+                 alt="{{ _('incretin glp 1') }}"/>
+            <figcaption style="font-size: small">{{ _('Overview over Application') }}</figcaption>
+            <br><br>
+            {{ _('Our therapeutic agent is a probiotic secreting incretin mimetics placed in the patients intestine by
+            oral administration of capsules.
+            This enables an easier therapy where a regular intake of a medication is not required.') }}"
+            <br><br>
+        </div>
+    </figure>
+</p>
 
-</body>
-</html>
+<br>
+<br>
+<br>
+<div class="row">
+    <figure>
+        <div class="img-responsive rounded">
+            <img src="{{ url_for('static', filename='img/2019/gut.png') }}"
+                 alt="{{ _('glp 1 diabetes drugs') }}"/>
+            <figcaption style="font-size: small">{{ _('Simplified representation of our project.') }}</figcaption>
+            {{ _('The plasmid encoding the GLP analog is introduced into a probiotic E. coli strain which
+            then secretes peptide which can be absorbed through the intestine to increase insulin secretion in the
+            pancreas. ') }}
+        </div>
+    </figure>
+    <p>{{ _('In the gut, our probiotic is supposed to form and secrete incretin mimetics in response to glucose.
+        The incretin mimetics will be taken up by the enterocytes and are transported to the pancreas via
+        the blood, where they enhance insulin secretion. Since Diabetes is one of the most prevalent diseases
+        nowadays, we address an important and relevant problem not only for the clinics but also for the
+        economy and world wide health situation. In addition to the development of such a GMO we also
+        plan to model the efficiency, stability and kinetics of the self-kill mechanism.
+        Our Cas3 biosafety probiotic chassis can also be used for different applications by exchanging
+        the gene of interest within the plasmid. Therefore, our chassis can be used by researchers who
+        search for a functional chassis which fulfills biosafety standards.') }}</p>
+
+</div>
+<br>
+<br>
+<br>
+
+
+<h3 class="text-capitalize">{{ _('Type II Diabetes Mellitus and incretin mimetics') }}</h3>
+<div class="row">
+    <figure>
+        <div class="img-responsive rounded">
+            <img src="{{ url_for('static', filename='img/2019/GLP_mechanism.png') }}"
+                 alt="{{ _('glp 1 mechanism of action') }}"/>
+            <figcaption style="font-size: small">{{ _('GLP mechanism') }}</figcaption>
+            {{ _('The GLP-Analogon will bind to its G-protein-coupled receptor activating Adenylate Cyclase to
+            initiate
+            the
+            production of cAMP.
+            Overall, this will lead to increased Calcium Ion influx, allowing for more Insulin to be secreted from
+            the
+            beta
+            cells.') }}
+        </div>
+    </figure>
+
+    <p>
+        {{ _('Type II Diabetes Mellitus is a metabolic disease that affects about 10 percent of the population.
+        One
+        of its major symptoms is the relative lack of insulin, which causes a decreased uptake of glucose into
+        cells, leading to an energy crisis. In Type II Diabetes Mellitus the body compensates this
+        relative lack of insulin by secreting more insulin, which causes stress for insulin producing
+        beta cells of the pancreas. This increased stress will, in the end, lead to the destruction of the beta
+        cells, leaving the body with an absolute lack of insulin, making insulin substitution necessary.
+        In Type II Diabetes Mellitus the relative lack of insulin can have multiple reasons. It can be
+        induced by overconsumption of sugar-containing food, decreasing the sensitivity of the Insulin
+        Receptors, as they are downregulated. But it can also have genetic reasons, such as a mutation
+        in an essential gene etc.
+        A form of treatment for Type II Diabetes Mellitus are incretin mimetics. Incretin mimetics copy
+        the incretin effect of incretins such as Glucagon Like Peptide 1. This is the explanation for the
+        fact that oral uptake causes a bigger release of insulin, than the parenteral uptake.
+        Glucagon like peptide 1, produced in the L-cells of the intestine, is secreted upon nutrient
+        availability, and reaches the pancreas through the bloodstream. There it will bind its receptor
+        (a G-protein coupled receptor), which will activate Adenylate Cyclase (if ATP is available within
+        the cell), initiating the production of cAMP. Overall, this will lead to increased Calcium Ion
+        influx, allowing for more Insulin to be secreted from the beta cells. This increased secretion will help
+        overcome a relative lack of insulin in Type II Diabetes Mellitus, if the amount of incretins
+        secreted is sufficient.') }}</p>
+</div>
+
+
+<h3 class="text-capitalize">{{ _('Are gmos good for you?') }}</h3>
+<p>
+    <figure>
+        <div class="img-responsive rounded">
+            <img src="{{ url_for('static', filename='img/2019/lizard_peptide.png') }}"
+                 alt="{{ _('exendin 4 gila monster') }}"/>
+            <figcaption style="font-size: small">{{ _('Origin of exendin-4') }}</figcaption>
+            {{ _('The Gila monster (Heloderma suspectum) is a firm venomous lizard, which is secreting venom
+            composed of
+            a neurotoxin (gilatoxin) and different glycoproteins from a mandibular gland.
+            One of the secreted glycoproteins is exendin-4 which has the synthetic analogue Exenatid.') }}
+        </div>
+    </figure>
+    {{ _('Genetically modified organisms (GMOs) are organisms whose genetic information has been altered
+    intentionally with the use of genetic engineering. The technique used and the way of alteration
+    varies between different GMOs and comprises gene knockouts and knockins as well as enhancement
+    or repression of gene expression.
+    GMOs open up many possibilities for basic research, food production, industry and
+    treatment or diagnosis of diseases. Concerns about GMOs have been raised by many people and
+    especially address their safety when intentionally or unintentionally released into the
+    environment.
+    Therefore, efforts have been made and are still made towards ensuring the biosafety of GMOs.
+    There are a lot of benefits of genetic engineering in medicine') }}
+</p>
+<br>
+<br>
+<br>
+
+<h3 class="text-capitalize">{{ _('iGEM Drylab - Synthetic biology bioinformatics') }}</h3>
+<p>
+    <figure>
+        <div class="img-responsive rounded float-right">
+            <img src="{{ url_for('static', filename='img/2019/GOI.png') }}"
+                 alt="{{ _('glp 1 synthesis')}}"/>
+            <figcaption style="font-size: small">GOI</figcaption>
+            {{ _('Our probiotic strain contains a plasmid which expresses the GLP-analog Exenatid in the presence of
+            glucose. Exenatid is further modified with a secretion tag and a
+            cell penetrating peptide to allow for it to pass through the epithelial cells of the intestine and to
+            reach
+            the blood stream.') }}
+        </div>
+    </figure>
+    {{ _('While our biocontainment strategy relies on the Class I Type I CRISPR system, we will utilize CRISPR/Cas9
+    technology for the construction of the chassis.
+    CRISPR/Cas9 (or similar) technology has become a versatile toolkit for gene editing in all domains of life.
+    Despite of the successes, off-target activities can be observed in many cases.
+    These off-target activities lead to unwanted genome alterations when non-homologous end
+    joining machineries are available in the system of interest, and therefore have to be considered in every
+    experiment.
+    To facilitate the analysis of experimental off-target identification, we will create a data analysis pipeline
+    for
+    GUIDE-Seq and CIRCLE-Seq experiments to identify off-target sites in CRISPR/Cas9 experiments.
+    Our goal is to generate a reproducible and parallelizable analysis software tool, based on the bioinformatics
+    workflow management system Nextflow.
+    To us, creating an easy-to-use software tool is of highest priority.
+    Thus, we are creating a clear and comprehensible graphical user interface.
+    We plan to improve the existing workflow layout by replacing single components to improve the accuracy of the
+    result,
+    and to reduce the computational time needed. Furthermore, we will validate the results of our workflow
+    experimentally,
+    and will integrate the results of our software tool into our wet-lab experiments.
+    We will encourage other iGEM teams and research groups, who are working with CRISPR/Cas9 systems, to use our
+    tool. ') }}
+</p>
+
