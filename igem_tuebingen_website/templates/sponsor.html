@@ -55,7 +55,8 @@
                     überaus dankbar für die Unterstützung unserer Förderer und freuen uns auf die Zusammenarbeit mit
                     Ihnen.
                 </p>
-                <p>Falls du in weiteren Daten und Sponsoreninformationen interessiert bist, kannst du</p>
+                <p>Falls du in weiteren Daten und Sponsoreninformationen interessiert bist, kannst du gerne unser
+                    Portfolio herunterladen</p>
                 <!-- TODO replace -->
                 <a href="/static/pdf/portfolio.pdf" download>
                     <img class="img-fluid d-block mx-auto" src="static/img/sponsors/.png"
@@ -65,33 +66,43 @@
         </div>
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h1 class="section-heading text-uppercase">Sponsoren 2020</h1>
-                <h3 class="section-subheading">Werden noch gesucht ;)</h3>
+                <h1 class="section-heading text-uppercase marginBtmSmall">Sponsoren 2020</h1>
+            </div>
+        </div>
+        <div class="row marginBtmSmall">
+            {% for filename in sponsors %}
+            {% if filename %}
+            <div class="col-lg-3">
+                <img class="img-fluid mb-2" src="{{ filename }}"
+                     alt="Sponsors 2020">
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1 class="section-heading text-uppercase marginBtmSmall">Sponsoren 2019</h1>
+            </div>
+        </div>
+        <div class="row marginBtmSmall">
+            <div class="col-md-12">
+                <img class="img-fluid d-block mx-auto" src="static/img/sponsors/sponsors2019.png"
+                     alt="Sponsors 2019">
             </div>
         </div>
         <hr>
-        <div class="row" style="margin-top: 5em">
+        <div class="row marginBtmSmall">
             <div class="col-lg-12 text-center">
-                <h1 class="section-heading text-uppercase">Sponsoren 2019</h1>
+                <h1 class="section-heading text-uppercase marginBtmSmall">Sponsoren 2018</h1>
             </div>
         </div>
         <div class="row">
             <div class="col-md-12">
-                <img class="img-fluid d-block mx-auto" src="static/img/sponsors/sponsors2019.png" alt="Sponsors 2019">
+                <img class="img-fluid d-block mx-auto" src="static/img/sponsors/sponsors2018.png"
+                     alt="Sponsors 2018">
             </div>
         </div>
-        <hr>
-        <div class="row" style="margin-top: 5em">>
-            <div class="col-lg-12 text-center">
-                <h1 class="section-heading text-uppercase">Sponsoren 2018</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <img class="img-fluid d-block mx-auto" src="static/img/sponsors/sponsors2018.png" alt="Sponsors 2018">
-            </div>
-        </div>
-    </div>
 </section>
 
 
