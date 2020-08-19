@@ -727,3 +727,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .marginBtmSmall {
     margin-bottom: 1em
 }
+
+.dropdown-menu {
+    background-color: #1b1e21;
+}
