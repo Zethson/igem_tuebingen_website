@@ -8,6 +8,6 @@ header.masthead#past_projects_header {
 }
 
 #past_projects {
-    color: #FFB45E;
+    background-color: #000000;
+    color: white;
 }
-

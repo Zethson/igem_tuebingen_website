@@ -7,10 +7,6 @@ header.masthead#home {
     background-size: cover;
 }
 
-.marginBtm {
-    margin-bottom: 5em
-}
-
 #news {
     background-color: #000000;
     color: white;
@@ -18,4 +14,8 @@ header.masthead#home {
 
 #2020 {
     background-color: #1984B3;
+}
+
+.dropdown-menu {
+    background-color: #1b1e21;
 }

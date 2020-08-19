@@ -15,7 +15,18 @@
                 </li>
                 <li class="nav-item">
                     <div class="dropdown">
-                        <a class="nav-link js-scroll-trigger" href="{{url_for('past_projects')}}">Past Projects</a>
+                        <a class="nav-link js-scroll-trigger dropdown-toggle" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false" href="{{url_for('past_projects', year=2020)}}">Past
+                            Projects</a>
+                        <div class="nav-item dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <a class="nav-link js-scroll-trigger" href="{{url_for('past_projects', year=2019)}}">2019</a>
+                            <a class="nav-link js-scroll-trigger" href="{{url_for('past_projects', year=2018)}}">2018</a>
+                            <a class="nav-link js-scroll-trigger" href="{{url_for('past_projects', year=2017)}}">2017</a>
+                            <a class="nav-link js-scroll-trigger" href="{{url_for('past_projects', year=2016)}}">2016</a>
+                            <a class="nav-link js-scroll-trigger" href="{{url_for('past_projects', year=2015)}}">2015</a>
+                            <a class="nav-link js-scroll-trigger" href="{{url_for('past_projects', year=2014)}}">2014</a>
+                            <a class="nav-link js-scroll-trigger" href="{{url_for('past_projects', year=2013)}}">2012/13</a>
+                        </div>
                     </div>
                 </li>
                 <li class="nav-item">
