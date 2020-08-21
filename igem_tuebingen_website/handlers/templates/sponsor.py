@@ -6,7 +6,7 @@ import os
 def sponsor():
     sponsors = []
     for filename in os.listdir('static/img/sponsors/2020'):
-        if filename.endswith(".png"):
+        if filename.endswith(".png") or filename.endswith(".jpg"):
             sponsors.append(os.path.join('static/img/sponsors/2020/', filename))
         else:
             continue
