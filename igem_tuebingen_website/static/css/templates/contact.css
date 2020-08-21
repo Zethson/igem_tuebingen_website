@@ -1,12 +1,7 @@
-header.masthead#human_practice {
+header.masthead#contact {
     background: linear-gradient(rgba(0, 0, 0, 1.0), rgba(141, 153, 174, 0)),
-    url("../../img/stockPhotos/hp.jpg") no-repeat fixed;
+    url("../../img/stockPhotos/contact2.jpg") no-repeat fixed;
     height: 100vh;
     background-position: center center;
     background-size: cover;
-}
-
-a {
-    max-width: 100%;
-    height: 200px;
 }

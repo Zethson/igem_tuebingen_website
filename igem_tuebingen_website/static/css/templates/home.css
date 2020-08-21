@@ -1,8 +1,7 @@
 header.masthead#home {
-    background-image: url("../../img/header-bg.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 1.0), rgba(141, 153, 174, 0)),
+    url("../../img/stockPhotos/home.jpg") no-repeat fixed;
     height: 100vh;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
     background-position: center center;
     background-size: cover;
 }

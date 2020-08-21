@@ -1,11 +1,11 @@
 header.masthead#team {
-    text-align: center;
-    color: white;
-    background-color: black;
-    background-attachment: scroll;
+    background: linear-gradient(rgba(0, 0, 0, 1.0), rgba(141, 153, 174, 0)),
+    url("../../img/stockPhotos/team2.jpg") no-repeat fixed;
+    height: 100vh;
     background-position: center center;
     background-size: cover;
 }
+
 
 .rotate180 {
     -webkit-transform: rotate(90deg);

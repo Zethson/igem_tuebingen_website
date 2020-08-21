@@ -19,13 +19,20 @@
                            aria-haspopup="true" aria-expanded="false" href="{{url_for('past_projects', year=2020)}}">Past
                             Projects</a>
                         <div class="nav-item dropdown-menu" aria-labelledby="dropdownMenu2">
-                            <a class="nav-link js-scroll-trigger" href="{{url_for('past_projects', year=2019)}}">2019</a>
-                            <a class="nav-link js-scroll-trigger" href="{{url_for('past_projects', year=2018)}}">2018</a>
-                            <a class="nav-link js-scroll-trigger" href="{{url_for('past_projects', year=2017)}}">2017</a>
-                            <a class="nav-link js-scroll-trigger" href="{{url_for('past_projects', year=2016)}}">2016</a>
-                            <a class="nav-link js-scroll-trigger" href="{{url_for('past_projects', year=2015)}}">2015</a>
-                            <a class="nav-link js-scroll-trigger" href="{{url_for('past_projects', year=2014)}}">2014</a>
-                            <a class="nav-link js-scroll-trigger" href="{{url_for('past_projects', year=2013)}}">2012/13</a>
+                            <a class="nav-link js-scroll-trigger"
+                               href="{{url_for('past_projects', year=2019)}}">2019</a>
+                            <a class="nav-link js-scroll-trigger"
+                               href="{{url_for('past_projects', year=2018)}}">2018</a>
+                            <a class="nav-link js-scroll-trigger"
+                               href="{{url_for('past_projects', year=2017)}}">2017</a>
+                            <a class="nav-link js-scroll-trigger"
+                               href="{{url_for('past_projects', year=2016)}}">2016</a>
+                            <a class="nav-link js-scroll-trigger"
+                               href="{{url_for('past_projects', year=2015)}}">2015</a>
+                            <a class="nav-link js-scroll-trigger"
+                               href="{{url_for('past_projects', year=2014)}}">2014</a>
+                            <a class="nav-link js-scroll-trigger"
+                               href="{{url_for('past_projects', year=2013)}}">2012/13</a>
                         </div>
                     </div>
                 </li>
@@ -41,8 +48,7 @@
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="{{url_for('contact')}}">{{ _('Contact') }}</a>
                 </li>
-
-                <!-- Language selector TODO this seems buggy atm-->
+                <!-- TODO repair and insert this then time (never)
                 <li class="nav-item">
                     <div id="language" height="0.5em">
                         {% set redirectUrl=redirect %}
@@ -58,7 +64,7 @@
                         </a>
                         {% endif %}
                     </div>
-                </li>
+                </li> -->
             </ul>
         </div>
     </div>
