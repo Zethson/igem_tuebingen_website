@@ -59,22 +59,6 @@
 
 
             <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="collapse" aria-expanded="false" aria-controls="content2"
-                   href="#content2">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fas fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="static/img/human_practice/neckaralb.png" alt="neckaralb">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>Neckaralb Interview</h4>
-                    <p class="text-muted">Interview with experts</p>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6 portfolio-item">
                 <a class="portfolio-link" data-toggle="collapse" aria-expanded="false" aria-controls="content3"
                    href="#content3">
                     <div class="portfolio-hover">
@@ -93,17 +77,15 @@
 
             <!-- Content area 1-->
             <div class="col-md-12 collapse card" id="content1">
-                Content Chile
+                {% include '/human_practice_content/chileContent.html' %}
             </div>
 
-
+            <!-- #TODO TRANSLATE THIS -->
             <!-- Content area 3-->
             <div class="col-md-12 collapse card" id="content3">
-                Content Corona
+                {% include '/human_practice_content/interviewKremsner.html' %}
             </div>
-
         </div>
-    </div>
 </section>
 
 {% include '/components/footer.html' %}
