@@ -57,6 +57,20 @@
                 </div>
             </div>
 
+              <div class="col-md-4 col-sm-6 portfolio-item">
+                <a class="portfolio-link" data-toggle="collapse" aria-expanded="false" aria-controls="content2"
+                   href="#content2">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fas fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="static/img/sponsors/2020/Experimenta.jpg" alt="Experimenta">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Experimenta</h4>
+                </div>
+            </div>
 
             <div class="col-md-4 col-sm-6 portfolio-item">
                 <a class="portfolio-link" data-toggle="collapse" aria-expanded="false" aria-controls="content3"
@@ -76,13 +90,19 @@
 
 
             <!-- Content area 1-->
-            <div class="col-md-12 collapse card" id="content1">
+            <div class="col-md-12 collapse card marginBtmSmall" id="content1">
                 {% include '/human_practice_content/chileContent.html' %}
             </div>
 
+                        <!-- Content area 2-->
+            <div class="col-md-12 collapse card marginBtmSmall" id="content2">
+                {% include '/human_practice_content/experimenta.html' %}
+            </div>
+
+
             <!-- #TODO TRANSLATE THIS -->
             <!-- Content area 3-->
-            <div class="col-md-12 collapse card" id="content3">
+            <div class="col-md-12 collapse card marginBtmSmall" id="content3">
                 {% include '/human_practice_content/interviewKremsner.html' %}
             </div>
         </div>
