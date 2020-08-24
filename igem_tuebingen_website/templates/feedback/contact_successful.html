@@ -32,19 +32,22 @@
 {% endwith %}
 
 <!-- Header: id - A possible customId for customstyles that can be added via css or so. text and subtext are the english versions of it -->
-{% with id='home', text='Success :)', headline='We´ll reply as soon as possible.' %}
+{% with id='home', text='We´ll reply as soon as possible.', headline='Success :)' %}
 {% include '/components/header.html' %}
 {% endwith %}
 
 <div class="container">
     <div class="row">
-        <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Message sent successfully!</h2>
+        <div class="col-lg-12 text-center marginBtmSmall" style="margin-top: 2em">
+            <h2 class="section-heading">Message sent successfully!</h2>
+        </div>
+        <div class="col-lg-12 text-center marginBtmSmall">
             <h3 class="section-subheading text-muted">
                 <p>Thank you for contacting us! We'll try to get back to you as soon as possible!</p>
             </h3>
         </div>
     </div>
+</div>
 </div>
 
 {% include '/components/footer.html' %}
