@@ -1,79 +1,68 @@
 <div class="row">
     <div class="col-lg-12 text-center">
-        <h1 class="section-heading text-uppercase">Introduction</h1>
+        <h3 class="section-heading">Introduction</h3>
     </div>
-    <div class="row text-center">
-        <div class="col-lg-12 text-center">
-            Photostimulation is one of the most important non-invasive analysis methods allowing researchers to examine
-            the relationship between metabolic processes, e.g. through activating a molecule via light treatment. We
-            want to create a module which makes it possible to take a snapshot of the activity of a sensor at any time.
-            Our designed system should be capable of capturing such a ‘snapshot’ of the activity of a sensor.
-        </div>
+    <div class="col-lg-12 text-left marginBtmSmall">
+        Photostimulation is one of the most important non-invasive analysis methods allowing researchers to examine
+        the relationship between metabolic processes, e.g. through activating a molecule via light treatment. We
+        want to create a module which makes it possible to take a snapshot of the activity of a sensor at any time.
+        Our designed system should be capable of capturing such a ‘snapshot’ of the activity of a sensor.
     </div>
-</div>
-<br>
-<div class="row">
     <div class="col-lg-12 text-center">
-        <h1 class="section-heading text-uppercase">Project Goal</h1>
+        <h3 class="section-heading">Project Goal</h3>
     </div>
-    <div class="row marginBtm text-center">
-        <div class="col-lg-12 text-center marginBtmSmall">
-            The objective of our project was to build a population-encoding galactose sensor with the ability to measure
-            and store the concentration level at one specific time-point. The temporal selectivity of the sensor was
-            achieved by light-induced conformational changes of Dronpa, which is a monomeric fluorescence protein. Its
-            fluorescence is activated by violet light (400nm) and deactivated by cyan light (500nm). Dronpa tetramerizes
-            in the fluorescing 'ON'-state.
-            We utilized Dronpa’s behavior to introduce light-dependent regulation to Cre monomers, which tetramerize to
-            a recombinase complex. In our chassis, the Cre recombinase deletes RFP, which prevents the transcription of
-            a luciferase reporter. The mechanism of our sensor is the galactose dependent expression of Dronpa (in the
-            ON state), which after the exposure to 500nm light no longer inhibits the recombinase. Consequently, a
-            Cre-Lox recombination deletes RFP, which activates the reporter.
-            A recombinase event could be considered a stochastic process, that depends on the Cre concentration and on
-            the time span in which it was active. Because the concentration of Dronpa and of the linked Cre is
-            determined by the galactose concentration, the change in luciferase activity in a population is a measure of
-            the galactose concentration at the time point of 488nm light exposure.
-        </div>
-        <div class="col-lg-12 text-center">
-            <div class="marginBtmSmall">
-                <img class="center img-fluid d-block mx-auto" src="/static/img/2015/fig1.png" alt="Figure 1">
-                <i>Figure 1: Overview of the chassis</i>
-            </div>
-        </div>
+    <div class="col-lg-12 text-left marginBtmSmall">
+        The objective of our project was to build a population-encoding galactose sensor with the ability to measure
+        and store the concentration level at one specific time-point. The temporal selectivity of the sensor was
+        achieved by light-induced conformational changes of Dronpa, which is a monomeric fluorescence protein. Its
+        fluorescence is activated by violet light (400nm) and deactivated by cyan light (500nm). Dronpa tetramerizes
+        in the fluorescing 'ON'-state.
+        We utilized Dronpa’s behavior to introduce light-dependent regulation to Cre monomers, which tetramerize to
+        a recombinase complex. In our chassis, the Cre recombinase deletes RFP, which prevents the transcription of
+        a luciferase reporter. The mechanism of our sensor is the galactose dependent expression of Dronpa (in the
+        ON state), which after the exposure to 500nm light no longer inhibits the recombinase. Consequently, a
+        Cre-Lox recombination deletes RFP, which activates the reporter.
+        A recombinase event could be considered a stochastic process, that depends on the Cre concentration and on
+        the time span in which it was active. Because the concentration of Dronpa and of the linked Cre is
+        determined by the galactose concentration, the change in luciferase activity in a population is a measure of
+        the galactose concentration at the time point of 488nm light exposure.
     </div>
-</div>
-<br>
-<div class="row">
     <div class="col-lg-12 text-center">
-        <h1 class="section-heading text-uppercase">Results</h1>
+        <div class="marginBtmSmall img-responsive rounded">
+            <img class="img-fluid d-block mx-auto"
+                 src="/static/img/2015/fig1.png" alt="Figure 1">
+            <i>Figure 1: Overview of the chassis</i>
+        </div>
     </div>
-    <div class="row marginBtm text-center">
-        <div class="col-lg-12 text-center">
-            <h3 class="section-subheading">Promoter activity determination</h3>
-            S. cerevisiae expressing pGAL1-nanoluc or pSUC2-nanoluc were cultured overnight with different
-            concentrations of galactose or glucose, respectively. Raffinose was added to ensure overall sugar
-            concentrations were 2% for all cultures. Nanoluc activity was measured after addition of luciferin in a
-            plate reader. OD600 was determined for normalization on cell density.
-        </div>
-        <div class="marginBtmSmall">
-            <img class="center img-fluid d-block mx-auto" src="/static/img/2015/fig2.png" alt="Figure 2">
-            <i>Figure 2: pGAL1 and pSUC2 respond to different sugar concentrations. Shown are two technical
-                replicates from three biological replicates, normalised to OD600 A) Induction of the pGAL promoter
-                by galactose: Luciferase activity is increased between 0.5 and 1.5% of galactose. B) Repression of
-                pSUC promoter by glucose: Luciferase activity is decreased with increasing glucose
-                concentrations.</i>
-        </div>
-        <div class="col-lg-12 text-center">
-
-            Figure 2A shows the luciferase activity after incubation of pGAL-nanoluc cells with different
-            concentrations
-            of galactose. As expected, luminescence is increased with the addition of galactose. No difference can
-            be
-            observed between 0.5, 1 and 1.5% galactose, which is due to the long incubation time during which the
-            promoter was activated. Surprisingly, the levels for 2% are on the same level as without galactose.
-            Possibly, the cells are not growing efficiently on galactose, or there is a contamination in the
-            galactose
-            that only affects the cells at higher concentrations, causing reduced growth
-        </div>
+    <div class="col-lg-12 text-center">
+        <h3 class="section-heading">Results</h3>
+    </div>
+    <div class="col-lg-12 text-left">
+        <b>Promoter activity determination</b><br>
+        S. cerevisiae expressing pGAL1-nanoluc or pSUC2-nanoluc were cultured overnight with different
+        concentrations of galactose or glucose, respectively. Raffinose was added to ensure overall sugar
+        concentrations were 2% for all cultures. Nanoluc activity was measured after addition of luciferin in a
+        plate reader. OD600 was determined for normalization on cell density.
+    </div>
+    <div class="marginBtmSmall img-responsive rounded">
+        <img class="img-fluid d-block mx-auto"
+             src="/static/img/2015/fig2.png" alt="Figure 2">
+        <i>Figure 2: pGAL1 and pSUC2 respond to different sugar concentrations. Shown are two technical
+            replicates from three biological replicates, normalised to OD600 A) Induction of the pGAL promoter
+            by galactose: Luciferase activity is increased between 0.5 and 1.5% of galactose. B) Repression of
+            pSUC promoter by glucose: Luciferase activity is decreased with increasing glucose
+            concentrations.</i>
+    </div>
+    <div class="col-lg-12 text-left">
+        Figure 2A shows the luciferase activity after incubation of pGAL-nanoluc cells with different
+        concentrations
+        of galactose. As expected, luminescence is increased with the addition of galactose. No difference can
+        be
+        observed between 0.5, 1 and 1.5% galactose, which is due to the long incubation time during which the
+        promoter was activated. Surprisingly, the levels for 2% are on the same level as without galactose.
+        Possibly, the cells are not growing efficiently on galactose, or there is a contamination in the
+        galactose
+        that only affects the cells at higher concentrations, causing reduced growth
     </div>
 </div>
 
